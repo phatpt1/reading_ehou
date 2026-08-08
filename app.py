@@ -1,9 +1,8 @@
 import streamlit as st
 
-# Cấu hình trang
+# Cấu hình trang (Đã sửa lỗi TypeError)
 st.set_page_config(
     page_title="Ôn Tập Tiếng Anh EHOU",
-    page_direction="ltr",
     page_icon="📚",
     layout="centered"
 )
@@ -120,7 +119,7 @@ QUIZ_DATA = [
     {"category": "Đọc Hiểu (Multiple Choice)", "passage": "Failure to do so will result in some sort of punishment, such as detention or suspension.", "question": "What will happen to students who misbehave while on field trips?", "options": ["They will not be allowed to go on future trips", "They will be punished in some way", "They will have to apologize to the teacher", "They will be forced to pay a fine"], "answer": 1}
 ]
 
-# Quản lý Trạng thái ứng dụng (Session State)
+# Quản lý Session State
 if "current_idx" not in st.session_state:
     st.session_state.current_idx = 0
 if "score" not in st.session_state:
