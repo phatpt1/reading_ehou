@@ -3,7 +3,7 @@ import json
 
 st.set_page_config(page_title="Ôn Tập Tiếng Anh EHOU", page_icon="📚", layout="centered")
 
-# Dữ liệu ngân hàng (218 câu hỏi)
+# Dữ liệu ngân hàng (đã chèn văn bản ĐẦY ĐỦ 100%)
 QUIZ_DATA = [
     {
         "category": "Từ Vựng - Tiền Tố",
@@ -491,7 +491,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "Nowadays people are more aware that wildlife all over the world is in danger...",
+        "passage": "Nowadays people are more aware that wildlife all over the world is in danger. Many species of animals are threatened, and could easily become _(1)_ if we do not make an effort to protect them. There are many reasons for this. In some cases, animals are hunted for their fur or for other valuable parts of their bodies. Some birds, _(2)_ as parrots are caught alive and sold as pets. For many animals and birds, the problem is that their habitat-the place where they live-is disappearing. More_ _(3)_ is used for farms, for houses or industry, and there are fewer open spaces than there once were. Farmers use powerful chemicals to help them grow better crops, but these chemicals pollute _(4)_ environment and harm wildlife. The most successful animal on earth-human beings-will soon be the only ones left, _(5)_ we can solve this problem.",
         "question": "Many species of animals could easily become __ if we do not make an effort...",
         "options": [
             "disappeared",
@@ -503,7 +503,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "Nowadays people are more aware that wildlife all over the world is in danger...",
+        "passage": "Nowadays people are more aware that wildlife all over the world is in danger. Many species of animals are threatened, and could easily become _(1)_ if we do not make an effort to protect them. There are many reasons for this. In some cases, animals are hunted for their fur or for other valuable parts of their bodies. Some birds, _(2)_ as parrots are caught alive and sold as pets. For many animals and birds, the problem is that their habitat-the place where they live-is disappearing. More_ _(3)_ is used for farms, for houses or industry, and there are fewer open spaces than there once were. Farmers use powerful chemicals to help them grow better crops, but these chemicals pollute _(4)_ environment and harm wildlife. The most successful animal on earth-human beings-will soon be the only ones left, _(5)_ we can solve this problem.",
         "question": "Some birds, __ as parrots are caught alive...",
         "options": [
             "like",
@@ -515,7 +515,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "Nowadays people are more aware that wildlife all over the world is in danger...",
+        "passage": "Nowadays people are more aware that wildlife all over the world is in danger. Many species of animals are threatened, and could easily become _(1)_ if we do not make an effort to protect them. There are many reasons for this. In some cases, animals are hunted for their fur or for other valuable parts of their bodies. Some birds, _(2)_ as parrots are caught alive and sold as pets. For many animals and birds, the problem is that their habitat-the place where they live-is disappearing. More_ _(3)_ is used for farms, for houses or industry, and there are fewer open spaces than there once were. Farmers use powerful chemicals to help them grow better crops, but these chemicals pollute _(4)_ environment and harm wildlife. The most successful animal on earth-human beings-will soon be the only ones left, _(5)_ we can solve this problem.",
         "question": "More __ is used for farms, for houses or industry...",
         "options": [
             "soil",
@@ -527,7 +527,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "Nowadays people are more aware that wildlife all over the world is in danger...",
+        "passage": "Nowadays people are more aware that wildlife all over the world is in danger. Many species of animals are threatened, and could easily become _(1)_ if we do not make an effort to protect them. There are many reasons for this. In some cases, animals are hunted for their fur or for other valuable parts of their bodies. Some birds, _(2)_ as parrots are caught alive and sold as pets. For many animals and birds, the problem is that their habitat-the place where they live-is disappearing. More_ _(3)_ is used for farms, for houses or industry, and there are fewer open spaces than there once were. Farmers use powerful chemicals to help them grow better crops, but these chemicals pollute _(4)_ environment and harm wildlife. The most successful animal on earth-human beings-will soon be the only ones left, _(5)_ we can solve this problem.",
         "question": "These chemicals pollute __ environment...",
         "options": [
             "a",
@@ -539,7 +539,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "Nowadays people are more aware that wildlife all over the world is in danger...",
+        "passage": "Nowadays people are more aware that wildlife all over the world is in danger. Many species of animals are threatened, and could easily become _(1)_ if we do not make an effort to protect them. There are many reasons for this. In some cases, animals are hunted for their fur or for other valuable parts of their bodies. Some birds, _(2)_ as parrots are caught alive and sold as pets. For many animals and birds, the problem is that their habitat-the place where they live-is disappearing. More_ _(3)_ is used for farms, for houses or industry, and there are fewer open spaces than there once were. Farmers use powerful chemicals to help them grow better crops, but these chemicals pollute _(4)_ environment and harm wildlife. The most successful animal on earth-human beings-will soon be the only ones left, _(5)_ we can solve this problem.",
         "question": "Human beings will soon be the only ones left, __ we can solve this problem.",
         "options": [
             "unless",
@@ -551,7 +551,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "In most countries, almost all schools (1)__ private until the early 1800's. At that time, many government leaders...",
+        "passage": "In most countries, almost all schools (1)__ private until the early 1800's. At that time, many government leaders began to encourage development of public schools to promote national progress by_(2)_ education widely available to citizens. Today, the number of public and private schools differs _ (3)__ one country to another. In many developed countries, private schools offer a general focus on __ (4)__ for college; a special focus on science, music or other subject areas; and religious instructions. The Roman Catholic Church is one of the __(5)__ sponsors of private schools throughout the world.",
         "question": "almost all schools (1)__ private until the early 1800's",
         "options": [
             "have",
@@ -563,7 +563,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "In most countries, almost all schools (1)__ private until the early 1800's. At that time, many government leaders...",
+        "passage": "In most countries, almost all schools (1)__ private until the early 1800's. At that time, many government leaders began to encourage development of public schools to promote national progress by_(2)_ education widely available to citizens. Today, the number of public and private schools differs _ (3)__ one country to another. In many developed countries, private schools offer a general focus on __ (4)__ for college; a special focus on science, music or other subject areas; and religious instructions. The Roman Catholic Church is one of the __(5)__ sponsors of private schools throughout the world.",
         "question": "promote national progress by (2)__ education widely available",
         "options": [
             "make",
@@ -575,7 +575,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "In most countries, almost all schools (1)__ private until the early 1800's. At that time, many government leaders...",
+        "passage": "In most countries, almost all schools (1)__ private until the early 1800's. At that time, many government leaders began to encourage development of public schools to promote national progress by_(2)_ education widely available to citizens. Today, the number of public and private schools differs _ (3)__ one country to another. In many developed countries, private schools offer a general focus on __ (4)__ for college; a special focus on science, music or other subject areas; and religious instructions. The Roman Catholic Church is one of the __(5)__ sponsors of private schools throughout the world.",
         "question": "differs (3)__ one country to another",
         "options": [
             "about",
@@ -587,7 +587,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "In most countries, almost all schools (1)__ private until the early 1800's. At that time, many government leaders...",
+        "passage": "In most countries, almost all schools (1)__ private until the early 1800's. At that time, many government leaders began to encourage development of public schools to promote national progress by_(2)_ education widely available to citizens. Today, the number of public and private schools differs _ (3)__ one country to another. In many developed countries, private schools offer a general focus on __ (4)__ for college; a special focus on science, music or other subject areas; and religious instructions. The Roman Catholic Church is one of the __(5)__ sponsors of private schools throughout the world.",
         "question": "a general focus on (4)__ for college",
         "options": [
             "chance",
@@ -599,7 +599,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "In most countries, almost all schools (1)__ private until the early 1800's. At that time, many government leaders...",
+        "passage": "In most countries, almost all schools (1)__ private until the early 1800's. At that time, many government leaders began to encourage development of public schools to promote national progress by_(2)_ education widely available to citizens. Today, the number of public and private schools differs _ (3)__ one country to another. In many developed countries, private schools offer a general focus on __ (4)__ for college; a special focus on science, music or other subject areas; and religious instructions. The Roman Catholic Church is one of the __(5)__ sponsors of private schools throughout the world.",
         "question": "one of the (5)__ sponsors of private schools",
         "options": [
             "largest",
@@ -611,7 +611,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "If you are invited to someone's house for dinner in the United States, you should (1)__ a gift...",
+        "passage": "If you are invited to someone's house for dinner in the United States, you should _ (1) _ a gift, such as a bunch of flowers or a box of chocolates. If you give your host a wrapped gift, he/she may open it in front of you. Opening a present in front of the gift-giver is considered polite. It shows that the host is excited _ (2) _ receiving the gift and wants to show his/her appreciation to you immediately. Even if the host doesn't like it, he/ she will tell a \"_(3)_ lie\" and say how much they like the gift to prevent the guest from feeling bad. If your host asks you to arrive at a particular time, you should not arrive _ (4) _ on time or earlier than the expected time, because this is considered to be potentially inconvenient and therefore rude, as the host may not _ (5) _ ready.",
         "question": "you should (1)__ a gift",
         "options": [
             "take",
@@ -623,7 +623,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "If you are invited to someone's house for dinner in the United States, you should (1)__ a gift...",
+        "passage": "If you are invited to someone's house for dinner in the United States, you should _ (1) _ a gift, such as a bunch of flowers or a box of chocolates. If you give your host a wrapped gift, he/she may open it in front of you. Opening a present in front of the gift-giver is considered polite. It shows that the host is excited _ (2) _ receiving the gift and wants to show his/her appreciation to you immediately. Even if the host doesn't like it, he/ she will tell a \"_(3)_ lie\" and say how much they like the gift to prevent the guest from feeling bad. If your host asks you to arrive at a particular time, you should not arrive _ (4) _ on time or earlier than the expected time, because this is considered to be potentially inconvenient and therefore rude, as the host may not _ (5) _ ready.",
         "question": "shows that the host is excited (2)__ receiving the gift",
         "options": [
             "about",
@@ -635,7 +635,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "If you are invited to someone's house for dinner in the United States, you should (1)__ a gift...",
+        "passage": "If you are invited to someone's house for dinner in the United States, you should _ (1) _ a gift, such as a bunch of flowers or a box of chocolates. If you give your host a wrapped gift, he/she may open it in front of you. Opening a present in front of the gift-giver is considered polite. It shows that the host is excited _ (2) _ receiving the gift and wants to show his/her appreciation to you immediately. Even if the host doesn't like it, he/ she will tell a \"_(3)_ lie\" and say how much they like the gift to prevent the guest from feeling bad. If your host asks you to arrive at a particular time, you should not arrive _ (4) _ on time or earlier than the expected time, because this is considered to be potentially inconvenient and therefore rude, as the host may not _ (5) _ ready.",
         "question": "tell a (3)__ lie",
         "options": [
             "white",
@@ -647,7 +647,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "If you are invited to someone's house for dinner in the United States, you should (1)__ a gift...",
+        "passage": "If you are invited to someone's house for dinner in the United States, you should _ (1) _ a gift, such as a bunch of flowers or a box of chocolates. If you give your host a wrapped gift, he/she may open it in front of you. Opening a present in front of the gift-giver is considered polite. It shows that the host is excited _ (2) _ receiving the gift and wants to show his/her appreciation to you immediately. Even if the host doesn't like it, he/ she will tell a \"_(3)_ lie\" and say how much they like the gift to prevent the guest from feeling bad. If your host asks you to arrive at a particular time, you should not arrive _ (4) _ on time or earlier than the expected time, because this is considered to be potentially inconvenient and therefore rude, as the host may not _ (5) _ ready.",
         "question": "you should not arrive (4)__ on time",
         "options": [
             "slowly",
@@ -659,7 +659,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "If you are invited to someone's house for dinner in the United States, you should (1)__ a gift...",
+        "passage": "If you are invited to someone's house for dinner in the United States, you should _ (1) _ a gift, such as a bunch of flowers or a box of chocolates. If you give your host a wrapped gift, he/she may open it in front of you. Opening a present in front of the gift-giver is considered polite. It shows that the host is excited _ (2) _ receiving the gift and wants to show his/her appreciation to you immediately. Even if the host doesn't like it, he/ she will tell a \"_(3)_ lie\" and say how much they like the gift to prevent the guest from feeling bad. If your host asks you to arrive at a particular time, you should not arrive _ (4) _ on time or earlier than the expected time, because this is considered to be potentially inconvenient and therefore rude, as the host may not _ (5) _ ready.",
         "question": "the host may not (5)__ ready.",
         "options": [
             "been",
@@ -671,7 +671,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "The village of Jukkasjarvi is in Swedish Lapland... In this hotel, you eat, drink and sleep in rooms...",
+        "passage": "The village of Jukkasjarvi is in Swedish Lapland, and winter temperatures there can reach -40C. But 6,000 holidaymakers (1).............go there annually, to visit what is probably Europe's most unusual accommodation. In this hotel, you eat, drink and sleep in rooms made (2)...............ice. If you want, you can (3)...............get married in one. The bar is ice too, and putting hot drinks on it is obviously not (4)..............! The bedrooms are around -4C, but fortunately guests are (5)..............with special sleeping bags that will keep (6)..............warm in the coldest of temperatures. (7)..............outdoor clothes can be supplied too, if needed.\nThe hotel is never more than six months old (8)..............it melts in summer, and (9).............winter it is rebuilt. Creating the hotel (10).............. 10,000 tons of ice, plus 30,000 tons of snow.",
         "question": "sleep in rooms made (2)__ ice",
         "options": [
             "by",
@@ -683,7 +683,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "The village of Jukkasjarvi is in Swedish Lapland... In this hotel, you eat, drink and sleep in rooms...",
+        "passage": "The village of Jukkasjarvi is in Swedish Lapland, and winter temperatures there can reach -40C. But 6,000 holidaymakers (1).............go there annually, to visit what is probably Europe's most unusual accommodation. In this hotel, you eat, drink and sleep in rooms made (2)...............ice. If you want, you can (3)...............get married in one. The bar is ice too, and putting hot drinks on it is obviously not (4)..............! The bedrooms are around -4C, but fortunately guests are (5)..............with special sleeping bags that will keep (6)..............warm in the coldest of temperatures. (7)..............outdoor clothes can be supplied too, if needed.\nThe hotel is never more than six months old (8)..............it melts in summer, and (9).............winter it is rebuilt. Creating the hotel (10).............. 10,000 tons of ice, plus 30,000 tons of snow.",
         "question": "you can (3)__ get married in one",
         "options": [
             "even",
@@ -695,7 +695,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "The village of Jukkasjarvi is in Swedish Lapland... In this hotel, you eat, drink and sleep in rooms...",
+        "passage": "The village of Jukkasjarvi is in Swedish Lapland, and winter temperatures there can reach -40C. But 6,000 holidaymakers (1).............go there annually, to visit what is probably Europe's most unusual accommodation. In this hotel, you eat, drink and sleep in rooms made (2)...............ice. If you want, you can (3)...............get married in one. The bar is ice too, and putting hot drinks on it is obviously not (4)..............! The bedrooms are around -4C, but fortunately guests are (5)..............with special sleeping bags that will keep (6)..............warm in the coldest of temperatures. (7)..............outdoor clothes can be supplied too, if needed.\nThe hotel is never more than six months old (8)..............it melts in summer, and (9).............winter it is rebuilt. Creating the hotel (10).............. 10,000 tons of ice, plus 30,000 tons of snow.",
         "question": "putting hot drinks on it is obviously not (4)__",
         "options": [
             "supported",
@@ -707,7 +707,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "The village of Jukkasjarvi is in Swedish Lapland... In this hotel, you eat, drink and sleep in rooms...",
+        "passage": "The village of Jukkasjarvi is in Swedish Lapland, and winter temperatures there can reach -40C. But 6,000 holidaymakers (1).............go there annually, to visit what is probably Europe's most unusual accommodation. In this hotel, you eat, drink and sleep in rooms made (2)...............ice. If you want, you can (3)...............get married in one. The bar is ice too, and putting hot drinks on it is obviously not (4)..............! The bedrooms are around -4C, but fortunately guests are (5)..............with special sleeping bags that will keep (6)..............warm in the coldest of temperatures. (7)..............outdoor clothes can be supplied too, if needed.\nThe hotel is never more than six months old (8)..............it melts in summer, and (9).............winter it is rebuilt. Creating the hotel (10).............. 10,000 tons of ice, plus 30,000 tons of snow.",
         "question": "fortunately guests are (5)__ with special sleeping bags",
         "options": [
             "given",
@@ -719,7 +719,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "The village of Jukkasjarvi is in Swedish Lapland... In this hotel, you eat, drink and sleep in rooms...",
+        "passage": "The village of Jukkasjarvi is in Swedish Lapland, and winter temperatures there can reach -40C. But 6,000 holidaymakers (1).............go there annually, to visit what is probably Europe's most unusual accommodation. In this hotel, you eat, drink and sleep in rooms made (2)...............ice. If you want, you can (3)...............get married in one. The bar is ice too, and putting hot drinks on it is obviously not (4)..............! The bedrooms are around -4C, but fortunately guests are (5)..............with special sleeping bags that will keep (6)..............warm in the coldest of temperatures. (7)..............outdoor clothes can be supplied too, if needed.\nThe hotel is never more than six months old (8)..............it melts in summer, and (9).............winter it is rebuilt. Creating the hotel (10).............. 10,000 tons of ice, plus 30,000 tons of snow.",
         "question": "that will keep (6)__ warm",
         "options": [
             "these",
@@ -731,7 +731,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "The village of Jukkasjarvi is in Swedish Lapland... In this hotel, you eat, drink and sleep in rooms...",
+        "passage": "The village of Jukkasjarvi is in Swedish Lapland, and winter temperatures there can reach -40C. But 6,000 holidaymakers (1).............go there annually, to visit what is probably Europe's most unusual accommodation. In this hotel, you eat, drink and sleep in rooms made (2)...............ice. If you want, you can (3)...............get married in one. The bar is ice too, and putting hot drinks on it is obviously not (4)..............! The bedrooms are around -4C, but fortunately guests are (5)..............with special sleeping bags that will keep (6)..............warm in the coldest of temperatures. (7)..............outdoor clothes can be supplied too, if needed.\nThe hotel is never more than six months old (8)..............it melts in summer, and (9).............winter it is rebuilt. Creating the hotel (10).............. 10,000 tons of ice, plus 30,000 tons of snow.",
         "question": "(7)__ outdoor clothes can be supplied",
         "options": [
             "suitable",
@@ -743,7 +743,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "The village of Jukkasjarvi is in Swedish Lapland... In this hotel, you eat, drink and sleep in rooms...",
+        "passage": "The village of Jukkasjarvi is in Swedish Lapland, and winter temperatures there can reach -40C. But 6,000 holidaymakers (1).............go there annually, to visit what is probably Europe's most unusual accommodation. In this hotel, you eat, drink and sleep in rooms made (2)...............ice. If you want, you can (3)...............get married in one. The bar is ice too, and putting hot drinks on it is obviously not (4)..............! The bedrooms are around -4C, but fortunately guests are (5)..............with special sleeping bags that will keep (6)..............warm in the coldest of temperatures. (7)..............outdoor clothes can be supplied too, if needed.\nThe hotel is never more than six months old (8)..............it melts in summer, and (9).............winter it is rebuilt. Creating the hotel (10).............. 10,000 tons of ice, plus 30,000 tons of snow.",
         "question": "six months old (8)__ it melts",
         "options": [
             "although",
@@ -755,7 +755,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "The village of Jukkasjarvi is in Swedish Lapland... In this hotel, you eat, drink and sleep in rooms...",
+        "passage": "The village of Jukkasjarvi is in Swedish Lapland, and winter temperatures there can reach -40C. But 6,000 holidaymakers (1).............go there annually, to visit what is probably Europe's most unusual accommodation. In this hotel, you eat, drink and sleep in rooms made (2)...............ice. If you want, you can (3)...............get married in one. The bar is ice too, and putting hot drinks on it is obviously not (4)..............! The bedrooms are around -4C, but fortunately guests are (5)..............with special sleeping bags that will keep (6)..............warm in the coldest of temperatures. (7)..............outdoor clothes can be supplied too, if needed.\nThe hotel is never more than six months old (8)..............it melts in summer, and (9).............winter it is rebuilt. Creating the hotel (10).............. 10,000 tons of ice, plus 30,000 tons of snow.",
         "question": "and (9)__ winter it is rebuilt",
         "options": [
             "other",
@@ -767,7 +767,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "The village of Jukkasjarvi is in Swedish Lapland... In this hotel, you eat, drink and sleep in rooms...",
+        "passage": "The village of Jukkasjarvi is in Swedish Lapland, and winter temperatures there can reach -40C. But 6,000 holidaymakers (1).............go there annually, to visit what is probably Europe's most unusual accommodation. In this hotel, you eat, drink and sleep in rooms made (2)...............ice. If you want, you can (3)...............get married in one. The bar is ice too, and putting hot drinks on it is obviously not (4)..............! The bedrooms are around -4C, but fortunately guests are (5)..............with special sleeping bags that will keep (6)..............warm in the coldest of temperatures. (7)..............outdoor clothes can be supplied too, if needed.\nThe hotel is never more than six months old (8)..............it melts in summer, and (9).............winter it is rebuilt. Creating the hotel (10).............. 10,000 tons of ice, plus 30,000 tons of snow.",
         "question": "Creating the hotel (10)__ 10,000 tons of ice",
         "options": [
             "brings",
@@ -779,7 +779,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming...",
+        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming. When he was fifteen he began work as a mechanic and in 1893 he built his first car. After he (1)..........driven it 1,500 kilometers, he sold it and built two bigger cars. Then, in 1903, he (2)................the Ford Motor Company. By (3)..............strong but light steel, he built cheap cars for (4)..............people to buy.\nIn 1908, he built the first Ford Model 'T', (5)..............sold for $825. He was soon selling 100 cars (6)................day. By 1927, the Ford Motor Company was (7).............$700 million. Early Ford cars were simple and cheap, but (8)...........things simple sometimes (9)..............less choice.\n'You (10)..............have any color you like,' said Henry Ford of the Model T, 'as long as it's black'.",
         "question": "After he (1)__ driven it 1,500 kilometers",
         "options": [
             "is",
@@ -791,7 +791,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming...",
+        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming. When he was fifteen he began work as a mechanic and in 1893 he built his first car. After he (1)..........driven it 1,500 kilometers, he sold it and built two bigger cars. Then, in 1903, he (2)................the Ford Motor Company. By (3)..............strong but light steel, he built cheap cars for (4)..............people to buy.\nIn 1908, he built the first Ford Model 'T', (5)..............sold for $825. He was soon selling 100 cars (6)................day. By 1927, the Ford Motor Company was (7).............$700 million. Early Ford cars were simple and cheap, but (8)...........things simple sometimes (9)..............less choice.\n'You (10)..............have any color you like,' said Henry Ford of the Model T, 'as long as it's black'.",
         "question": "in 1903, he (2)__ the Ford Motor Company.",
         "options": [
             "raised",
@@ -803,7 +803,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming...",
+        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming. When he was fifteen he began work as a mechanic and in 1893 he built his first car. After he (1)..........driven it 1,500 kilometers, he sold it and built two bigger cars. Then, in 1903, he (2)................the Ford Motor Company. By (3)..............strong but light steel, he built cheap cars for (4)..............people to buy.\nIn 1908, he built the first Ford Model 'T', (5)..............sold for $825. He was soon selling 100 cars (6)................day. By 1927, the Ford Motor Company was (7).............$700 million. Early Ford cars were simple and cheap, but (8)...........things simple sometimes (9)..............less choice.\n'You (10)..............have any color you like,' said Henry Ford of the Model T, 'as long as it's black'.",
         "question": "By (3)__ strong but light steel",
         "options": [
             "putting",
@@ -815,7 +815,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming...",
+        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming. When he was fifteen he began work as a mechanic and in 1893 he built his first car. After he (1)..........driven it 1,500 kilometers, he sold it and built two bigger cars. Then, in 1903, he (2)................the Ford Motor Company. By (3)..............strong but light steel, he built cheap cars for (4)..............people to buy.\nIn 1908, he built the first Ford Model 'T', (5)..............sold for $825. He was soon selling 100 cars (6)................day. By 1927, the Ford Motor Company was (7).............$700 million. Early Ford cars were simple and cheap, but (8)...........things simple sometimes (9)..............less choice.\n'You (10)..............have any color you like,' said Henry Ford of the Model T, 'as long as it's black'.",
         "question": "built cheap cars for (4)__ people to buy.",
         "options": [
             "usual",
@@ -827,7 +827,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming...",
+        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming. When he was fifteen he began work as a mechanic and in 1893 he built his first car. After he (1)..........driven it 1,500 kilometers, he sold it and built two bigger cars. Then, in 1903, he (2)................the Ford Motor Company. By (3)..............strong but light steel, he built cheap cars for (4)..............people to buy.\nIn 1908, he built the first Ford Model 'T', (5)..............sold for $825. He was soon selling 100 cars (6)................day. By 1927, the Ford Motor Company was (7).............$700 million. Early Ford cars were simple and cheap, but (8)...........things simple sometimes (9)..............less choice.\n'You (10)..............have any color you like,' said Henry Ford of the Model T, 'as long as it's black'.",
         "question": "built the first Ford Model 'T', (5)__ sold for $825.",
         "options": [
             "where",
@@ -839,7 +839,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming...",
+        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming. When he was fifteen he began work as a mechanic and in 1893 he built his first car. After he (1)..........driven it 1,500 kilometers, he sold it and built two bigger cars. Then, in 1903, he (2)................the Ford Motor Company. By (3)..............strong but light steel, he built cheap cars for (4)..............people to buy.\nIn 1908, he built the first Ford Model 'T', (5)..............sold for $825. He was soon selling 100 cars (6)................day. By 1927, the Ford Motor Company was (7).............$700 million. Early Ford cars were simple and cheap, but (8)...........things simple sometimes (9)..............less choice.\n'You (10)..............have any color you like,' said Henry Ford of the Model T, 'as long as it's black'.",
         "question": "He was soon selling 100 cars (6)__ day.",
         "options": [
             "a",
@@ -851,7 +851,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming...",
+        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming. When he was fifteen he began work as a mechanic and in 1893 he built his first car. After he (1)..........driven it 1,500 kilometers, he sold it and built two bigger cars. Then, in 1903, he (2)................the Ford Motor Company. By (3)..............strong but light steel, he built cheap cars for (4)..............people to buy.\nIn 1908, he built the first Ford Model 'T', (5)..............sold for $825. He was soon selling 100 cars (6)................day. By 1927, the Ford Motor Company was (7).............$700 million. Early Ford cars were simple and cheap, but (8)...........things simple sometimes (9)..............less choice.\n'You (10)..............have any color you like,' said Henry Ford of the Model T, 'as long as it's black'.",
         "question": "the Ford Motor Company was (7)__ $700 million.",
         "options": [
             "rich",
@@ -863,7 +863,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming...",
+        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming. When he was fifteen he began work as a mechanic and in 1893 he built his first car. After he (1)..........driven it 1,500 kilometers, he sold it and built two bigger cars. Then, in 1903, he (2)................the Ford Motor Company. By (3)..............strong but light steel, he built cheap cars for (4)..............people to buy.\nIn 1908, he built the first Ford Model 'T', (5)..............sold for $825. He was soon selling 100 cars (6)................day. By 1927, the Ford Motor Company was (7).............$700 million. Early Ford cars were simple and cheap, but (8)...........things simple sometimes (9)..............less choice.\n'You (10)..............have any color you like,' said Henry Ford of the Model T, 'as long as it's black'.",
         "question": "but (8)__ things simple",
         "options": [
             "remaining",
@@ -875,7 +875,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming...",
+        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming. When he was fifteen he began work as a mechanic and in 1893 he built his first car. After he (1)..........driven it 1,500 kilometers, he sold it and built two bigger cars. Then, in 1903, he (2)................the Ford Motor Company. By (3)..............strong but light steel, he built cheap cars for (4)..............people to buy.\nIn 1908, he built the first Ford Model 'T', (5)..............sold for $825. He was soon selling 100 cars (6)................day. By 1927, the Ford Motor Company was (7).............$700 million. Early Ford cars were simple and cheap, but (8)...........things simple sometimes (9)..............less choice.\n'You (10)..............have any color you like,' said Henry Ford of the Model T, 'as long as it's black'.",
         "question": "sometimes (9)__ less choice.",
         "options": [
             "meant",
@@ -887,7 +887,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming...",
+        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming. When he was fifteen he began work as a mechanic and in 1893 he built his first car. After he (1)..........driven it 1,500 kilometers, he sold it and built two bigger cars. Then, in 1903, he (2)................the Ford Motor Company. By (3)..............strong but light steel, he built cheap cars for (4)..............people to buy.\nIn 1908, he built the first Ford Model 'T', (5)..............sold for $825. He was soon selling 100 cars (6)................day. By 1927, the Ford Motor Company was (7).............$700 million. Early Ford cars were simple and cheap, but (8)...........things simple sometimes (9)..............less choice.\n'You (10)..............have any color you like,' said Henry Ford of the Model T, 'as long as it's black'.",
         "question": "'You (10)__ have any color you like,' said Henry Ford",
         "options": [
             "will",
@@ -899,7 +899,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Two years ago, our 14-year-old son, Ben, asked us for a set of drums for his birthday. At first, we were very much against the idea because of the noise...",
+        "passage": "Two years ago, our 14-year-old son, Ben, asked us for a set of drums for his birthday. At first, we were very much against the idea because of the noise. 'It's better than watching television or playing computer games in my free time,' Ben argued, 'and it'll keep me out of trouble.' In the end we gave in. 'All right,' we said, 'but you must consider the rest of the family and the neighbors when you play.'\n\nThat was just the beginning. Because drums are not the easiest instruments to transport, the other members of Bens band started appearing at our home with their guitars and other electrical equipment. And so, for several hours a week, the house shakes to the noise of their instruments and their teenage singing.\n\nAt least Ben's hobby has been good for our health: whenever the band start practicing, my husband and I go out for a long walk. And I must admit that, although their music may sound a little strange, they are a friendly and polite group of young men. I cannot judge their musical Skill after all I didn't expect my parents' generation to like the same music as I did when I was a teenager - but they do play regularly in local clubs for young people.\n\nOur main worry is that they won't spend enough time on their school work because of their musical activities, though this hasn't happened yet. I am always stressing to Ben how important his studies are. But one thing is certain Ben was right: it has kept him out of trouble and he is never bored.",
         "question": "Ben asked his parents for a drum when he was:",
         "options": [
             "14 years old",
@@ -911,7 +911,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Two years ago, our 14-year-old son, Ben, asked us for a set of drums for his birthday. At first, we were very much against the idea because of the noise...",
+        "passage": "Two years ago, our 14-year-old son, Ben, asked us for a set of drums for his birthday. At first, we were very much against the idea because of the noise. 'It's better than watching television or playing computer games in my free time,' Ben argued, 'and it'll keep me out of trouble.' In the end we gave in. 'All right,' we said, 'but you must consider the rest of the family and the neighbors when you play.'\n\nThat was just the beginning. Because drums are not the easiest instruments to transport, the other members of Bens band started appearing at our home with their guitars and other electrical equipment. And so, for several hours a week, the house shakes to the noise of their instruments and their teenage singing.\n\nAt least Ben's hobby has been good for our health: whenever the band start practicing, my husband and I go out for a long walk. And I must admit that, although their music may sound a little strange, they are a friendly and polite group of young men. I cannot judge their musical Skill after all I didn't expect my parents' generation to like the same music as I did when I was a teenager - but they do play regularly in local clubs for young people.\n\nOur main worry is that they won't spend enough time on their school work because of their musical activities, though this hasn't happened yet. I am always stressing to Ben how important his studies are. But one thing is certain Ben was right: it has kept him out of trouble and he is never bored.",
         "question": "His parents disagreed at first because:",
         "options": [
             "it was expensive",
@@ -923,7 +923,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Two years ago, our 14-year-old son, Ben, asked us for a set of drums for his birthday. At first, we were very much against the idea because of the noise...",
+        "passage": "Two years ago, our 14-year-old son, Ben, asked us for a set of drums for his birthday. At first, we were very much against the idea because of the noise. 'It's better than watching television or playing computer games in my free time,' Ben argued, 'and it'll keep me out of trouble.' In the end we gave in. 'All right,' we said, 'but you must consider the rest of the family and the neighbors when you play.'\n\nThat was just the beginning. Because drums are not the easiest instruments to transport, the other members of Bens band started appearing at our home with their guitars and other electrical equipment. And so, for several hours a week, the house shakes to the noise of their instruments and their teenage singing.\n\nAt least Ben's hobby has been good for our health: whenever the band start practicing, my husband and I go out for a long walk. And I must admit that, although their music may sound a little strange, they are a friendly and polite group of young men. I cannot judge their musical Skill after all I didn't expect my parents' generation to like the same music as I did when I was a teenager - but they do play regularly in local clubs for young people.\n\nOur main worry is that they won't spend enough time on their school work because of their musical activities, though this hasn't happened yet. I am always stressing to Ben how important his studies are. But one thing is certain Ben was right: it has kept him out of trouble and he is never bored.",
         "question": "Ben started playing music with:",
         "options": [
             "his friends/band members",
@@ -935,7 +935,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Two years ago, our 14-year-old son, Ben, asked us for a set of drums for his birthday. At first, we were very much against the idea because of the noise...",
+        "passage": "Two years ago, our 14-year-old son, Ben, asked us for a set of drums for his birthday. At first, we were very much against the idea because of the noise. 'It's better than watching television or playing computer games in my free time,' Ben argued, 'and it'll keep me out of trouble.' In the end we gave in. 'All right,' we said, 'but you must consider the rest of the family and the neighbors when you play.'\n\nThat was just the beginning. Because drums are not the easiest instruments to transport, the other members of Bens band started appearing at our home with their guitars and other electrical equipment. And so, for several hours a week, the house shakes to the noise of their instruments and their teenage singing.\n\nAt least Ben's hobby has been good for our health: whenever the band start practicing, my husband and I go out for a long walk. And I must admit that, although their music may sound a little strange, they are a friendly and polite group of young men. I cannot judge their musical Skill after all I didn't expect my parents' generation to like the same music as I did when I was a teenager - but they do play regularly in local clubs for young people.\n\nOur main worry is that they won't spend enough time on their school work because of their musical activities, though this hasn't happened yet. I am always stressing to Ben how important his studies are. But one thing is certain Ben was right: it has kept him out of trouble and he is never bored.",
         "question": "They play / practice at:",
         "options": [
             "outside",
@@ -947,7 +947,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Two years ago, our 14-year-old son, Ben, asked us for a set of drums for his birthday. At first, we were very much against the idea because of the noise...",
+        "passage": "Two years ago, our 14-year-old son, Ben, asked us for a set of drums for his birthday. At first, we were very much against the idea because of the noise. 'It's better than watching television or playing computer games in my free time,' Ben argued, 'and it'll keep me out of trouble.' In the end we gave in. 'All right,' we said, 'but you must consider the rest of the family and the neighbors when you play.'\n\nThat was just the beginning. Because drums are not the easiest instruments to transport, the other members of Bens band started appearing at our home with their guitars and other electrical equipment. And so, for several hours a week, the house shakes to the noise of their instruments and their teenage singing.\n\nAt least Ben's hobby has been good for our health: whenever the band start practicing, my husband and I go out for a long walk. And I must admit that, although their music may sound a little strange, they are a friendly and polite group of young men. I cannot judge their musical Skill after all I didn't expect my parents' generation to like the same music as I did when I was a teenager - but they do play regularly in local clubs for young people.\n\nOur main worry is that they won't spend enough time on their school work because of their musical activities, though this hasn't happened yet. I am always stressing to Ben how important his studies are. But one thing is certain Ben was right: it has kept him out of trouble and he is never bored.",
         "question": "When the band starts practicing, Ben's parents:",
         "options": [
             "go for a long walk",
@@ -959,7 +959,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Two years ago, our 14-year-old son, Ben, asked us for a set of drums for his birthday. At first, we were very much against the idea because of the noise...",
+        "passage": "Two years ago, our 14-year-old son, Ben, asked us for a set of drums for his birthday. At first, we were very much against the idea because of the noise. 'It's better than watching television or playing computer games in my free time,' Ben argued, 'and it'll keep me out of trouble.' In the end we gave in. 'All right,' we said, 'but you must consider the rest of the family and the neighbors when you play.'\n\nThat was just the beginning. Because drums are not the easiest instruments to transport, the other members of Bens band started appearing at our home with their guitars and other electrical equipment. And so, for several hours a week, the house shakes to the noise of their instruments and their teenage singing.\n\nAt least Ben's hobby has been good for our health: whenever the band start practicing, my husband and I go out for a long walk. And I must admit that, although their music may sound a little strange, they are a friendly and polite group of young men. I cannot judge their musical Skill after all I didn't expect my parents' generation to like the same music as I did when I was a teenager - but they do play regularly in local clubs for young people.\n\nOur main worry is that they won't spend enough time on their school work because of their musical activities, though this hasn't happened yet. I am always stressing to Ben how important his studies are. But one thing is certain Ben was right: it has kept him out of trouble and he is never bored.",
         "question": "Ben's parents think his friends are:",
         "options": [
             "rude",
@@ -971,7 +971,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Two years ago, our 14-year-old son, Ben, asked us for a set of drums for his birthday. At first, we were very much against the idea because of the noise...",
+        "passage": "Two years ago, our 14-year-old son, Ben, asked us for a set of drums for his birthday. At first, we were very much against the idea because of the noise. 'It's better than watching television or playing computer games in my free time,' Ben argued, 'and it'll keep me out of trouble.' In the end we gave in. 'All right,' we said, 'but you must consider the rest of the family and the neighbors when you play.'\n\nThat was just the beginning. Because drums are not the easiest instruments to transport, the other members of Bens band started appearing at our home with their guitars and other electrical equipment. And so, for several hours a week, the house shakes to the noise of their instruments and their teenage singing.\n\nAt least Ben's hobby has been good for our health: whenever the band start practicing, my husband and I go out for a long walk. And I must admit that, although their music may sound a little strange, they are a friendly and polite group of young men. I cannot judge their musical Skill after all I didn't expect my parents' generation to like the same music as I did when I was a teenager - but they do play regularly in local clubs for young people.\n\nOur main worry is that they won't spend enough time on their school work because of their musical activities, though this hasn't happened yet. I am always stressing to Ben how important his studies are. But one thing is certain Ben was right: it has kept him out of trouble and he is never bored.",
         "question": "The writer is worried because:",
         "options": [
             "the children may quit school",
@@ -983,7 +983,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Two years ago, our 14-year-old son, Ben, asked us for a set of drums for his birthday. At first, we were very much against the idea because of the noise...",
+        "passage": "Two years ago, our 14-year-old son, Ben, asked us for a set of drums for his birthday. At first, we were very much against the idea because of the noise. 'It's better than watching television or playing computer games in my free time,' Ben argued, 'and it'll keep me out of trouble.' In the end we gave in. 'All right,' we said, 'but you must consider the rest of the family and the neighbors when you play.'\n\nThat was just the beginning. Because drums are not the easiest instruments to transport, the other members of Bens band started appearing at our home with their guitars and other electrical equipment. And so, for several hours a week, the house shakes to the noise of their instruments and their teenage singing.\n\nAt least Ben's hobby has been good for our health: whenever the band start practicing, my husband and I go out for a long walk. And I must admit that, although their music may sound a little strange, they are a friendly and polite group of young men. I cannot judge their musical Skill after all I didn't expect my parents' generation to like the same music as I did when I was a teenager - but they do play regularly in local clubs for young people.\n\nOur main worry is that they won't spend enough time on their school work because of their musical activities, though this hasn't happened yet. I am always stressing to Ben how important his studies are. But one thing is certain Ben was right: it has kept him out of trouble and he is never bored.",
         "question": "The writer thinks that:",
         "options": [
             "Ben should not have joined the band",
@@ -995,7 +995,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Two years ago, our 14-year-old son, Ben, asked us for a set of drums for his birthday. At first, we were very much against the idea because of the noise...",
+        "passage": "Two years ago, our 14-year-old son, Ben, asked us for a set of drums for his birthday. At first, we were very much against the idea because of the noise. 'It's better than watching television or playing computer games in my free time,' Ben argued, 'and it'll keep me out of trouble.' In the end we gave in. 'All right,' we said, 'but you must consider the rest of the family and the neighbors when you play.'\n\nThat was just the beginning. Because drums are not the easiest instruments to transport, the other members of Bens band started appearing at our home with their guitars and other electrical equipment. And so, for several hours a week, the house shakes to the noise of their instruments and their teenage singing.\n\nAt least Ben's hobby has been good for our health: whenever the band start practicing, my husband and I go out for a long walk. And I must admit that, although their music may sound a little strange, they are a friendly and polite group of young men. I cannot judge their musical Skill after all I didn't expect my parents' generation to like the same music as I did when I was a teenager - but they do play regularly in local clubs for young people.\n\nOur main worry is that they won't spend enough time on their school work because of their musical activities, though this hasn't happened yet. I am always stressing to Ben how important his studies are. But one thing is certain Ben was right: it has kept him out of trouble and he is never bored.",
         "question": "What is the writer trying to do in this text?",
         "options": [
             "describe her son's hobby",
@@ -1007,7 +1007,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Student Volunteers Needed! On Saturday, December 12th, from 10 A.M. until 4 P.M., Carverton Middle School will be holding a music festival...",
+        "passage": "Student Volunteers Needed!\nOn Saturday, December 12th, from 10 A.M. until 4 P.M., Carverton Middle School will be holding a music festival in the school gymnasium. The special event will feature a variety of professional musicians and singers.\n\nTask | Time | Date\nMake posters | 1 P.M.-4 P.M. | December 5th\nSet up gym | 11 A.M.-4 P.M. | December 11th\nHelp performers | 9 A.M.-4 P.M. | December 12th\nWelcome guests | 10 A.M.-2 P.M. | December 12th\nClean up gym | 4 P.M.-7 P.M. | December 12th\n\nInterested students should speak with Ms. Braxton, the music teacher. Students who would like to help at the festival must have written permission from a parent or guardian.",
         "question": "What time will the festival begin?",
         "options": [
             "10 A.M.",
@@ -1019,7 +1019,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Student Volunteers Needed! On Saturday, December 12th, from 10 A.M. until 4 P.M., Carverton Middle School will be holding a music festival...",
+        "passage": "Student Volunteers Needed!\nOn Saturday, December 12th, from 10 A.M. until 4 P.M., Carverton Middle School will be holding a music festival in the school gymnasium. The special event will feature a variety of professional musicians and singers.\n\nTask | Time | Date\nMake posters | 1 P.M.-4 P.M. | December 5th\nSet up gym | 11 A.M.-4 P.M. | December 11th\nHelp performers | 9 A.M.-4 P.M. | December 12th\nWelcome guests | 10 A.M.-2 P.M. | December 12th\nClean up gym | 4 P.M.-7 P.M. | December 12th\n\nInterested students should speak with Ms. Braxton, the music teacher. Students who would like to help at the festival must have written permission from a parent or guardian.",
         "question": "The word 'feature' is closest in meaning to",
         "options": [
             "look",
@@ -1031,7 +1031,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Student Volunteers Needed! On Saturday, December 12th, from 10 A.M. until 4 P.M., Carverton Middle School will be holding a music festival...",
+        "passage": "Student Volunteers Needed!\nOn Saturday, December 12th, from 10 A.M. until 4 P.M., Carverton Middle School will be holding a music festival in the school gymnasium. The special event will feature a variety of professional musicians and singers.\n\nTask | Time | Date\nMake posters | 1 P.M.-4 P.M. | December 5th\nSet up gym | 11 A.M.-4 P.M. | December 11th\nHelp performers | 9 A.M.-4 P.M. | December 12th\nWelcome guests | 10 A.M.-2 P.M. | December 12th\nClean up gym | 4 P.M.-7 P.M. | December 12th\n\nInterested students should speak with Ms. Braxton, the music teacher. Students who would like to help at the festival must have written permission from a parent or guardian.",
         "question": "What job will be done the day before the festival begins?",
         "options": [
             "Making posters",
@@ -1043,7 +1043,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Student Volunteers Needed! On Saturday, December 12th, from 10 A.M. until 4 P.M., Carverton Middle School will be holding a music festival...",
+        "passage": "Student Volunteers Needed!\nOn Saturday, December 12th, from 10 A.M. until 4 P.M., Carverton Middle School will be holding a music festival in the school gymnasium. The special event will feature a variety of professional musicians and singers.\n\nTask | Time | Date\nMake posters | 1 P.M.-4 P.M. | December 5th\nSet up gym | 11 A.M.-4 P.M. | December 11th\nHelp performers | 9 A.M.-4 P.M. | December 12th\nWelcome guests | 10 A.M.-2 P.M. | December 12th\nClean up gym | 4 P.M.-7 P.M. | December 12th\n\nInterested students should speak with Ms. Braxton, the music teacher. Students who would like to help at the festival must have written permission from a parent or guardian.",
         "question": "Who is told to talk to Ms. Braxton?",
         "options": [
             "Parents",
@@ -1055,7 +1055,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "When the spring semester began, students at Eastern High School were met by a new science teacher. Her name is Elaine Burgess...",
+        "passage": "When the spring semester began, students at Eastern High School were met by a new science teacher. Her name is Elaine Burgess, and she has replaced Donald Young, who retired to spend time with his grandchildren.\n\nSince Ms. Burgess has just started here, many students are curious about her background. She was kind enough to sit down for an interview with The Quill and Paper. According to Ms. Burgess, she received her master's degree from nearby Sanderson University only six months ago. Her M.A. is in chemistry, but she double majored in chemistry and biology as an undergraduate while simultaneously getting a minor in physics.\n\n'I love all aspects of science', she said. 'And I'm looking forward to teaching students the things I know'. Ms. Burgess further declared that she prefers a hands-on approach to teaching science. So she expects to conduct numerous experiments in the hope of sparking students' interest in science.\n\nFinally, Ms. Burgess added that she welcomes student participation in her classes. 'Not only can students learn from their teachers, but I believe that teachers can also learn from their students. I hope that, by working together, we can all increase our knowledge of science.'",
         "question": "Which headline best summarizes the article?",
         "options": [
             "Science Classes to Features Hands-on Learning",
@@ -1067,7 +1067,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "When the spring semester began, students at Eastern High School were met by a new science teacher. Her name is Elaine Burgess...",
+        "passage": "When the spring semester began, students at Eastern High School were met by a new science teacher. Her name is Elaine Burgess, and she has replaced Donald Young, who retired to spend time with his grandchildren.\n\nSince Ms. Burgess has just started here, many students are curious about her background. She was kind enough to sit down for an interview with The Quill and Paper. According to Ms. Burgess, she received her master's degree from nearby Sanderson University only six months ago. Her M.A. is in chemistry, but she double majored in chemistry and biology as an undergraduate while simultaneously getting a minor in physics.\n\n'I love all aspects of science', she said. 'And I'm looking forward to teaching students the things I know'. Ms. Burgess further declared that she prefers a hands-on approach to teaching science. So she expects to conduct numerous experiments in the hope of sparking students' interest in science.\n\nFinally, Ms. Burgess added that she welcomes student participation in her classes. 'Not only can students learn from their teachers, but I believe that teachers can also learn from their students. I hope that, by working together, we can all increase our knowledge of science.'",
         "question": "Based on the article, what is The Quill and Paper?",
         "options": [
             "It is read by every student.",
@@ -1079,7 +1079,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "When the spring semester began, students at Eastern High School were met by a new science teacher. Her name is Elaine Burgess...",
+        "passage": "When the spring semester began, students at Eastern High School were met by a new science teacher. Her name is Elaine Burgess, and she has replaced Donald Young, who retired to spend time with his grandchildren.\n\nSince Ms. Burgess has just started here, many students are curious about her background. She was kind enough to sit down for an interview with The Quill and Paper. According to Ms. Burgess, she received her master's degree from nearby Sanderson University only six months ago. Her M.A. is in chemistry, but she double majored in chemistry and biology as an undergraduate while simultaneously getting a minor in physics.\n\n'I love all aspects of science', she said. 'And I'm looking forward to teaching students the things I know'. Ms. Burgess further declared that she prefers a hands-on approach to teaching science. So she expects to conduct numerous experiments in the hope of sparking students' interest in science.\n\nFinally, Ms. Burgess added that she welcomes student participation in her classes. 'Not only can students learn from their teachers, but I believe that teachers can also learn from their students. I hope that, by working together, we can all increase our knowledge of science.'",
         "question": "Which statement does paragraph 2 support?",
         "options": [
             "This is the second teaching job for Ms. Burgess.",
@@ -1091,7 +1091,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "When the spring semester began, students at Eastern High School were met by a new science teacher. Her name is Elaine Burgess...",
+        "passage": "When the spring semester began, students at Eastern High School were met by a new science teacher. Her name is Elaine Burgess, and she has replaced Donald Young, who retired to spend time with his grandchildren.\n\nSince Ms. Burgess has just started here, many students are curious about her background. She was kind enough to sit down for an interview with The Quill and Paper. According to Ms. Burgess, she received her master's degree from nearby Sanderson University only six months ago. Her M.A. is in chemistry, but she double majored in chemistry and biology as an undergraduate while simultaneously getting a minor in physics.\n\n'I love all aspects of science', she said. 'And I'm looking forward to teaching students the things I know'. Ms. Burgess further declared that she prefers a hands-on approach to teaching science. So she expects to conduct numerous experiments in the hope of sparking students' interest in science.\n\nFinally, Ms. Burgess added that she welcomes student participation in her classes. 'Not only can students learn from their teachers, but I believe that teachers can also learn from their students. I hope that, by working together, we can all increase our knowledge of science.'",
         "question": "What does the author point out regarding Ms. Burgess's hope of sparking students' interest?",
         "options": [
             "Too many students have little scientific knowledge.",
@@ -1103,7 +1103,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "When the spring semester began, students at Eastern High School were met by a new science teacher. Her name is Elaine Burgess...",
+        "passage": "When the spring semester began, students at Eastern High School were met by a new science teacher. Her name is Elaine Burgess, and she has replaced Donald Young, who retired to spend time with his grandchildren.\n\nSince Ms. Burgess has just started here, many students are curious about her background. She was kind enough to sit down for an interview with The Quill and Paper. According to Ms. Burgess, she received her master's degree from nearby Sanderson University only six months ago. Her M.A. is in chemistry, but she double majored in chemistry and biology as an undergraduate while simultaneously getting a minor in physics.\n\n'I love all aspects of science', she said. 'And I'm looking forward to teaching students the things I know'. Ms. Burgess further declared that she prefers a hands-on approach to teaching science. So she expects to conduct numerous experiments in the hope of sparking students' interest in science.\n\nFinally, Ms. Burgess added that she welcomes student participation in her classes. 'Not only can students learn from their teachers, but I believe that teachers can also learn from their students. I hope that, by working together, we can all increase our knowledge of science.'",
         "question": "What can be inferred about Ms. Burgess?",
         "options": [
             "Some of her students know more about science than her.",
@@ -1115,7 +1115,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Kal Kaur Rai has always been interested in fashion and has just won the title of Young Achiever of the Year...",
+        "passage": "Kal Kaur Rai has always been interested in fashion and has just won the title of Young Achiever of the Year at the Asian Business Awards. Ever since she was a child, she has drawn clothes and designed patterns. She never told her hard-working parents, who own a supermarket, that she wanted to turn her hobby into a career. She thought they expected her to go into a more established business, so she went to university to do a management degree.\n\nAfter university, she moved to London and worked in an advertising agency. She had to attend industry events but couldn't afford the designer clothes she liked. She started making skirts and tops for herself. When her friends saw her clothes, they asked her to make things for them. She then found a small shop in London willing to take her designs on a sale-or- return basis. They were very popular and nothing came back. This encouraged her to leave her advertising job, take out a £20,000 loan and begin her own women swear label.\n\nKal's parents were not angry about her career change and said they would support her, which really pleased her. Her clothes are now on sale in over 70 stores and her business has an income of over £500,000. Her clothes appear in fashion magazines, she designs for pop stars and she has just gained public recognition by winning this award. Her business has come a long way and she knows she is extremely lucky. 'What I do is my hobby and I get paid for it! But remember, I've worked hard for this.'",
         "question": "What is the writer trying to do in the text?",
         "options": [
             "encourage fashion designers to make better business plans",
@@ -1127,7 +1127,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Kal Kaur Rai has always been interested in fashion and has just won the title of Young Achiever of the Year...",
+        "passage": "Kal Kaur Rai has always been interested in fashion and has just won the title of Young Achiever of the Year at the Asian Business Awards. Ever since she was a child, she has drawn clothes and designed patterns. She never told her hard-working parents, who own a supermarket, that she wanted to turn her hobby into a career. She thought they expected her to go into a more established business, so she went to university to do a management degree.\n\nAfter university, she moved to London and worked in an advertising agency. She had to attend industry events but couldn't afford the designer clothes she liked. She started making skirts and tops for herself. When her friends saw her clothes, they asked her to make things for them. She then found a small shop in London willing to take her designs on a sale-or- return basis. They were very popular and nothing came back. This encouraged her to leave her advertising job, take out a £20,000 loan and begin her own women swear label.\n\nKal's parents were not angry about her career change and said they would support her, which really pleased her. Her clothes are now on sale in over 70 stores and her business has an income of over £500,000. Her clothes appear in fashion magazines, she designs for pop stars and she has just gained public recognition by winning this award. Her business has come a long way and she knows she is extremely lucky. 'What I do is my hobby and I get paid for it! But remember, I've worked hard for this.'",
         "question": "What does the reader learn about Kal's parents?",
         "options": [
             "They wanted Kal to help them run the family business.",
@@ -1139,7 +1139,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Kal Kaur Rai has always been interested in fashion and has just won the title of Young Achiever of the Year...",
+        "passage": "Kal Kaur Rai has always been interested in fashion and has just won the title of Young Achiever of the Year at the Asian Business Awards. Ever since she was a child, she has drawn clothes and designed patterns. She never told her hard-working parents, who own a supermarket, that she wanted to turn her hobby into a career. She thought they expected her to go into a more established business, so she went to university to do a management degree.\n\nAfter university, she moved to London and worked in an advertising agency. She had to attend industry events but couldn't afford the designer clothes she liked. She started making skirts and tops for herself. When her friends saw her clothes, they asked her to make things for them. She then found a small shop in London willing to take her designs on a sale-or- return basis. They were very popular and nothing came back. This encouraged her to leave her advertising job, take out a £20,000 loan and begin her own women swear label.\n\nKal's parents were not angry about her career change and said they would support her, which really pleased her. Her clothes are now on sale in over 70 stores and her business has an income of over £500,000. Her clothes appear in fashion magazines, she designs for pop stars and she has just gained public recognition by winning this award. Her business has come a long way and she knows she is extremely lucky. 'What I do is my hobby and I get paid for it! But remember, I've worked hard for this.'",
         "question": "Kal decided to borrow £20,000 when",
         "options": [
             "all her clothes in the London shop were sold.",
@@ -1151,7 +1151,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Kal Kaur Rai has always been interested in fashion and has just won the title of Young Achiever of the Year...",
+        "passage": "Kal Kaur Rai has always been interested in fashion and has just won the title of Young Achiever of the Year at the Asian Business Awards. Ever since she was a child, she has drawn clothes and designed patterns. She never told her hard-working parents, who own a supermarket, that she wanted to turn her hobby into a career. She thought they expected her to go into a more established business, so she went to university to do a management degree.\n\nAfter university, she moved to London and worked in an advertising agency. She had to attend industry events but couldn't afford the designer clothes she liked. She started making skirts and tops for herself. When her friends saw her clothes, they asked her to make things for them. She then found a small shop in London willing to take her designs on a sale-or- return basis. They were very popular and nothing came back. This encouraged her to leave her advertising job, take out a £20,000 loan and begin her own women swear label.\n\nKal's parents were not angry about her career change and said they would support her, which really pleased her. Her clothes are now on sale in over 70 stores and her business has an income of over £500,000. Her clothes appear in fashion magazines, she designs for pop stars and she has just gained public recognition by winning this award. Her business has come a long way and she knows she is extremely lucky. 'What I do is my hobby and I get paid for it! But remember, I've worked hard for this.'",
         "question": "What does Kal say about her career?",
         "options": [
             "She plans to open more stores.",
@@ -1163,7 +1163,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Dear Students, I invite you to explore Philips Exeter Academy through this website...",
+        "passage": "Dear Students,\nI invite you to explore Philips Exeter Academy through this website www.exeter.edu. Browse through the different offerings of Exeter from the many cultural events hosted on campus, to the hundreds of courses we offer, and on to the involved and experienced faculty. See what the lives of students are like.\n\nWhether it's English or mathematics, at Exeter we call all our classes Harkness classes and our teachers Harkness teachers. Harkness identifies a table you will find at the center of every class both literally and figuratively. Harkness tables are oval and seat a dozen students and a teacher, but they are much more than a place to sit. At the Harkness table classmates learn by discussing their thoughts and ideas rather than just by taking notes. Teachers are participants in the discussion, guiding students in significant ways without lecturing.\n\nOn this website, we've tried to make it easy for you to find what you need. For new or prospective students, look at the Admissions, Academics, and Student Life sections of the site. For parents, check the information under the Parent 'gateway' located at the top of the page this gateway provides you with a short list of items of interest to you. we'll keep this page updated with items we know concern parents. For current students, look everywhere this website is about you and your Exeter experience.\n\nI invite you to let us know what you think of the website. In true Harkness learning fashion, we're always listening, always looking for the questions that get us to the really important answers.\n\nYou can contact me directly via e-mail or phone: 603-777-3401\nPrincipal Thomas E.Hassan",
         "question": "What is the purpose of the letter?",
         "options": [
             "To introduce the school website",
@@ -1175,7 +1175,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Dear Students, I invite you to explore Philips Exeter Academy through this website...",
+        "passage": "Dear Students,\nI invite you to explore Philips Exeter Academy through this website www.exeter.edu. Browse through the different offerings of Exeter from the many cultural events hosted on campus, to the hundreds of courses we offer, and on to the involved and experienced faculty. See what the lives of students are like.\n\nWhether it's English or mathematics, at Exeter we call all our classes Harkness classes and our teachers Harkness teachers. Harkness identifies a table you will find at the center of every class both literally and figuratively. Harkness tables are oval and seat a dozen students and a teacher, but they are much more than a place to sit. At the Harkness table classmates learn by discussing their thoughts and ideas rather than just by taking notes. Teachers are participants in the discussion, guiding students in significant ways without lecturing.\n\nOn this website, we've tried to make it easy for you to find what you need. For new or prospective students, look at the Admissions, Academics, and Student Life sections of the site. For parents, check the information under the Parent 'gateway' located at the top of the page this gateway provides you with a short list of items of interest to you. we'll keep this page updated with items we know concern parents. For current students, look everywhere this website is about you and your Exeter experience.\n\nI invite you to let us know what you think of the website. In true Harkness learning fashion, we're always listening, always looking for the questions that get us to the really important answers.\n\nYou can contact me directly via e-mail or phone: 603-777-3401\nPrincipal Thomas E.Hassan",
         "question": "The word 'involved' is closest in meaning to",
         "options": [
             "Busy",
@@ -1187,7 +1187,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Dear Students, I invite you to explore Philips Exeter Academy through this website...",
+        "passage": "Dear Students,\nI invite you to explore Philips Exeter Academy through this website www.exeter.edu. Browse through the different offerings of Exeter from the many cultural events hosted on campus, to the hundreds of courses we offer, and on to the involved and experienced faculty. See what the lives of students are like.\n\nWhether it's English or mathematics, at Exeter we call all our classes Harkness classes and our teachers Harkness teachers. Harkness identifies a table you will find at the center of every class both literally and figuratively. Harkness tables are oval and seat a dozen students and a teacher, but they are much more than a place to sit. At the Harkness table classmates learn by discussing their thoughts and ideas rather than just by taking notes. Teachers are participants in the discussion, guiding students in significant ways without lecturing.\n\nOn this website, we've tried to make it easy for you to find what you need. For new or prospective students, look at the Admissions, Academics, and Student Life sections of the site. For parents, check the information under the Parent 'gateway' located at the top of the page this gateway provides you with a short list of items of interest to you. we'll keep this page updated with items we know concern parents. For current students, look everywhere this website is about you and your Exeter experience.\n\nI invite you to let us know what you think of the website. In true Harkness learning fashion, we're always listening, always looking for the questions that get us to the really important answers.\n\nYou can contact me directly via e-mail or phone: 603-777-3401\nPrincipal Thomas E.Hassan",
         "question": "What can NOT be inferred about the Harkness tables?",
         "options": [
             "They are located at the center of every class.",
@@ -1199,7 +1199,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Dear Students, I invite you to explore Philips Exeter Academy through this website...",
+        "passage": "Dear Students,\nI invite you to explore Philips Exeter Academy through this website www.exeter.edu. Browse through the different offerings of Exeter from the many cultural events hosted on campus, to the hundreds of courses we offer, and on to the involved and experienced faculty. See what the lives of students are like.\n\nWhether it's English or mathematics, at Exeter we call all our classes Harkness classes and our teachers Harkness teachers. Harkness identifies a table you will find at the center of every class both literally and figuratively. Harkness tables are oval and seat a dozen students and a teacher, but they are much more than a place to sit. At the Harkness table classmates learn by discussing their thoughts and ideas rather than just by taking notes. Teachers are participants in the discussion, guiding students in significant ways without lecturing.\n\nOn this website, we've tried to make it easy for you to find what you need. For new or prospective students, look at the Admissions, Academics, and Student Life sections of the site. For parents, check the information under the Parent 'gateway' located at the top of the page this gateway provides you with a short list of items of interest to you. we'll keep this page updated with items we know concern parents. For current students, look everywhere this website is about you and your Exeter experience.\n\nI invite you to let us know what you think of the website. In true Harkness learning fashion, we're always listening, always looking for the questions that get us to the really important answers.\n\nYou can contact me directly via e-mail or phone: 603-777-3401\nPrincipal Thomas E.Hassan",
         "question": "Which of the following items is NOT for the new or prospective students?",
         "options": [
             "Admissions",
@@ -1211,7 +1211,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Dear Students, I invite you to explore Philips Exeter Academy through this website...",
+        "passage": "Dear Students,\nI invite you to explore Philips Exeter Academy through this website www.exeter.edu. Browse through the different offerings of Exeter from the many cultural events hosted on campus, to the hundreds of courses we offer, and on to the involved and experienced faculty. See what the lives of students are like.\n\nWhether it's English or mathematics, at Exeter we call all our classes Harkness classes and our teachers Harkness teachers. Harkness identifies a table you will find at the center of every class both literally and figuratively. Harkness tables are oval and seat a dozen students and a teacher, but they are much more than a place to sit. At the Harkness table classmates learn by discussing their thoughts and ideas rather than just by taking notes. Teachers are participants in the discussion, guiding students in significant ways without lecturing.\n\nOn this website, we've tried to make it easy for you to find what you need. For new or prospective students, look at the Admissions, Academics, and Student Life sections of the site. For parents, check the information under the Parent 'gateway' located at the top of the page this gateway provides you with a short list of items of interest to you. we'll keep this page updated with items we know concern parents. For current students, look everywhere this website is about you and your Exeter experience.\n\nI invite you to let us know what you think of the website. In true Harkness learning fashion, we're always listening, always looking for the questions that get us to the really important answers.\n\nYou can contact me directly via e-mail or phone: 603-777-3401\nPrincipal Thomas E.Hassan",
         "question": "What can be inferred about the Parent 'gateway'?",
         "options": [
             "New or prospective students can check information under this item.",
@@ -1223,7 +1223,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "At 32, I have just finished my first year at university. As well as attending lectures regularly...",
+        "passage": "At 32, I have just finished my first year at university. As well as attending lectures regularly, I have had to learn to read books quickly and write long essays.\n\nI decided to go to university after fourteen years away from the classroom. As a secretary, although I was earning a reasonable amount of money, I was bored doing something where I hardly had to think. I became more and more depressed by the idea that I was stuck in the job. I was jealous of the students at the local university, who looked happy, carefree and full of hope, and part of something that I wanted to explore further.\n\nHowever, now that I've actually become a student I find it hard to mix with younger colleagues. They are always mistaking me for a lecturer and asking me questions I can't answer. I also feel separated from the lecturers because, although we are the same age, I know so much less than them. But I am glad of this opportunity to study because I know you need a qualification to get a rewarding job, which is really important to me. Unlike most eighteen-year-olds, I much prefer a weekend with my books to one out partying. Then there are the normal student benefits of long holidays and theatre and cinema discounts. I often have doubts about what I'll do after university, but I hope that continuing my education at this late date has been a wise choice.",
         "question": "What is the writer trying to do in the text?",
         "options": [
             "help lecturers understand older students",
@@ -1235,7 +1235,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "At 32, I have just finished my first year at university. As well as attending lectures regularly...",
+        "passage": "At 32, I have just finished my first year at university. As well as attending lectures regularly, I have had to learn to read books quickly and write long essays.\n\nI decided to go to university after fourteen years away from the classroom. As a secretary, although I was earning a reasonable amount of money, I was bored doing something where I hardly had to think. I became more and more depressed by the idea that I was stuck in the job. I was jealous of the students at the local university, who looked happy, carefree and full of hope, and part of something that I wanted to explore further.\n\nHowever, now that I've actually become a student I find it hard to mix with younger colleagues. They are always mistaking me for a lecturer and asking me questions I can't answer. I also feel separated from the lecturers because, although we are the same age, I know so much less than them. But I am glad of this opportunity to study because I know you need a qualification to get a rewarding job, which is really important to me. Unlike most eighteen-year-olds, I much prefer a weekend with my books to one out partying. Then there are the normal student benefits of long holidays and theatre and cinema discounts. I often have doubts about what I'll do after university, but I hope that continuing my education at this late date has been a wise choice.",
         "question": "What can a reader find out about the writer from this text?",
         "options": [
             "when she left school",
@@ -1247,7 +1247,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "At 32, I have just finished my first year at university. As well as attending lectures regularly...",
+        "passage": "At 32, I have just finished my first year at university. As well as attending lectures regularly, I have had to learn to read books quickly and write long essays.\n\nI decided to go to university after fourteen years away from the classroom. As a secretary, although I was earning a reasonable amount of money, I was bored doing something where I hardly had to think. I became more and more depressed by the idea that I was stuck in the job. I was jealous of the students at the local university, who looked happy, carefree and full of hope, and part of something that I wanted to explore further.\n\nHowever, now that I've actually become a student I find it hard to mix with younger colleagues. They are always mistaking me for a lecturer and asking me questions I can't answer. I also feel separated from the lecturers because, although we are the same age, I know so much less than them. But I am glad of this opportunity to study because I know you need a qualification to get a rewarding job, which is really important to me. Unlike most eighteen-year-olds, I much prefer a weekend with my books to one out partying. Then there are the normal student benefits of long holidays and theatre and cinema discounts. I often have doubts about what I'll do after university, but I hope that continuing my education at this late date has been a wise choice.",
         "question": "How did the writer feel about her job as a secretary?",
         "options": [
             "Her salary wasn't good enough.",
@@ -1259,7 +1259,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "At 32, I have just finished my first year at university. As well as attending lectures regularly...",
+        "passage": "At 32, I have just finished my first year at university. As well as attending lectures regularly, I have had to learn to read books quickly and write long essays.\n\nI decided to go to university after fourteen years away from the classroom. As a secretary, although I was earning a reasonable amount of money, I was bored doing something where I hardly had to think. I became more and more depressed by the idea that I was stuck in the job. I was jealous of the students at the local university, who looked happy, carefree and full of hope, and part of something that I wanted to explore further.\n\nHowever, now that I've actually become a student I find it hard to mix with younger colleagues. They are always mistaking me for a lecturer and asking me questions I can't answer. I also feel separated from the lecturers because, although we are the same age, I know so much less than them. But I am glad of this opportunity to study because I know you need a qualification to get a rewarding job, which is really important to me. Unlike most eighteen-year-olds, I much prefer a weekend with my books to one out partying. Then there are the normal student benefits of long holidays and theatre and cinema discounts. I often have doubts about what I'll do after university, but I hope that continuing my education at this late date has been a wise choice.",
         "question": "In her spare time, the writer likes to",
         "options": [
             "go out to parties.",
@@ -1271,7 +1271,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "At 32, I have just finished my first year at university. As well as attending lectures regularly...",
+        "passage": "At 32, I have just finished my first year at university. As well as attending lectures regularly, I have had to learn to read books quickly and write long essays.\n\nI decided to go to university after fourteen years away from the classroom. As a secretary, although I was earning a reasonable amount of money, I was bored doing something where I hardly had to think. I became more and more depressed by the idea that I was stuck in the job. I was jealous of the students at the local university, who looked happy, carefree and full of hope, and part of something that I wanted to explore further.\n\nHowever, now that I've actually become a student I find it hard to mix with younger colleagues. They are always mistaking me for a lecturer and asking me questions I can't answer. I also feel separated from the lecturers because, although we are the same age, I know so much less than them. But I am glad of this opportunity to study because I know you need a qualification to get a rewarding job, which is really important to me. Unlike most eighteen-year-olds, I much prefer a weekend with my books to one out partying. Then there are the normal student benefits of long holidays and theatre and cinema discounts. I often have doubts about what I'll do after university, but I hope that continuing my education at this late date has been a wise choice.",
         "question": "Which of these sentences describes the writer?",
         "options": [
             "She realizes the value of a university degree.",
@@ -1283,7 +1283,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Dear students: This year, we plan to take at least two field trips per semester. Please be aware of the following...",
+        "passage": "Dear students:\nThis year, we plan to take at least two field trips per semester. Please be aware of the following regarding field trips.\n\nAll students who are not yet eighteen years of age must submit a permission slip signed by a parent or guardian. This permission slip indicates that the parent or guardian consents to allowing the students to go on the field trip. Failure to submit a permission slip by the day of the field trip means that the student may not accompany the others off campus.\n\nAll students must also provide proof that they have medical insurance and that their insurance covers them in case of injury while on a field trip. Students may turn in this proof at the front office anytime. If it is not provided, the student will not be able to go on the field trip.\n\nOn field trips, all students must be on their best behavior. Students are expected to listen to their teachers and to follow the rules and regulations of the places that they visit. Failure to do so will result in some sort of punishment, such as detention or suspension.\n\nDavid Prosser\nPrincipal",
         "question": "What is the purpose of the notice?",
         "options": [
             "To inform the students about an upcoming field trip",
@@ -1295,7 +1295,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Dear students: This year, we plan to take at least two field trips per semester. Please be aware of the following...",
+        "passage": "Dear students:\nThis year, we plan to take at least two field trips per semester. Please be aware of the following regarding field trips.\n\nAll students who are not yet eighteen years of age must submit a permission slip signed by a parent or guardian. This permission slip indicates that the parent or guardian consents to allowing the students to go on the field trip. Failure to submit a permission slip by the day of the field trip means that the student may not accompany the others off campus.\n\nAll students must also provide proof that they have medical insurance and that their insurance covers them in case of injury while on a field trip. Students may turn in this proof at the front office anytime. If it is not provided, the student will not be able to go on the field trip.\n\nOn field trips, all students must be on their best behavior. Students are expected to listen to their teachers and to follow the rules and regulations of the places that they visit. Failure to do so will result in some sort of punishment, such as detention or suspension.\n\nDavid Prosser\nPrincipal",
         "question": "The word 'consents' is closest in meaning to",
         "options": [
             "Responds",
@@ -1307,7 +1307,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Dear students: This year, we plan to take at least two field trips per semester. Please be aware of the following...",
+        "passage": "Dear students:\nThis year, we plan to take at least two field trips per semester. Please be aware of the following regarding field trips.\n\nAll students who are not yet eighteen years of age must submit a permission slip signed by a parent or guardian. This permission slip indicates that the parent or guardian consents to allowing the students to go on the field trip. Failure to submit a permission slip by the day of the field trip means that the student may not accompany the others off campus.\n\nAll students must also provide proof that they have medical insurance and that their insurance covers them in case of injury while on a field trip. Students may turn in this proof at the front office anytime. If it is not provided, the student will not be able to go on the field trip.\n\nOn field trips, all students must be on their best behavior. Students are expected to listen to their teachers and to follow the rules and regulations of the places that they visit. Failure to do so will result in some sort of punishment, such as detention or suspension.\n\nDavid Prosser\nPrincipal",
         "question": "The word 'it' refers to",
         "options": [
             "Injury",
@@ -1319,7 +1319,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Dear students: This year, we plan to take at least two field trips per semester. Please be aware of the following...",
+        "passage": "Dear students:\nThis year, we plan to take at least two field trips per semester. Please be aware of the following regarding field trips.\n\nAll students who are not yet eighteen years of age must submit a permission slip signed by a parent or guardian. This permission slip indicates that the parent or guardian consents to allowing the students to go on the field trip. Failure to submit a permission slip by the day of the field trip means that the student may not accompany the others off campus.\n\nAll students must also provide proof that they have medical insurance and that their insurance covers them in case of injury while on a field trip. Students may turn in this proof at the front office anytime. If it is not provided, the student will not be able to go on the field trip.\n\nOn field trips, all students must be on their best behavior. Students are expected to listen to their teachers and to follow the rules and regulations of the places that they visit. Failure to do so will result in some sort of punishment, such as detention or suspension.\n\nDavid Prosser\nPrincipal",
         "question": "What will happens to students who misbehave while on field trips?",
         "options": [
             "They will not be allowed to go on future trips",
@@ -1331,7 +1331,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "One day I hopped in a taxi and we took off for the airport... The driver of the black car whipped his head around and started yelling...",
+        "passage": "One day I hopped in a taxi and we took off for the airport.\n\nWe were driving in the right lane when suddenly a black car jumped out of a parking space right in front of us. My taxi driver slammed on his brakes, skidded, and missed the other car by just inches!\n\nThe driver of the black car whipped his head around and started yelling at us. My taxi driver just smiled and waved at the guy; and I mean, he was really friendly.\n\nSo I asked, 'Why did you just do that? This guy almost ruined your car and sent us to the hospital!'\n\nThis is when my taxi driver taught me what I now call 'the Law of the Garbage Truck'.\n\nHe explained that many people are like garbage trucks. They run around full of garbage, full of frustration, full of anger, and full of disappointment. As their garbage piles up, they need a place to dump it and sometimes they'll dump it on you. don't take it personally. Just smile, wave, wish them well, and move on. Don't take their garbage and spread it to other people at work, at home, or on the streets.\n\nThe bottom line is that successful people do not let garbage trucks take over their day. Life's too short to wake up in the morning with regrets, so 'love the people who treat you right. Pray for the ones who don't'.",
         "question": "Which title best expresses the main idea of the story?",
         "options": [
             "A weird taxi driver",
@@ -1343,7 +1343,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "One day I hopped in a taxi and we took off for the airport... The driver of the black car whipped his head around and started yelling...",
+        "passage": "One day I hopped in a taxi and we took off for the airport.\n\nWe were driving in the right lane when suddenly a black car jumped out of a parking space right in front of us. My taxi driver slammed on his brakes, skidded, and missed the other car by just inches!\n\nThe driver of the black car whipped his head around and started yelling at us. My taxi driver just smiled and waved at the guy; and I mean, he was really friendly.\n\nSo I asked, 'Why did you just do that? This guy almost ruined your car and sent us to the hospital!'\n\nThis is when my taxi driver taught me what I now call 'the Law of the Garbage Truck'.\n\nHe explained that many people are like garbage trucks. They run around full of garbage, full of frustration, full of anger, and full of disappointment. As their garbage piles up, they need a place to dump it and sometimes they'll dump it on you. don't take it personally. Just smile, wave, wish them well, and move on. Don't take their garbage and spread it to other people at work, at home, or on the streets.\n\nThe bottom line is that successful people do not let garbage trucks take over their day. Life's too short to wake up in the morning with regrets, so 'love the people who treat you right. Pray for the ones who don't'.",
         "question": "The word 'hopped' is closest in meaning to",
         "options": [
             "Jumped",
@@ -1355,7 +1355,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "One day I hopped in a taxi and we took off for the airport... The driver of the black car whipped his head around and started yelling...",
+        "passage": "One day I hopped in a taxi and we took off for the airport.\n\nWe were driving in the right lane when suddenly a black car jumped out of a parking space right in front of us. My taxi driver slammed on his brakes, skidded, and missed the other car by just inches!\n\nThe driver of the black car whipped his head around and started yelling at us. My taxi driver just smiled and waved at the guy; and I mean, he was really friendly.\n\nSo I asked, 'Why did you just do that? This guy almost ruined your car and sent us to the hospital!'\n\nThis is when my taxi driver taught me what I now call 'the Law of the Garbage Truck'.\n\nHe explained that many people are like garbage trucks. They run around full of garbage, full of frustration, full of anger, and full of disappointment. As their garbage piles up, they need a place to dump it and sometimes they'll dump it on you. don't take it personally. Just smile, wave, wish them well, and move on. Don't take their garbage and spread it to other people at work, at home, or on the streets.\n\nThe bottom line is that successful people do not let garbage trucks take over their day. Life's too short to wake up in the morning with regrets, so 'love the people who treat you right. Pray for the ones who don't'.",
         "question": "According to the author, what is NOT in the garbage truck?",
         "options": [
             "Happiness",
@@ -1367,7 +1367,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "One day I hopped in a taxi and we took off for the airport... The driver of the black car whipped his head around and started yelling...",
+        "passage": "One day I hopped in a taxi and we took off for the airport.\n\nWe were driving in the right lane when suddenly a black car jumped out of a parking space right in front of us. My taxi driver slammed on his brakes, skidded, and missed the other car by just inches!\n\nThe driver of the black car whipped his head around and started yelling at us. My taxi driver just smiled and waved at the guy; and I mean, he was really friendly.\n\nSo I asked, 'Why did you just do that? This guy almost ruined your car and sent us to the hospital!'\n\nThis is when my taxi driver taught me what I now call 'the Law of the Garbage Truck'.\n\nHe explained that many people are like garbage trucks. They run around full of garbage, full of frustration, full of anger, and full of disappointment. As their garbage piles up, they need a place to dump it and sometimes they'll dump it on you. don't take it personally. Just smile, wave, wish them well, and move on. Don't take their garbage and spread it to other people at work, at home, or on the streets.\n\nThe bottom line is that successful people do not let garbage trucks take over their day. Life's too short to wake up in the morning with regrets, so 'love the people who treat you right. Pray for the ones who don't'.",
         "question": "What does the author suggest by telling the story?",
         "options": [
             "We shouldn't take a taxi to the airport",
@@ -1379,7 +1379,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "One day I hopped in a taxi and we took off for the airport... The driver of the black car whipped his head around and started yelling...",
+        "passage": "One day I hopped in a taxi and we took off for the airport.\n\nWe were driving in the right lane when suddenly a black car jumped out of a parking space right in front of us. My taxi driver slammed on his brakes, skidded, and missed the other car by just inches!\n\nThe driver of the black car whipped his head around and started yelling at us. My taxi driver just smiled and waved at the guy; and I mean, he was really friendly.\n\nSo I asked, 'Why did you just do that? This guy almost ruined your car and sent us to the hospital!'\n\nThis is when my taxi driver taught me what I now call 'the Law of the Garbage Truck'.\n\nHe explained that many people are like garbage trucks. They run around full of garbage, full of frustration, full of anger, and full of disappointment. As their garbage piles up, they need a place to dump it and sometimes they'll dump it on you. don't take it personally. Just smile, wave, wish them well, and move on. Don't take their garbage and spread it to other people at work, at home, or on the streets.\n\nThe bottom line is that successful people do not let garbage trucks take over their day. Life's too short to wake up in the morning with regrets, so 'love the people who treat you right. Pray for the ones who don't'.",
         "question": "The word 'They' refers to",
         "options": [
             "Taxis",
@@ -1391,7 +1391,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Please read the following carefully as it describes my expectations of your during this class...",
+        "passage": "Please read the following carefully as it describes my expectations of your during this class.\n\nEveryone must do the reading assignments since we will have class discussions. Your participation in these discussions will be a part (10 percent) of your grade in my class. In addition, we will have one written homework assignment each week. In most cases, it will be a short (3-page) paper on a topic we are studying. You will be graded on these assignments. We will have four tests during the semester. Each one will be worth twenty percent of your grade.\n\nThere will be times when I will on you during class. Please attempt to answer my inquiries. Do not simply confess that you do not know the correct response. I expect everybody to try hard in my class. Furthermore, I want you all to take notes during my class. I will provide you with an outline of the material we will study each day; however, you need to write down the important information that I mention in your notebooks. I welcome questions in class and urge you to ask them if you ever fail to understand something.",
         "question": "What is the note mainly about?",
         "options": [
             "The teacher's expectations for the students in class",
@@ -1403,7 +1403,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Please read the following carefully as it describes my expectations of your during this class...",
+        "passage": "Please read the following carefully as it describes my expectations of your during this class.\n\nEveryone must do the reading assignments since we will have class discussions. Your participation in these discussions will be a part (10 percent) of your grade in my class. In addition, we will have one written homework assignment each week. In most cases, it will be a short (3-page) paper on a topic we are studying. You will be graded on these assignments. We will have four tests during the semester. Each one will be worth twenty percent of your grade.\n\nThere will be times when I will on you during class. Please attempt to answer my inquiries. Do not simply confess that you do not know the correct response. I expect everybody to try hard in my class. Furthermore, I want you all to take notes during my class. I will provide you with an outline of the material we will study each day; however, you need to write down the important information that I mention in your notebooks. I welcome questions in class and urge you to ask them if you ever fail to understand something.",
         "question": "Which of the following is NOT mentioned in the note about something that the students will be graded on?",
         "options": [
             "Homework assignments",
@@ -1415,7 +1415,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Please read the following carefully as it describes my expectations of your during this class...",
+        "passage": "Please read the following carefully as it describes my expectations of your during this class.\n\nEveryone must do the reading assignments since we will have class discussions. Your participation in these discussions will be a part (10 percent) of your grade in my class. In addition, we will have one written homework assignment each week. In most cases, it will be a short (3-page) paper on a topic we are studying. You will be graded on these assignments. We will have four tests during the semester. Each one will be worth twenty percent of your grade.\n\nThere will be times when I will on you during class. Please attempt to answer my inquiries. Do not simply confess that you do not know the correct response. I expect everybody to try hard in my class. Furthermore, I want you all to take notes during my class. I will provide you with an outline of the material we will study each day; however, you need to write down the important information that I mention in your notebooks. I welcome questions in class and urge you to ask them if you ever fail to understand something.",
         "question": "The word 'inquiries' is closest in meaning to",
         "options": [
             "Investigations",
@@ -1427,7 +1427,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Please read the following carefully as it describes my expectations of your during this class...",
+        "passage": "Please read the following carefully as it describes my expectations of your during this class.\n\nEveryone must do the reading assignments since we will have class discussions. Your participation in these discussions will be a part (10 percent) of your grade in my class. In addition, we will have one written homework assignment each week. In most cases, it will be a short (3-page) paper on a topic we are studying. You will be graded on these assignments. We will have four tests during the semester. Each one will be worth twenty percent of your grade.\n\nThere will be times when I will on you during class. Please attempt to answer my inquiries. Do not simply confess that you do not know the correct response. I expect everybody to try hard in my class. Furthermore, I want you all to take notes during my class. I will provide you with an outline of the material we will study each day; however, you need to write down the important information that I mention in your notebooks. I welcome questions in class and urge you to ask them if you ever fail to understand something.",
         "question": "The word 'confess' is closest in meaning to",
         "options": [
             "Blame",
@@ -1439,7 +1439,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Mankind has used flags for over 4,000 years. The first flags were simply wooden poles...",
+        "passage": "Mankind has used flags for over 4,000 years. The first flags were simply wooden poles with carving at the top. About 2,000 years ago, fabric was added to the poles giving the appearance of what we know today as a flag.\n\nThe flag has become an important symbol for identifying a country. Because there are thousands of flags in existence today, many look very similar. The flag of Russia consists of three horizontal stripes that are white, red, and blue from top to bottom. The flag of Yugoslavia has a similar design, with the colors in the order of red then white then blue. Colors on flags are important since they have special meanings. Red means power and white means peace. Orange is a symbol of courage or sacrifice. Green is the color of safety and hope and yellow of caution. Black is a symbol of death and often not a color used in country flags.\n\nSymbols of flags also have meanings. The American flag has thirteen stripes, which represent the original thirteen colonies. There are also 50 stars representing 50 states in the nation. Because of the meaning that we place on our flags, they have become a symbol of our home and of ourselves.",
         "question": "According to the passage, when did the flag have its current appearance?",
         "options": [
             "Over 4,000 years ago",
@@ -1451,7 +1451,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Mankind has used flags for over 4,000 years. The first flags were simply wooden poles...",
+        "passage": "Mankind has used flags for over 4,000 years. The first flags were simply wooden poles with carving at the top. About 2,000 years ago, fabric was added to the poles giving the appearance of what we know today as a flag.\n\nThe flag has become an important symbol for identifying a country. Because there are thousands of flags in existence today, many look very similar. The flag of Russia consists of three horizontal stripes that are white, red, and blue from top to bottom. The flag of Yugoslavia has a similar design, with the colors in the order of red then white then blue. Colors on flags are important since they have special meanings. Red means power and white means peace. Orange is a symbol of courage or sacrifice. Green is the color of safety and hope and yellow of caution. Black is a symbol of death and often not a color used in country flags.\n\nSymbols of flags also have meanings. The American flag has thirteen stripes, which represent the original thirteen colonies. There are also 50 stars representing 50 states in the nation. Because of the meaning that we place on our flags, they have become a symbol of our home and of ourselves.",
         "question": "What fact does the author say about the first known flag?",
         "options": [
             "They were originated in Russia",
@@ -1463,7 +1463,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Mankind has used flags for over 4,000 years. The first flags were simply wooden poles...",
+        "passage": "Mankind has used flags for over 4,000 years. The first flags were simply wooden poles with carving at the top. About 2,000 years ago, fabric was added to the poles giving the appearance of what we know today as a flag.\n\nThe flag has become an important symbol for identifying a country. Because there are thousands of flags in existence today, many look very similar. The flag of Russia consists of three horizontal stripes that are white, red, and blue from top to bottom. The flag of Yugoslavia has a similar design, with the colors in the order of red then white then blue. Colors on flags are important since they have special meanings. Red means power and white means peace. Orange is a symbol of courage or sacrifice. Green is the color of safety and hope and yellow of caution. Black is a symbol of death and often not a color used in country flags.\n\nSymbols of flags also have meanings. The American flag has thirteen stripes, which represent the original thirteen colonies. There are also 50 stars representing 50 states in the nation. Because of the meaning that we place on our flags, they have become a symbol of our home and of ourselves.",
         "question": "According to the passage, what is the color of the top stripe on the flag of Yugoslavia?",
         "options": [
             "White",
@@ -1475,7 +1475,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Mankind has used flags for over 4,000 years. The first flags were simply wooden poles...",
+        "passage": "Mankind has used flags for over 4,000 years. The first flags were simply wooden poles with carving at the top. About 2,000 years ago, fabric was added to the poles giving the appearance of what we know today as a flag.\n\nThe flag has become an important symbol for identifying a country. Because there are thousands of flags in existence today, many look very similar. The flag of Russia consists of three horizontal stripes that are white, red, and blue from top to bottom. The flag of Yugoslavia has a similar design, with the colors in the order of red then white then blue. Colors on flags are important since they have special meanings. Red means power and white means peace. Orange is a symbol of courage or sacrifice. Green is the color of safety and hope and yellow of caution. Black is a symbol of death and often not a color used in country flags.\n\nSymbols of flags also have meanings. The American flag has thirteen stripes, which represent the original thirteen colonies. There are also 50 stars representing 50 states in the nation. Because of the meaning that we place on our flags, they have become a symbol of our home and of ourselves.",
         "question": "According to the passage, what does the color red symbolize?",
         "options": [
             "Death",
@@ -1487,7 +1487,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Mankind has used flags for over 4,000 years. The first flags were simply wooden poles...",
+        "passage": "Mankind has used flags for over 4,000 years. The first flags were simply wooden poles with carving at the top. About 2,000 years ago, fabric was added to the poles giving the appearance of what we know today as a flag.\n\nThe flag has become an important symbol for identifying a country. Because there are thousands of flags in existence today, many look very similar. The flag of Russia consists of three horizontal stripes that are white, red, and blue from top to bottom. The flag of Yugoslavia has a similar design, with the colors in the order of red then white then blue. Colors on flags are important since they have special meanings. Red means power and white means peace. Orange is a symbol of courage or sacrifice. Green is the color of safety and hope and yellow of caution. Black is a symbol of death and often not a color used in country flags.\n\nSymbols of flags also have meanings. The American flag has thirteen stripes, which represent the original thirteen colonies. There are also 50 stars representing 50 states in the nation. Because of the meaning that we place on our flags, they have become a symbol of our home and of ourselves.",
         "question": "According to the passage, what color is NOT often used on flags of countries?",
         "options": [
             "Black",
@@ -1499,7 +1499,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Rebecca Stevens was the first woman to climb Mount Everest...",
+        "passage": "Rebecca Stevens was the first woman to climb Mount Everest. Before she went up the highest mountain in the world, she was a journalist and lived in a small flat in south London.\n\nIn 1993, Rebecca left her job and her family and travelled to Asia with some other climbers. She found that life on Everest is hard. 'You must carry everything on your back', she explained 'so you can only take things that you will need. You can't wash on the mountain, and in the end I didn't even take a toothbrush. I am usually a clean person but there is no water, only snow. Water is very heavy so you only take enough to drink!'\n\nWhen Rebecca reached the top of Mount Everest on May 17 1993, it was the best moment of her life. Suddenly she became famous.\n\nNow she has written a book about the trip and people often ask her to talk about it. She has a new job, too, on a science program on television.\n\nRebecca is well know today and she has more money, but she still lives in the little flat in south London among her pictures and books about mountains.",
         "question": "Before Rebecca climbed Everest, she worked for",
         "options": [
             "A bookshop",
@@ -1510,7 +1510,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Rebecca Stevens was the first woman to climb Mount Everest...",
+        "passage": "Rebecca Stevens was the first woman to climb Mount Everest. Before she went up the highest mountain in the world, she was a journalist and lived in a small flat in south London.\n\nIn 1993, Rebecca left her job and her family and travelled to Asia with some other climbers. She found that life on Everest is hard. 'You must carry everything on your back', she explained 'so you can only take things that you will need. You can't wash on the mountain, and in the end I didn't even take a toothbrush. I am usually a clean person but there is no water, only snow. Water is very heavy so you only take enough to drink!'\n\nWhen Rebecca reached the top of Mount Everest on May 17 1993, it was the best moment of her life. Suddenly she became famous.\n\nNow she has written a book about the trip and people often ask her to talk about it. She has a new job, too, on a science program on television.\n\nRebecca is well know today and she has more money, but she still lives in the little flat in south London among her pictures and books about mountains.",
         "question": "Rebecca went to Everest",
         "options": [
             "With her family",
@@ -1521,7 +1521,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Rebecca Stevens was the first woman to climb Mount Everest...",
+        "passage": "Rebecca Stevens was the first woman to climb Mount Everest. Before she went up the highest mountain in the world, she was a journalist and lived in a small flat in south London.\n\nIn 1993, Rebecca left her job and her family and travelled to Asia with some other climbers. She found that life on Everest is hard. 'You must carry everything on your back', she explained 'so you can only take things that you will need. You can't wash on the mountain, and in the end I didn't even take a toothbrush. I am usually a clean person but there is no water, only snow. Water is very heavy so you only take enough to drink!'\n\nWhen Rebecca reached the top of Mount Everest on May 17 1993, it was the best moment of her life. Suddenly she became famous.\n\nNow she has written a book about the trip and people often ask her to talk about it. She has a new job, too, on a science program on television.\n\nRebecca is well know today and she has more money, but she still lives in the little flat in south London among her pictures and books about mountains.",
         "question": "Rebecca didn't take much luggage because she",
         "options": [
             "Didn't have many things",
@@ -1532,7 +1532,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Rebecca Stevens was the first woman to climb Mount Everest...",
+        "passage": "Rebecca Stevens was the first woman to climb Mount Everest. Before she went up the highest mountain in the world, she was a journalist and lived in a small flat in south London.\n\nIn 1993, Rebecca left her job and her family and travelled to Asia with some other climbers. She found that life on Everest is hard. 'You must carry everything on your back', she explained 'so you can only take things that you will need. You can't wash on the mountain, and in the end I didn't even take a toothbrush. I am usually a clean person but there is no water, only snow. Water is very heavy so you only take enough to drink!'\n\nWhen Rebecca reached the top of Mount Everest on May 17 1993, it was the best moment of her life. Suddenly she became famous.\n\nNow she has written a book about the trip and people often ask her to talk about it. She has a new job, too, on a science program on television.\n\nRebecca is well know today and she has more money, but she still lives in the little flat in south London among her pictures and books about mountains.",
         "question": "Rebecca didn't wash on Everest because",
         "options": [
             "It was too cold.",
@@ -1543,7 +1543,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Rebecca Stevens was the first woman to climb Mount Everest...",
+        "passage": "Rebecca Stevens was the first woman to climb Mount Everest. Before she went up the highest mountain in the world, she was a journalist and lived in a small flat in south London.\n\nIn 1993, Rebecca left her job and her family and travelled to Asia with some other climbers. She found that life on Everest is hard. 'You must carry everything on your back', she explained 'so you can only take things that you will need. You can't wash on the mountain, and in the end I didn't even take a toothbrush. I am usually a clean person but there is no water, only snow. Water is very heavy so you only take enough to drink!'\n\nWhen Rebecca reached the top of Mount Everest on May 17 1993, it was the best moment of her life. Suddenly she became famous.\n\nNow she has written a book about the trip and people often ask her to talk about it. She has a new job, too, on a science program on television.\n\nRebecca is well know today and she has more money, but she still lives in the little flat in south London among her pictures and books about mountains.",
         "question": "Rebecca carried water for",
         "options": [
             "Drinking",
@@ -1554,7 +1554,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Rebecca Stevens was the first woman to climb Mount Everest...",
+        "passage": "Rebecca Stevens was the first woman to climb Mount Everest. Before she went up the highest mountain in the world, she was a journalist and lived in a small flat in south London.\n\nIn 1993, Rebecca left her job and her family and travelled to Asia with some other climbers. She found that life on Everest is hard. 'You must carry everything on your back', she explained 'so you can only take things that you will need. You can't wash on the mountain, and in the end I didn't even take a toothbrush. I am usually a clean person but there is no water, only snow. Water is very heavy so you only take enough to drink!'\n\nWhen Rebecca reached the top of Mount Everest on May 17 1993, it was the best moment of her life. Suddenly she became famous.\n\nNow she has written a book about the trip and people often ask her to talk about it. She has a new job, too, on a science program on television.\n\nRebecca is well know today and she has more money, but she still lives in the little flat in south London among her pictures and books about mountains.",
         "question": "Rebecca became famous when she",
         "options": [
             "Got to the highest place in the world.",
@@ -1565,7 +1565,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Rebecca Stevens was the first woman to climb Mount Everest...",
+        "passage": "Rebecca Stevens was the first woman to climb Mount Everest. Before she went up the highest mountain in the world, she was a journalist and lived in a small flat in south London.\n\nIn 1993, Rebecca left her job and her family and travelled to Asia with some other climbers. She found that life on Everest is hard. 'You must carry everything on your back', she explained 'so you can only take things that you will need. You can't wash on the mountain, and in the end I didn't even take a toothbrush. I am usually a clean person but there is no water, only snow. Water is very heavy so you only take enough to drink!'\n\nWhen Rebecca reached the top of Mount Everest on May 17 1993, it was the best moment of her life. Suddenly she became famous.\n\nNow she has written a book about the trip and people often ask her to talk about it. She has a new job, too, on a science program on television.\n\nRebecca is well know today and she has more money, but she still lives in the little flat in south London among her pictures and books about mountains.",
         "question": "After her trip, Rebecca",
         "options": [
             "Earned the same money.",
@@ -1576,7 +1576,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Orbis is an organization which helps blind people everywhere...",
+        "passage": "Orbis is an organization which helps blind people everywhere. It has built an eye hospital inside an aeroplane and flown it all over the world with an international medical team. Samantha Graham, a fourteen-year-old schoolgirl from England, went with the plane to Mongolia, Samatha tells the story of Eukhtuul, a young Mongolian girl.\n\nLast year, when Eukhtuul was walking home from school, she was attacked by boys with sticks and her eyes were badly damaged. Dr Duffey, an Orbis doctor, said that without an operation she would never see again, I thought about all the everyday things I do that she couldn't, things like reading schoolbooks, watching television, seeing friends, and I realized how lucky I am'.\n\n'The Orbis team agreed to operate on Eukhtuul and I was allowed to watch, together with some Mongolian medical students. I prayed the operation would be successful. The next day I waited nervously with Eukhtuul while Dr Duffey removed her bandages. 'In six months your sight will be back to normal', he said. Eukhtuul smiled, her mother cried, and I had to wipe away some tears, too!'\n\n'Now Eukhtuul wants to study hard to become a doctor. Her whole future has changed, thanks to a simple operation. We should all think more about how much out sight means to us.",
         "question": "What is the writer's main purpose in writing this text?",
         "options": [
             "to describe a dangerous trip.",
@@ -1588,7 +1588,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Orbis is an organization which helps blind people everywhere...",
+        "passage": "Orbis is an organization which helps blind people everywhere. It has built an eye hospital inside an aeroplane and flown it all over the world with an international medical team. Samantha Graham, a fourteen-year-old schoolgirl from England, went with the plane to Mongolia, Samatha tells the story of Eukhtuul, a young Mongolian girl.\n\nLast year, when Eukhtuul was walking home from school, she was attacked by boys with sticks and her eyes were badly damaged. Dr Duffey, an Orbis doctor, said that without an operation she would never see again, I thought about all the everyday things I do that she couldn't, things like reading schoolbooks, watching television, seeing friends, and I realized how lucky I am'.\n\n'The Orbis team agreed to operate on Eukhtuul and I was allowed to watch, together with some Mongolian medical students. I prayed the operation would be successful. The next day I waited nervously with Eukhtuul while Dr Duffey removed her bandages. 'In six months your sight will be back to normal', he said. Eukhtuul smiled, her mother cried, and I had to wipe away some tears, too!'\n\n'Now Eukhtuul wants to study hard to become a doctor. Her whole future has changed, thanks to a simple operation. We should all think more about how much out sight means to us.",
         "question": "What can a reader learn about in this text?",
         "options": [
             "the life of schoolchildren in Mongolia.",
@@ -1600,7 +1600,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Orbis is an organization which helps blind people everywhere...",
+        "passage": "Orbis is an organization which helps blind people everywhere. It has built an eye hospital inside an aeroplane and flown it all over the world with an international medical team. Samantha Graham, a fourteen-year-old schoolgirl from England, went with the plane to Mongolia, Samatha tells the story of Eukhtuul, a young Mongolian girl.\n\nLast year, when Eukhtuul was walking home from school, she was attacked by boys with sticks and her eyes were badly damaged. Dr Duffey, an Orbis doctor, said that without an operation she would never see again, I thought about all the everyday things I do that she couldn't, things like reading schoolbooks, watching television, seeing friends, and I realized how lucky I am'.\n\n'The Orbis team agreed to operate on Eukhtuul and I was allowed to watch, together with some Mongolian medical students. I prayed the operation would be successful. The next day I waited nervously with Eukhtuul while Dr Duffey removed her bandages. 'In six months your sight will be back to normal', he said. Eukhtuul smiled, her mother cried, and I had to wipe away some tears, too!'\n\n'Now Eukhtuul wants to study hard to become a doctor. Her whole future has changed, thanks to a simple operation. We should all think more about how much out sight means to us.",
         "question": "After meeting Eukhtuul, Samantha felt",
         "options": [
             "grateful for her own sight.",
@@ -1612,7 +1612,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Orbis is an organization which helps blind people everywhere...",
+        "passage": "Orbis is an organization which helps blind people everywhere. It has built an eye hospital inside an aeroplane and flown it all over the world with an international medical team. Samantha Graham, a fourteen-year-old schoolgirl from England, went with the plane to Mongolia, Samatha tells the story of Eukhtuul, a young Mongolian girl.\n\nLast year, when Eukhtuul was walking home from school, she was attacked by boys with sticks and her eyes were badly damaged. Dr Duffey, an Orbis doctor, said that without an operation she would never see again, I thought about all the everyday things I do that she couldn't, things like reading schoolbooks, watching television, seeing friends, and I realized how lucky I am'.\n\n'The Orbis team agreed to operate on Eukhtuul and I was allowed to watch, together with some Mongolian medical students. I prayed the operation would be successful. The next day I waited nervously with Eukhtuul while Dr Duffey removed her bandages. 'In six months your sight will be back to normal', he said. Eukhtuul smiled, her mother cried, and I had to wipe away some tears, too!'\n\n'Now Eukhtuul wants to study hard to become a doctor. Her whole future has changed, thanks to a simple operation. We should all think more about how much out sight means to us.",
         "question": "What is the result of Eukhtuul's operation?",
         "options": [
             "She can already see perfectly again.",
@@ -1624,7 +1624,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Orbis is an organization which helps blind people everywhere...",
+        "passage": "Orbis is an organization which helps blind people everywhere. It has built an eye hospital inside an aeroplane and flown it all over the world with an international medical team. Samantha Graham, a fourteen-year-old schoolgirl from England, went with the plane to Mongolia, Samatha tells the story of Eukhtuul, a young Mongolian girl.\n\nLast year, when Eukhtuul was walking home from school, she was attacked by boys with sticks and her eyes were badly damaged. Dr Duffey, an Orbis doctor, said that without an operation she would never see again, I thought about all the everyday things I do that she couldn't, things like reading schoolbooks, watching television, seeing friends, and I realized how lucky I am'.\n\n'The Orbis team agreed to operate on Eukhtuul and I was allowed to watch, together with some Mongolian medical students. I prayed the operation would be successful. The next day I waited nervously with Eukhtuul while Dr Duffey removed her bandages. 'In six months your sight will be back to normal', he said. Eukhtuul smiled, her mother cried, and I had to wipe away some tears, too!'\n\n'Now Eukhtuul wants to study hard to become a doctor. Her whole future has changed, thanks to a simple operation. We should all think more about how much out sight means to us.",
         "question": "Which is the postcard Samantha wrote to an English friend?",
         "options": [
             "I've visited a Mongolian hospital...",
@@ -1636,7 +1636,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "In 2006, Ravi Patra started working for a music company...",
+        "passage": "In 2006, Ravi Patra started working for a music company and three years later, in 2009, got a job on the music television channel Rock TV.\n\nRevi enjoys working on television, but when he was younger he wanted to fly planes. Later, he became more interested in football. But Ravi has always loved music, so he tried to get work with Rock TV. His boss says he gave him the job because he wanted it more than anybody else!\n\nWhen he started at Rock TV, Ravi arrived first at the office and was the last to leave at 10 in the evening. Now, he starts a bit later, but he is still busy until 10 pm. Before lunch, he usually writes his words for the show and in the afternoon he has meetings or makes Rock TV advertisements.\n\nRovi has many popular bands on his show and the stars are often interesting people. But Ravi knows that everyone watches the show to hear great music. Getting that right is more important than anything else.\n\nRavi knows what questions to ask the band members. He tries to make them laugh and this is easy for him. Sometimes he cannot remember their names but he always has information about the bands to help him.",
         "question": "What was the first job Ravi wanted to have when he was younger?",
         "options": [
             "Footballer",
@@ -1647,7 +1647,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "In 2006, Ravi Patra started working for a music company...",
+        "passage": "In 2006, Ravi Patra started working for a music company and three years later, in 2009, got a job on the music television channel Rock TV.\n\nRevi enjoys working on television, but when he was younger he wanted to fly planes. Later, he became more interested in football. But Ravi has always loved music, so he tried to get work with Rock TV. His boss says he gave him the job because he wanted it more than anybody else!\n\nWhen he started at Rock TV, Ravi arrived first at the office and was the last to leave at 10 in the evening. Now, he starts a bit later, but he is still busy until 10 pm. Before lunch, he usually writes his words for the show and in the afternoon he has meetings or makes Rock TV advertisements.\n\nRovi has many popular bands on his show and the stars are often interesting people. But Ravi knows that everyone watches the show to hear great music. Getting that right is more important than anything else.\n\nRavi knows what questions to ask the band members. He tries to make them laugh and this is easy for him. Sometimes he cannot remember their names but he always has information about the bands to help him.",
         "question": "What did Ravi's boss at Rock TV say about him?",
         "options": [
             "Ravi asked for a job at Rock TV more than once.",
@@ -1658,7 +1658,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "In 2006, Ravi Patra started working for a music company...",
+        "passage": "In 2006, Ravi Patra started working for a music company and three years later, in 2009, got a job on the music television channel Rock TV.\n\nRevi enjoys working on television, but when he was younger he wanted to fly planes. Later, he became more interested in football. But Ravi has always loved music, so he tried to get work with Rock TV. His boss says he gave him the job because he wanted it more than anybody else!\n\nWhen he started at Rock TV, Ravi arrived first at the office and was the last to leave at 10 in the evening. Now, he starts a bit later, but he is still busy until 10 pm. Before lunch, he usually writes his words for the show and in the afternoon he has meetings or makes Rock TV advertisements.\n\nRovi has many popular bands on his show and the stars are often interesting people. But Ravi knows that everyone watches the show to hear great music. Getting that right is more important than anything else.\n\nRavi knows what questions to ask the band members. He tries to make them laugh and this is easy for him. Sometimes he cannot remember their names but he always has information about the bands to help him.",
         "question": "How has Ravi's work changed?",
         "options": [
             "He no longer begins very early.",
@@ -1669,7 +1669,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "In 2006, Ravi Patra started working for a music company...",
+        "passage": "In 2006, Ravi Patra started working for a music company and three years later, in 2009, got a job on the music television channel Rock TV.\n\nRevi enjoys working on television, but when he was younger he wanted to fly planes. Later, he became more interested in football. But Ravi has always loved music, so he tried to get work with Rock TV. His boss says he gave him the job because he wanted it more than anybody else!\n\nWhen he started at Rock TV, Ravi arrived first at the office and was the last to leave at 10 in the evening. Now, he starts a bit later, but he is still busy until 10 pm. Before lunch, he usually writes his words for the show and in the afternoon he has meetings or makes Rock TV advertisements.\n\nRovi has many popular bands on his show and the stars are often interesting people. But Ravi knows that everyone watches the show to hear great music. Getting that right is more important than anything else.\n\nRavi knows what questions to ask the band members. He tries to make them laugh and this is easy for him. Sometimes he cannot remember their names but he always has information about the bands to help him.",
         "question": "In the morning, Ravi often",
         "options": [
             "Works on Rock TV advertisements.",
@@ -1680,7 +1680,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "In 2006, Ravi Patra started working for a music company...",
+        "passage": "In 2006, Ravi Patra started working for a music company and three years later, in 2009, got a job on the music television channel Rock TV.\n\nRevi enjoys working on television, but when he was younger he wanted to fly planes. Later, he became more interested in football. But Ravi has always loved music, so he tried to get work with Rock TV. His boss says he gave him the job because he wanted it more than anybody else!\n\nWhen he started at Rock TV, Ravi arrived first at the office and was the last to leave at 10 in the evening. Now, he starts a bit later, but he is still busy until 10 pm. Before lunch, he usually writes his words for the show and in the afternoon he has meetings or makes Rock TV advertisements.\n\nRovi has many popular bands on his show and the stars are often interesting people. But Ravi knows that everyone watches the show to hear great music. Getting that right is more important than anything else.\n\nRavi knows what questions to ask the band members. He tries to make them laugh and this is easy for him. Sometimes he cannot remember their names but he always has information about the bands to help him.",
         "question": "What does Ravi think is the most important thing about the show?",
         "options": [
             "It has lots of interesting stars.",
@@ -1691,7 +1691,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "In 2006, Ravi Patra started working for a music company...",
+        "passage": "In 2006, Ravi Patra started working for a music company and three years later, in 2009, got a job on the music television channel Rock TV.\n\nRevi enjoys working on television, but when he was younger he wanted to fly planes. Later, he became more interested in football. But Ravi has always loved music, so he tried to get work with Rock TV. His boss says he gave him the job because he wanted it more than anybody else!\n\nWhen he started at Rock TV, Ravi arrived first at the office and was the last to leave at 10 in the evening. Now, he starts a bit later, but he is still busy until 10 pm. Before lunch, he usually writes his words for the show and in the afternoon he has meetings or makes Rock TV advertisements.\n\nRovi has many popular bands on his show and the stars are often interesting people. But Ravi knows that everyone watches the show to hear great music. Getting that right is more important than anything else.\n\nRavi knows what questions to ask the band members. He tries to make them laugh and this is easy for him. Sometimes he cannot remember their names but he always has information about the bands to help him.",
         "question": "What problem does Ravi sometimes have on the Rock TV show?",
         "options": [
             "He forgets people's names.",
@@ -1702,7 +1702,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "In 2006, Ravi Patra started working for a music company...",
+        "passage": "In 2006, Ravi Patra started working for a music company and three years later, in 2009, got a job on the music television channel Rock TV.\n\nRevi enjoys working on television, but when he was younger he wanted to fly planes. Later, he became more interested in football. But Ravi has always loved music, so he tried to get work with Rock TV. His boss says he gave him the job because he wanted it more than anybody else!\n\nWhen he started at Rock TV, Ravi arrived first at the office and was the last to leave at 10 in the evening. Now, he starts a bit later, but he is still busy until 10 pm. Before lunch, he usually writes his words for the show and in the afternoon he has meetings or makes Rock TV advertisements.\n\nRovi has many popular bands on his show and the stars are often interesting people. But Ravi knows that everyone watches the show to hear great music. Getting that right is more important than anything else.\n\nRavi knows what questions to ask the band members. He tries to make them laugh and this is easy for him. Sometimes he cannot remember their names but he always has information about the bands to help him.",
         "question": "Ravi would like to spend more time",
         "options": [
             "In the mountains.",
@@ -1713,7 +1713,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "She was still at primary school when she decided she wanted to travel. So when she was eleven...",
+        "passage": "She was still at primary school when she decided she wanted to travel. So when she was eleven, she decided to go for bike rides, and cycled or so miles every day.\n\nJosie says: 'The only good thing about secondary school was cycling there and back. I left when I was 16. I love cooking, so I started a business. I cooked three-course meals, and delivered them by bike! In 1985, as soon as I had some money, I cycled to Africa and back'.\n\nJosie has been to 40 countries and has had all kinds of interesting experiences. She has cycled through the Himalayan mountains in Nepal, then down into India. She has cycled through millions of locusts in the Moroccan desert. She has traveled through tornados in the USA. She was in Romania on Christmas Day in 1989 when President Ceausescu was executed by the Government. And she hasn't been to Egypt yet, because when she was in Turkey, a war started nearby. So she went to Greece instead.\n\nShe has sometimes traveled with friend, boyfriends and even her mother, but she has often cycled alone. She had only one really frightening experience - a man attacked her in Bulgaria.\n\nIn 1997 she hurt her knee very badly, so she started writing books about her journeys. She's written five books, and now she's on her bike again! At the moment she's planning to cycle around New Zealand.",
         "question": "What did she want to do when she was a pupil?",
         "options": [
             "Travel",
@@ -1724,7 +1724,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "She was still at primary school when she decided she wanted to travel. So when she was eleven...",
+        "passage": "She was still at primary school when she decided she wanted to travel. So when she was eleven, she decided to go for bike rides, and cycled or so miles every day.\n\nJosie says: 'The only good thing about secondary school was cycling there and back. I left when I was 16. I love cooking, so I started a business. I cooked three-course meals, and delivered them by bike! In 1985, as soon as I had some money, I cycled to Africa and back'.\n\nJosie has been to 40 countries and has had all kinds of interesting experiences. She has cycled through the Himalayan mountains in Nepal, then down into India. She has cycled through millions of locusts in the Moroccan desert. She has traveled through tornados in the USA. She was in Romania on Christmas Day in 1989 when President Ceausescu was executed by the Government. And she hasn't been to Egypt yet, because when she was in Turkey, a war started nearby. So she went to Greece instead.\n\nShe has sometimes traveled with friend, boyfriends and even her mother, but she has often cycled alone. She had only one really frightening experience - a man attacked her in Bulgaria.\n\nIn 1997 she hurt her knee very badly, so she started writing books about her journeys. She's written five books, and now she's on her bike again! At the moment she's planning to cycle around New Zealand.",
         "question": "What did she decide to do at the age of 11?",
         "options": [
             "Cycle",
@@ -1735,7 +1735,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "She was still at primary school when she decided she wanted to travel. So when she was eleven...",
+        "passage": "She was still at primary school when she decided she wanted to travel. So when she was eleven, she decided to go for bike rides, and cycled or so miles every day.\n\nJosie says: 'The only good thing about secondary school was cycling there and back. I left when I was 16. I love cooking, so I started a business. I cooked three-course meals, and delivered them by bike! In 1985, as soon as I had some money, I cycled to Africa and back'.\n\nJosie has been to 40 countries and has had all kinds of interesting experiences. She has cycled through the Himalayan mountains in Nepal, then down into India. She has cycled through millions of locusts in the Moroccan desert. She has traveled through tornados in the USA. She was in Romania on Christmas Day in 1989 when President Ceausescu was executed by the Government. And she hasn't been to Egypt yet, because when she was in Turkey, a war started nearby. So she went to Greece instead.\n\nShe has sometimes traveled with friend, boyfriends and even her mother, but she has often cycled alone. She had only one really frightening experience - a man attacked her in Bulgaria.\n\nIn 1997 she hurt her knee very badly, so she started writing books about her journeys. She's written five books, and now she's on her bike again! At the moment she's planning to cycle around New Zealand.",
         "question": "What did she like best when she was at secondary school?",
         "options": [
             "Cycling to school",
@@ -1746,7 +1746,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "She was still at primary school when she decided she wanted to travel. So when she was eleven...",
+        "passage": "She was still at primary school when she decided she wanted to travel. So when she was eleven, she decided to go for bike rides, and cycled or so miles every day.\n\nJosie says: 'The only good thing about secondary school was cycling there and back. I left when I was 16. I love cooking, so I started a business. I cooked three-course meals, and delivered them by bike! In 1985, as soon as I had some money, I cycled to Africa and back'.\n\nJosie has been to 40 countries and has had all kinds of interesting experiences. She has cycled through the Himalayan mountains in Nepal, then down into India. She has cycled through millions of locusts in the Moroccan desert. She has traveled through tornados in the USA. She was in Romania on Christmas Day in 1989 when President Ceausescu was executed by the Government. And she hasn't been to Egypt yet, because when she was in Turkey, a war started nearby. So she went to Greece instead.\n\nShe has sometimes traveled with friend, boyfriends and even her mother, but she has often cycled alone. She had only one really frightening experience - a man attacked her in Bulgaria.\n\nIn 1997 she hurt her knee very badly, so she started writing books about her journeys. She's written five books, and now she's on her bike again! At the moment she's planning to cycle around New Zealand.",
         "question": "When did she finish secondary school?",
         "options": [
             "At the age of 10",
@@ -1757,7 +1757,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "She was still at primary school when she decided she wanted to travel. So when she was eleven...",
+        "passage": "She was still at primary school when she decided she wanted to travel. So when she was eleven, she decided to go for bike rides, and cycled or so miles every day.\n\nJosie says: 'The only good thing about secondary school was cycling there and back. I left when I was 16. I love cooking, so I started a business. I cooked three-course meals, and delivered them by bike! In 1985, as soon as I had some money, I cycled to Africa and back'.\n\nJosie has been to 40 countries and has had all kinds of interesting experiences. She has cycled through the Himalayan mountains in Nepal, then down into India. She has cycled through millions of locusts in the Moroccan desert. She has traveled through tornados in the USA. She was in Romania on Christmas Day in 1989 when President Ceausescu was executed by the Government. And she hasn't been to Egypt yet, because when she was in Turkey, a war started nearby. So she went to Greece instead.\n\nShe has sometimes traveled with friend, boyfriends and even her mother, but she has often cycled alone. She had only one really frightening experience - a man attacked her in Bulgaria.\n\nIn 1997 she hurt her knee very badly, so she started writing books about her journeys. She's written five books, and now she's on her bike again! At the moment she's planning to cycle around New Zealand.",
         "question": "Why did she start a business?",
         "options": [
             "Because she liked money.",
@@ -1768,7 +1768,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "She was still at primary school when she decided she wanted to travel. So when she was eleven...",
+        "passage": "She was still at primary school when she decided she wanted to travel. So when she was eleven, she decided to go for bike rides, and cycled or so miles every day.\n\nJosie says: 'The only good thing about secondary school was cycling there and back. I left when I was 16. I love cooking, so I started a business. I cooked three-course meals, and delivered them by bike! In 1985, as soon as I had some money, I cycled to Africa and back'.\n\nJosie has been to 40 countries and has had all kinds of interesting experiences. She has cycled through the Himalayan mountains in Nepal, then down into India. She has cycled through millions of locusts in the Moroccan desert. She has traveled through tornados in the USA. She was in Romania on Christmas Day in 1989 when President Ceausescu was executed by the Government. And she hasn't been to Egypt yet, because when she was in Turkey, a war started nearby. So she went to Greece instead.\n\nShe has sometimes traveled with friend, boyfriends and even her mother, but she has often cycled alone. She had only one really frightening experience - a man attacked her in Bulgaria.\n\nIn 1997 she hurt her knee very badly, so she started writing books about her journeys. She's written five books, and now she's on her bike again! At the moment she's planning to cycle around New Zealand.",
         "question": "How many courses were there in her meal at first?",
         "options": [
             "2",
@@ -1779,7 +1779,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "She was still at primary school when she decided she wanted to travel. So when she was eleven...",
+        "passage": "She was still at primary school when she decided she wanted to travel. So when she was eleven, she decided to go for bike rides, and cycled or so miles every day.\n\nJosie says: 'The only good thing about secondary school was cycling there and back. I left when I was 16. I love cooking, so I started a business. I cooked three-course meals, and delivered them by bike! In 1985, as soon as I had some money, I cycled to Africa and back'.\n\nJosie has been to 40 countries and has had all kinds of interesting experiences. She has cycled through the Himalayan mountains in Nepal, then down into India. She has cycled through millions of locusts in the Moroccan desert. She has traveled through tornados in the USA. She was in Romania on Christmas Day in 1989 when President Ceausescu was executed by the Government. And she hasn't been to Egypt yet, because when she was in Turkey, a war started nearby. So she went to Greece instead.\n\nShe has sometimes traveled with friend, boyfriends and even her mother, but she has often cycled alone. She had only one really frightening experience - a man attacked her in Bulgaria.\n\nIn 1997 she hurt her knee very badly, so she started writing books about her journeys. She's written five books, and now she's on her bike again! At the moment she's planning to cycle around New Zealand.",
         "question": "Why did she have so many interesting experiences?",
         "options": [
             "Because she travelled a lot",
@@ -1790,7 +1790,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "She was still at primary school when she decided she wanted to travel. So when she was eleven...",
+        "passage": "She was still at primary school when she decided she wanted to travel. So when she was eleven, she decided to go for bike rides, and cycled or so miles every day.\n\nJosie says: 'The only good thing about secondary school was cycling there and back. I left when I was 16. I love cooking, so I started a business. I cooked three-course meals, and delivered them by bike! In 1985, as soon as I had some money, I cycled to Africa and back'.\n\nJosie has been to 40 countries and has had all kinds of interesting experiences. She has cycled through the Himalayan mountains in Nepal, then down into India. She has cycled through millions of locusts in the Moroccan desert. She has traveled through tornados in the USA. She was in Romania on Christmas Day in 1989 when President Ceausescu was executed by the Government. And she hasn't been to Egypt yet, because when she was in Turkey, a war started nearby. So she went to Greece instead.\n\nShe has sometimes traveled with friend, boyfriends and even her mother, but she has often cycled alone. She had only one really frightening experience - a man attacked her in Bulgaria.\n\nIn 1997 she hurt her knee very badly, so she started writing books about her journeys. She's written five books, and now she's on her bike again! At the moment she's planning to cycle around New Zealand.",
         "question": "What desert has she been to?",
         "options": [
             "Himalayan",
@@ -1801,7 +1801,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "She was still at primary school when she decided she wanted to travel. So when she was eleven...",
+        "passage": "She was still at primary school when she decided she wanted to travel. So when she was eleven, she decided to go for bike rides, and cycled or so miles every day.\n\nJosie says: 'The only good thing about secondary school was cycling there and back. I left when I was 16. I love cooking, so I started a business. I cooked three-course meals, and delivered them by bike! In 1985, as soon as I had some money, I cycled to Africa and back'.\n\nJosie has been to 40 countries and has had all kinds of interesting experiences. She has cycled through the Himalayan mountains in Nepal, then down into India. She has cycled through millions of locusts in the Moroccan desert. She has traveled through tornados in the USA. She was in Romania on Christmas Day in 1989 when President Ceausescu was executed by the Government. And she hasn't been to Egypt yet, because when she was in Turkey, a war started nearby. So she went to Greece instead.\n\nShe has sometimes traveled with friend, boyfriends and even her mother, but she has often cycled alone. She had only one really frightening experience - a man attacked her in Bulgaria.\n\nIn 1997 she hurt her knee very badly, so she started writing books about her journeys. She's written five books, and now she's on her bike again! At the moment she's planning to cycle around New Zealand.",
         "question": "Why didn't she go to Egypt?",
         "options": [
             "Because a war started when she was in Turkey.",
@@ -1812,7 +1812,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "She was still at primary school when she decided she wanted to travel. So when she was eleven...",
+        "passage": "She was still at primary school when she decided she wanted to travel. So when she was eleven, she decided to go for bike rides, and cycled or so miles every day.\n\nJosie says: 'The only good thing about secondary school was cycling there and back. I left when I was 16. I love cooking, so I started a business. I cooked three-course meals, and delivered them by bike! In 1985, as soon as I had some money, I cycled to Africa and back'.\n\nJosie has been to 40 countries and has had all kinds of interesting experiences. She has cycled through the Himalayan mountains in Nepal, then down into India. She has cycled through millions of locusts in the Moroccan desert. She has traveled through tornados in the USA. She was in Romania on Christmas Day in 1989 when President Ceausescu was executed by the Government. And she hasn't been to Egypt yet, because when she was in Turkey, a war started nearby. So she went to Greece instead.\n\nShe has sometimes traveled with friend, boyfriends and even her mother, but she has often cycled alone. She had only one really frightening experience - a man attacked her in Bulgaria.\n\nIn 1997 she hurt her knee very badly, so she started writing books about her journeys. She's written five books, and now she's on her bike again! At the moment she's planning to cycle around New Zealand.",
         "question": "Who did she travel with?",
         "options": [
             "Her mother",
@@ -1823,7 +1823,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "She was still at primary school when she decided she wanted to travel. So when she was eleven...",
+        "passage": "She was still at primary school when she decided she wanted to travel. So when she was eleven, she decided to go for bike rides, and cycled or so miles every day.\n\nJosie says: 'The only good thing about secondary school was cycling there and back. I left when I was 16. I love cooking, so I started a business. I cooked three-course meals, and delivered them by bike! In 1985, as soon as I had some money, I cycled to Africa and back'.\n\nJosie has been to 40 countries and has had all kinds of interesting experiences. She has cycled through the Himalayan mountains in Nepal, then down into India. She has cycled through millions of locusts in the Moroccan desert. She has traveled through tornados in the USA. She was in Romania on Christmas Day in 1989 when President Ceausescu was executed by the Government. And she hasn't been to Egypt yet, because when she was in Turkey, a war started nearby. So she went to Greece instead.\n\nShe has sometimes traveled with friend, boyfriends and even her mother, but she has often cycled alone. She had only one really frightening experience - a man attacked her in Bulgaria.\n\nIn 1997 she hurt her knee very badly, so she started writing books about her journeys. She's written five books, and now she's on her bike again! At the moment she's planning to cycle around New Zealand.",
         "question": "What problem did she have in 1997?",
         "options": [
             "She had pain in her knee",
@@ -1834,7 +1834,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "She was still at primary school when she decided she wanted to travel. So when she was eleven...",
+        "passage": "She was still at primary school when she decided she wanted to travel. So when she was eleven, she decided to go for bike rides, and cycled or so miles every day.\n\nJosie says: 'The only good thing about secondary school was cycling there and back. I left when I was 16. I love cooking, so I started a business. I cooked three-course meals, and delivered them by bike! In 1985, as soon as I had some money, I cycled to Africa and back'.\n\nJosie has been to 40 countries and has had all kinds of interesting experiences. She has cycled through the Himalayan mountains in Nepal, then down into India. She has cycled through millions of locusts in the Moroccan desert. She has traveled through tornados in the USA. She was in Romania on Christmas Day in 1989 when President Ceausescu was executed by the Government. And she hasn't been to Egypt yet, because when she was in Turkey, a war started nearby. So she went to Greece instead.\n\nShe has sometimes traveled with friend, boyfriends and even her mother, but she has often cycled alone. She had only one really frightening experience - a man attacked her in Bulgaria.\n\nIn 1997 she hurt her knee very badly, so she started writing books about her journeys. She's written five books, and now she's on her bike again! At the moment she's planning to cycle around New Zealand.",
         "question": "How many books has he written?",
         "options": [
             "2",
@@ -1845,7 +1845,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "She was still at primary school when she decided she wanted to travel. So when she was eleven...",
+        "passage": "She was still at primary school when she decided she wanted to travel. So when she was eleven, she decided to go for bike rides, and cycled or so miles every day.\n\nJosie says: 'The only good thing about secondary school was cycling there and back. I left when I was 16. I love cooking, so I started a business. I cooked three-course meals, and delivered them by bike! In 1985, as soon as I had some money, I cycled to Africa and back'.\n\nJosie has been to 40 countries and has had all kinds of interesting experiences. She has cycled through the Himalayan mountains in Nepal, then down into India. She has cycled through millions of locusts in the Moroccan desert. She has traveled through tornados in the USA. She was in Romania on Christmas Day in 1989 when President Ceausescu was executed by the Government. And she hasn't been to Egypt yet, because when she was in Turkey, a war started nearby. So she went to Greece instead.\n\nShe has sometimes traveled with friend, boyfriends and even her mother, but she has often cycled alone. She had only one really frightening experience - a man attacked her in Bulgaria.\n\nIn 1997 she hurt her knee very badly, so she started writing books about her journeys. She's written five books, and now she's on her bike again! At the moment she's planning to cycle around New Zealand.",
         "question": "How is she going to travel in New Zealand?",
         "options": [
             "by motorbike",
@@ -1856,7 +1856,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "While Western medicine is common throughout the world, it is not the only type of medicine that people practice...",
+        "passage": "While Western medicine is common throughout the world, it is not the only type of medicine that people practice. Another kind of medical treatment is known as acupuncture. In general, it is considered to be an alternative type of medicine. It was developed in China well over one thousand years ago, but exactly when and how it was created remain mysteries. Acupuncture involves the inserting of multiple needles into the body. The needles are placed at certain points in the body, depending on the type of problem the patient has. According to the theory behind acupuncture, there are places on the skin that are connected to different parts of the body. By pricking the skin with needles at these points, an acupuncturist can help a patient either relieve pain or cure various problems.\n\nAcupuncture is popular in many parts of Asia. It is also becoming more common and attracting new patients in Europe and North America. But many people believe it is ineffective. The main reason they feel that way is that it is difficult to understand how the entire process works. Research into acupuncture's capabilities has yielded varying results. Some studies show that it is quite effective at relieving pain. Other ones, however, claim that it is merely like a placebo. In other words, people believe acupuncture treatment will be effective, so it winds up helping them.",
         "question": "What is the best title for the passage?",
         "options": [
             "A New Type of Medicine",
@@ -1868,7 +1868,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "While Western medicine is common throughout the world, it is not the only type of medicine that people practice...",
+        "passage": "While Western medicine is common throughout the world, it is not the only type of medicine that people practice. Another kind of medical treatment is known as acupuncture. In general, it is considered to be an alternative type of medicine. It was developed in China well over one thousand years ago, but exactly when and how it was created remain mysteries. Acupuncture involves the inserting of multiple needles into the body. The needles are placed at certain points in the body, depending on the type of problem the patient has. According to the theory behind acupuncture, there are places on the skin that are connected to different parts of the body. By pricking the skin with needles at these points, an acupuncturist can help a patient either relieve pain or cure various problems.\n\nAcupuncture is popular in many parts of Asia. It is also becoming more common and attracting new patients in Europe and North America. But many people believe it is ineffective. The main reason they feel that way is that it is difficult to understand how the entire process works. Research into acupuncture's capabilities has yielded varying results. Some studies show that it is quite effective at relieving pain. Other ones, however, claim that it is merely like a placebo. In other words, people believe acupuncture treatment will be effective, so it winds up helping them.",
         "question": "What does the author imply about acupuncture?",
         "options": [
             "Its origins are not precisely known.",
@@ -1880,7 +1880,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "While Western medicine is common throughout the world, it is not the only type of medicine that people practice...",
+        "passage": "While Western medicine is common throughout the world, it is not the only type of medicine that people practice. Another kind of medical treatment is known as acupuncture. In general, it is considered to be an alternative type of medicine. It was developed in China well over one thousand years ago, but exactly when and how it was created remain mysteries. Acupuncture involves the inserting of multiple needles into the body. The needles are placed at certain points in the body, depending on the type of problem the patient has. According to the theory behind acupuncture, there are places on the skin that are connected to different parts of the body. By pricking the skin with needles at these points, an acupuncturist can help a patient either relieve pain or cure various problems.\n\nAcupuncture is popular in many parts of Asia. It is also becoming more common and attracting new patients in Europe and North America. But many people believe it is ineffective. The main reason they feel that way is that it is difficult to understand how the entire process works. Research into acupuncture's capabilities has yielded varying results. Some studies show that it is quite effective at relieving pain. Other ones, however, claim that it is merely like a placebo. In other words, people believe acupuncture treatment will be effective, so it winds up helping them.",
         "question": "Which of the following statements does paragraph 1 support?",
         "options": [
             "The needles used can sometimes hurt the patients.",
@@ -1892,7 +1892,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "While Western medicine is common throughout the world, it is not the only type of medicine that people practice...",
+        "passage": "While Western medicine is common throughout the world, it is not the only type of medicine that people practice. Another kind of medical treatment is known as acupuncture. In general, it is considered to be an alternative type of medicine. It was developed in China well over one thousand years ago, but exactly when and how it was created remain mysteries. Acupuncture involves the inserting of multiple needles into the body. The needles are placed at certain points in the body, depending on the type of problem the patient has. According to the theory behind acupuncture, there are places on the skin that are connected to different parts of the body. By pricking the skin with needles at these points, an acupuncturist can help a patient either relieve pain or cure various problems.\n\nAcupuncture is popular in many parts of Asia. It is also becoming more common and attracting new patients in Europe and North America. But many people believe it is ineffective. The main reason they feel that way is that it is difficult to understand how the entire process works. Research into acupuncture's capabilities has yielded varying results. Some studies show that it is quite effective at relieving pain. Other ones, however, claim that it is merely like a placebo. In other words, people believe acupuncture treatment will be effective, so it winds up helping them.",
         "question": "Where is acupuncture becoming practiced more often?",
         "options": [
             "In Asia",
@@ -1904,7 +1904,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "While Western medicine is common throughout the world, it is not the only type of medicine that people practice...",
+        "passage": "While Western medicine is common throughout the world, it is not the only type of medicine that people practice. Another kind of medical treatment is known as acupuncture. In general, it is considered to be an alternative type of medicine. It was developed in China well over one thousand years ago, but exactly when and how it was created remain mysteries. Acupuncture involves the inserting of multiple needles into the body. The needles are placed at certain points in the body, depending on the type of problem the patient has. According to the theory behind acupuncture, there are places on the skin that are connected to different parts of the body. By pricking the skin with needles at these points, an acupuncturist can help a patient either relieve pain or cure various problems.\n\nAcupuncture is popular in many parts of Asia. It is also becoming more common and attracting new patients in Europe and North America. But many people believe it is ineffective. The main reason they feel that way is that it is difficult to understand how the entire process works. Research into acupuncture's capabilities has yielded varying results. Some studies show that it is quite effective at relieving pain. Other ones, however, claim that it is merely like a placebo. In other words, people believe acupuncture treatment will be effective, so it winds up helping them.",
         "question": "The word 'ineffective' is closest in meaning to",
         "options": [
             "Useless",
@@ -1916,7 +1916,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Dear Thomas, I am curious as to whether or not you are still planning to go on that skiing trip...",
+        "passage": "Dear Thomas,\nI am curious as to whether or not you are still planning to go on that skiing trip with your family this winter vacation. I ask because, if you are not going, you might find this program I heard about today to be interesting. Apparently, Westfield State University, our local college, is going to hold an art seminar for thirty students.\n\nAccording to the brochure I have, three of the school's top faculty members are going to teach the seminar. They are planning to focus on painting. But there will also be lessons on sculpture and etching. And here is the best part: it does not cost anything to attend the seminar. However, you have to apply for a position. You can do that by submitting a sample of your work. I know how much you love art, so this could be a great opportunity for you. You probably do not want to give up going skiing, but this is a once-in-a-lifetime event. You might not want to pass up this chance. Let me know if you need any more information.\n\nYour friend,\nSusan",
         "question": "Why did the author write this letter?",
         "options": [
             "To describe her winter plans",
@@ -1928,7 +1928,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Dear Thomas, I am curious as to whether or not you are still planning to go on that skiing trip...",
+        "passage": "Dear Thomas,\nI am curious as to whether or not you are still planning to go on that skiing trip with your family this winter vacation. I ask because, if you are not going, you might find this program I heard about today to be interesting. Apparently, Westfield State University, our local college, is going to hold an art seminar for thirty students.\n\nAccording to the brochure I have, three of the school's top faculty members are going to teach the seminar. They are planning to focus on painting. But there will also be lessons on sculpture and etching. And here is the best part: it does not cost anything to attend the seminar. However, you have to apply for a position. You can do that by submitting a sample of your work. I know how much you love art, so this could be a great opportunity for you. You probably do not want to give up going skiing, but this is a once-in-a-lifetime event. You might not want to pass up this chance. Let me know if you need any more information.\n\nYour friend,\nSusan",
         "question": "What does the author indicate about Thomas' plans for winter vacation?",
         "options": [
             "He's going to take some art classes.",
@@ -1940,7 +1940,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Dear Thomas, I am curious as to whether or not you are still planning to go on that skiing trip...",
+        "passage": "Dear Thomas,\nI am curious as to whether or not you are still planning to go on that skiing trip with your family this winter vacation. I ask because, if you are not going, you might find this program I heard about today to be interesting. Apparently, Westfield State University, our local college, is going to hold an art seminar for thirty students.\n\nAccording to the brochure I have, three of the school's top faculty members are going to teach the seminar. They are planning to focus on painting. But there will also be lessons on sculpture and etching. And here is the best part: it does not cost anything to attend the seminar. However, you have to apply for a position. You can do that by submitting a sample of your work. I know how much you love art, so this could be a great opportunity for you. You probably do not want to give up going skiing, but this is a once-in-a-lifetime event. You might not want to pass up this chance. Let me know if you need any more information.\n\nYour friend,\nSusan",
         "question": "What can be inferred from the letter about Westfield State University?",
         "options": [
             "It is one of the top schools in the state.",
@@ -1952,7 +1952,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Dear Thomas, I am curious as to whether or not you are still planning to go on that skiing trip...",
+        "passage": "Dear Thomas,\nI am curious as to whether or not you are still planning to go on that skiing trip with your family this winter vacation. I ask because, if you are not going, you might find this program I heard about today to be interesting. Apparently, Westfield State University, our local college, is going to hold an art seminar for thirty students.\n\nAccording to the brochure I have, three of the school's top faculty members are going to teach the seminar. They are planning to focus on painting. But there will also be lessons on sculpture and etching. And here is the best part: it does not cost anything to attend the seminar. However, you have to apply for a position. You can do that by submitting a sample of your work. I know how much you love art, so this could be a great opportunity for you. You probably do not want to give up going skiing, but this is a once-in-a-lifetime event. You might not want to pass up this chance. Let me know if you need any more information.\n\nYour friend,\nSusan",
         "question": "Which of the following is NOT mentioned about the seminar?",
         "options": [
             "Where it is going to be",
@@ -1964,7 +1964,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "Dear Thomas, I am curious as to whether or not you are still planning to go on that skiing trip...",
+        "passage": "Dear Thomas,\nI am curious as to whether or not you are still planning to go on that skiing trip with your family this winter vacation. I ask because, if you are not going, you might find this program I heard about today to be interesting. Apparently, Westfield State University, our local college, is going to hold an art seminar for thirty students.\n\nAccording to the brochure I have, three of the school's top faculty members are going to teach the seminar. They are planning to focus on painting. But there will also be lessons on sculpture and etching. And here is the best part: it does not cost anything to attend the seminar. However, you have to apply for a position. You can do that by submitting a sample of your work. I know how much you love art, so this could be a great opportunity for you. You probably do not want to give up going skiing, but this is a once-in-a-lifetime event. You might not want to pass up this chance. Let me know if you need any more information.\n\nYour friend,\nSusan",
         "question": "According to the letter, how can a student get into the seminar?",
         "options": [
             "By applying online",
@@ -1976,7 +1976,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "The dogsled race was about to begin. Julie's team of dogs was lined up...",
+        "passage": "The dogsled race was about to begin. Julie's team of dogs was lined up at the starting gate. Julie stood behind them. The air was so cold that she could see her breath. Other teams were lined up, too, and the dogs were excited. Julie kept her eyes on the clock. At exactly ten o'clock, she and the other racers yelled, 'Mush!' The dogs knew that meant 'Go!' They leap forward and the race began!\n\nJulie had trained for months for this race, and she hoped she and her dogs would win. Hour after hour, day after day, Julie's dogs pulled the sled in order to get in shape for the race.\n\nNow, they ran over snowy hills and down into frozen valleys. They stopped only to rest and eat. They wanted to stay ahead of the other teams. The racers had to go a thousand miles across Alaska. Alaska is one of the coldest places on Earth. The dogs' thick fur coats helped keep them warm in the cold wind and weather. In many places along the route, the snow was deep. Pieces of ice were as sharp as a knife. The ice could cut the dogs' feet. To keep that from happening, Julie had put special booties on their feet.\n\nAt first, the dogs seemed to pull the sled very slowly. They were still getting used to the race. But on the third day out, they began to pull more quickly. They worked as a team and passed many of the other racers. Once, one of the sled's runners slid into a hole and broke. Julie could have given up then, but she didn't. She fixed it and they kept going.\n\nWhen they finally reached the finish line, they found out that they had come in first place! It was a great day for Julie and her dogs.",
         "question": "The author wrote the story in order to",
         "options": [
             "Describe how dogs stay warm in cold weather",
@@ -1988,7 +1988,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "The dogsled race was about to begin. Julie's team of dogs was lined up...",
+        "passage": "The dogsled race was about to begin. Julie's team of dogs was lined up at the starting gate. Julie stood behind them. The air was so cold that she could see her breath. Other teams were lined up, too, and the dogs were excited. Julie kept her eyes on the clock. At exactly ten o'clock, she and the other racers yelled, 'Mush!' The dogs knew that meant 'Go!' They leap forward and the race began!\n\nJulie had trained for months for this race, and she hoped she and her dogs would win. Hour after hour, day after day, Julie's dogs pulled the sled in order to get in shape for the race.\n\nNow, they ran over snowy hills and down into frozen valleys. They stopped only to rest and eat. They wanted to stay ahead of the other teams. The racers had to go a thousand miles across Alaska. Alaska is one of the coldest places on Earth. The dogs' thick fur coats helped keep them warm in the cold wind and weather. In many places along the route, the snow was deep. Pieces of ice were as sharp as a knife. The ice could cut the dogs' feet. To keep that from happening, Julie had put special booties on their feet.\n\nAt first, the dogs seemed to pull the sled very slowly. They were still getting used to the race. But on the third day out, they began to pull more quickly. They worked as a team and passed many of the other racers. Once, one of the sled's runners slid into a hole and broke. Julie could have given up then, but she didn't. She fixed it and they kept going.\n\nWhen they finally reached the finish line, they found out that they had come in first place! It was a great day for Julie and her dogs.",
         "question": "Where does the dogsled race take place?",
         "options": [
             "In Antarctica",
@@ -2000,7 +2000,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "The dogsled race was about to begin. Julie's team of dogs was lined up...",
+        "passage": "The dogsled race was about to begin. Julie's team of dogs was lined up at the starting gate. Julie stood behind them. The air was so cold that she could see her breath. Other teams were lined up, too, and the dogs were excited. Julie kept her eyes on the clock. At exactly ten o'clock, she and the other racers yelled, 'Mush!' The dogs knew that meant 'Go!' They leap forward and the race began!\n\nJulie had trained for months for this race, and she hoped she and her dogs would win. Hour after hour, day after day, Julie's dogs pulled the sled in order to get in shape for the race.\n\nNow, they ran over snowy hills and down into frozen valleys. They stopped only to rest and eat. They wanted to stay ahead of the other teams. The racers had to go a thousand miles across Alaska. Alaska is one of the coldest places on Earth. The dogs' thick fur coats helped keep them warm in the cold wind and weather. In many places along the route, the snow was deep. Pieces of ice were as sharp as a knife. The ice could cut the dogs' feet. To keep that from happening, Julie had put special booties on their feet.\n\nAt first, the dogs seemed to pull the sled very slowly. They were still getting used to the race. But on the third day out, they began to pull more quickly. They worked as a team and passed many of the other racers. Once, one of the sled's runners slid into a hole and broke. Julie could have given up then, but she didn't. She fixed it and they kept going.\n\nWhen they finally reached the finish line, they found out that they had come in first place! It was a great day for Julie and her dogs.",
         "question": "What is the word 'yelled' in paragraph 1 closest in meaning to?",
         "options": [
             "Shouted",
@@ -2012,7 +2012,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "The dogsled race was about to begin. Julie's team of dogs was lined up...",
+        "passage": "The dogsled race was about to begin. Julie's team of dogs was lined up at the starting gate. Julie stood behind them. The air was so cold that she could see her breath. Other teams were lined up, too, and the dogs were excited. Julie kept her eyes on the clock. At exactly ten o'clock, she and the other racers yelled, 'Mush!' The dogs knew that meant 'Go!' They leap forward and the race began!\n\nJulie had trained for months for this race, and she hoped she and her dogs would win. Hour after hour, day after day, Julie's dogs pulled the sled in order to get in shape for the race.\n\nNow, they ran over snowy hills and down into frozen valleys. They stopped only to rest and eat. They wanted to stay ahead of the other teams. The racers had to go a thousand miles across Alaska. Alaska is one of the coldest places on Earth. The dogs' thick fur coats helped keep them warm in the cold wind and weather. In many places along the route, the snow was deep. Pieces of ice were as sharp as a knife. The ice could cut the dogs' feet. To keep that from happening, Julie had put special booties on their feet.\n\nAt first, the dogs seemed to pull the sled very slowly. They were still getting used to the race. But on the third day out, they began to pull more quickly. They worked as a team and passed many of the other racers. Once, one of the sled's runners slid into a hole and broke. Julie could have given up then, but she didn't. She fixed it and they kept going.\n\nWhen they finally reached the finish line, they found out that they had come in first place! It was a great day for Julie and her dogs.",
         "question": "What happened before the gods began running?",
         "options": [
             "The dogs pulled the sled slowly.",
@@ -2024,7 +2024,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "The dogsled race was about to begin. Julie's team of dogs was lined up...",
+        "passage": "The dogsled race was about to begin. Julie's team of dogs was lined up at the starting gate. Julie stood behind them. The air was so cold that she could see her breath. Other teams were lined up, too, and the dogs were excited. Julie kept her eyes on the clock. At exactly ten o'clock, she and the other racers yelled, 'Mush!' The dogs knew that meant 'Go!' They leap forward and the race began!\n\nJulie had trained for months for this race, and she hoped she and her dogs would win. Hour after hour, day after day, Julie's dogs pulled the sled in order to get in shape for the race.\n\nNow, they ran over snowy hills and down into frozen valleys. They stopped only to rest and eat. They wanted to stay ahead of the other teams. The racers had to go a thousand miles across Alaska. Alaska is one of the coldest places on Earth. The dogs' thick fur coats helped keep them warm in the cold wind and weather. In many places along the route, the snow was deep. Pieces of ice were as sharp as a knife. The ice could cut the dogs' feet. To keep that from happening, Julie had put special booties on their feet.\n\nAt first, the dogs seemed to pull the sled very slowly. They were still getting used to the race. But on the third day out, they began to pull more quickly. They worked as a team and passed many of the other racers. Once, one of the sled's runners slid into a hole and broke. Julie could have given up then, but she didn't. She fixed it and they kept going.\n\nWhen they finally reached the finish line, they found out that they had come in first place! It was a great day for Julie and her dogs.",
         "question": "What does the word 'team' in paragraph 1 refer to?",
         "options": [
             "Friends and family",
@@ -2036,7 +2036,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "The dogsled race was about to begin. Julie's team of dogs was lined up...",
+        "passage": "The dogsled race was about to begin. Julie's team of dogs was lined up at the starting gate. Julie stood behind them. The air was so cold that she could see her breath. Other teams were lined up, too, and the dogs were excited. Julie kept her eyes on the clock. At exactly ten o'clock, she and the other racers yelled, 'Mush!' The dogs knew that meant 'Go!' They leap forward and the race began!\n\nJulie had trained for months for this race, and she hoped she and her dogs would win. Hour after hour, day after day, Julie's dogs pulled the sled in order to get in shape for the race.\n\nNow, they ran over snowy hills and down into frozen valleys. They stopped only to rest and eat. They wanted to stay ahead of the other teams. The racers had to go a thousand miles across Alaska. Alaska is one of the coldest places on Earth. The dogs' thick fur coats helped keep them warm in the cold wind and weather. In many places along the route, the snow was deep. Pieces of ice were as sharp as a knife. The ice could cut the dogs' feet. To keep that from happening, Julie had put special booties on their feet.\n\nAt first, the dogs seemed to pull the sled very slowly. They were still getting used to the race. But on the third day out, they began to pull more quickly. They worked as a team and passed many of the other racers. Once, one of the sled's runners slid into a hole and broke. Julie could have given up then, but she didn't. She fixed it and they kept going.\n\nWhen they finally reached the finish line, they found out that they had come in first place! It was a great day for Julie and her dogs.",
         "question": "Why did the dogs wear special booties?",
         "options": [
             "To be well recognized",
@@ -2048,7 +2048,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "The dogsled race was about to begin. Julie's team of dogs was lined up...",
+        "passage": "The dogsled race was about to begin. Julie's team of dogs was lined up at the starting gate. Julie stood behind them. The air was so cold that she could see her breath. Other teams were lined up, too, and the dogs were excited. Julie kept her eyes on the clock. At exactly ten o'clock, she and the other racers yelled, 'Mush!' The dogs knew that meant 'Go!' They leap forward and the race began!\n\nJulie had trained for months for this race, and she hoped she and her dogs would win. Hour after hour, day after day, Julie's dogs pulled the sled in order to get in shape for the race.\n\nNow, they ran over snowy hills and down into frozen valleys. They stopped only to rest and eat. They wanted to stay ahead of the other teams. The racers had to go a thousand miles across Alaska. Alaska is one of the coldest places on Earth. The dogs' thick fur coats helped keep them warm in the cold wind and weather. In many places along the route, the snow was deep. Pieces of ice were as sharp as a knife. The ice could cut the dogs' feet. To keep that from happening, Julie had put special booties on their feet.\n\nAt first, the dogs seemed to pull the sled very slowly. They were still getting used to the race. But on the third day out, they began to pull more quickly. They worked as a team and passed many of the other racers. Once, one of the sled's runners slid into a hole and broke. Julie could have given up then, but she didn't. She fixed it and they kept going.\n\nWhen they finally reached the finish line, they found out that they had come in first place! It was a great day for Julie and her dogs.",
         "question": "Why don't the dogs freeze in the cold weather?",
         "options": [
             "Julie puts special booties on their feet.",
@@ -2060,7 +2060,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "The dogsled race was about to begin. Julie's team of dogs was lined up...",
+        "passage": "The dogsled race was about to begin. Julie's team of dogs was lined up at the starting gate. Julie stood behind them. The air was so cold that she could see her breath. Other teams were lined up, too, and the dogs were excited. Julie kept her eyes on the clock. At exactly ten o'clock, she and the other racers yelled, 'Mush!' The dogs knew that meant 'Go!' They leap forward and the race began!\n\nJulie had trained for months for this race, and she hoped she and her dogs would win. Hour after hour, day after day, Julie's dogs pulled the sled in order to get in shape for the race.\n\nNow, they ran over snowy hills and down into frozen valleys. They stopped only to rest and eat. They wanted to stay ahead of the other teams. The racers had to go a thousand miles across Alaska. Alaska is one of the coldest places on Earth. The dogs' thick fur coats helped keep them warm in the cold wind and weather. In many places along the route, the snow was deep. Pieces of ice were as sharp as a knife. The ice could cut the dogs' feet. To keep that from happening, Julie had put special booties on their feet.\n\nAt first, the dogs seemed to pull the sled very slowly. They were still getting used to the race. But on the third day out, they began to pull more quickly. They worked as a team and passed many of the other racers. Once, one of the sled's runners slid into a hole and broke. Julie could have given up then, but she didn't. She fixed it and they kept going.\n\nWhen they finally reached the finish line, they found out that they had come in first place! It was a great day for Julie and her dogs.",
         "question": "What does the word 'they' in paragraph 3 refer to?",
         "options": [
             "The dogs",
@@ -2072,19 +2072,19 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "The dogsled race was about to begin. Julie's team of dogs was lined up...",
+        "passage": "The dogsled race was about to begin. Julie's team of dogs was lined up at the starting gate. Julie stood behind them. The air was so cold that she could see her breath. Other teams were lined up, too, and the dogs were excited. Julie kept her eyes on the clock. At exactly ten o'clock, she and the other racers yelled, 'Mush!' The dogs knew that meant 'Go!' They leap forward and the race began!\n\nJulie had trained for months for this race, and she hoped she and her dogs would win. Hour after hour, day after day, Julie's dogs pulled the sled in order to get in shape for the race.\n\nNow, they ran over snowy hills and down into frozen valleys. They stopped only to rest and eat. They wanted to stay ahead of the other teams. The racers had to go a thousand miles across Alaska. Alaska is one of the coldest places on Earth. The dogs' thick fur coats helped keep them warm in the cold wind and weather. In many places along the route, the snow was deep. Pieces of ice were as sharp as a knife. The ice could cut the dogs' feet. To keep that from happening, Julie had put special booties on their feet.\n\nAt first, the dogs seemed to pull the sled very slowly. They were still getting used to the race. But on the third day out, they began to pull more quickly. They worked as a team and passed many of the other racers. Once, one of the sled's runners slid into a hole and broke. Julie could have given up then, but she didn't. She fixed it and they kept going.\n\nWhen they finally reached the finish line, they found out that they had come in first place! It was a great day for Julie and her dogs.",
         "question": "The word 'thick' in paragraph 3 is closest in meaning to",
         "options": [
             "Fat",
-            "Fat",
             "Thin",
+            "Hard",
             "Skinny"
         ],
-        "answer": 1
+        "answer": 0
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "The dogsled race was about to begin. Julie's team of dogs was lined up...",
+        "passage": "The dogsled race was about to begin. Julie's team of dogs was lined up at the starting gate. Julie stood behind them. The air was so cold that she could see her breath. Other teams were lined up, too, and the dogs were excited. Julie kept her eyes on the clock. At exactly ten o'clock, she and the other racers yelled, 'Mush!' The dogs knew that meant 'Go!' They leap forward and the race began!\n\nJulie had trained for months for this race, and she hoped she and her dogs would win. Hour after hour, day after day, Julie's dogs pulled the sled in order to get in shape for the race.\n\nNow, they ran over snowy hills and down into frozen valleys. They stopped only to rest and eat. They wanted to stay ahead of the other teams. The racers had to go a thousand miles across Alaska. Alaska is one of the coldest places on Earth. The dogs' thick fur coats helped keep them warm in the cold wind and weather. In many places along the route, the snow was deep. Pieces of ice were as sharp as a knife. The ice could cut the dogs' feet. To keep that from happening, Julie had put special booties on their feet.\n\nAt first, the dogs seemed to pull the sled very slowly. They were still getting used to the race. But on the third day out, they began to pull more quickly. They worked as a team and passed many of the other racers. Once, one of the sled's runners slid into a hole and broke. Julie could have given up then, but she didn't. She fixed it and they kept going.\n\nWhen they finally reached the finish line, they found out that they had come in first place! It was a great day for Julie and her dogs.",
         "question": "What kind of person is Julie?",
         "options": [
             "Brave and determined",
@@ -2096,7 +2096,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "It's that time of the year for school to start again. So that means you need to start stocking up on the supplies...",
+        "passage": "It's that time of the year for school to start again. So that means you need to start stocking up on the supplies you need for the school year. Fortunately, you don't have to visit four or five different stores to get everything necessary. Instead, take a trip to Carter's Department Store. We've got everything that a student could possibly need.\n\nWe have all kinds of standard school supplies: pens, pencils, notebooks, rulers, and more. We also carry art supplies, such as paint, paintbrushes, and easels. You can purchase all sorts of electronic equipment, including calculators, desktop computers, and notebook computers. We even sell musical instruments.\n\nAnd here's the best part: from now until the beginning of the school year, we are having a back-to-school sale. Everything we carry that is related to school is on sale for at least 25% off. Art supplies are 30% off while electronic goods are available at 40% discount. And be sure to visit our boys' and girls' clothing departments, where you will find saving up to a whopping 60% off. You simply can't beat Carter's Department Store for quality and price.",
         "question": "Which headline best summarizes the advertisement?",
         "options": [
             "Big Sale at Carter's Department Store",
@@ -2108,7 +2108,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "It's that time of the year for school to start again. So that means you need to start stocking up on the supplies...",
+        "passage": "It's that time of the year for school to start again. So that means you need to start stocking up on the supplies you need for the school year. Fortunately, you don't have to visit four or five different stores to get everything necessary. Instead, take a trip to Carter's Department Store. We've got everything that a student could possibly need.\n\nWe have all kinds of standard school supplies: pens, pencils, notebooks, rulers, and more. We also carry art supplies, such as paint, paintbrushes, and easels. You can purchase all sorts of electronic equipment, including calculators, desktop computers, and notebook computers. We even sell musical instruments.\n\nAnd here's the best part: from now until the beginning of the school year, we are having a back-to-school sale. Everything we carry that is related to school is on sale for at least 25% off. Art supplies are 30% off while electronic goods are available at 40% discount. And be sure to visit our boys' and girls' clothing departments, where you will find saving up to a whopping 60% off. You simply can't beat Carter's Department Store for quality and price.",
         "question": "The phrase 'stocking up on' is closest in meaning to",
         "options": [
             "Utilizing",
@@ -2120,7 +2120,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "It's that time of the year for school to start again. So that means you need to start stocking up on the supplies...",
+        "passage": "It's that time of the year for school to start again. So that means you need to start stocking up on the supplies you need for the school year. Fortunately, you don't have to visit four or five different stores to get everything necessary. Instead, take a trip to Carter's Department Store. We've got everything that a student could possibly need.\n\nWe have all kinds of standard school supplies: pens, pencils, notebooks, rulers, and more. We also carry art supplies, such as paint, paintbrushes, and easels. You can purchase all sorts of electronic equipment, including calculators, desktop computers, and notebook computers. We even sell musical instruments.\n\nAnd here's the best part: from now until the beginning of the school year, we are having a back-to-school sale. Everything we carry that is related to school is on sale for at least 25% off. Art supplies are 30% off while electronic goods are available at 40% discount. And be sure to visit our boys' and girls' clothing departments, where you will find saving up to a whopping 60% off. You simply can't beat Carter's Department Store for quality and price.",
         "question": "The author uses paint, paintbrushes and easels as exam",
         "options": [
             "Supplies that all students need",
@@ -2132,7 +2132,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "It's that time of the year for school to start again. So that means you need to start stocking up on the supplies...",
+        "passage": "It's that time of the year for school to start again. So that means you need to start stocking up on the supplies you need for the school year. Fortunately, you don't have to visit four or five different stores to get everything necessary. Instead, take a trip to Carter's Department Store. We've got everything that a student could possibly need.\n\nWe have all kinds of standard school supplies: pens, pencils, notebooks, rulers, and more. We also carry art supplies, such as paint, paintbrushes, and easels. You can purchase all sorts of electronic equipment, including calculators, desktop computers, and notebook computers. We even sell musical instruments.\n\nAnd here's the best part: from now until the beginning of the school year, we are having a back-to-school sale. Everything we carry that is related to school is on sale for at least 25% off. Art supplies are 30% off while electronic goods are available at 40% discount. And be sure to visit our boys' and girls' clothing departments, where you will find saving up to a whopping 60% off. You simply can't beat Carter's Department Store for quality and price.",
         "question": "What is the discount on a notebook computer?",
         "options": [
             "20%",
@@ -2144,7 +2144,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
-        "passage": "It's that time of the year for school to start again. So that means you need to start stocking up on the supplies...",
+        "passage": "It's that time of the year for school to start again. So that means you need to start stocking up on the supplies you need for the school year. Fortunately, you don't have to visit four or five different stores to get everything necessary. Instead, take a trip to Carter's Department Store. We've got everything that a student could possibly need.\n\nWe have all kinds of standard school supplies: pens, pencils, notebooks, rulers, and more. We also carry art supplies, such as paint, paintbrushes, and easels. You can purchase all sorts of electronic equipment, including calculators, desktop computers, and notebook computers. We even sell musical instruments.\n\nAnd here's the best part: from now until the beginning of the school year, we are having a back-to-school sale. Everything we carry that is related to school is on sale for at least 25% off. Art supplies are 30% off while electronic goods are available at 40% discount. And be sure to visit our boys' and girls' clothing departments, where you will find saving up to a whopping 60% off. You simply can't beat Carter's Department Store for quality and price.",
         "question": "The word 'whopping' is closest in meaning to",
         "options": [
             "Surprising",
@@ -2156,7 +2156,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Jann Mardenborough has loved cars since he was given a toy one as a baby...",
+        "passage": "Jann Mardenborough has loved cars since he was given a toy one as a baby. He loved them so much that when he was eight his father took him to a place where children race small cars called karts. Staff at the kart centre told Jann he drove so well he might one day become a racing driver. Unfortunately, the kart centre closed soon afterwards, and there wasn't another one near enough to his home that he could get to.\n\nAs he couldn't race karts any more, Jann decided to try computer racing games. After lots of practice, he became very good. However, he never told his parents what he was doing. Then, one day, when he was 18, he told them that he was one of the top ten winners of a computer racing competition. They were very surprised. His prize was to drive a real car in a race against the other nine top players.\n\nIt was Jann's first time in a racing car, but, amazingly, he won the race! The prize this time was a free course to learn to be a racing driver. He did really well, and has found a job driving in a racing team.",
         "question": "When he was a child, workers at the kart centre said Jann was a good driver.",
         "options": [
             "Right",
@@ -2167,7 +2167,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Jann Mardenborough has loved cars since he was given a toy one as a baby...",
+        "passage": "Jann Mardenborough has loved cars since he was given a toy one as a baby. He loved them so much that when he was eight his father took him to a place where children race small cars called karts. Staff at the kart centre told Jann he drove so well he might one day become a racing driver. Unfortunately, the kart centre closed soon afterwards, and there wasn't another one near enough to his home that he could get to.\n\nAs he couldn't race karts any more, Jann decided to try computer racing games. After lots of practice, he became very good. However, he never told his parents what he was doing. Then, one day, when he was 18, he told them that he was one of the top ten winners of a computer racing competition. They were very surprised. His prize was to drive a real car in a race against the other nine top players.\n\nIt was Jann's first time in a racing car, but, amazingly, he won the race! The prize this time was a free course to learn to be a racing driver. He did really well, and has found a job driving in a racing team.",
         "question": "Jann stopped racing karts because he became bored with it.",
         "options": [
             "Right",
@@ -2178,7 +2178,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Jann Mardenborough has loved cars since he was given a toy one as a baby...",
+        "passage": "Jann Mardenborough has loved cars since he was given a toy one as a baby. He loved them so much that when he was eight his father took him to a place where children race small cars called karts. Staff at the kart centre told Jann he drove so well he might one day become a racing driver. Unfortunately, the kart centre closed soon afterwards, and there wasn't another one near enough to his home that he could get to.\n\nAs he couldn't race karts any more, Jann decided to try computer racing games. After lots of practice, he became very good. However, he never told his parents what he was doing. Then, one day, when he was 18, he told them that he was one of the top ten winners of a computer racing competition. They were very surprised. His prize was to drive a real car in a race against the other nine top players.\n\nIt was Jann's first time in a racing car, but, amazingly, he won the race! The prize this time was a free course to learn to be a racing driver. He did really well, and has found a job driving in a racing team.",
         "question": "Jann was good at computer racing games immediately.",
         "options": [
             "Right",
@@ -2189,7 +2189,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Jann Mardenborough has loved cars since he was given a toy one as a baby...",
+        "passage": "Jann Mardenborough has loved cars since he was given a toy one as a baby. He loved them so much that when he was eight his father took him to a place where children race small cars called karts. Staff at the kart centre told Jann he drove so well he might one day become a racing driver. Unfortunately, the kart centre closed soon afterwards, and there wasn't another one near enough to his home that he could get to.\n\nAs he couldn't race karts any more, Jann decided to try computer racing games. After lots of practice, he became very good. However, he never told his parents what he was doing. Then, one day, when he was 18, he told them that he was one of the top ten winners of a computer racing competition. They were very surprised. His prize was to drive a real car in a race against the other nine top players.\n\nIt was Jann's first time in a racing car, but, amazingly, he won the race! The prize this time was a free course to learn to be a racing driver. He did really well, and has found a job driving in a racing team.",
         "question": "Jann played computer racing games with school friends.",
         "options": [
             "Right",
@@ -2200,7 +2200,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Jann Mardenborough has loved cars since he was given a toy one as a baby...",
+        "passage": "Jann Mardenborough has loved cars since he was given a toy one as a baby. He loved them so much that when he was eight his father took him to a place where children race small cars called karts. Staff at the kart centre told Jann he drove so well he might one day become a racing driver. Unfortunately, the kart centre closed soon afterwards, and there wasn't another one near enough to his home that he could get to.\n\nAs he couldn't race karts any more, Jann decided to try computer racing games. After lots of practice, he became very good. However, he never told his parents what he was doing. Then, one day, when he was 18, he told them that he was one of the top ten winners of a computer racing competition. They were very surprised. His prize was to drive a real car in a race against the other nine top players.\n\nIt was Jann's first time in a racing car, but, amazingly, he won the race! The prize this time was a free course to learn to be a racing driver. He did really well, and has found a job driving in a racing team.",
         "question": "Jann told his parents about the computer competition after it ended.",
         "options": [
             "Right",
@@ -2211,7 +2211,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Jann Mardenborough has loved cars since he was given a toy one as a baby...",
+        "passage": "Jann Mardenborough has loved cars since he was given a toy one as a baby. He loved them so much that when he was eight his father took him to a place where children race small cars called karts. Staff at the kart centre told Jann he drove so well he might one day become a racing driver. Unfortunately, the kart centre closed soon afterwards, and there wasn't another one near enough to his home that he could get to.\n\nAs he couldn't race karts any more, Jann decided to try computer racing games. After lots of practice, he became very good. However, he never told his parents what he was doing. Then, one day, when he was 18, he told them that he was one of the top ten winners of a computer racing competition. They were very surprised. His prize was to drive a real car in a race against the other nine top players.\n\nIt was Jann's first time in a racing car, but, amazingly, he won the race! The prize this time was a free course to learn to be a racing driver. He did really well, and has found a job driving in a racing team.",
         "question": "The people Jann raced against were from different countries.",
         "options": [
             "Right",
@@ -2222,7 +2222,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Jann Mardenborough has loved cars since he was given a toy one as a baby...",
+        "passage": "Jann Mardenborough has loved cars since he was given a toy one as a baby. He loved them so much that when he was eight his father took him to a place where children race small cars called karts. Staff at the kart centre told Jann he drove so well he might one day become a racing driver. Unfortunately, the kart centre closed soon afterwards, and there wasn't another one near enough to his home that he could get to.\n\nAs he couldn't race karts any more, Jann decided to try computer racing games. After lots of practice, he became very good. However, he never told his parents what he was doing. Then, one day, when he was 18, he told them that he was one of the top ten winners of a computer racing competition. They were very surprised. His prize was to drive a real car in a race against the other nine top players.\n\nIt was Jann's first time in a racing car, but, amazingly, he won the race! The prize this time was a free course to learn to be a racing driver. He did really well, and has found a job driving in a racing team.",
         "question": "Jann's parents had to pay for his driving course.",
         "options": [
             "Right",
@@ -2233,7 +2233,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Every year, thousands of people come to Edinburgh, the capital city of Scotland, to be part of the Edinburgh Festival...",
+        "passage": "Every year, thousands of people come to Edinburgh, the capital city of Scotland, to be part of the Edinburgh Festival. For three weeks every August and September the city Is filled with actors and artists from all over the world. They come to Edinburgh for the biggest arts festival in Britain. During this time the streets of the city are alive with music and dance from early morning until late at night. You can even see artists painting pictures on the streets. One of the best parts of the Festival is the 'Fringe', where students do comedy shows in small halls and cafés.\n\nTens of thousands of tourists come to the Festival to see new films and plays and hear music played by famous musicians. This year, you can see over five hundred performances with actors from more than forty countries.\n\nThe tickets for these performances are quite cheap and it is usually easier to see your favourite star in Edinburgh than it is in London. So come to Edinburgh next summer, but remember it can be difficult to find a room, so why not book your hotel now!",
         "question": "The Edinburgh Festival Is a month long.",
         "options": [
             "Right",
@@ -2244,7 +2244,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Every year, thousands of people come to Edinburgh, the capital city of Scotland, to be part of the Edinburgh Festival...",
+        "passage": "Every year, thousands of people come to Edinburgh, the capital city of Scotland, to be part of the Edinburgh Festival. For three weeks every August and September the city Is filled with actors and artists from all over the world. They come to Edinburgh for the biggest arts festival in Britain. During this time the streets of the city are alive with music and dance from early morning until late at night. You can even see artists painting pictures on the streets. One of the best parts of the Festival is the 'Fringe', where students do comedy shows in small halls and cafés.\n\nTens of thousands of tourists come to the Festival to see new films and plays and hear music played by famous musicians. This year, you can see over five hundred performances with actors from more than forty countries.\n\nThe tickets for these performances are quite cheap and it is usually easier to see your favourite star in Edinburgh than it is in London. So come to Edinburgh next summer, but remember it can be difficult to find a room, so why not book your hotel now!",
         "question": "Edinburgh Festival is in October.",
         "options": [
             "Right",
@@ -2255,7 +2255,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Every year, thousands of people come to Edinburgh, the capital city of Scotland, to be part of the Edinburgh Festival...",
+        "passage": "Every year, thousands of people come to Edinburgh, the capital city of Scotland, to be part of the Edinburgh Festival. For three weeks every August and September the city Is filled with actors and artists from all over the world. They come to Edinburgh for the biggest arts festival in Britain. During this time the streets of the city are alive with music and dance from early morning until late at night. You can even see artists painting pictures on the streets. One of the best parts of the Festival is the 'Fringe', where students do comedy shows in small halls and cafés.\n\nTens of thousands of tourists come to the Festival to see new films and plays and hear music played by famous musicians. This year, you can see over five hundred performances with actors from more than forty countries.\n\nThe tickets for these performances are quite cheap and it is usually easier to see your favourite star in Edinburgh than it is in London. So come to Edinburgh next summer, but remember it can be difficult to find a room, so why not book your hotel now!",
         "question": "Actors come to the Edinburgh Festival from lots of different countries.",
         "options": [
             "Right",
@@ -2266,7 +2266,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Every year, thousands of people come to Edinburgh, the capital city of Scotland, to be part of the Edinburgh Festival...",
+        "passage": "Every year, thousands of people come to Edinburgh, the capital city of Scotland, to be part of the Edinburgh Festival. For three weeks every August and September the city Is filled with actors and artists from all over the world. They come to Edinburgh for the biggest arts festival in Britain. During this time the streets of the city are alive with music and dance from early morning until late at night. You can even see artists painting pictures on the streets. One of the best parts of the Festival is the 'Fringe', where students do comedy shows in small halls and cafés.\n\nTens of thousands of tourists come to the Festival to see new films and plays and hear music played by famous musicians. This year, you can see over five hundred performances with actors from more than forty countries.\n\nThe tickets for these performances are quite cheap and it is usually easier to see your favourite star in Edinburgh than it is in London. So come to Edinburgh next summer, but remember it can be difficult to find a room, so why not book your hotel now!",
         "question": "You can hear music all day.",
         "options": [
             "Right",
@@ -2277,7 +2277,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Every year, thousands of people come to Edinburgh, the capital city of Scotland, to be part of the Edinburgh Festival...",
+        "passage": "Every year, thousands of people come to Edinburgh, the capital city of Scotland, to be part of the Edinburgh Festival. For three weeks every August and September the city Is filled with actors and artists from all over the world. They come to Edinburgh for the biggest arts festival in Britain. During this time the streets of the city are alive with music and dance from early morning until late at night. You can even see artists painting pictures on the streets. One of the best parts of the Festival is the 'Fringe', where students do comedy shows in small halls and cafés.\n\nTens of thousands of tourists come to the Festival to see new films and plays and hear music played by famous musicians. This year, you can see over five hundred performances with actors from more than forty countries.\n\nThe tickets for these performances are quite cheap and it is usually easier to see your favourite star in Edinburgh than it is in London. So come to Edinburgh next summer, but remember it can be difficult to find a room, so why not book your hotel now!",
         "question": "More than ten thousand students come to the Edinburgh Festival every year.",
         "options": [
             "Right",
@@ -2288,7 +2288,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Every year, thousands of people come to Edinburgh, the capital city of Scotland, to be part of the Edinburgh Festival...",
+        "passage": "Every year, thousands of people come to Edinburgh, the capital city of Scotland, to be part of the Edinburgh Festival. For three weeks every August and September the city Is filled with actors and artists from all over the world. They come to Edinburgh for the biggest arts festival in Britain. During this time the streets of the city are alive with music and dance from early morning until late at night. You can even see artists painting pictures on the streets. One of the best parts of the Festival is the 'Fringe', where students do comedy shows in small halls and cafés.\n\nTens of thousands of tourists come to the Festival to see new films and plays and hear music played by famous musicians. This year, you can see over five hundred performances with actors from more than forty countries.\n\nThe tickets for these performances are quite cheap and it is usually easier to see your favourite star in Edinburgh than it is in London. So come to Edinburgh next summer, but remember it can be difficult to find a room, so why not book your hotel now!",
         "question": "It is expensive to go to the theatre in Edinburgh.",
         "options": [
             "Right",
@@ -2299,7 +2299,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Every year, thousands of people come to Edinburgh, the capital city of Scotland, to be part of the Edinburgh Festival...",
+        "passage": "Every year, thousands of people come to Edinburgh, the capital city of Scotland, to be part of the Edinburgh Festival. For three weeks every August and September the city Is filled with actors and artists from all over the world. They come to Edinburgh for the biggest arts festival in Britain. During this time the streets of the city are alive with music and dance from early morning until late at night. You can even see artists painting pictures on the streets. One of the best parts of the Festival is the 'Fringe', where students do comedy shows in small halls and cafés.\n\nTens of thousands of tourists come to the Festival to see new films and plays and hear music played by famous musicians. This year, you can see over five hundred performances with actors from more than forty countries.\n\nThe tickets for these performances are quite cheap and it is usually easier to see your favourite star in Edinburgh than it is in London. So come to Edinburgh next summer, but remember it can be difficult to find a room, so why not book your hotel now!",
         "question": "It is usually more difficult to see famous actors in London than in Edinburgh.",
         "options": [
             "Right",
@@ -2310,7 +2310,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Most house burglaries happen between 2 p.m. and 6 p.m., say the police...",
+        "passage": "Most house burglaries happen between 2 p.m. and 6 p.m., say the police.\n\nInspector Ian Saunders told our newspaper that the number of house burglaries has gone up by more than 30% compared with last year. He also said that 67% of burglaries happen when people have gone out and forgotten to close a door or a window.\n\nHe went on to report that night-time burglaries are unusual because families are usually at home at that time. But he said that winter afternoons are the best time for burglars because it is dark and they can't be seen easily. Also many houses are empty at that time, because people are often still at work.\n\nInspector Saunders said that it is a good idea to leave lights on in living rooms and bedrooms when you go on holiday. This will help to keep burglars away. He also asked neighbors to watch the other houses in the street when people are not at home. They should call the police if they see anything strange. 'We will also tell you how to make your house safe', Inspector Saunders said. 'This kind of help costs nothing'.",
         "question": "The number of house burglaries is the same as last year.",
         "options": [
             "Right",
@@ -2321,7 +2321,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Most house burglaries happen between 2 p.m. and 6 p.m., say the police...",
+        "passage": "Most house burglaries happen between 2 p.m. and 6 p.m., say the police.\n\nInspector Ian Saunders told our newspaper that the number of house burglaries has gone up by more than 30% compared with last year. He also said that 67% of burglaries happen when people have gone out and forgotten to close a door or a window.\n\nHe went on to report that night-time burglaries are unusual because families are usually at home at that time. But he said that winter afternoons are the best time for burglars because it is dark and they can't be seen easily. Also many houses are empty at that time, because people are often still at work.\n\nInspector Saunders said that it is a good idea to leave lights on in living rooms and bedrooms when you go on holiday. This will help to keep burglars away. He also asked neighbors to watch the other houses in the street when people are not at home. They should call the police if they see anything strange. 'We will also tell you how to make your house safe', Inspector Saunders said. 'This kind of help costs nothing'.",
         "question": "Most burglars are men.",
         "options": [
             "Right",
@@ -2332,7 +2332,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Most house burglaries happen between 2 p.m. and 6 p.m., say the police...",
+        "passage": "Most house burglaries happen between 2 p.m. and 6 p.m., say the police.\n\nInspector Ian Saunders told our newspaper that the number of house burglaries has gone up by more than 30% compared with last year. He also said that 67% of burglaries happen when people have gone out and forgotten to close a door or a window.\n\nHe went on to report that night-time burglaries are unusual because families are usually at home at that time. But he said that winter afternoons are the best time for burglars because it is dark and they can't be seen easily. Also many houses are empty at that time, because people are often still at work.\n\nInspector Saunders said that it is a good idea to leave lights on in living rooms and bedrooms when you go on holiday. This will help to keep burglars away. He also asked neighbors to watch the other houses in the street when people are not at home. They should call the police if they see anything strange. 'We will also tell you how to make your house safe', Inspector Saunders said. 'This kind of help costs nothing'.",
         "question": "People sometimes make things easy for burglars.",
         "options": [
             "Right",
@@ -2343,7 +2343,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Most house burglaries happen between 2 p.m. and 6 p.m., say the police...",
+        "passage": "Most house burglaries happen between 2 p.m. and 6 p.m., say the police.\n\nInspector Ian Saunders told our newspaper that the number of house burglaries has gone up by more than 30% compared with last year. He also said that 67% of burglaries happen when people have gone out and forgotten to close a door or a window.\n\nHe went on to report that night-time burglaries are unusual because families are usually at home at that time. But he said that winter afternoons are the best time for burglars because it is dark and they can't be seen easily. Also many houses are empty at that time, because people are often still at work.\n\nInspector Saunders said that it is a good idea to leave lights on in living rooms and bedrooms when you go on holiday. This will help to keep burglars away. He also asked neighbors to watch the other houses in the street when people are not at home. They should call the police if they see anything strange. 'We will also tell you how to make your house safe', Inspector Saunders said. 'This kind of help costs nothing'.",
         "question": "The summer is more difficult for burglars.",
         "options": [
             "Right",
@@ -2354,7 +2354,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Most house burglaries happen between 2 p.m. and 6 p.m., say the police...",
+        "passage": "Most house burglaries happen between 2 p.m. and 6 p.m., say the police.\n\nInspector Ian Saunders told our newspaper that the number of house burglaries has gone up by more than 30% compared with last year. He also said that 67% of burglaries happen when people have gone out and forgotten to close a door or a window.\n\nHe went on to report that night-time burglaries are unusual because families are usually at home at that time. But he said that winter afternoons are the best time for burglars because it is dark and they can't be seen easily. Also many houses are empty at that time, because people are often still at work.\n\nInspector Saunders said that it is a good idea to leave lights on in living rooms and bedrooms when you go on holiday. This will help to keep burglars away. He also asked neighbors to watch the other houses in the street when people are not at home. They should call the police if they see anything strange. 'We will also tell you how to make your house safe', Inspector Saunders said. 'This kind of help costs nothing'.",
         "question": "Burglars don't usually go to houses with lights on.",
         "options": [
             "Right",
@@ -2365,7 +2365,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Most house burglaries happen between 2 p.m. and 6 p.m., say the police...",
+        "passage": "Most house burglaries happen between 2 p.m. and 6 p.m., say the police.\n\nInspector Ian Saunders told our newspaper that the number of house burglaries has gone up by more than 30% compared with last year. He also said that 67% of burglaries happen when people have gone out and forgotten to close a door or a window.\n\nHe went on to report that night-time burglaries are unusual because families are usually at home at that time. But he said that winter afternoons are the best time for burglars because it is dark and they can't be seen easily. Also many houses are empty at that time, because people are often still at work.\n\nInspector Saunders said that it is a good idea to leave lights on in living rooms and bedrooms when you go on holiday. This will help to keep burglars away. He also asked neighbors to watch the other houses in the street when people are not at home. They should call the police if they see anything strange. 'We will also tell you how to make your house safe', Inspector Saunders said. 'This kind of help costs nothing'.",
         "question": "Burglars usually drive cars.",
         "options": [
             "Right",
@@ -2376,7 +2376,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Most house burglaries happen between 2 p.m. and 6 p.m., say the police...",
+        "passage": "Most house burglaries happen between 2 p.m. and 6 p.m., say the police.\n\nInspector Ian Saunders told our newspaper that the number of house burglaries has gone up by more than 30% compared with last year. He also said that 67% of burglaries happen when people have gone out and forgotten to close a door or a window.\n\nHe went on to report that night-time burglaries are unusual because families are usually at home at that time. But he said that winter afternoons are the best time for burglars because it is dark and they can't be seen easily. Also many houses are empty at that time, because people are often still at work.\n\nInspector Saunders said that it is a good idea to leave lights on in living rooms and bedrooms when you go on holiday. This will help to keep burglars away. He also asked neighbors to watch the other houses in the street when people are not at home. They should call the police if they see anything strange. 'We will also tell you how to make your house safe', Inspector Saunders said. 'This kind of help costs nothing'.",
         "question": "You have to pay for information from the police.",
         "options": [
             "Right",
@@ -2387,7 +2387,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Nick Barlow loves his work. He's a British actor and he travels around the world making TV programmes...",
+        "passage": "Nick Barlow loves his work. He's a British actor and he travels around the world making TV programmes. 'People welcome me everywhere I go and when I get home I remember all the wonderful things that happened in each country.' Nick has travelled to many places but there are a few trips that he would still like to make. 'I'd love to visit South America and go back to Australia one day,' he says.\n\nOn each trip, Nick travels with a team of people. They bring the cameras and other filming equipment needed to make the program. Nick doesn't take a lot of things for himself, just a few shirts and trousers, but he always makes sure he has some books in his suitcase.\n\nNick's wife, Helen, doesn't mind him travelling for his work. She has a lot of friends and keeps busy. When he gets back, she likes to listen to all his travel stories. But sometimes there are problems. When he was in the Malaysian rain forest, Nick heard that his wife was ill in hospital. I felt terrible because I couldn't help, but she didn't want me to come home. I was so happy when I heard she was better.'",
         "question": "Nick says that people in the places he visits are very friendly.",
         "options": [
             "Right",
@@ -2398,7 +2398,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Nick Barlow loves his work. He's a British actor and he travels around the world making TV programmes...",
+        "passage": "Nick Barlow loves his work. He's a British actor and he travels around the world making TV programmes. 'People welcome me everywhere I go and when I get home I remember all the wonderful things that happened in each country.' Nick has travelled to many places but there are a few trips that he would still like to make. 'I'd love to visit South America and go back to Australia one day,' he says.\n\nOn each trip, Nick travels with a team of people. They bring the cameras and other filming equipment needed to make the program. Nick doesn't take a lot of things for himself, just a few shirts and trousers, but he always makes sure he has some books in his suitcase.\n\nNick's wife, Helen, doesn't mind him travelling for his work. She has a lot of friends and keeps busy. When he gets back, she likes to listen to all his travel stories. But sometimes there are problems. When he was in the Malaysian rain forest, Nick heard that his wife was ill in hospital. I felt terrible because I couldn't help, but she didn't want me to come home. I was so happy when I heard she was better.'",
         "question": "Nick buys something to take home from every country he visits.",
         "options": [
             "Right",
@@ -2409,7 +2409,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Nick Barlow loves his work. He's a British actor and he travels around the world making TV programmes...",
+        "passage": "Nick Barlow loves his work. He's a British actor and he travels around the world making TV programmes. 'People welcome me everywhere I go and when I get home I remember all the wonderful things that happened in each country.' Nick has travelled to many places but there are a few trips that he would still like to make. 'I'd love to visit South America and go back to Australia one day,' he says.\n\nOn each trip, Nick travels with a team of people. They bring the cameras and other filming equipment needed to make the program. Nick doesn't take a lot of things for himself, just a few shirts and trousers, but he always makes sure he has some books in his suitcase.\n\nNick's wife, Helen, doesn't mind him travelling for his work. She has a lot of friends and keeps busy. When he gets back, she likes to listen to all his travel stories. But sometimes there are problems. When he was in the Malaysian rain forest, Nick heard that his wife was ill in hospital. I felt terrible because I couldn't help, but she didn't want me to come home. I was so happy when I heard she was better.'",
         "question": "On some trips, Nick travels alone.",
         "options": [
             "Right",
@@ -2420,7 +2420,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Nick Barlow loves his work. He's a British actor and he travels around the world making TV programmes...",
+        "passage": "Nick Barlow loves his work. He's a British actor and he travels around the world making TV programmes. 'People welcome me everywhere I go and when I get home I remember all the wonderful things that happened in each country.' Nick has travelled to many places but there are a few trips that he would still like to make. 'I'd love to visit South America and go back to Australia one day,' he says.\n\nOn each trip, Nick travels with a team of people. They bring the cameras and other filming equipment needed to make the program. Nick doesn't take a lot of things for himself, just a few shirts and trousers, but he always makes sure he has some books in his suitcase.\n\nNick's wife, Helen, doesn't mind him travelling for his work. She has a lot of friends and keeps busy. When he gets back, she likes to listen to all his travel stories. But sometimes there are problems. When he was in the Malaysian rain forest, Nick heard that his wife was ill in hospital. I felt terrible because I couldn't help, but she didn't want me to come home. I was so happy when I heard she was better.'",
         "question": "There are often problems with the television cameras.",
         "options": [
             "Right",
@@ -2431,7 +2431,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Nick Barlow loves his work. He's a British actor and he travels around the world making TV programmes...",
+        "passage": "Nick Barlow loves his work. He's a British actor and he travels around the world making TV programmes. 'People welcome me everywhere I go and when I get home I remember all the wonderful things that happened in each country.' Nick has travelled to many places but there are a few trips that he would still like to make. 'I'd love to visit South America and go back to Australia one day,' he says.\n\nOn each trip, Nick travels with a team of people. They bring the cameras and other filming equipment needed to make the program. Nick doesn't take a lot of things for himself, just a few shirts and trousers, but he always makes sure he has some books in his suitcase.\n\nNick's wife, Helen, doesn't mind him travelling for his work. She has a lot of friends and keeps busy. When he gets back, she likes to listen to all his travel stories. But sometimes there are problems. When he was in the Malaysian rain forest, Nick heard that his wife was ill in hospital. I felt terrible because I couldn't help, but she didn't want me to come home. I was so happy when I heard she was better.'",
         "question": "Every time Nick goes away, he packs something to read.",
         "options": [
             "Right",
@@ -2442,7 +2442,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Nick Barlow loves his work. He's a British actor and he travels around the world making TV programmes...",
+        "passage": "Nick Barlow loves his work. He's a British actor and he travels around the world making TV programmes. 'People welcome me everywhere I go and when I get home I remember all the wonderful things that happened in each country.' Nick has travelled to many places but there are a few trips that he would still like to make. 'I'd love to visit South America and go back to Australia one day,' he says.\n\nOn each trip, Nick travels with a team of people. They bring the cameras and other filming equipment needed to make the program. Nick doesn't take a lot of things for himself, just a few shirts and trousers, but he always makes sure he has some books in his suitcase.\n\nNick's wife, Helen, doesn't mind him travelling for his work. She has a lot of friends and keeps busy. When he gets back, she likes to listen to all his travel stories. But sometimes there are problems. When he was in the Malaysian rain forest, Nick heard that his wife was ill in hospital. I felt terrible because I couldn't help, but she didn't want me to come home. I was so happy when I heard she was better.'",
         "question": "Helen is unhappy when he's away from home.",
         "options": [
             "Right",
@@ -2453,7 +2453,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Nick Barlow loves his work. He's a British actor and he travels around the world making TV programmes...",
+        "passage": "Nick Barlow loves his work. He's a British actor and he travels around the world making TV programmes. 'People welcome me everywhere I go and when I get home I remember all the wonderful things that happened in each country.' Nick has travelled to many places but there are a few trips that he would still like to make. 'I'd love to visit South America and go back to Australia one day,' he says.\n\nOn each trip, Nick travels with a team of people. They bring the cameras and other filming equipment needed to make the program. Nick doesn't take a lot of things for himself, just a few shirts and trousers, but he always makes sure he has some books in his suitcase.\n\nNick's wife, Helen, doesn't mind him travelling for his work. She has a lot of friends and keeps busy. When he gets back, she likes to listen to all his travel stories. But sometimes there are problems. When he was in the Malaysian rain forest, Nick heard that his wife was ill in hospital. I felt terrible because I couldn't help, but she didn't want me to come home. I was so happy when I heard she was better.'",
         "question": "When Helen was sick, Nick returned home.",
         "options": [
             "Right",
@@ -2464,7 +2464,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "David Johnson has loved swimming all his life...",
+        "passage": "David Johnson has loved swimming all his life. When he was 27, he swam in a race near his home in the USA. The sea was very cold and David started to feel unwell. He was taken to hospital but he soon got better and started swimming again. In 1983, he became the first person to swim from Santa Cruz Island to the Californian coast.\n\nIn January 2004, at the age of 52, David crossed New Zealand's Cook Strait in 9 hours and 38 minutes. The oldest swimmer before David was only 42 years old. David spent over a year getting ready to swim the Strait. Then, he and his wife flew to New Zealand so that David could practise for a few weeks there. But, only days after they arrived, the weather improved so David decided to start his swim. He did it with the help of a team. 'They were great' David said. 'They were in a boat next to me all the time! After a few hours, I thought about stopping but I didn't and went on swimming.'\n\nAfterwards, David and his wife travelled around New Zealand before returning to the USA.",
         "question": "David Johnson had problems during a swimming competition in the USA.",
         "options": [
             "Right",
@@ -2475,7 +2475,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "David Johnson has loved swimming all his life...",
+        "passage": "David Johnson has loved swimming all his life. When he was 27, he swam in a race near his home in the USA. The sea was very cold and David started to feel unwell. He was taken to hospital but he soon got better and started swimming again. In 1983, he became the first person to swim from Santa Cruz Island to the Californian coast.\n\nIn January 2004, at the age of 52, David crossed New Zealand's Cook Strait in 9 hours and 38 minutes. The oldest swimmer before David was only 42 years old. David spent over a year getting ready to swim the Strait. Then, he and his wife flew to New Zealand so that David could practise for a few weeks there. But, only days after they arrived, the weather improved so David decided to start his swim. He did it with the help of a team. 'They were great' David said. 'They were in a boat next to me all the time! After a few hours, I thought about stopping but I didn't and went on swimming.'\n\nAfterwards, David and his wife travelled around New Zealand before returning to the USA.",
         "question": "After 1983, many people swam between Santa Cruz Island and the Californian coast.",
         "options": [
             "Right",
@@ -2486,7 +2486,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "David Johnson has loved swimming all his life...",
+        "passage": "David Johnson has loved swimming all his life. When he was 27, he swam in a race near his home in the USA. The sea was very cold and David started to feel unwell. He was taken to hospital but he soon got better and started swimming again. In 1983, he became the first person to swim from Santa Cruz Island to the Californian coast.\n\nIn January 2004, at the age of 52, David crossed New Zealand's Cook Strait in 9 hours and 38 minutes. The oldest swimmer before David was only 42 years old. David spent over a year getting ready to swim the Strait. Then, he and his wife flew to New Zealand so that David could practise for a few weeks there. But, only days after they arrived, the weather improved so David decided to start his swim. He did it with the help of a team. 'They were great' David said. 'They were in a boat next to me all the time! After a few hours, I thought about stopping but I didn't and went on swimming.'\n\nAfterwards, David and his wife travelled around New Zealand before returning to the USA.",
         "question": "In January 2004, David was the first person of his age to swim across the Cook Strait.",
         "options": [
             "Right",
@@ -2497,7 +2497,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "David Johnson has loved swimming all his life...",
+        "passage": "David Johnson has loved swimming all his life. When he was 27, he swam in a race near his home in the USA. The sea was very cold and David started to feel unwell. He was taken to hospital but he soon got better and started swimming again. In 1983, he became the first person to swim from Santa Cruz Island to the Californian coast.\n\nIn January 2004, at the age of 52, David crossed New Zealand's Cook Strait in 9 hours and 38 minutes. The oldest swimmer before David was only 42 years old. David spent over a year getting ready to swim the Strait. Then, he and his wife flew to New Zealand so that David could practise for a few weeks there. But, only days after they arrived, the weather improved so David decided to start his swim. He did it with the help of a team. 'They were great' David said. 'They were in a boat next to me all the time! After a few hours, I thought about stopping but I didn't and went on swimming.'\n\nAfterwards, David and his wife travelled around New Zealand before returning to the USA.",
         "question": "David practiced for more than a year to swim across the Cook Strait.",
         "options": [
             "Right",
@@ -2508,7 +2508,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "David Johnson has loved swimming all his life...",
+        "passage": "David Johnson has loved swimming all his life. When he was 27, he swam in a race near his home in the USA. The sea was very cold and David started to feel unwell. He was taken to hospital but he soon got better and started swimming again. In 1983, he became the first person to swim from Santa Cruz Island to the Californian coast.\n\nIn January 2004, at the age of 52, David crossed New Zealand's Cook Strait in 9 hours and 38 minutes. The oldest swimmer before David was only 42 years old. David spent over a year getting ready to swim the Strait. Then, he and his wife flew to New Zealand so that David could practise for a few weeks there. But, only days after they arrived, the weather improved so David decided to start his swim. He did it with the help of a team. 'They were great' David said. 'They were in a boat next to me all the time! After a few hours, I thought about stopping but I didn't and went on swimming.'\n\nAfterwards, David and his wife travelled around New Zealand before returning to the USA.",
         "question": "David was in New Zealand for a long time before he swam across the Cook Strait.",
         "options": [
             "Right",
@@ -2519,7 +2519,7 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "David Johnson has loved swimming all his life...",
+        "passage": "David Johnson has loved swimming all his life. When he was 27, he swam in a race near his home in the USA. The sea was very cold and David started to feel unwell. He was taken to hospital but he soon got better and started swimming again. In 1983, he became the first person to swim from Santa Cruz Island to the Californian coast.\n\nIn January 2004, at the age of 52, David crossed New Zealand's Cook Strait in 9 hours and 38 minutes. The oldest swimmer before David was only 42 years old. David spent over a year getting ready to swim the Strait. Then, he and his wife flew to New Zealand so that David could practise for a few weeks there. But, only days after they arrived, the weather improved so David decided to start his swim. He did it with the help of a team. 'They were great' David said. 'They were in a boat next to me all the time! After a few hours, I thought about stopping but I didn't and went on swimming.'\n\nAfterwards, David and his wife travelled around New Zealand before returning to the USA.",
         "question": "David's wife was in the boat beside him when he swam the Cook Strait.",
         "options": [
             "Right",
@@ -2530,12 +2530,162 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "David Johnson has loved swimming all his life...",
+        "passage": "David Johnson has loved swimming all his life. When he was 27, he swam in a race near his home in the USA. The sea was very cold and David started to feel unwell. He was taken to hospital but he soon got better and started swimming again. In 1983, he became the first person to swim from Santa Cruz Island to the Californian coast.\n\nIn January 2004, at the age of 52, David crossed New Zealand's Cook Strait in 9 hours and 38 minutes. The oldest swimmer before David was only 42 years old. David spent over a year getting ready to swim the Strait. Then, he and his wife flew to New Zealand so that David could practise for a few weeks there. But, only days after they arrived, the weather improved so David decided to start his swim. He did it with the help of a team. 'They were great' David said. 'They were in a boat next to me all the time! After a few hours, I thought about stopping but I didn't and went on swimming.'\n\nAfterwards, David and his wife travelled around New Zealand before returning to the USA.",
         "question": "David had to stop for a short time while swimming the Cook Strait.",
         "options": [
             "Right",
             "Wrong",
             "Doesn't say"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (T/F)",
+        "passage": "Not long ago people believed that in the future we would work less, have more free time, and be more relaxed. But sadly this has not happened. Today we work harder, work longer hours, and are more stressed than ten years ago. We walk faster, talk faster, and sleep less than previous generations. And although we are obsessed with machines which save us time, we have less free time than our parents and grandparents had.\n\nBut what is this doing to our health? An American journalist James Gleick in a new book, Faster: the acceleration of just about everything, says that people who live in cities are suffering from 'hurry sickness' - we are always trying to do more things in less time. As a result, our lives are more stressful. He says that if we don't slow down, we won't live as long as our parents. For most people, faster doesn't mean better.\n\n1 No time for the news\nNewspaper articles today are shorter and the headlines are bigger. Most people don't have enough time to read the articles, they only read the headlines! On TV and the radio, newsreaders speak more quickly than ten years ago.\n\n2 No time for stories\nIn the USA there is a book called One-Minute Bedtime Stories for children. These are shorter versions of traditional stories, specially written for 'busy parents' who want to save time!\n\n3. No time to listen\nSome answerphones now have 'quick playback' buttons so that we can re-play people's messages faster - we can't waste time listening to people speaking at normal speed.\n\n4 No time to relax\nEven when we relax we do everything more quickly. Ten years ago when people went to art galleries they spent ten seconds looking at each picture. Today they spend just three seconds!\n\n5 No time for slow sports\nIn the USA the national sport, baseball, is not as popular as before it is a slow game and matches take a long time. Nowadays many people prefer faster and more dynamic sports like basketball.\n\n6...but more time in our cars\nThe only thing that is slower than before is the way we drive. Our cars are faster but the traffic is worse so we drive more slowly. We spend more time sitting in our cars, feeling stressed because we are worried that we won't arrive on time. Experts predict that in ten years' time the average speed on the road in cities will be 17 km/h.",
+        "question": "The writer wrote the article to encourage us to work more and relax less.",
+        "options": [
+            "TRUE",
+            "FALSE"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (T/F)",
+        "passage": "Not long ago people believed that in the future we would work less, have more free time, and be more relaxed. But sadly this has not happened. Today we work harder, work longer hours, and are more stressed than ten years ago. We walk faster, talk faster, and sleep less than previous generations. And although we are obsessed with machines which save us time, we have less free time than our parents and grandparents had.\n\nBut what is this doing to our health? An American journalist James Gleick in a new book, Faster: the acceleration of just about everything, says that people who live in cities are suffering from 'hurry sickness' - we are always trying to do more things in less time. As a result, our lives are more stressful. He says that if we don't slow down, we won't live as long as our parents. For most people, faster doesn't mean better.\n\n1 No time for the news\nNewspaper articles today are shorter and the headlines are bigger. Most people don't have enough time to read the articles, they only read the headlines! On TV and the radio, newsreaders speak more quickly than ten years ago.\n\n2 No time for stories\nIn the USA there is a book called One-Minute Bedtime Stories for children. These are shorter versions of traditional stories, specially written for 'busy parents' who want to save time!\n\n3. No time to listen\nSome answerphones now have 'quick playback' buttons so that we can re-play people's messages faster - we can't waste time listening to people speaking at normal speed.\n\n4 No time to relax\nEven when we relax we do everything more quickly. Ten years ago when people went to art galleries they spent ten seconds looking at each picture. Today they spend just three seconds!\n\n5 No time for slow sports\nIn the USA the national sport, baseball, is not as popular as before it is a slow game and matches take a long time. Nowadays many people prefer faster and more dynamic sports like basketball.\n\n6...but more time in our cars\nThe only thing that is slower than before is the way we drive. Our cars are faster but the traffic is worse so we drive more slowly. We spend more time sitting in our cars, feeling stressed because we are worried that we won't arrive on time. Experts predict that in ten years' time the average speed on the road in cities will be 17 km/h.",
+        "question": "People today are having a less stressful life than they did in the past.",
+        "options": [
+            "TRUE",
+            "FALSE"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (T/F)",
+        "passage": "Not long ago people believed that in the future we would work less, have more free time, and be more relaxed. But sadly this has not happened. Today we work harder, work longer hours, and are more stressed than ten years ago. We walk faster, talk faster, and sleep less than previous generations. And although we are obsessed with machines which save us time, we have less free time than our parents and grandparents had.\n\nBut what is this doing to our health? An American journalist James Gleick in a new book, Faster: the acceleration of just about everything, says that people who live in cities are suffering from 'hurry sickness' - we are always trying to do more things in less time. As a result, our lives are more stressful. He says that if we don't slow down, we won't live as long as our parents. For most people, faster doesn't mean better.\n\n1 No time for the news\nNewspaper articles today are shorter and the headlines are bigger. Most people don't have enough time to read the articles, they only read the headlines! On TV and the radio, newsreaders speak more quickly than ten years ago.\n\n2 No time for stories\nIn the USA there is a book called One-Minute Bedtime Stories for children. These are shorter versions of traditional stories, specially written for 'busy parents' who want to save time!\n\n3. No time to listen\nSome answerphones now have 'quick playback' buttons so that we can re-play people's messages faster - we can't waste time listening to people speaking at normal speed.\n\n4 No time to relax\nEven when we relax we do everything more quickly. Ten years ago when people went to art galleries they spent ten seconds looking at each picture. Today they spend just three seconds!\n\n5 No time for slow sports\nIn the USA the national sport, baseball, is not as popular as before it is a slow game and matches take a long time. Nowadays many people prefer faster and more dynamic sports like basketball.\n\n6...but more time in our cars\nThe only thing that is slower than before is the way we drive. Our cars are faster but the traffic is worse so we drive more slowly. We spend more time sitting in our cars, feeling stressed because we are worried that we won't arrive on time. Experts predict that in ten years' time the average speed on the road in cities will be 17 km/h.",
+        "question": "People are too busy to read newspapers.",
+        "options": [
+            "TRUE",
+            "FALSE"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Đọc Hiểu (T/F)",
+        "passage": "Not long ago people believed that in the future we would work less, have more free time, and be more relaxed. But sadly this has not happened. Today we work harder, work longer hours, and are more stressed than ten years ago. We walk faster, talk faster, and sleep less than previous generations. And although we are obsessed with machines which save us time, we have less free time than our parents and grandparents had.\n\nBut what is this doing to our health? An American journalist James Gleick in a new book, Faster: the acceleration of just about everything, says that people who live in cities are suffering from 'hurry sickness' - we are always trying to do more things in less time. As a result, our lives are more stressful. He says that if we don't slow down, we won't live as long as our parents. For most people, faster doesn't mean better.\n\n1 No time for the news\nNewspaper articles today are shorter and the headlines are bigger. Most people don't have enough time to read the articles, they only read the headlines! On TV and the radio, newsreaders speak more quickly than ten years ago.\n\n2 No time for stories\nIn the USA there is a book called One-Minute Bedtime Stories for children. These are shorter versions of traditional stories, specially written for 'busy parents' who want to save time!\n\n3. No time to listen\nSome answerphones now have 'quick playback' buttons so that we can re-play people's messages faster - we can't waste time listening to people speaking at normal speed.\n\n4 No time to relax\nEven when we relax we do everything more quickly. Ten years ago when people went to art galleries they spent ten seconds looking at each picture. Today they spend just three seconds!\n\n5 No time for slow sports\nIn the USA the national sport, baseball, is not as popular as before it is a slow game and matches take a long time. Nowadays many people prefer faster and more dynamic sports like basketball.\n\n6...but more time in our cars\nThe only thing that is slower than before is the way we drive. Our cars are faster but the traffic is worse so we drive more slowly. We spend more time sitting in our cars, feeling stressed because we are worried that we won't arrive on time. Experts predict that in ten years' time the average speed on the road in cities will be 17 km/h.",
+        "question": "Slow sports have become unpopular.",
+        "options": [
+            "TRUE",
+            "FALSE"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Đọc Hiểu (T/F)",
+        "passage": "Not long ago people believed that in the future we would work less, have more free time, and be more relaxed. But sadly this has not happened. Today we work harder, work longer hours, and are more stressed than ten years ago. We walk faster, talk faster, and sleep less than previous generations. And although we are obsessed with machines which save us time, we have less free time than our parents and grandparents had.\n\nBut what is this doing to our health? An American journalist James Gleick in a new book, Faster: the acceleration of just about everything, says that people who live in cities are suffering from 'hurry sickness' - we are always trying to do more things in less time. As a result, our lives are more stressful. He says that if we don't slow down, we won't live as long as our parents. For most people, faster doesn't mean better.\n\n1 No time for the news\nNewspaper articles today are shorter and the headlines are bigger. Most people don't have enough time to read the articles, they only read the headlines! On TV and the radio, newsreaders speak more quickly than ten years ago.\n\n2 No time for stories\nIn the USA there is a book called One-Minute Bedtime Stories for children. These are shorter versions of traditional stories, specially written for 'busy parents' who want to save time!\n\n3. No time to listen\nSome answerphones now have 'quick playback' buttons so that we can re-play people's messages faster - we can't waste time listening to people speaking at normal speed.\n\n4 No time to relax\nEven when we relax we do everything more quickly. Ten years ago when people went to art galleries they spent ten seconds looking at each picture. Today they spend just three seconds!\n\n5 No time for slow sports\nIn the USA the national sport, baseball, is not as popular as before it is a slow game and matches take a long time. Nowadays many people prefer faster and more dynamic sports like basketball.\n\n6...but more time in our cars\nThe only thing that is slower than before is the way we drive. Our cars are faster but the traffic is worse so we drive more slowly. We spend more time sitting in our cars, feeling stressed because we are worried that we won't arrive on time. Experts predict that in ten years' time the average speed on the road in cities will be 17 km/h.",
+        "question": "More time is spent on stories.",
+        "options": [
+            "TRUE",
+            "FALSE"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (T/F)",
+        "passage": "1. Prince William is a member of the British royal family. He's the Queen's grandson and the eldest son of Charles and Diana. His brother's name is Harry. Diana, their mother, isn't alive now, but they have a stepmother, Camilla.\n\n2. William's wife is Kate Middleton. She's originally from an ordinary family but of course, she's now the Duchess of Cambridge and part of the royal family. Kate has a brother, James, and a sister, Pippa. Their parents, Michael and Carole, have an online business.\n\n3. In some ways, Kate and William are a normal couple. They have friends from university and they have hobbies and interests too. For example, William loves football and Kate likes photography. In the winter, they go skiing together.\n\n4. In other ways, their lives are very different from their friends' lives. William is the future King of the United Kingdom and fifteen other countries too, including Canada and Australia. Kate and William have a lot of official duties. They help charities in the UK and Africa, they visit other countries and they meet important visitors to the UK.\n\n5. The Duchess of Cambridge is expecting a baby, St James's Palace has confirmed. All the members of the royal family and the Duchess's family, the Middletons, are delighted: 'The Queen, the Duke of Edinburgh, the Prince of Wales, the Duchess of Cornwall and Prince Harry and members of both families are delighted with the news.'\n\nThe baby will be third in line to the throne, after Prince Charles and Prince William. A spokesman said the Duchess has been admitted to King Edward VII Hospital in central London with acute morning sickness and is expected to stay for several days: 'As the pregnancy is in its very early stages, her royal highness is expected to stay in hospital for several days and will require a period of rest thereafter.'\n\n6. Prince William, the Duke of Cambridge, says he and his wife 'could not be happier' after the Duchess gave birth to a baby boy, at 16:30, 22nd July 2013 UK time at St Mary's Hospital, west London. William was present at St Mary's for the birth. The young parents spent time with their son before telling the news to their families and the world. The Queen's gynecologist Marcus Setchell, who led the team that delivered the baby, described the new arrival as 'wonderful baby, beautiful baby'. A bulletin signed by him was taken by a royal aide from St Mary's to the palace under police escort. The news has been since displayed on an easel in the forecourt of Buckingham Palace in line with tradition. A palace spokesman said the names of the baby would be announced in due course. A Buckingham Palace spokesman said: 'The Queen and Duke of Edinburgh are delighted at the news.'",
+        "question": "Camilla is William's mother.",
+        "options": [
+            "TRUE",
+            "FALSE"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (T/F)",
+        "passage": "1. Prince William is a member of the British royal family. He's the Queen's grandson and the eldest son of Charles and Diana. His brother's name is Harry. Diana, their mother, isn't alive now, but they have a stepmother, Camilla.\n\n2. William's wife is Kate Middleton. She's originally from an ordinary family but of course, she's now the Duchess of Cambridge and part of the royal family. Kate has a brother, James, and a sister, Pippa. Their parents, Michael and Carole, have an online business.\n\n3. In some ways, Kate and William are a normal couple. They have friends from university and they have hobbies and interests too. For example, William loves football and Kate likes photography. In the winter, they go skiing together.\n\n4. In other ways, their lives are very different from their friends' lives. William is the future King of the United Kingdom and fifteen other countries too, including Canada and Australia. Kate and William have a lot of official duties. They help charities in the UK and Africa, they visit other countries and they meet important visitors to the UK.\n\n5. The Duchess of Cambridge is expecting a baby, St James's Palace has confirmed. All the members of the royal family and the Duchess's family, the Middletons, are delighted: 'The Queen, the Duke of Edinburgh, the Prince of Wales, the Duchess of Cornwall and Prince Harry and members of both families are delighted with the news.'\n\nThe baby will be third in line to the throne, after Prince Charles and Prince William. A spokesman said the Duchess has been admitted to King Edward VII Hospital in central London with acute morning sickness and is expected to stay for several days: 'As the pregnancy is in its very early stages, her royal highness is expected to stay in hospital for several days and will require a period of rest thereafter.'\n\n6. Prince William, the Duke of Cambridge, says he and his wife 'could not be happier' after the Duchess gave birth to a baby boy, at 16:30, 22nd July 2013 UK time at St Mary's Hospital, west London. William was present at St Mary's for the birth. The young parents spent time with their son before telling the news to their families and the world. The Queen's gynecologist Marcus Setchell, who led the team that delivered the baby, described the new arrival as 'wonderful baby, beautiful baby'. A bulletin signed by him was taken by a royal aide from St Mary's to the palace under police escort. The news has been since displayed on an easel in the forecourt of Buckingham Palace in line with tradition. A palace spokesman said the names of the baby would be announced in due course. A Buckingham Palace spokesman said: 'The Queen and Duke of Edinburgh are delighted at the news.'",
+        "question": "William's wife is the Duchess of Cambridge.",
+        "options": [
+            "TRUE",
+            "FALSE"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Đọc Hiểu (T/F)",
+        "passage": "1. Prince William is a member of the British royal family. He's the Queen's grandson and the eldest son of Charles and Diana. His brother's name is Harry. Diana, their mother, isn't alive now, but they have a stepmother, Camilla.\n\n2. William's wife is Kate Middleton. She's originally from an ordinary family but of course, she's now the Duchess of Cambridge and part of the royal family. Kate has a brother, James, and a sister, Pippa. Their parents, Michael and Carole, have an online business.\n\n3. In some ways, Kate and William are a normal couple. They have friends from university and they have hobbies and interests too. For example, William loves football and Kate likes photography. In the winter, they go skiing together.\n\n4. In other ways, their lives are very different from their friends' lives. William is the future King of the United Kingdom and fifteen other countries too, including Canada and Australia. Kate and William have a lot of official duties. They help charities in the UK and Africa, they visit other countries and they meet important visitors to the UK.\n\n5. The Duchess of Cambridge is expecting a baby, St James's Palace has confirmed. All the members of the royal family and the Duchess's family, the Middletons, are delighted: 'The Queen, the Duke of Edinburgh, the Prince of Wales, the Duchess of Cornwall and Prince Harry and members of both families are delighted with the news.'\n\nThe baby will be third in line to the throne, after Prince Charles and Prince William. A spokesman said the Duchess has been admitted to King Edward VII Hospital in central London with acute morning sickness and is expected to stay for several days: 'As the pregnancy is in its very early stages, her royal highness is expected to stay in hospital for several days and will require a period of rest thereafter.'\n\n6. Prince William, the Duke of Cambridge, says he and his wife 'could not be happier' after the Duchess gave birth to a baby boy, at 16:30, 22nd July 2013 UK time at St Mary's Hospital, west London. William was present at St Mary's for the birth. The young parents spent time with their son before telling the news to their families and the world. The Queen's gynecologist Marcus Setchell, who led the team that delivered the baby, described the new arrival as 'wonderful baby, beautiful baby'. A bulletin signed by him was taken by a royal aide from St Mary's to the palace under police escort. The news has been since displayed on an easel in the forecourt of Buckingham Palace in line with tradition. A palace spokesman said the names of the baby would be announced in due course. A Buckingham Palace spokesman said: 'The Queen and Duke of Edinburgh are delighted at the news.'",
+        "question": "Kate is one of two children.",
+        "options": [
+            "TRUE",
+            "FALSE"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (T/F)",
+        "passage": "1. Prince William is a member of the British royal family. He's the Queen's grandson and the eldest son of Charles and Diana. His brother's name is Harry. Diana, their mother, isn't alive now, but they have a stepmother, Camilla.\n\n2. William's wife is Kate Middleton. She's originally from an ordinary family but of course, she's now the Duchess of Cambridge and part of the royal family. Kate has a brother, James, and a sister, Pippa. Their parents, Michael and Carole, have an online business.\n\n3. In some ways, Kate and William are a normal couple. They have friends from university and they have hobbies and interests too. For example, William loves football and Kate likes photography. In the winter, they go skiing together.\n\n4. In other ways, their lives are very different from their friends' lives. William is the future King of the United Kingdom and fifteen other countries too, including Canada and Australia. Kate and William have a lot of official duties. They help charities in the UK and Africa, they visit other countries and they meet important visitors to the UK.\n\n5. The Duchess of Cambridge is expecting a baby, St James's Palace has confirmed. All the members of the royal family and the Duchess's family, the Middletons, are delighted: 'The Queen, the Duke of Edinburgh, the Prince of Wales, the Duchess of Cornwall and Prince Harry and members of both families are delighted with the news.'\n\nThe baby will be third in line to the throne, after Prince Charles and Prince William. A spokesman said the Duchess has been admitted to King Edward VII Hospital in central London with acute morning sickness and is expected to stay for several days: 'As the pregnancy is in its very early stages, her royal highness is expected to stay in hospital for several days and will require a period of rest thereafter.'\n\n6. Prince William, the Duke of Cambridge, says he and his wife 'could not be happier' after the Duchess gave birth to a baby boy, at 16:30, 22nd July 2013 UK time at St Mary's Hospital, west London. William was present at St Mary's for the birth. The young parents spent time with their son before telling the news to their families and the world. The Queen's gynecologist Marcus Setchell, who led the team that delivered the baby, described the new arrival as 'wonderful baby, beautiful baby'. A bulletin signed by him was taken by a royal aide from St Mary's to the palace under police escort. The news has been since displayed on an easel in the forecourt of Buckingham Palace in line with tradition. A palace spokesman said the names of the baby would be announced in due course. A Buckingham Palace spokesman said: 'The Queen and Duke of Edinburgh are delighted at the news.'",
+        "question": "James is William's cousin.",
+        "options": [
+            "TRUE",
+            "FALSE"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (T/F)",
+        "passage": "1. Prince William is a member of the British royal family. He's the Queen's grandson and the eldest son of Charles and Diana. His brother's name is Harry. Diana, their mother, isn't alive now, but they have a stepmother, Camilla.\n\n2. William's wife is Kate Middleton. She's originally from an ordinary family but of course, she's now the Duchess of Cambridge and part of the royal family. Kate has a brother, James, and a sister, Pippa. Their parents, Michael and Carole, have an online business.\n\n3. In some ways, Kate and William are a normal couple. They have friends from university and they have hobbies and interests too. For example, William loves football and Kate likes photography. In the winter, they go skiing together.\n\n4. In other ways, their lives are very different from their friends' lives. William is the future King of the United Kingdom and fifteen other countries too, including Canada and Australia. Kate and William have a lot of official duties. They help charities in the UK and Africa, they visit other countries and they meet important visitors to the UK.\n\n5. The Duchess of Cambridge is expecting a baby, St James's Palace has confirmed. All the members of the royal family and the Duchess's family, the Middletons, are delighted: 'The Queen, the Duke of Edinburgh, the Prince of Wales, the Duchess of Cornwall and Prince Harry and members of both families are delighted with the news.'\n\nThe baby will be third in line to the throne, after Prince Charles and Prince William. A spokesman said the Duchess has been admitted to King Edward VII Hospital in central London with acute morning sickness and is expected to stay for several days: 'As the pregnancy is in its very early stages, her royal highness is expected to stay in hospital for several days and will require a period of rest thereafter.'\n\n6. Prince William, the Duke of Cambridge, says he and his wife 'could not be happier' after the Duchess gave birth to a baby boy, at 16:30, 22nd July 2013 UK time at St Mary's Hospital, west London. William was present at St Mary's for the birth. The young parents spent time with their son before telling the news to their families and the world. The Queen's gynecologist Marcus Setchell, who led the team that delivered the baby, described the new arrival as 'wonderful baby, beautiful baby'. A bulletin signed by him was taken by a royal aide from St Mary's to the palace under police escort. The news has been since displayed on an easel in the forecourt of Buckingham Palace in line with tradition. A palace spokesman said the names of the baby would be announced in due course. A Buckingham Palace spokesman said: 'The Queen and Duke of Edinburgh are delighted at the news.'",
+        "question": "William is a football fan.",
+        "options": [
+            "TRUE",
+            "FALSE"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Đọc Hiểu (T/F)",
+        "passage": "1. Prince William is a member of the British royal family. He's the Queen's grandson and the eldest son of Charles and Diana. His brother's name is Harry. Diana, their mother, isn't alive now, but they have a stepmother, Camilla.\n\n2. William's wife is Kate Middleton. She's originally from an ordinary family but of course, she's now the Duchess of Cambridge and part of the royal family. Kate has a brother, James, and a sister, Pippa. Their parents, Michael and Carole, have an online business.\n\n3. In some ways, Kate and William are a normal couple. They have friends from university and they have hobbies and interests too. For example, William loves football and Kate likes photography. In the winter, they go skiing together.\n\n4. In other ways, their lives are very different from their friends' lives. William is the future King of the United Kingdom and fifteen other countries too, including Canada and Australia. Kate and William have a lot of official duties. They help charities in the UK and Africa, they visit other countries and they meet important visitors to the UK.\n\n5. The Duchess of Cambridge is expecting a baby, St James's Palace has confirmed. All the members of the royal family and the Duchess's family, the Middletons, are delighted: 'The Queen, the Duke of Edinburgh, the Prince of Wales, the Duchess of Cornwall and Prince Harry and members of both families are delighted with the news.'\n\nThe baby will be third in line to the throne, after Prince Charles and Prince William. A spokesman said the Duchess has been admitted to King Edward VII Hospital in central London with acute morning sickness and is expected to stay for several days: 'As the pregnancy is in its very early stages, her royal highness is expected to stay in hospital for several days and will require a period of rest thereafter.'\n\n6. Prince William, the Duke of Cambridge, says he and his wife 'could not be happier' after the Duchess gave birth to a baby boy, at 16:30, 22nd July 2013 UK time at St Mary's Hospital, west London. William was present at St Mary's for the birth. The young parents spent time with their son before telling the news to their families and the world. The Queen's gynecologist Marcus Setchell, who led the team that delivered the baby, described the new arrival as 'wonderful baby, beautiful baby'. A bulletin signed by him was taken by a royal aide from St Mary's to the palace under police escort. The news has been since displayed on an easel in the forecourt of Buckingham Palace in line with tradition. A palace spokesman said the names of the baby would be announced in due course. A Buckingham Palace spokesman said: 'The Queen and Duke of Edinburgh are delighted at the news.'",
+        "question": "The King or Queen of England is also the King or Queen of Australia.",
+        "options": [
+            "TRUE",
+            "FALSE"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Đọc Hiểu (T/F)",
+        "passage": "1. Prince William is a member of the British royal family. He's the Queen's grandson and the eldest son of Charles and Diana. His brother's name is Harry. Diana, their mother, isn't alive now, but they have a stepmother, Camilla.\n\n2. William's wife is Kate Middleton. She's originally from an ordinary family but of course, she's now the Duchess of Cambridge and part of the royal family. Kate has a brother, James, and a sister, Pippa. Their parents, Michael and Carole, have an online business.\n\n3. In some ways, Kate and William are a normal couple. They have friends from university and they have hobbies and interests too. For example, William loves football and Kate likes photography. In the winter, they go skiing together.\n\n4. In other ways, their lives are very different from their friends' lives. William is the future King of the United Kingdom and fifteen other countries too, including Canada and Australia. Kate and William have a lot of official duties. They help charities in the UK and Africa, they visit other countries and they meet important visitors to the UK.\n\n5. The Duchess of Cambridge is expecting a baby, St James's Palace has confirmed. All the members of the royal family and the Duchess's family, the Middletons, are delighted: 'The Queen, the Duke of Edinburgh, the Prince of Wales, the Duchess of Cornwall and Prince Harry and members of both families are delighted with the news.'\n\nThe baby will be third in line to the throne, after Prince Charles and Prince William. A spokesman said the Duchess has been admitted to King Edward VII Hospital in central London with acute morning sickness and is expected to stay for several days: 'As the pregnancy is in its very early stages, her royal highness is expected to stay in hospital for several days and will require a period of rest thereafter.'\n\n6. Prince William, the Duke of Cambridge, says he and his wife 'could not be happier' after the Duchess gave birth to a baby boy, at 16:30, 22nd July 2013 UK time at St Mary's Hospital, west London. William was present at St Mary's for the birth. The young parents spent time with their son before telling the news to their families and the world. The Queen's gynecologist Marcus Setchell, who led the team that delivered the baby, described the new arrival as 'wonderful baby, beautiful baby'. A bulletin signed by him was taken by a royal aide from St Mary's to the palace under police escort. The news has been since displayed on an easel in the forecourt of Buckingham Palace in line with tradition. A palace spokesman said the names of the baby would be announced in due course. A Buckingham Palace spokesman said: 'The Queen and Duke of Edinburgh are delighted at the news.'",
+        "question": "William and Kate's son will be first in line to the throne.",
+        "options": [
+            "TRUE",
+            "FALSE"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (T/F)",
+        "passage": "1. Prince William is a member of the British royal family. He's the Queen's grandson and the eldest son of Charles and Diana. His brother's name is Harry. Diana, their mother, isn't alive now, but they have a stepmother, Camilla.\n\n2. William's wife is Kate Middleton. She's originally from an ordinary family but of course, she's now the Duchess of Cambridge and part of the royal family. Kate has a brother, James, and a sister, Pippa. Their parents, Michael and Carole, have an online business.\n\n3. In some ways, Kate and William are a normal couple. They have friends from university and they have hobbies and interests too. For example, William loves football and Kate likes photography. In the winter, they go skiing together.\n\n4. In other ways, their lives are very different from their friends' lives. William is the future King of the United Kingdom and fifteen other countries too, including Canada and Australia. Kate and William have a lot of official duties. They help charities in the UK and Africa, they visit other countries and they meet important visitors to the UK.\n\n5. The Duchess of Cambridge is expecting a baby, St James's Palace has confirmed. All the members of the royal family and the Duchess's family, the Middletons, are delighted: 'The Queen, the Duke of Edinburgh, the Prince of Wales, the Duchess of Cornwall and Prince Harry and members of both families are delighted with the news.'\n\nThe baby will be third in line to the throne, after Prince Charles and Prince William. A spokesman said the Duchess has been admitted to King Edward VII Hospital in central London with acute morning sickness and is expected to stay for several days: 'As the pregnancy is in its very early stages, her royal highness is expected to stay in hospital for several days and will require a period of rest thereafter.'\n\n6. Prince William, the Duke of Cambridge, says he and his wife 'could not be happier' after the Duchess gave birth to a baby boy, at 16:30, 22nd July 2013 UK time at St Mary's Hospital, west London. William was present at St Mary's for the birth. The young parents spent time with their son before telling the news to their families and the world. The Queen's gynecologist Marcus Setchell, who led the team that delivered the baby, described the new arrival as 'wonderful baby, beautiful baby'. A bulletin signed by him was taken by a royal aide from St Mary's to the palace under police escort. The news has been since displayed on an easel in the forecourt of Buckingham Palace in line with tradition. A palace spokesman said the names of the baby would be announced in due course. A Buckingham Palace spokesman said: 'The Queen and Duke of Edinburgh are delighted at the news.'",
+        "question": "Kate gave birth to a baby boy at 4:30pm, 22nd July 2013 UK time.",
+        "options": [
+            "TRUE",
+            "FALSE"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Đọc Hiểu (T/F)",
+        "passage": "1. Prince William is a member of the British royal family. He's the Queen's grandson and the eldest son of Charles and Diana. His brother's name is Harry. Diana, their mother, isn't alive now, but they have a stepmother, Camilla.\n\n2. William's wife is Kate Middleton. She's originally from an ordinary family but of course, she's now the Duchess of Cambridge and part of the royal family. Kate has a brother, James, and a sister, Pippa. Their parents, Michael and Carole, have an online business.\n\n3. In some ways, Kate and William are a normal couple. They have friends from university and they have hobbies and interests too. For example, William loves football and Kate likes photography. In the winter, they go skiing together.\n\n4. In other ways, their lives are very different from their friends' lives. William is the future King of the United Kingdom and fifteen other countries too, including Canada and Australia. Kate and William have a lot of official duties. They help charities in the UK and Africa, they visit other countries and they meet important visitors to the UK.\n\n5. The Duchess of Cambridge is expecting a baby, St James's Palace has confirmed. All the members of the royal family and the Duchess's family, the Middletons, are delighted: 'The Queen, the Duke of Edinburgh, the Prince of Wales, the Duchess of Cornwall and Prince Harry and members of both families are delighted with the news.'\n\nThe baby will be third in line to the throne, after Prince Charles and Prince William. A spokesman said the Duchess has been admitted to King Edward VII Hospital in central London with acute morning sickness and is expected to stay for several days: 'As the pregnancy is in its very early stages, her royal highness is expected to stay in hospital for several days and will require a period of rest thereafter.'\n\n6. Prince William, the Duke of Cambridge, says he and his wife 'could not be happier' after the Duchess gave birth to a baby boy, at 16:30, 22nd July 2013 UK time at St Mary's Hospital, west London. William was present at St Mary's for the birth. The young parents spent time with their son before telling the news to their families and the world. The Queen's gynecologist Marcus Setchell, who led the team that delivered the baby, described the new arrival as 'wonderful baby, beautiful baby'. A bulletin signed by him was taken by a royal aide from St Mary's to the palace under police escort. The news has been since displayed on an easel in the forecourt of Buckingham Palace in line with tradition. A palace spokesman said the names of the baby would be announced in due course. A Buckingham Palace spokesman said: 'The Queen and Duke of Edinburgh are delighted at the news.'",
+        "question": "William was absent from St Mary's for the birth.",
+        "options": [
+            "TRUE",
+            "FALSE"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (T/F)",
+        "passage": "1. Prince William is a member of the British royal family. He's the Queen's grandson and the eldest son of Charles and Diana. His brother's name is Harry. Diana, their mother, isn't alive now, but they have a stepmother, Camilla.\n\n2. William's wife is Kate Middleton. She's originally from an ordinary family but of course, she's now the Duchess of Cambridge and part of the royal family. Kate has a brother, James, and a sister, Pippa. Their parents, Michael and Carole, have an online business.\n\n3. In some ways, Kate and William are a normal couple. They have friends from university and they have hobbies and interests too. For example, William loves football and Kate likes photography. In the winter, they go skiing together.\n\n4. In other ways, their lives are very different from their friends' lives. William is the future King of the United Kingdom and fifteen other countries too, including Canada and Australia. Kate and William have a lot of official duties. They help charities in the UK and Africa, they visit other countries and they meet important visitors to the UK.\n\n5. The Duchess of Cambridge is expecting a baby, St James's Palace has confirmed. All the members of the royal family and the Duchess's family, the Middletons, are delighted: 'The Queen, the Duke of Edinburgh, the Prince of Wales, the Duchess of Cornwall and Prince Harry and members of both families are delighted with the news.'\n\nThe baby will be third in line to the throne, after Prince Charles and Prince William. A spokesman said the Duchess has been admitted to King Edward VII Hospital in central London with acute morning sickness and is expected to stay for several days: 'As the pregnancy is in its very early stages, her royal highness is expected to stay in hospital for several days and will require a period of rest thereafter.'\n\n6. Prince William, the Duke of Cambridge, says he and his wife 'could not be happier' after the Duchess gave birth to a baby boy, at 16:30, 22nd July 2013 UK time at St Mary's Hospital, west London. William was present at St Mary's for the birth. The young parents spent time with their son before telling the news to their families and the world. The Queen's gynecologist Marcus Setchell, who led the team that delivered the baby, described the new arrival as 'wonderful baby, beautiful baby'. A bulletin signed by him was taken by a royal aide from St Mary's to the palace under police escort. The news has been since displayed on an easel in the forecourt of Buckingham Palace in line with tradition. A palace spokesman said the names of the baby would be announced in due course. A Buckingham Palace spokesman said: 'The Queen and Duke of Edinburgh are delighted at the news.'",
+        "question": "Few people in England knew about Kate giving birth to a baby boy.",
+        "options": [
+            "TRUE",
+            "FALSE"
         ],
         "answer": 1
     }
@@ -2574,7 +2724,7 @@ else:
 
 
 st.title("📚 Ôn Tập Tiếng Anh EHOU")
-st.caption(f"Ngân hàng {len(QUIZ_DATA)} câu hỏi tổng hợp từ 13 tệp (Đã bổ sung 30 bài Đọc Hiểu)")
+st.caption(f"Ngân hàng {len(QUIZ_DATA)} câu hỏi (Đã hiển thị TOÀN BỘ nội dung bài đọc hiểu)")
 
 total_q = len(current_quiz_data)
 
