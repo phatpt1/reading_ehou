@@ -550,6 +550,354 @@ QUIZ_DATA = [
         "answer": 0
     },
     {
+        "category": "Đọc Hiểu (Gap Fill)",
+        "passage": "In most countries, almost all schools (1)__ private until the early 1800's. At that time, many government leaders...",
+        "question": "almost all schools (1)__ private until the early 1800's",
+        "options": [
+            "have",
+            "had",
+            "are",
+            "were"
+        ],
+        "answer": 3
+    },
+    {
+        "category": "Đọc Hiểu (Gap Fill)",
+        "passage": "In most countries, almost all schools (1)__ private until the early 1800's. At that time, many government leaders...",
+        "question": "promote national progress by (2)__ education widely available",
+        "options": [
+            "make",
+            "made",
+            "making",
+            "to make"
+        ],
+        "answer": 2
+    },
+    {
+        "category": "Đọc Hiểu (Gap Fill)",
+        "passage": "In most countries, almost all schools (1)__ private until the early 1800's. At that time, many government leaders...",
+        "question": "differs (3)__ one country to another",
+        "options": [
+            "about",
+            "from",
+            "with",
+            "at"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (Gap Fill)",
+        "passage": "In most countries, almost all schools (1)__ private until the early 1800's. At that time, many government leaders...",
+        "question": "a general focus on (4)__ for college",
+        "options": [
+            "chance",
+            "attention",
+            "participation",
+            "preparation"
+        ],
+        "answer": 3
+    },
+    {
+        "category": "Đọc Hiểu (Gap Fill)",
+        "passage": "In most countries, almost all schools (1)__ private until the early 1800's. At that time, many government leaders...",
+        "question": "one of the (5)__ sponsors of private schools",
+        "options": [
+            "largest",
+            "much",
+            "more",
+            "larger"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Đọc Hiểu (Gap Fill)",
+        "passage": "If you are invited to someone's house for dinner in the United States, you should (1)__ a gift...",
+        "question": "you should (1)__ a gift",
+        "options": [
+            "take",
+            "bring",
+            "give",
+            "make"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (Gap Fill)",
+        "passage": "If you are invited to someone's house for dinner in the United States, you should (1)__ a gift...",
+        "question": "shows that the host is excited (2)__ receiving the gift",
+        "options": [
+            "about",
+            "for",
+            "with",
+            "of"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Đọc Hiểu (Gap Fill)",
+        "passage": "If you are invited to someone's house for dinner in the United States, you should (1)__ a gift...",
+        "question": "tell a (3)__ lie",
+        "options": [
+            "white",
+            "deliberate",
+            "great",
+            "obvious"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Đọc Hiểu (Gap Fill)",
+        "passage": "If you are invited to someone's house for dinner in the United States, you should (1)__ a gift...",
+        "question": "you should not arrive (4)__ on time",
+        "options": [
+            "slowly",
+            "recently",
+            "exactly",
+            "perfectly"
+        ],
+        "answer": 2
+    },
+    {
+        "category": "Đọc Hiểu (Gap Fill)",
+        "passage": "If you are invited to someone's house for dinner in the United States, you should (1)__ a gift...",
+        "question": "the host may not (5)__ ready.",
+        "options": [
+            "been",
+            "be",
+            "being",
+            "to be"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (Gap Fill)",
+        "passage": "The village of Jukkasjarvi is in Swedish Lapland... In this hotel, you eat, drink and sleep in rooms...",
+        "question": "sleep in rooms made (2)__ ice",
+        "options": [
+            "by",
+            "of",
+            "within",
+            "for"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (Gap Fill)",
+        "passage": "The village of Jukkasjarvi is in Swedish Lapland... In this hotel, you eat, drink and sleep in rooms...",
+        "question": "you can (3)__ get married in one",
+        "options": [
+            "even",
+            "however",
+            "already",
+            "yet"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Đọc Hiểu (Gap Fill)",
+        "passage": "The village of Jukkasjarvi is in Swedish Lapland... In this hotel, you eat, drink and sleep in rooms...",
+        "question": "putting hot drinks on it is obviously not (4)__",
+        "options": [
+            "supported",
+            "recognized",
+            "recommended",
+            "agreed"
+        ],
+        "answer": 2
+    },
+    {
+        "category": "Đọc Hiểu (Gap Fill)",
+        "passage": "The village of Jukkasjarvi is in Swedish Lapland... In this hotel, you eat, drink and sleep in rooms...",
+        "question": "fortunately guests are (5)__ with special sleeping bags",
+        "options": [
+            "given",
+            "offered",
+            "provided",
+            "supplied"
+        ],
+        "answer": 2
+    },
+    {
+        "category": "Đọc Hiểu (Gap Fill)",
+        "passage": "The village of Jukkasjarvi is in Swedish Lapland... In this hotel, you eat, drink and sleep in rooms...",
+        "question": "that will keep (6)__ warm",
+        "options": [
+            "these",
+            "those",
+            "they",
+            "them"
+        ],
+        "answer": 3
+    },
+    {
+        "category": "Đọc Hiểu (Gap Fill)",
+        "passage": "The village of Jukkasjarvi is in Swedish Lapland... In this hotel, you eat, drink and sleep in rooms...",
+        "question": "(7)__ outdoor clothes can be supplied",
+        "options": [
+            "suitable",
+            "convenient",
+            "acceptable",
+            "satisfactory"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Đọc Hiểu (Gap Fill)",
+        "passage": "The village of Jukkasjarvi is in Swedish Lapland... In this hotel, you eat, drink and sleep in rooms...",
+        "question": "six months old (8)__ it melts",
+        "options": [
+            "although",
+            "because",
+            "so",
+            "while"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (Gap Fill)",
+        "passage": "The village of Jukkasjarvi is in Swedish Lapland... In this hotel, you eat, drink and sleep in rooms...",
+        "question": "and (9)__ winter it is rebuilt",
+        "options": [
+            "other",
+            "any",
+            "each",
+            "another"
+        ],
+        "answer": 2
+    },
+    {
+        "category": "Đọc Hiểu (Gap Fill)",
+        "passage": "The village of Jukkasjarvi is in Swedish Lapland... In this hotel, you eat, drink and sleep in rooms...",
+        "question": "Creating the hotel (10)__ 10,000 tons of ice",
+        "options": [
+            "brings",
+            "puts",
+            "fetches",
+            "takes"
+        ],
+        "answer": 3
+    },
+    {
+        "category": "Đọc Hiểu (Gap Fill)",
+        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming...",
+        "question": "After he (1)__ driven it 1,500 kilometers",
+        "options": [
+            "is",
+            "was",
+            "had",
+            "has"
+        ],
+        "answer": 2
+    },
+    {
+        "category": "Đọc Hiểu (Gap Fill)",
+        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming...",
+        "question": "in 1903, he (2)__ the Ford Motor Company.",
+        "options": [
+            "raised",
+            "started",
+            "led",
+            "appeared"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (Gap Fill)",
+        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming...",
+        "question": "By (3)__ strong but light steel",
+        "options": [
+            "putting",
+            "operating",
+            "using",
+            "managing"
+        ],
+        "answer": 2
+    },
+    {
+        "category": "Đọc Hiểu (Gap Fill)",
+        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming...",
+        "question": "built cheap cars for (4)__ people to buy.",
+        "options": [
+            "usual",
+            "ordinary",
+            "general",
+            "typical"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (Gap Fill)",
+        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming...",
+        "question": "built the first Ford Model 'T', (5)__ sold for $825.",
+        "options": [
+            "where",
+            "which",
+            "who",
+            "what"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (Gap Fill)",
+        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming...",
+        "question": "He was soon selling 100 cars (6)__ day.",
+        "options": [
+            "a",
+            "some",
+            "the",
+            "one"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Đọc Hiểu (Gap Fill)",
+        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming...",
+        "question": "the Ford Motor Company was (7)__ $700 million.",
+        "options": [
+            "rich",
+            "worth",
+            "expensive",
+            "dear"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (Gap Fill)",
+        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming...",
+        "question": "but (8)__ things simple",
+        "options": [
+            "remaining",
+            "staying",
+            "keeping",
+            "holding"
+        ],
+        "answer": 2
+    },
+    {
+        "category": "Đọc Hiểu (Gap Fill)",
+        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming...",
+        "question": "sometimes (9)__ less choice.",
+        "options": [
+            "meant",
+            "decided",
+            "planned",
+            "intended"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Đọc Hiểu (Gap Fill)",
+        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming...",
+        "question": "'You (10)__ have any color you like,' said Henry Ford",
+        "options": [
+            "will",
+            "ought",
+            "need",
+            "can"
+        ],
+        "answer": 3
+    },
+    {
         "category": "Đọc Hiểu (Multiple Choice)",
         "passage": "Two years ago, our 14-year-old son, Ben, asked us for a set of drums for his birthday. At first, we were very much against the idea because of the noise...",
         "question": "Ben asked his parents for a drum when he was:",
@@ -766,66 +1114,6 @@ QUIZ_DATA = [
         "answer": 2
     },
     {
-        "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "In most countries, almost all schools (1)__ private until the early 1800's. At that time, many government leaders...",
-        "question": "almost all schools (1)__ private until the early 1800's",
-        "options": [
-            "have",
-            "had",
-            "are",
-            "were"
-        ],
-        "answer": 3
-    },
-    {
-        "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "In most countries, almost all schools (1)__ private until the early 1800's. At that time, many government leaders...",
-        "question": "promote national progress by (2)__ education widely available",
-        "options": [
-            "make",
-            "made",
-            "making",
-            "to make"
-        ],
-        "answer": 2
-    },
-    {
-        "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "In most countries, almost all schools (1)__ private until the early 1800's. At that time, many government leaders...",
-        "question": "differs (3)__ one country to another",
-        "options": [
-            "about",
-            "from",
-            "with",
-            "at"
-        ],
-        "answer": 1
-    },
-    {
-        "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "In most countries, almost all schools (1)__ private until the early 1800's. At that time, many government leaders...",
-        "question": "a general focus on (4)__ for college",
-        "options": [
-            "chance",
-            "attention",
-            "participation",
-            "preparation"
-        ],
-        "answer": 3
-    },
-    {
-        "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "In most countries, almost all schools (1)__ private until the early 1800's. At that time, many government leaders...",
-        "question": "one of the (5)__ sponsors of private schools",
-        "options": [
-            "largest",
-            "much",
-            "more",
-            "larger"
-        ],
-        "answer": 0
-    },
-    {
         "category": "Đọc Hiểu (Multiple Choice)",
         "passage": "Kal Kaur Rai has always been interested in fashion and has just won the title of Young Achiever of the Year...",
         "question": "What is the writer trying to do in the text?",
@@ -930,66 +1218,6 @@ QUIZ_DATA = [
             "It is located at the top of the website page.",
             "It provides parents with detail information about the school.",
             "It will not be updated until the parents have new questions."
-        ],
-        "answer": 1
-    },
-    {
-        "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "If you are invited to someone's house for dinner in the United States, you should (1)__ a gift...",
-        "question": "you should (1)__ a gift",
-        "options": [
-            "take",
-            "bring",
-            "give",
-            "make"
-        ],
-        "answer": 1
-    },
-    {
-        "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "If you are invited to someone's house for dinner in the United States, you should (1)__ a gift...",
-        "question": "shows that the host is excited (2)__ receiving the gift",
-        "options": [
-            "about",
-            "for",
-            "with",
-            "of"
-        ],
-        "answer": 0
-    },
-    {
-        "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "If you are invited to someone's house for dinner in the United States, you should (1)__ a gift...",
-        "question": "tell a (3)__ lie",
-        "options": [
-            "white",
-            "deliberate",
-            "great",
-            "obvious"
-        ],
-        "answer": 0
-    },
-    {
-        "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "If you are invited to someone's house for dinner in the United States, you should (1)__ a gift...",
-        "question": "you should not arrive (4)__ on time",
-        "options": [
-            "slowly",
-            "recently",
-            "exactly",
-            "perfectly"
-        ],
-        "answer": 2
-    },
-    {
-        "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "If you are invited to someone's house for dinner in the United States, you should (1)__ a gift...",
-        "question": "the host may not (5)__ ready.",
-        "options": [
-            "been",
-            "be",
-            "being",
-            "to be"
         ],
         "answer": 1
     },
@@ -1102,83 +1330,6 @@ QUIZ_DATA = [
         "answer": 1
     },
     {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Jann Mardenborough has loved cars since he was given a toy one as a baby...",
-        "question": "When he was a child, workers at the kart centre said Jann was a good driver.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 0
-    },
-    {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Jann Mardenborough has loved cars since he was given a toy one as a baby...",
-        "question": "Jann stopped racing karts because he became bored with it.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 1
-    },
-    {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Jann Mardenborough has loved cars since he was given a toy one as a baby...",
-        "question": "Jann was good at computer racing games immediately.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 1
-    },
-    {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Jann Mardenborough has loved cars since he was given a toy one as a baby...",
-        "question": "Jann played computer racing games with school friends.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 2
-    },
-    {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Jann Mardenborough has loved cars since he was given a toy one as a baby...",
-        "question": "Jann told his parents about the computer competition after it ended.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 1
-    },
-    {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Jann Mardenborough has loved cars since he was given a toy one as a baby...",
-        "question": "The people Jann raced against were from different countries.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 2
-    },
-    {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Jann Mardenborough has loved cars since he was given a toy one as a baby...",
-        "question": "Jann's parents had to pay for his driving course.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 1
-    },
-    {
         "category": "Đọc Hiểu (Multiple Choice)",
         "passage": "One day I hopped in a taxi and we took off for the airport... The driver of the black car whipped his head around and started yelling...",
         "question": "Which title best expresses the main idea of the story?",
@@ -1239,83 +1390,6 @@ QUIZ_DATA = [
         "answer": 2
     },
     {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Every year, thousands of people come to Edinburgh, the capital city of Scotland, to be part of the Edinburgh Festival...",
-        "question": "The Edinburgh Festival Is a month long.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 1
-    },
-    {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Every year, thousands of people come to Edinburgh, the capital city of Scotland, to be part of the Edinburgh Festival...",
-        "question": "Edinburgh Festival is in October.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 1
-    },
-    {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Every year, thousands of people come to Edinburgh, the capital city of Scotland, to be part of the Edinburgh Festival...",
-        "question": "Actors come to the Edinburgh Festival from lots of different countries.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 0
-    },
-    {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Every year, thousands of people come to Edinburgh, the capital city of Scotland, to be part of the Edinburgh Festival...",
-        "question": "You can hear music all day.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 0
-    },
-    {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Every year, thousands of people come to Edinburgh, the capital city of Scotland, to be part of the Edinburgh Festival...",
-        "question": "More than ten thousand students come to the Edinburgh Festival every year.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 2
-    },
-    {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Every year, thousands of people come to Edinburgh, the capital city of Scotland, to be part of the Edinburgh Festival...",
-        "question": "It is expensive to go to the theatre in Edinburgh.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 1
-    },
-    {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Every year, thousands of people come to Edinburgh, the capital city of Scotland, to be part of the Edinburgh Festival...",
-        "question": "It is usually more difficult to see famous actors in London than in Edinburgh.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 2
-    },
-    {
         "category": "Đọc Hiểu (Multiple Choice)",
         "passage": "Please read the following carefully as it describes my expectations of your during this class...",
         "question": "What is the note mainly about?",
@@ -1360,83 +1434,6 @@ QUIZ_DATA = [
             "Admit",
             "Decide",
             "Falsify"
-        ],
-        "answer": 1
-    },
-    {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Most house burglaries happen between 2 p.m. and 6 p.m., say the police...",
-        "question": "The number of house burglaries is the same as last year.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 1
-    },
-    {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Most house burglaries happen between 2 p.m. and 6 p.m., say the police...",
-        "question": "Most burglars are men.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 2
-    },
-    {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Most house burglaries happen between 2 p.m. and 6 p.m., say the police...",
-        "question": "People sometimes make things easy for burglars.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 0
-    },
-    {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Most house burglaries happen between 2 p.m. and 6 p.m., say the police...",
-        "question": "The summer is more difficult for burglars.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 1
-    },
-    {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Most house burglaries happen between 2 p.m. and 6 p.m., say the police...",
-        "question": "Burglars don't usually go to houses with lights on.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 0
-    },
-    {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Most house burglaries happen between 2 p.m. and 6 p.m., say the police...",
-        "question": "Burglars usually drive cars.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 2
-    },
-    {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Most house burglaries happen between 2 p.m. and 6 p.m., say the police...",
-        "question": "You have to pay for information from the police.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
         ],
         "answer": 1
     },
@@ -1715,160 +1712,6 @@ QUIZ_DATA = [
         "answer": 2
     },
     {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Nick Barlow loves his work. He's a British actor and he travels around the world making TV programmes...",
-        "question": "Nick says that people in the places he visits are very friendly.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 0
-    },
-    {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Nick Barlow loves his work. He's a British actor and he travels around the world making TV programmes...",
-        "question": "Nick buys something to take home from every country he visits.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 2
-    },
-    {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Nick Barlow loves his work. He's a British actor and he travels around the world making TV programmes...",
-        "question": "On some trips, Nick travels alone.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 1
-    },
-    {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Nick Barlow loves his work. He's a British actor and he travels around the world making TV programmes...",
-        "question": "There are often problems with the television cameras.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 2
-    },
-    {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Nick Barlow loves his work. He's a British actor and he travels around the world making TV programmes...",
-        "question": "Every time Nick goes away, he packs something to read.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 0
-    },
-    {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Nick Barlow loves his work. He's a British actor and he travels around the world making TV programmes...",
-        "question": "Helen is unhappy when he's away from home.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 1
-    },
-    {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "Nick Barlow loves his work. He's a British actor and he travels around the world making TV programmes...",
-        "question": "When Helen was sick, Nick returned home.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 1
-    },
-    {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "David Johnson has loved swimming all his life...",
-        "question": "David Johnson had problems during a swimming competition in the USA.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 0
-    },
-    {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "David Johnson has loved swimming all his life...",
-        "question": "After 1983, many people swam between Santa Cruz Island and the Californian coast.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 2
-    },
-    {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "David Johnson has loved swimming all his life...",
-        "question": "In January 2004, David was the first person of his age to swim across the Cook Strait.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 0
-    },
-    {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "David Johnson has loved swimming all his life...",
-        "question": "David practiced for more than a year to swim across the Cook Strait.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 0
-    },
-    {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "David Johnson has loved swimming all his life...",
-        "question": "David was in New Zealand for a long time before he swam across the Cook Strait.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 1
-    },
-    {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "David Johnson has loved swimming all his life...",
-        "question": "David's wife was in the boat beside him when he swam the Cook Strait.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 2
-    },
-    {
-        "category": "Đọc Hiểu (T/F/DS)",
-        "passage": "David Johnson has loved swimming all his life...",
-        "question": "David had to stop for a short time while swimming the Cook Strait.",
-        "options": [
-            "Right",
-            "Wrong",
-            "Doesn't say"
-        ],
-        "answer": 1
-    },
-    {
         "category": "Đọc Hiểu (Multiple Choice)",
         "passage": "She was still at primary school when she decided she wanted to travel. So when she was eleven...",
         "question": "What did she want to do when she was a pupil?",
@@ -2072,114 +1915,6 @@ QUIZ_DATA = [
         "answer": 0
     },
     {
-        "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "The village of Jukkasjarvi is in Swedish Lapland... In this hotel, you eat, drink and sleep in rooms...",
-        "question": "sleep in rooms made (2)__ ice",
-        "options": [
-            "by",
-            "of",
-            "within",
-            "for"
-        ],
-        "answer": 1
-    },
-    {
-        "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "The village of Jukkasjarvi is in Swedish Lapland... In this hotel, you eat, drink and sleep in rooms...",
-        "question": "you can (3)__ get married in one",
-        "options": [
-            "even",
-            "however",
-            "already",
-            "yet"
-        ],
-        "answer": 0
-    },
-    {
-        "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "The village of Jukkasjarvi is in Swedish Lapland... In this hotel, you eat, drink and sleep in rooms...",
-        "question": "putting hot drinks on it is obviously not (4)__",
-        "options": [
-            "supported",
-            "recognized",
-            "recommended",
-            "agreed"
-        ],
-        "answer": 2
-    },
-    {
-        "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "The village of Jukkasjarvi is in Swedish Lapland... In this hotel, you eat, drink and sleep in rooms...",
-        "question": "fortunately guests are (5)__ with special sleeping bags",
-        "options": [
-            "given",
-            "offered",
-            "provided",
-            "supplied"
-        ],
-        "answer": 2
-    },
-    {
-        "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "The village of Jukkasjarvi is in Swedish Lapland... In this hotel, you eat, drink and sleep in rooms...",
-        "question": "that will keep (6)__ warm",
-        "options": [
-            "these",
-            "those",
-            "they",
-            "them"
-        ],
-        "answer": 3
-    },
-    {
-        "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "The village of Jukkasjarvi is in Swedish Lapland... In this hotel, you eat, drink and sleep in rooms...",
-        "question": "(7)__ outdoor clothes can be supplied",
-        "options": [
-            "suitable",
-            "convenient",
-            "acceptable",
-            "satisfactory"
-        ],
-        "answer": 0
-    },
-    {
-        "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "The village of Jukkasjarvi is in Swedish Lapland... In this hotel, you eat, drink and sleep in rooms...",
-        "question": "six months old (8)__ it melts",
-        "options": [
-            "although",
-            "because",
-            "so",
-            "while"
-        ],
-        "answer": 1
-    },
-    {
-        "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "The village of Jukkasjarvi is in Swedish Lapland... In this hotel, you eat, drink and sleep in rooms...",
-        "question": "and (9)__ winter it is rebuilt",
-        "options": [
-            "other",
-            "any",
-            "each",
-            "another"
-        ],
-        "answer": 2
-    },
-    {
-        "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "The village of Jukkasjarvi is in Swedish Lapland... In this hotel, you eat, drink and sleep in rooms...",
-        "question": "Creating the hotel (10)__ 10,000 tons of ice",
-        "options": [
-            "brings",
-            "puts",
-            "fetches",
-            "takes"
-        ],
-        "answer": 3
-    },
-    {
         "category": "Đọc Hiểu (Multiple Choice)",
         "passage": "Dear Thomas, I am curious as to whether or not you are still planning to go on that skiing trip...",
         "question": "Why did the author write this letter?",
@@ -2340,7 +2075,7 @@ QUIZ_DATA = [
         "passage": "The dogsled race was about to begin. Julie's team of dogs was lined up...",
         "question": "The word 'thick' in paragraph 3 is closest in meaning to",
         "options": [
-            "Fat (Wait, thin, hard, fat, skinny. Thick fur = fat? actually none are perfect but Fat is closest)",
+            "Fat",
             "Fat",
             "Thin",
             "Skinny"
@@ -2358,126 +2093,6 @@ QUIZ_DATA = [
             "Boring and careless"
         ],
         "answer": 0
-    },
-    {
-        "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming...",
-        "question": "After he (1)__ driven it 1,500 kilometers",
-        "options": [
-            "is",
-            "was",
-            "had",
-            "has"
-        ],
-        "answer": 2
-    },
-    {
-        "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming...",
-        "question": "in 1903, he (2)__ the Ford Motor Company.",
-        "options": [
-            "raised",
-            "started",
-            "led",
-            "appeared"
-        ],
-        "answer": 1
-    },
-    {
-        "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming...",
-        "question": "By (3)__ strong but light steel",
-        "options": [
-            "putting",
-            "operating",
-            "using",
-            "managing"
-        ],
-        "answer": 2
-    },
-    {
-        "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming...",
-        "question": "built cheap cars for (4)__ people to buy.",
-        "options": [
-            "usual",
-            "ordinary",
-            "general",
-            "typical"
-        ],
-        "answer": 1
-    },
-    {
-        "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming...",
-        "question": "built the first Ford Model 'T', (5)__ sold for $825.",
-        "options": [
-            "where",
-            "which",
-            "who",
-            "what"
-        ],
-        "answer": 1
-    },
-    {
-        "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming...",
-        "question": "He was soon selling 100 cars (6)__ day.",
-        "options": [
-            "a",
-            "some",
-            "the",
-            "one"
-        ],
-        "answer": 0
-    },
-    {
-        "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming...",
-        "question": "the Ford Motor Company was (7)__ $700 million.",
-        "options": [
-            "rich",
-            "worth",
-            "expensive",
-            "dear"
-        ],
-        "answer": 1
-    },
-    {
-        "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming...",
-        "question": "but (8)__ things simple",
-        "options": [
-            "remaining",
-            "staying",
-            "keeping",
-            "holding"
-        ],
-        "answer": 2
-    },
-    {
-        "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming...",
-        "question": "sometimes (9)__ less choice.",
-        "options": [
-            "meant",
-            "decided",
-            "planned",
-            "intended"
-        ],
-        "answer": 0
-    },
-    {
-        "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "Henry Ford was born on a farm in Michigan in 1863 but he did not like farming...",
-        "question": "'You (10)__ have any color you like,' said Henry Ford",
-        "options": [
-            "will",
-            "ought",
-            "need",
-            "can"
-        ],
-        "answer": 3
     },
     {
         "category": "Đọc Hiểu (Multiple Choice)",
@@ -2538,10 +2153,404 @@ QUIZ_DATA = [
             "enormous"
         ],
         "answer": 3
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "Jann Mardenborough has loved cars since he was given a toy one as a baby...",
+        "question": "When he was a child, workers at the kart centre said Jann was a good driver.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "Jann Mardenborough has loved cars since he was given a toy one as a baby...",
+        "question": "Jann stopped racing karts because he became bored with it.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "Jann Mardenborough has loved cars since he was given a toy one as a baby...",
+        "question": "Jann was good at computer racing games immediately.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "Jann Mardenborough has loved cars since he was given a toy one as a baby...",
+        "question": "Jann played computer racing games with school friends.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 2
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "Jann Mardenborough has loved cars since he was given a toy one as a baby...",
+        "question": "Jann told his parents about the computer competition after it ended.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "Jann Mardenborough has loved cars since he was given a toy one as a baby...",
+        "question": "The people Jann raced against were from different countries.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 2
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "Jann Mardenborough has loved cars since he was given a toy one as a baby...",
+        "question": "Jann's parents had to pay for his driving course.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "Every year, thousands of people come to Edinburgh, the capital city of Scotland, to be part of the Edinburgh Festival...",
+        "question": "The Edinburgh Festival Is a month long.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "Every year, thousands of people come to Edinburgh, the capital city of Scotland, to be part of the Edinburgh Festival...",
+        "question": "Edinburgh Festival is in October.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "Every year, thousands of people come to Edinburgh, the capital city of Scotland, to be part of the Edinburgh Festival...",
+        "question": "Actors come to the Edinburgh Festival from lots of different countries.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "Every year, thousands of people come to Edinburgh, the capital city of Scotland, to be part of the Edinburgh Festival...",
+        "question": "You can hear music all day.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "Every year, thousands of people come to Edinburgh, the capital city of Scotland, to be part of the Edinburgh Festival...",
+        "question": "More than ten thousand students come to the Edinburgh Festival every year.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 2
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "Every year, thousands of people come to Edinburgh, the capital city of Scotland, to be part of the Edinburgh Festival...",
+        "question": "It is expensive to go to the theatre in Edinburgh.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "Every year, thousands of people come to Edinburgh, the capital city of Scotland, to be part of the Edinburgh Festival...",
+        "question": "It is usually more difficult to see famous actors in London than in Edinburgh.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 2
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "Most house burglaries happen between 2 p.m. and 6 p.m., say the police...",
+        "question": "The number of house burglaries is the same as last year.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "Most house burglaries happen between 2 p.m. and 6 p.m., say the police...",
+        "question": "Most burglars are men.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 2
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "Most house burglaries happen between 2 p.m. and 6 p.m., say the police...",
+        "question": "People sometimes make things easy for burglars.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "Most house burglaries happen between 2 p.m. and 6 p.m., say the police...",
+        "question": "The summer is more difficult for burglars.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "Most house burglaries happen between 2 p.m. and 6 p.m., say the police...",
+        "question": "Burglars don't usually go to houses with lights on.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "Most house burglaries happen between 2 p.m. and 6 p.m., say the police...",
+        "question": "Burglars usually drive cars.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 2
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "Most house burglaries happen between 2 p.m. and 6 p.m., say the police...",
+        "question": "You have to pay for information from the police.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "Nick Barlow loves his work. He's a British actor and he travels around the world making TV programmes...",
+        "question": "Nick says that people in the places he visits are very friendly.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "Nick Barlow loves his work. He's a British actor and he travels around the world making TV programmes...",
+        "question": "Nick buys something to take home from every country he visits.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 2
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "Nick Barlow loves his work. He's a British actor and he travels around the world making TV programmes...",
+        "question": "On some trips, Nick travels alone.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "Nick Barlow loves his work. He's a British actor and he travels around the world making TV programmes...",
+        "question": "There are often problems with the television cameras.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 2
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "Nick Barlow loves his work. He's a British actor and he travels around the world making TV programmes...",
+        "question": "Every time Nick goes away, he packs something to read.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "Nick Barlow loves his work. He's a British actor and he travels around the world making TV programmes...",
+        "question": "Helen is unhappy when he's away from home.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "Nick Barlow loves his work. He's a British actor and he travels around the world making TV programmes...",
+        "question": "When Helen was sick, Nick returned home.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "David Johnson has loved swimming all his life...",
+        "question": "David Johnson had problems during a swimming competition in the USA.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "David Johnson has loved swimming all his life...",
+        "question": "After 1983, many people swam between Santa Cruz Island and the Californian coast.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 2
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "David Johnson has loved swimming all his life...",
+        "question": "In January 2004, David was the first person of his age to swim across the Cook Strait.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "David Johnson has loved swimming all his life...",
+        "question": "David practiced for more than a year to swim across the Cook Strait.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "David Johnson has loved swimming all his life...",
+        "question": "David was in New Zealand for a long time before he swam across the Cook Strait.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "David Johnson has loved swimming all his life...",
+        "question": "David's wife was in the boat beside him when he swam the Cook Strait.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 2
+    },
+    {
+        "category": "Đọc Hiểu (T/F/DS)",
+        "passage": "David Johnson has loved swimming all his life...",
+        "question": "David had to stop for a short time while swimming the Cook Strait.",
+        "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+        ],
+        "answer": 1
     }
 ]
 
+# Danh sách các thể loại
+categories = ["Tất cả"] + list(dict.fromkeys([q["category"] for q in QUIZ_DATA]))
+
+# Giao diện Sidebar để lọc
+st.sidebar.title("⚙️ Cài đặt ôn tập")
+selected_category = st.sidebar.selectbox("Chọn thể loại bài tập:", categories)
+
 # Quản lý Session State
+if "selected_category" not in st.session_state:
+    st.session_state.selected_category = "Tất cả"
 if "current_idx" not in st.session_state:
     st.session_state.current_idx = 0
 if "score" not in st.session_state:
@@ -2549,15 +2558,33 @@ if "score" not in st.session_state:
 if "user_answers" not in st.session_state:
     st.session_state.user_answers = {}
 
+# Reset tiến trình nếu người dùng đổi thể loại bài tập
+if selected_category != st.session_state.selected_category:
+    st.session_state.selected_category = selected_category
+    st.session_state.current_idx = 0
+    st.session_state.score = 0
+    st.session_state.user_answers = {}
+    st.rerun()
+
+# Lọc câu hỏi theo thể loại
+if st.session_state.selected_category == "Tất cả":
+    current_quiz_data = QUIZ_DATA
+else:
+    current_quiz_data = [q for q in QUIZ_DATA if q["category"] == st.session_state.selected_category]
+
+
 st.title("📚 Ôn Tập Tiếng Anh EHOU")
-st.caption(f"Ngân hàng {len(QUIZ_DATA)} câu hỏi tổng hợp siêu đầy đủ từ 13 tệp (Đã bổ sung TOÀN BỘ 30 bài Đọc Hiểu)")
+st.caption(f"Ngân hàng {len(QUIZ_DATA)} câu hỏi tổng hợp từ 13 tệp (Đã bổ sung 30 bài Đọc Hiểu)")
 
-total_q = len(QUIZ_DATA)
+total_q = len(current_quiz_data)
 
+# Kiểm tra nếu có dữ liệu
+if total_q == 0:
+    st.warning("Không có câu hỏi nào trong chuyên mục này.")
 # Màn hình làm bài
-if st.session_state.current_idx < total_q:
+elif st.session_state.current_idx < total_q:
     idx = st.session_state.current_idx
-    q_data = QUIZ_DATA[idx]
+    q_data = current_quiz_data[idx]
 
     # Thanh tiến trình
     st.progress((idx) / total_q)
@@ -2603,14 +2630,14 @@ if st.session_state.current_idx < total_q:
 else:
     st.progress(1.0)
     st.balloons()
-    st.header("🏁 Bạn đã hoàn thành bài ôn tập!")
+    st.header("🏁 Bạn đã hoàn thành phần ôn tập này!")
     
     final_score = st.session_state.score
     accuracy = round((final_score / total_q) * 100, 1) if total_q > 0 else 0
     
     st.metric(label="Tổng số câu đúng", value=f"{final_score} / {total_q}", delta=f"{accuracy}%")
     
-    if st.button("🔄 Thi lại từ đầu"):
+    if st.button("🔄 Thi lại phần này"):
         st.session_state.current_idx = 0
         st.session_state.score = 0
         st.session_state.user_answers = {}
