@@ -1,8 +1,8 @@
 import streamlit as st
 import json
-
+import os
 st.set_page_config(page_title="Ôn Tập Tiếng Anh EHOU", page_icon="📚", layout="centered")
-
+PROGRESS_FILE = "progress.json"
 # Dữ liệu 313 câu hỏi
 QUIZ_DATA = [
     {
@@ -3633,7 +3633,37 @@ QUIZ_DATA = [
         "answer": 1
     }
 ]
+# === THÊM MODULE LƯU/TẢI TIẾN TRÌNH TẠI ĐÂY ===
+def save_progress():
+    data = {
+        "selected_category": st.session_state.selected_category,
+        "current_idx": st.session_state.current_idx,
+        "score": st.session_state.score,
+        "user_answers": st.session_state.user_answers
+    }
+    try:
+        with open(PROGRESS_FILE, "w", encoding="utf-8") as f:
+            json.dump(data, f)
+        st.sidebar.success("✅ Đã lưu tiến trình thành công!")
+    except Exception as e:
+        st.sidebar.error(f"Lỗi khi lưu: {e}")
 
+def load_progress():
+    if os.path.exists(PROGRESS_FILE):
+        try:
+            with open(PROGRESS_FILE, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            st.session_state.selected_category = data.get("selected_category", "Tất cả")
+            st.session_state.current_idx = data.get("current_idx", 0)
+            st.session_state.score = data.get("score", 0)
+            # Ép kiểu key của dictionary về int do json lưu key dưới dạng string
+            st.session_state.user_answers = {int(k): v for k, v in data.get("user_answers", {}).items()}
+            st.sidebar.success("✅ Đã khôi phục tiến trình cũ!")
+        except Exception as e:
+            st.sidebar.error(f"Lỗi khi tải: {e}")
+    else:
+        st.sidebar.warning("⚠️ Chưa có tiến trình nào được lưu.")
+# ===============================================
 # Danh sách các thể loại
 categories = ["Tất cả"] + list(dict.fromkeys([q["category"] for q in QUIZ_DATA]))
 
@@ -3649,7 +3679,26 @@ if "score" not in st.session_state:
     st.session_state.score = 0
 if "user_answers" not in st.session_state:
     st.session_state.user_answers = {}
+# Danh sách các thể loại
+categories = ["Tất cả"] + list(dict.fromkeys([q["category"] for q in QUIZ_DATA]))
 
+# Giao diện Sidebar để lọc
+st.sidebar.title("⚙️ Cài đặt ôn tập")
+selected_category = st.sidebar.selectbox("Chọn thể loại bài tập:", categories)
+
+# === THÊM GIAO DIỆN NÚT LƯU/TẢI VÀO SIDEBAR TẠI ĐÂY ===
+st.sidebar.markdown("---")
+st.sidebar.subheader("💾 Lưu / Tải Tiến Trình")
+st.sidebar.write("Lưu lại câu đang làm dở để lần sau học tiếp.")
+col1, col2 = st.sidebar.columns(2)
+with col1:
+    if st.button("Lưu Lại"):
+        save_progress()
+with col2:
+    if st.button("Tải Lại"):
+        load_progress()
+        st.rerun()
+# =======================================================
 # Reset
 if selected_category != st.session_state.selected_category:
     st.session_state.selected_category = selected_category
