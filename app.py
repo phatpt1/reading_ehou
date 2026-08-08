@@ -3667,26 +3667,16 @@ def load_progress():
 # Danh sách các thể loại
 categories = ["Tất cả"] + list(dict.fromkeys([q["category"] for q in QUIZ_DATA]))
 
-# Giao diện Sidebar để lọc
-st.sidebar.title("⚙️ Cài đặt ôn tập")
-selected_category = st.sidebar.selectbox("Chọn thể loại bài tập:", categories)
-
-if "selected_category" not in st.session_state:
-    st.session_state.selected_category = "Tất cả"
-if "current_idx" not in st.session_state:
-    st.session_state.current_idx = 0
-if "score" not in st.session_state:
-    st.session_state.score = 0
-if "user_answers" not in st.session_state:
-    st.session_state.user_answers = {}
 # Danh sách các thể loại
 categories = ["Tất cả"] + list(dict.fromkeys([q["category"] for q in QUIZ_DATA]))
 
-# Giao diện Sidebar để lọc
+# --- GIAO DIỆN SIDEBAR ---
 st.sidebar.title("⚙️ Cài đặt ôn tập")
+
+# CHỈ GIỮ LẠI ĐÚNG 1 DÒNG NÀY (XÓA DÒNG BỊ TRÙNG BÊN DƯỚI NẾU CÓ)
 selected_category = st.sidebar.selectbox("Chọn thể loại bài tập:", categories)
 
-# === THÊM GIAO DIỆN NÚT LƯU/TẢI VÀO SIDEBAR TẠI ĐÂY ===
+# Khu vực Lưu / Tải Tiến Trình
 st.sidebar.markdown("---")
 st.sidebar.subheader("💾 Lưu / Tải Tiến Trình")
 st.sidebar.write("Lưu lại câu đang làm dở để lần sau học tiếp.")
@@ -3706,7 +3696,7 @@ if selected_category != st.session_state.selected_category:
     st.session_state.score = 0
     st.session_state.user_answers = {}
     st.rerun()
-
+# ======================================================
 # Filter
 if st.session_state.selected_category == "Tất cả":
     current_quiz_data = QUIZ_DATA
