@@ -3667,8 +3667,6 @@ def load_progress():
 # Danh sách các thể loại
 categories = ["Tất cả"] + list(dict.fromkeys([q["category"] for q in QUIZ_DATA]))
 
-# Danh sách các thể loại
-categories = ["Tất cả"] + list(dict.fromkeys([q["category"] for q in QUIZ_DATA]))
 
 # --- GIAO DIỆN SIDEBAR ---
 st.sidebar.title("⚙️ Cài đặt ôn tập")
