@@ -3,7 +3,7 @@ import json
 
 st.set_page_config(page_title="Ôn Tập Tiếng Anh EHOU", page_icon="📚", layout="centered")
 
-# Dữ liệu ngân hàng (đã chèn văn bản ĐẦY ĐỦ 100%)
+# Dữ liệu 313 câu hỏi
 QUIZ_DATA = [
     {
         "category": "Từ Vựng - Tiền Tố",
@@ -224,6 +224,217 @@ QUIZ_DATA = [
             "Believable"
         ],
         "answer": 1
+    },
+    {
+        "category": "Từ Vựng - Ghép Nghĩa",
+        "passage": "Match each expression to its meaning.",
+        "question": "What is the meaning of the expression 'waste time'?",
+        "options": [
+            "use time badly",
+            "last too long",
+            "use more time",
+            "punctual"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Từ Vựng - Ghép Nghĩa",
+        "passage": "Match each expression to its meaning.",
+        "question": "What is the meaning of 'take a long time'?",
+        "options": [
+            "last too long",
+            "use time badly",
+            "use more time",
+            "don't have the time you need"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Từ Vựng - Ghép Nghĩa",
+        "passage": "Match each expression to its meaning.",
+        "question": "What is the meaning of 'spend more time'?",
+        "options": [
+            "use more time",
+            "punctual",
+            "last too long",
+            "use time badly"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Từ Vựng - Ghép Nghĩa",
+        "passage": "Match each expression to its meaning.",
+        "question": "What is the meaning of 'on time'?",
+        "options": [
+            "punctual",
+            "use time badly",
+            "last too long",
+            "use more time"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Từ Vựng - Ghép Nghĩa",
+        "passage": "Match each expression to its meaning.",
+        "question": "What is the meaning of 'don't have enough time'?",
+        "options": [
+            "don't have the time you need",
+            "last too long",
+            "punctual",
+            "use more time"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Từ Vựng - Trái Nghĩa",
+        "passage": "The Royal Family:\nReplace the bold words by the opposite word.",
+        "question": "What is the opposite of 'Princess'?",
+        "options": [
+            "Prince",
+            "King",
+            "Queen",
+            "Duke"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Từ Vựng - Trái Nghĩa",
+        "passage": "The Royal Family:\nReplace the bold words by the opposite word.",
+        "question": "What is the opposite of 'granddaughter'?",
+        "options": [
+            "son",
+            "grandson",
+            "brother",
+            "nephew"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Từ Vựng - Trái Nghĩa",
+        "passage": "The Royal Family:\nReplace the bold words by the opposite word.",
+        "question": "What is the opposite of 'King'?",
+        "options": [
+            "Prince",
+            "Princess",
+            "Queen",
+            "Duchess"
+        ],
+        "answer": 2
+    },
+    {
+        "category": "Từ Vựng - Trái Nghĩa",
+        "passage": "The Royal Family:\nReplace the bold words by the opposite word.",
+        "question": "What is the opposite of 'daughter'?",
+        "options": [
+            "brother",
+            "son",
+            "father",
+            "nephew"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Từ Vựng - Trái Nghĩa",
+        "passage": "The Royal Family:\nReplace the bold words by the opposite word.",
+        "question": "What is the opposite of 'sister'?",
+        "options": [
+            "brother",
+            "son",
+            "uncle",
+            "father"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Từ Vựng - Trái Nghĩa",
+        "passage": "The Royal Family:\nReplace the bold words by the opposite word.",
+        "question": "What is the opposite of 'father'?",
+        "options": [
+            "sister",
+            "daughter",
+            "mother",
+            "aunt"
+        ],
+        "answer": 2
+    },
+    {
+        "category": "Từ Vựng - Trái Nghĩa",
+        "passage": "The Royal Family:\nReplace the bold words by the opposite word.",
+        "question": "What is the opposite of 'stepfather'?",
+        "options": [
+            "mother",
+            "stepmother",
+            "stepbrother",
+            "aunt"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Từ Vựng - Trái Nghĩa",
+        "passage": "The Royal Family:\nReplace the bold words by the opposite word.",
+        "question": "What is the opposite of 'husband'?",
+        "options": [
+            "daughter",
+            "sister",
+            "wife",
+            "mother"
+        ],
+        "answer": 2
+    },
+    {
+        "category": "Đọc Hiểu (Short)",
+        "passage": "First of all, we need money to repair old roads and build new roads. We also need more to pay teachers' salaries and to pay for services such as trash collection. Finally, more tax money is needed to give financial help to the poor citizens of the city. It is clear that the city will have serious problems if taxes are not raised soon.",
+        "question": "What is the main idea?",
+        "options": [
+            "We should raise city taxes.",
+            "City taxes are too high.",
+            "City taxes pay for new roads."
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Đọc Hiểu (Short)",
+        "passage": "One thing you must consider is the quality of the university's educational program. You also need to think about the school's size and location. Finally, you must be sure to consider the university's tuition to make sure you can afford to go to school there.",
+        "question": "What is the main idea?",
+        "options": [
+            "There are several factors to consider when you choose a university to attend.",
+            "You should consider getting a good education.",
+            "It is expensive to attend a university in the United States."
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Đọc Hiểu (Short)",
+        "passage": "Color Matters for What You Wear\nClothes are like a second skin. Most likely you feel good when you wear your favorite color...",
+        "question": "Circle the best title for the reading text.",
+        "options": [
+            "Colors and what you wear.",
+            "Colors and kids.",
+            "Colors and your personality."
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Đọc Hiểu (Short)",
+        "passage": "Office workers 'admit being rude'\nMost office workers say they are rude or bad-mannered at work...",
+        "question": "The author wants to:",
+        "options": [
+            "give advice on how to behave politely at work",
+            "give specific figures of bad manners at work",
+            "give specific examples of bad manners at work"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Đọc Hiểu (Short)",
+        "passage": "Office workers 'admit being rude'\nMost office workers say they are rude or bad-mannered at work...",
+        "question": "The aim of the texts is to:",
+        "options": [
+            "reflect the fact of officer's bad manners at work with illustrations",
+            "encourage officer's bad manners at work",
+            "reflect the fact of officer's good manners at work with illustrations"
+        ],
+        "answer": 0
     },
     {
         "category": "Biển Báo & Thông Báo",
@@ -486,6 +697,738 @@ QUIZ_DATA = [
             "This label gives information on the ingredients of the product.",
             "This label gives advice on how to use the product.",
             "This label gives advice on how to open the product."
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Biển Báo & Thông Báo",
+        "passage": "UNIVERSITY HOLIDAYS\nFrom next Friday, the library will be closed during weekends and evenings.",
+        "question": "What will the library do?",
+        "options": [
+            "Change its opening hours next Friday.",
+            "Close for a long time.",
+            "Open again to students next Friday.",
+            "Have shorter opening hours until next Friday."
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Biển Báo & Thông Báo",
+        "passage": "TRIP TO NEW YORK\nApplication forms will be available from the school office from 1st November.",
+        "question": "What does it say?",
+        "options": [
+            "The earliest that students can pick up their application forms is 1st November.",
+            "Students should give in their application forms on 1st November.",
+            "Application forms will be given on 1st November.",
+            "Application forms are unavailable after 1st November."
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Biển Báo & Thông Báo",
+        "passage": "Mark,\nWe went on a bus sightseeing tour of the city yesterday. We didn't stop anywhere but saw more than you would on foot.\nJo",
+        "question": "What does it say?",
+        "options": [
+            "Jo is pleased with the number of things she saw from the bus.",
+            "Jo went sightseeing on foot yesterday.",
+            "Jo thinks there are better sightseeing tours than the one she took.",
+            "Jo regrets not having walked around the city to look at the sights."
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Biển Báo & Thông Báo",
+        "passage": "Having a great holiday!\nWent windsurfing today after playing beach volleyball.\nStopped for a barbecue on the way to the funfair yesterday.\nSee you soon! Louis",
+        "question": "What does it say?",
+        "options": [
+            "Louis played beach volleyball before he went windsurfing.",
+            "Louis went windsurfing after he went to the funfair yesterday.",
+            "Louis went to the funfair before he had lunch.",
+            "Louis had a barbecue before playing beach volleyball."
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Biển Báo & Thông Báo",
+        "passage": "From: Marie | To: Sylviane\nThanks for lending me that biology book - I'm glad you got it back OK. You can borrow my chemistry one and return it next week if you want.",
+        "question": "What does it say?",
+        "options": [
+            "Marie is offering to lend Sylviane a book.",
+            "Marie is asking Sylviane to give back a book she had borrowed.",
+            "Marie is glad to lend Sylviane a book.",
+            "Marie wants to return one of Sylviane's books to her."
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Biển Báo & Thông Báo",
+        "passage": "Janine my birthday meal's booked for 6.30 Saturday at Luigi's restaurant. I know there are things you can't eat, so I've attached a menu. Tell me if it's OK.\nSarah",
+        "question": "What does Sarah need to know?",
+        "options": [
+            "If the food at the restaurant will be all right for Janine.",
+            "If Janine wants to see the restaurant menu before Saturday.",
+            "If Janine's birthday meal will start at 6.30 Saturday.",
+            "If Janine will be available to go to the restaurant."
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Biển Báo & Thông Báo",
+        "passage": "MATHS HOMEWORK\nSome of you have told me the homework is a bit difficult. So if you haven't finished it by Friday, you can hand it in on Monday.\nMr Peters",
+        "question": "What does it say?",
+        "options": [
+            "Anyone having problems with their homework may have extra time to complete it.",
+            "Students who wish to hand in their homework on Monday should tell Mr Peters.",
+            "The maths homework must be handed in on Friday.",
+            "The homework given out on Friday must be returned by Monday."
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Biển Báo & Thông Báo",
+        "passage": "ONLY BOOKS ALREADY PAID FOR CAN BE TAKEN INTO THE BOOKSHOP CAFÉ.",
+        "question": "What does it say?",
+        "options": [
+            "Do not take books which you haven't bought yet into the café.",
+            "Do not read our books while you are eating in the café.",
+            "Pay in the café for any books that you want to buy.",
+            "Don't take books into the café."
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Biển Báo & Thông Báo",
+        "passage": "Mr Wright's English lesson today will be in Room 24D beside the language laboratory. He's off sick, so use the lesson to revise for the test.",
+        "question": "What does it say?",
+        "options": [
+            "The usual English teacher cannot attend today's lesson.",
+            "Today's English lesson will be beside the laboratory because the teacher is sick.",
+            "The room for English lessons is changing because of the test.",
+            "The English class must take their workbooks to the language laboratory."
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Biển Báo & Thông Báo",
+        "passage": "Class 5 Garden Party\nBecause of bad weather, tomorrow's party will now be in the School Hall.",
+        "question": "What has changed about Class 5's party?",
+        "options": [
+            "The place",
+            "The time",
+            "The weather",
+            "The refreshments"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Biển Báo & Thông Báo",
+        "passage": "Dan,\nDon't forget to put your football shirt in the washing machine as soon as you get home from the match.\nMum",
+        "question": "What does Dan have to do?",
+        "options": [
+            "Remember to wash his football shirt after the match.",
+            "Dan's mum asked him not to put his shirt in the washing machine.",
+            "Remember to make sure his football shirt is clean in time for the match.",
+            "Remember where he put the football shirt that he needs for the match."
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Biển Báo & Thông Báo",
+        "passage": "COLLEGE STAFF/STUDENT BUS\nStudents cannot get on the bus without ID cards",
+        "question": "What does it say?",
+        "options": [
+            "Students are not allowed on the bus unless they have ID cards.",
+            "This bus service cannot be used by college staff unless they show ID cards.",
+            "This bus is for students only.",
+            "Students can get their ID cards on the bus."
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Biển Báo & Thông Báo",
+        "passage": "Jennie,\nThe garage rang - your new tyres have arrived. They can't fit them until next week. Please let them know today which day will be convenient.",
+        "question": "What does Jennie have to do?",
+        "options": [
+            "Arrange a time for the garage to fit the new tyres.",
+            "Ask another garage to fit her tyres.",
+            "The garage can't fix Jennie's car next week.",
+            "Collect the new tyres from the garage."
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Biển Báo & Thông Báo",
+        "passage": "We're staying at the Plaza hotel. It's not the hotel we wanted but it doesn't matter because this one is nearer the beach and I'm spending all my time there.",
+        "question": "How does Sabrina feel about the Plaza hotel?",
+        "options": [
+            "She thinks it has an advantage.",
+            "She wishes it was nearer the beach.",
+            "She didn't want to stay there.",
+            "She's disappointed with it."
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Biển Báo & Thông Báo",
+        "passage": "WARNING TO MOTORISTS\nRepairs to bridge start on 30/11/06\nDelays likely for four weeks",
+        "question": "What does it say?",
+        "options": [
+            "Bridge repairs may make your journey longer from the end of November.",
+            "Repairs will finish on 30/11/06.",
+            "Repair work on this bridge will finish in November.",
+            "The bridge cannot be used until the end of November."
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Biển Báo & Thông Báo",
+        "passage": "CITY BUSES\nPlease have ready the exact fare for your journey.",
+        "question": "What does it say?",
+        "options": [
+            "You need to have the correct money when you board the bus.",
+            "You must keep your ticket ready for checking.",
+            "All City Bus journeys cost exactly the same.",
+            "You need to change your money before getting on the bus."
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Biển Báo & Thông Báo",
+        "passage": "FOR SALE\nGremlins Computer Game (ages 8 and above)\nUnwanted gift - box unopened",
+        "question": "What does it say?",
+        "options": [
+            "The owner of the computer game that is for sale has never used it.",
+            "The game is for children only.",
+            "The person selling the computer game no longer wants to play with it.",
+            "The computer game is for sale because the owner is too old for it."
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Biển Báo & Thông Báo",
+        "passage": "COLLEGE OFFICE\nStudent identity cards will be available for collection from 14 January.",
+        "question": "What does it say?",
+        "options": [
+            "The earliest students can pick up their identity cards is 14 January.",
+            "The latest students can get their identity cards is 14 January.",
+            "Students should bring in their identity cards on 14 January.",
+            "Student identity cards are unavailable after 14 January."
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Biển Báo & Thông Báo",
+        "passage": "Would anyone who knows anything about the damaged window in the school library please report to my office before the end of the day.\nMrs Swan",
+        "question": "What does Mrs Swan want to do today?",
+        "options": [
+            "Discover how a window got broken.",
+            "Know what was wrong with the library.",
+            "Find out who uses the library.",
+            "Repair damage done to the library."
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Biển Báo & Thông Báo",
+        "passage": "Guess who I met on this mountain! My tennis hero! I was breathless because of the climb, so unfortunately couldn't speak to ask him for a photo of us together.",
+        "question": "What is Amanda sorry about?",
+        "options": [
+            "That she didn't have her photograph taken with her tennis hero.",
+            "That she didn't recognize her tennis hero from his photo.",
+            "That she couldn't climb high enough to photograph her tennis hero.",
+            "That she didn't climb the mountain."
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Biển Báo & Thông Báo",
+        "passage": "EVENING PERFORMANCE\nRefreshements are served only during the interval.",
+        "question": "What does it say?",
+        "options": [
+            "You can have a drink during the break.",
+            "You can drink after the performance.",
+            "Help yourself to drinks after the performance.",
+            "Snacks are available before the performance."
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Biển Báo & Thông Báo",
+        "passage": "UNIVERSITY LIBRARY\nPlease wait here while we check your books.",
+        "question": "What does it say?",
+        "options": [
+            "Do not go away until we have checked your books.",
+            "Come here if you want your books to be checked.",
+            "Do not leave books here for checks without telling us.",
+            "Check you have all your books before you leave the library."
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Biển Báo & Thông Báo",
+        "passage": "DO NOT CLIMB CASTLE WALLS - DANGER OF FALLING STONES.",
+        "question": "What does it say?",
+        "options": [
+            "Do not climb the walls as they are dangerous.",
+            "There is a danger of falling on to the stones.",
+            "You should be careful with the stones when climbing.",
+            "Check for loose stones before you climb."
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Biển Báo & Thông Báo",
+        "passage": "Passengers unable to show a ticket must pay an immediate fine of $10.",
+        "question": "What does it say?",
+        "options": [
+            "You are fined $10 at once if you can't show us your ticket.",
+            "You can't enter the show without a ticket.",
+            "A $10 fine will be payable later if you travel without a ticket.",
+            "If you lose your ticket, a new one will cost you $10."
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Biển Báo & Thông Báo",
+        "passage": "INTERNATIONAL STUDENTS' CLUB\nNext Saturday's coach trip is cancelled because of lack of interest.",
+        "question": "What does it say?",
+        "options": [
+            "We are cancelling the trip on Saturday as numbers are too low.",
+            "To avoid us cancelling another Saturday trip, tell us what your interests are.",
+            "Noboday is interested in the coach trip.",
+            "Saturday's coach trip is cancelled because there are transport problems."
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Biển Báo & Thông Báo",
+        "passage": "Hi Abdul,\nI won't be in college as I'm not well. Please call round on your way in to pick up my homework-it's due in today. Thanks, Aziz.",
+        "question": "What does Aziz want Abdul to do?",
+        "options": [
+            "Take his homework to college for him. (Do his homework for him)",
+            "Call their college to say that he is not well.",
+            "Take his homework to college for him.",
+            "Pick up any new homework given out at college today."
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Biển Báo & Thông Báo",
+        "passage": "Tony\nMaria's sorry but she's going to be late this evening. The train is delayed again! Don't forget you're meeting her at the station. She should be there at 7.15.\nAnita",
+        "question": "What is Anita doing?",
+        "options": [
+            "Explaining that she will be late",
+            "Asking Tony to meet her at the station.",
+            "Reminding somebody of an arrangement",
+            "Apologizing for missing the meeting."
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Biển Báo & Thông Báo",
+        "passage": "Casali Restaurant\nWe are open downstairs while improvements are made to this area.",
+        "question": "What does it say?",
+        "options": [
+            "You can only eat in one part of the restaurant at the moment.",
+            "Please come downstairs and try our recently improved restaurant.",
+            "The restaurant will not be open due to repairs.",
+            "The restaurant will reopen when the improvements are finished."
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Biển Báo & Thông Báo",
+        "passage": "IF YOUR SHOES ARE DIRTY, PLEASE REMOVE THEM BEFORE ENTERING THIS CHANGING ROOM.",
+        "question": "What does it say?",
+        "options": [
+            "Clean your shoes at the entrance to the changing room before you come in.",
+            "You can keep your shoes on in the changing room unless they are dirty.",
+            "All shoes must be taken off and left at the changing room entrance.",
+            "Please take off your shoes if possible."
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Từ Vựng - Điền Từ",
+        "passage": "A recruitment firm gives this advice to new workers: It is important to (1)___ time in your relationships with others at (2)___. Get to know the people who work near you: (3)___ yourself to them and tell them something about yourself. If people ask for your help, always (4)___ positively. Don't (5)___ emails or phone calls just because you are busy. If you make a mistake, it is better to (6)___ it and then apologise. When things go wrong, stay calm and (7)___ shouting and using bad language. Remember good (8)___ help to (9)___ your working (10)___ and you will find you can enjoy your work more.",
+        "question": "(1) It is important to ___ time in your relationships...",
+        "options": [
+            "invest",
+            "Work",
+            "introduce",
+            "Respond"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Từ Vựng - Điền Từ",
+        "passage": "A recruitment firm gives this advice to new workers: It is important to (1)___ time in your relationships with others at (2)___. Get to know the people who work near you: (3)___ yourself to them and tell them something about yourself. If people ask for your help, always (4)___ positively. Don't (5)___ emails or phone calls just because you are busy. If you make a mistake, it is better to (6)___ it and then apologise. When things go wrong, stay calm and (7)___ shouting and using bad language. Remember good (8)___ help to (9)___ your working (10)___ and you will find you can enjoy your work more.",
+        "question": "(2) ...with others at ___.",
+        "options": [
+            "Work",
+            "Manners",
+            "Admit",
+            "Avoid"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Từ Vựng - Điền Từ",
+        "passage": "A recruitment firm gives this advice to new workers: It is important to (1)___ time in your relationships with others at (2)___. Get to know the people who work near you: (3)___ yourself to them and tell them something about yourself. If people ask for your help, always (4)___ positively. Don't (5)___ emails or phone calls just because you are busy. If you make a mistake, it is better to (6)___ it and then apologise. When things go wrong, stay calm and (7)___ shouting and using bad language. Remember good (8)___ help to (9)___ your working (10)___ and you will find you can enjoy your work more.",
+        "question": "(3) ... ___ yourself to them and tell them something about yourself.",
+        "options": [
+            "introduce",
+            "ignore",
+            "improve",
+            "Environment"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Từ Vựng - Điền Từ",
+        "passage": "A recruitment firm gives this advice to new workers: It is important to (1)___ time in your relationships with others at (2)___. Get to know the people who work near you: (3)___ yourself to them and tell them something about yourself. If people ask for your help, always (4)___ positively. Don't (5)___ emails or phone calls just because you are busy. If you make a mistake, it is better to (6)___ it and then apologise. When things go wrong, stay calm and (7)___ shouting and using bad language. Remember good (8)___ help to (9)___ your working (10)___ and you will find you can enjoy your work more.",
+        "question": "(4) If people ask for your help, always ___ positively.",
+        "options": [
+            "Respond",
+            "invest",
+            "Admit",
+            "Work"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Từ Vựng - Điền Từ",
+        "passage": "A recruitment firm gives this advice to new workers: It is important to (1)___ time in your relationships with others at (2)___. Get to know the people who work near you: (3)___ yourself to them and tell them something about yourself. If people ask for your help, always (4)___ positively. Don't (5)___ emails or phone calls just because you are busy. If you make a mistake, it is better to (6)___ it and then apologise. When things go wrong, stay calm and (7)___ shouting and using bad language. Remember good (8)___ help to (9)___ your working (10)___ and you will find you can enjoy your work more.",
+        "question": "(5) Don't ___ emails or phone calls just because you are busy.",
+        "options": [
+            "ignore",
+            "Avoid",
+            "Manners",
+            "introduce"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Từ Vựng - Điền Từ",
+        "passage": "A recruitment firm gives this advice to new workers: It is important to (1)___ time in your relationships with others at (2)___. Get to know the people who work near you: (3)___ yourself to them and tell them something about yourself. If people ask for your help, always (4)___ positively. Don't (5)___ emails or phone calls just because you are busy. If you make a mistake, it is better to (6)___ it and then apologise. When things go wrong, stay calm and (7)___ shouting and using bad language. Remember good (8)___ help to (9)___ your working (10)___ and you will find you can enjoy your work more.",
+        "question": "(6) If you make a mistake, it is better to ___ it and then apologise.",
+        "options": [
+            "Admit",
+            "improve",
+            "invest",
+            "Work"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Từ Vựng - Điền Từ",
+        "passage": "A recruitment firm gives this advice to new workers: It is important to (1)___ time in your relationships with others at (2)___. Get to know the people who work near you: (3)___ yourself to them and tell them something about yourself. If people ask for your help, always (4)___ positively. Don't (5)___ emails or phone calls just because you are busy. If you make a mistake, it is better to (6)___ it and then apologise. When things go wrong, stay calm and (7)___ shouting and using bad language. Remember good (8)___ help to (9)___ your working (10)___ and you will find you can enjoy your work more.",
+        "question": "(7) When things go wrong, stay calm and ___ shouting and using bad language.",
+        "options": [
+            "Avoid",
+            "Respond",
+            "introduce",
+            "ignore"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Từ Vựng - Điền Từ",
+        "passage": "A recruitment firm gives this advice to new workers: It is important to (1)___ time in your relationships with others at (2)___. Get to know the people who work near you: (3)___ yourself to them and tell them something about yourself. If people ask for your help, always (4)___ positively. Don't (5)___ emails or phone calls just because you are busy. If you make a mistake, it is better to (6)___ it and then apologise. When things go wrong, stay calm and (7)___ shouting and using bad language. Remember good (8)___ help to (9)___ your working (10)___ and you will find you can enjoy your work more.",
+        "question": "(8) Remember good ___ help to improve your working Environment...",
+        "options": [
+            "Manners",
+            "Work",
+            "Admit",
+            "invest"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Từ Vựng - Điền Từ",
+        "passage": "A recruitment firm gives this advice to new workers: It is important to (1)___ time in your relationships with others at (2)___. Get to know the people who work near you: (3)___ yourself to them and tell them something about yourself. If people ask for your help, always (4)___ positively. Don't (5)___ emails or phone calls just because you are busy. If you make a mistake, it is better to (6)___ it and then apologise. When things go wrong, stay calm and (7)___ shouting and using bad language. Remember good (8)___ help to (9)___ your working (10)___ and you will find you can enjoy your work more.",
+        "question": "(9) Remember good Manners help to ___ your working Environment...",
+        "options": [
+            "improve",
+            "ignore",
+            "Avoid",
+            "introduce"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Từ Vựng - Điền Từ",
+        "passage": "A recruitment firm gives this advice to new workers: It is important to (1)___ time in your relationships with others at (2)___. Get to know the people who work near you: (3)___ yourself to them and tell them something about yourself. If people ask for your help, always (4)___ positively. Don't (5)___ emails or phone calls just because you are busy. If you make a mistake, it is better to (6)___ it and then apologise. When things go wrong, stay calm and (7)___ shouting and using bad language. Remember good (8)___ help to (9)___ your working (10)___ and you will find you can enjoy your work more.",
+        "question": "(10) ...help to improve your working ___",
+        "options": [
+            "Environment",
+            "Manners",
+            "Work",
+            "Admit"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Từ Vựng - Điền Từ",
+        "passage": "A: Did you read the article on Erik Weihenmayer? Isn't he a fascinating person?\nB: Yes, he really is! Imagine being blind and (1)___ a mountain!\nA: Even for people who can see, climbing a mountain is very difficult.\nB: You know, I was really surprised to learn that he is also a teacher and a (2)___ athlete.\nA: People like Erik really (3)___ people all around the world. Did you know that he is not the only person with a disability who has done amazing things?\nB: Yes! I read about Helen Keller in school. She was blind, deaf, and could not speak. Helen Keller became famous because of all the (4)___ she had in her lifetime.\nA: Right! But people who have disabilities are not the only people who face (5)___. We all have difficulties in our lives. We face challenges at home, at work, at school, and in relationships.\nB: I agree. Do you think challenges are good for us?\nA: Yes, I do. I think if a person is not (6)___ and has (7)___, then he or she can overcome most of life's challenges. I believe that challenges make us stronger.\nB: You are right! I think that people like Erik Weihenmayer and Helen Keller really (8)___ others to be brave and face life's challenges and never give up.",
+        "question": "(1) Imagine being blind and ___ a mountain!",
+        "options": [
+            "climbing",
+            "afraid",
+            "professional",
+            "inspire"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Từ Vựng - Điền Từ",
+        "passage": "A: Did you read the article on Erik Weihenmayer? Isn't he a fascinating person?\nB: Yes, he really is! Imagine being blind and (1)___ a mountain!\nA: Even for people who can see, climbing a mountain is very difficult.\nB: You know, I was really surprised to learn that he is also a teacher and a (2)___ athlete.\nA: People like Erik really (3)___ people all around the world. Did you know that he is not the only person with a disability who has done amazing things?\nB: Yes! I read about Helen Keller in school. She was blind, deaf, and could not speak. Helen Keller became famous because of all the (4)___ she had in her lifetime.\nA: Right! But people who have disabilities are not the only people who face (5)___. We all have difficulties in our lives. We face challenges at home, at work, at school, and in relationships.\nB: I agree. Do you think challenges are good for us?\nA: Yes, I do. I think if a person is not (6)___ and has (7)___, then he or she can overcome most of life's challenges. I believe that challenges make us stronger.\nB: You are right! I think that people like Erik Weihenmayer and Helen Keller really (8)___ others to be brave and face life's challenges and never give up.",
+        "question": "(2) I was really surprised to learn that he is also a teacher and a ___ athlete.",
+        "options": [
+            "professional",
+            "ambition",
+            "accomplishments",
+            "encourage"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Từ Vựng - Điền Từ",
+        "passage": "A: Did you read the article on Erik Weihenmayer? Isn't he a fascinating person?\nB: Yes, he really is! Imagine being blind and (1)___ a mountain!\nA: Even for people who can see, climbing a mountain is very difficult.\nB: You know, I was really surprised to learn that he is also a teacher and a (2)___ athlete.\nA: People like Erik really (3)___ people all around the world. Did you know that he is not the only person with a disability who has done amazing things?\nB: Yes! I read about Helen Keller in school. She was blind, deaf, and could not speak. Helen Keller became famous because of all the (4)___ she had in her lifetime.\nA: Right! But people who have disabilities are not the only people who face (5)___. We all have difficulties in our lives. We face challenges at home, at work, at school, and in relationships.\nB: I agree. Do you think challenges are good for us?\nA: Yes, I do. I think if a person is not (6)___ and has (7)___, then he or she can overcome most of life's challenges. I believe that challenges make us stronger.\nB: You are right! I think that people like Erik Weihenmayer and Helen Keller really (8)___ others to be brave and face life's challenges and never give up.",
+        "question": "(3) People like Erik really ___ people all around the world.",
+        "options": [
+            "inspire",
+            "afraid",
+            "challenges",
+            "climbing"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Từ Vựng - Điền Từ",
+        "passage": "A: Did you read the article on Erik Weihenmayer? Isn't he a fascinating person?\nB: Yes, he really is! Imagine being blind and (1)___ a mountain!\nA: Even for people who can see, climbing a mountain is very difficult.\nB: You know, I was really surprised to learn that he is also a teacher and a (2)___ athlete.\nA: People like Erik really (3)___ people all around the world. Did you know that he is not the only person with a disability who has done amazing things?\nB: Yes! I read about Helen Keller in school. She was blind, deaf, and could not speak. Helen Keller became famous because of all the (4)___ she had in her lifetime.\nA: Right! But people who have disabilities are not the only people who face (5)___. We all have difficulties in our lives. We face challenges at home, at work, at school, and in relationships.\nB: I agree. Do you think challenges are good for us?\nA: Yes, I do. I think if a person is not (6)___ and has (7)___, then he or she can overcome most of life's challenges. I believe that challenges make us stronger.\nB: You are right! I think that people like Erik Weihenmayer and Helen Keller really (8)___ others to be brave and face life's challenges and never give up.",
+        "question": "(4) Helen Keller became famous because of all the ___ she had in her lifetime.",
+        "options": [
+            "accomplishments",
+            "ambition",
+            "professional",
+            "encourage"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Từ Vựng - Điền Từ",
+        "passage": "A: Did you read the article on Erik Weihenmayer? Isn't he a fascinating person?\nB: Yes, he really is! Imagine being blind and (1)___ a mountain!\nA: Even for people who can see, climbing a mountain is very difficult.\nB: You know, I was really surprised to learn that he is also a teacher and a (2)___ athlete.\nA: People like Erik really (3)___ people all around the world. Did you know that he is not the only person with a disability who has done amazing things?\nB: Yes! I read about Helen Keller in school. She was blind, deaf, and could not speak. Helen Keller became famous because of all the (4)___ she had in her lifetime.\nA: Right! But people who have disabilities are not the only people who face (5)___. We all have difficulties in our lives. We face challenges at home, at work, at school, and in relationships.\nB: I agree. Do you think challenges are good for us?\nA: Yes, I do. I think if a person is not (6)___ and has (7)___, then he or she can overcome most of life's challenges. I believe that challenges make us stronger.\nB: You are right! I think that people like Erik Weihenmayer and Helen Keller really (8)___ others to be brave and face life's challenges and never give up.",
+        "question": "(5) ...people who have disabilities are not the only people who face ___.",
+        "options": [
+            "challenges",
+            "inspire",
+            "climbing",
+            "afraid"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Từ Vựng - Điền Từ",
+        "passage": "A: Did you read the article on Erik Weihenmayer? Isn't he a fascinating person?\nB: Yes, he really is! Imagine being blind and (1)___ a mountain!\nA: Even for people who can see, climbing a mountain is very difficult.\nB: You know, I was really surprised to learn that he is also a teacher and a (2)___ athlete.\nA: People like Erik really (3)___ people all around the world. Did you know that he is not the only person with a disability who has done amazing things?\nB: Yes! I read about Helen Keller in school. She was blind, deaf, and could not speak. Helen Keller became famous because of all the (4)___ she had in her lifetime.\nA: Right! But people who have disabilities are not the only people who face (5)___. We all have difficulties in our lives. We face challenges at home, at work, at school, and in relationships.\nB: I agree. Do you think challenges are good for us?\nA: Yes, I do. I think if a person is not (6)___ and has (7)___, then he or she can overcome most of life's challenges. I believe that challenges make us stronger.\nB: You are right! I think that people like Erik Weihenmayer and Helen Keller really (8)___ others to be brave and face life's challenges and never give up.",
+        "question": "(6) I think if a person is not ___ and has ambition...",
+        "options": [
+            "afraid",
+            "professional",
+            "encourage",
+            "accomplishments"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Từ Vựng - Điền Từ",
+        "passage": "A: Did you read the article on Erik Weihenmayer? Isn't he a fascinating person?\nB: Yes, he really is! Imagine being blind and (1)___ a mountain!\nA: Even for people who can see, climbing a mountain is very difficult.\nB: You know, I was really surprised to learn that he is also a teacher and a (2)___ athlete.\nA: People like Erik really (3)___ people all around the world. Did you know that he is not the only person with a disability who has done amazing things?\nB: Yes! I read about Helen Keller in school. She was blind, deaf, and could not speak. Helen Keller became famous because of all the (4)___ she had in her lifetime.\nA: Right! But people who have disabilities are not the only people who face (5)___. We all have difficulties in our lives. We face challenges at home, at work, at school, and in relationships.\nB: I agree. Do you think challenges are good for us?\nA: Yes, I do. I think if a person is not (6)___ and has (7)___, then he or she can overcome most of life's challenges. I believe that challenges make us stronger.\nB: You are right! I think that people like Erik Weihenmayer and Helen Keller really (8)___ others to be brave and face life's challenges and never give up.",
+        "question": "(7) ...if a person is not afraid and has ___...",
+        "options": [
+            "ambition",
+            "inspire",
+            "challenges",
+            "climbing"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Từ Vựng - Điền Từ",
+        "passage": "A: Did you read the article on Erik Weihenmayer? Isn't he a fascinating person?\nB: Yes, he really is! Imagine being blind and (1)___ a mountain!\nA: Even for people who can see, climbing a mountain is very difficult.\nB: You know, I was really surprised to learn that he is also a teacher and a (2)___ athlete.\nA: People like Erik really (3)___ people all around the world. Did you know that he is not the only person with a disability who has done amazing things?\nB: Yes! I read about Helen Keller in school. She was blind, deaf, and could not speak. Helen Keller became famous because of all the (4)___ she had in her lifetime.\nA: Right! But people who have disabilities are not the only people who face (5)___. We all have difficulties in our lives. We face challenges at home, at work, at school, and in relationships.\nB: I agree. Do you think challenges are good for us?\nA: Yes, I do. I think if a person is not (6)___ and has (7)___, then he or she can overcome most of life's challenges. I believe that challenges make us stronger.\nB: You are right! I think that people like Erik Weihenmayer and Helen Keller really (8)___ others to be brave and face life's challenges and never give up.",
+        "question": "(8) I think that people like Erik Weihenmayer and Helen Keller really ___ others to be brave...",
+        "options": [
+            "encourage",
+            "afraid",
+            "professional",
+            "ambition"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Từ Vựng - Điền Từ",
+        "passage": "The Royal Family:\nComplete the sentences using the appropriate phrases.",
+        "question": "In other ways, their lives are very _______ their friends' lives.",
+        "options": [
+            "different from",
+            "delighted with",
+            "in line to",
+            "under police escort"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Từ Vựng - Điền Từ",
+        "passage": "The Royal Family:\nComplete the sentences using the appropriate phrases.",
+        "question": "The Duchess of Cornwall and Prince Harry... are _______ the news.",
+        "options": [
+            "delighted with",
+            "in due course",
+            "admitted to",
+            "spent time with"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Từ Vựng - Điền Từ",
+        "passage": "The Royal Family:\nComplete the sentences using the appropriate phrases.",
+        "question": "The baby will be third _______ the throne.",
+        "options": [
+            "in line to",
+            "different from",
+            "admitted to",
+            "under police escort"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Từ Vựng - Điền Từ",
+        "passage": "The Royal Family:\nComplete the sentences using the appropriate phrases.",
+        "question": "A spokesman said the duchess has been _______ King Edward VII Hospital...",
+        "options": [
+            "admitted to",
+            "gave birth to",
+            "spent time with",
+            "in due course"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Từ Vựng - Điền Từ",
+        "passage": "The Royal Family:\nComplete the sentences using the appropriate phrases.",
+        "question": "...after the duchess _______ a baby boy.",
+        "options": [
+            "gave birth to",
+            "spent time with",
+            "delighted with",
+            "admitted to"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Từ Vựng - Điền Từ",
+        "passage": "The Royal Family:\nComplete the sentences using the appropriate phrases.",
+        "question": "The young parents _______ their son before telling the news...",
+        "options": [
+            "spent time with",
+            "different from",
+            "gave birth to",
+            "under police escort"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Từ Vựng - Điền Từ",
+        "passage": "The Royal Family:\nComplete the sentences using the appropriate phrases.",
+        "question": "A bulletin signed by him was taken... to the palace _______",
+        "options": [
+            "under police escort",
+            "in line to",
+            "in due course",
+            "different from"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Từ Vựng - Điền Từ",
+        "passage": "The Royal Family:\nComplete the sentences using the appropriate phrases.",
+        "question": "A Palace spokesman said the names of the baby would be announced _______",
+        "options": [
+            "in due course",
+            "under police escort",
+            "delighted with",
+            "admitted to"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Đọc Hiểu (Gap Fill)",
+        "passage": "The village of Jukkasjarvi is in Swedish Lapland, and winter temperatures there can reach -40C. But 6,000 holidaymakers (1).............go there annually, to visit what is probably Europe's most unusual accommodation. In this hotel, you eat, drink and sleep in rooms made (2)...............ice. If you want, you can (3)...............get married in one. The bar is ice too, and putting hot drinks on it is obviously not (4)..............! The bedrooms are around -4C, but fortunately guests are (5)..............with special sleeping bags that will keep (6)..............warm in the coldest of temperatures. (7)..............outdoor clothes can be supplied too, if needed.\nThe hotel is never more than six months old (8)..............it melts in summer, and (9).............winter it is rebuilt. Creating the hotel (10).............. 10,000 tons of ice, plus 30,000 tons of snow.",
+        "question": "6,000 holidaymakers (1).............go there annually",
+        "options": [
+            "therefore",
+            "ever",
+            "also",
+            "still"
+        ],
+        "answer": 2
+    },
+    {
+        "category": "Đọc Hiểu (T/F)",
+        "passage": "The Olympic Games\nDuring the Olympic Games, people from all over the world come together in the peace and friendship. Some of these people complete for medals. Several million people attend the games, and millions of other people watch them on television.\n\nWhy do we have the Olympic Games? How did they begin? The first Olympic Games that we have records of were in Greece in 776 B.C. The games lasted one day. The only event in the first thirteen Olympic Games was a race. Men ran the length or the stadium (about 192 meters). Then, longer running races were added. Through the years, a few other kinds of events, like the long jump, were also added. During this time, the games were for men only, and women could not even watch them. In the year 393, a Roman emperor ended the Olympic Game because the quality of the games became very low. The Olympics did not take place again for 1500 years!\n\nIn 1984, Pierre de Coubertin of France helped from the International Olympic Committee, and the modern Olympic Games began. In 1896, the games were held again in Athens, Greece. The Greeks built a new stadium for the competition. Three hundred and eleven athletes from thirteen countries competed in many events. The winners became national heroes.\n\nAfter 1896, the games were held every four years during the summer in different cities around the world. In 1900, the Olympics were in Paris, France, and women competed for the first time. In 1908, in London, England, the first gold medals were given to winning athletes. Before that time, the winners received only silver and bronze medals. The Olympic flag was first introduced in 1920 in Antwerp, Belgium. The flag has five rings on it. The rings represent the continents of Africa, Asia, Australia, Europe, and North and South American. Each ring is a different color blue, yellow, black, green, or red because the flag of each of the countries that compete in the games has at least one of these colors in it.\n\nThe Olympic Winter games began in 1924 in Chamonix, France. Athletes competed in winter events such as skiing, ice skating, and ice hockey. Today, the Winter Games take places every four years. The Summer Games also take place every four years, but not in the same year as the winter events. Both the Summer Games and the Winter Games must have at least fifteen events, and they cannot last more than sixteen days.\n\nUntil recently. Olympic competitors could not be professional athletes. All of the athletes in the Olympic Games were amateurs. Today, however, many of the Olympic athletes are professional who play their sports for money during the year. Some people disagree with this idea. They believe that the Olympic game are for amateur athletes, not paid professionals. Other people think that any one can play in the Olympic Games. No matter who the athletes are, millions of people throughout the world enjoy watching the greatest athletic competitions, the Summer Game and the Winter Games of the Olympics.",
+        "question": "The first Olympic competitors ran the length of the stadium.",
+        "options": [
+            "TRUE",
+            "FALSE"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Đọc Hiểu (T/F)",
+        "passage": "The Olympic Games\nDuring the Olympic Games, people from all over the world come together in the peace and friendship. Some of these people complete for medals. Several million people attend the games, and millions of other people watch them on television.\n\nWhy do we have the Olympic Games? How did they begin? The first Olympic Games that we have records of were in Greece in 776 B.C. The games lasted one day. The only event in the first thirteen Olympic Games was a race. Men ran the length or the stadium (about 192 meters). Then, longer running races were added. Through the years, a few other kinds of events, like the long jump, were also added. During this time, the games were for men only, and women could not even watch them. In the year 393, a Roman emperor ended the Olympic Game because the quality of the games became very low. The Olympics did not take place again for 1500 years!\n\nIn 1984, Pierre de Coubertin of France helped from the International Olympic Committee, and the modern Olympic Games began. In 1896, the games were held again in Athens, Greece. The Greeks built a new stadium for the competition. Three hundred and eleven athletes from thirteen countries competed in many events. The winners became national heroes.\n\nAfter 1896, the games were held every four years during the summer in different cities around the world. In 1900, the Olympics were in Paris, France, and women competed for the first time. In 1908, in London, England, the first gold medals were given to winning athletes. Before that time, the winners received only silver and bronze medals. The Olympic flag was first introduced in 1920 in Antwerp, Belgium. The flag has five rings on it. The rings represent the continents of Africa, Asia, Australia, Europe, and North and South American. Each ring is a different color blue, yellow, black, green, or red because the flag of each of the countries that compete in the games has at least one of these colors in it.\n\nThe Olympic Winter games began in 1924 in Chamonix, France. Athletes competed in winter events such as skiing, ice skating, and ice hockey. Today, the Winter Games take places every four years. The Summer Games also take place every four years, but not in the same year as the winter events. Both the Summer Games and the Winter Games must have at least fifteen events, and they cannot last more than sixteen days.\n\nUntil recently. Olympic competitors could not be professional athletes. All of the athletes in the Olympic Games were amateurs. Today, however, many of the Olympic athletes are professional who play their sports for money during the year. Some people disagree with this idea. They believe that the Olympic game are for amateur athletes, not paid professionals. Other people think that any one can play in the Olympic Games. No matter who the athletes are, millions of people throughout the world enjoy watching the greatest athletic competitions, the Summer Game and the Winter Games of the Olympics.",
+        "question": "Pierre de Coubertin was an athlete in the first modern games.",
+        "options": [
+            "TRUE",
+            "FALSE"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (T/F)",
+        "passage": "The Olympic Games\nDuring the Olympic Games, people from all over the world come together in the peace and friendship. Some of these people complete for medals. Several million people attend the games, and millions of other people watch them on television.\n\nWhy do we have the Olympic Games? How did they begin? The first Olympic Games that we have records of were in Greece in 776 B.C. The games lasted one day. The only event in the first thirteen Olympic Games was a race. Men ran the length or the stadium (about 192 meters). Then, longer running races were added. Through the years, a few other kinds of events, like the long jump, were also added. During this time, the games were for men only, and women could not even watch them. In the year 393, a Roman emperor ended the Olympic Game because the quality of the games became very low. The Olympics did not take place again for 1500 years!\n\nIn 1984, Pierre de Coubertin of France helped from the International Olympic Committee, and the modern Olympic Games began. In 1896, the games were held again in Athens, Greece. The Greeks built a new stadium for the competition. Three hundred and eleven athletes from thirteen countries competed in many events. The winners became national heroes.\n\nAfter 1896, the games were held every four years during the summer in different cities around the world. In 1900, the Olympics were in Paris, France, and women competed for the first time. In 1908, in London, England, the first gold medals were given to winning athletes. Before that time, the winners received only silver and bronze medals. The Olympic flag was first introduced in 1920 in Antwerp, Belgium. The flag has five rings on it. The rings represent the continents of Africa, Asia, Australia, Europe, and North and South American. Each ring is a different color blue, yellow, black, green, or red because the flag of each of the countries that compete in the games has at least one of these colors in it.\n\nThe Olympic Winter games began in 1924 in Chamonix, France. Athletes competed in winter events such as skiing, ice skating, and ice hockey. Today, the Winter Games take places every four years. The Summer Games also take place every four years, but not in the same year as the winter events. Both the Summer Games and the Winter Games must have at least fifteen events, and they cannot last more than sixteen days.\n\nUntil recently. Olympic competitors could not be professional athletes. All of the athletes in the Olympic Games were amateurs. Today, however, many of the Olympic athletes are professional who play their sports for money during the year. Some people disagree with this idea. They believe that the Olympic game are for amateur athletes, not paid professionals. Other people think that any one can play in the Olympic Games. No matter who the athletes are, millions of people throughout the world enjoy watching the greatest athletic competitions, the Summer Game and the Winter Games of the Olympics.",
+        "question": "Winners have always received gold medals.",
+        "options": [
+            "TRUE",
+            "FALSE"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (T/F)",
+        "passage": "The Olympic Games\nDuring the Olympic Games, people from all over the world come together in the peace and friendship. Some of these people complete for medals. Several million people attend the games, and millions of other people watch them on television.\n\nWhy do we have the Olympic Games? How did they begin? The first Olympic Games that we have records of were in Greece in 776 B.C. The games lasted one day. The only event in the first thirteen Olympic Games was a race. Men ran the length or the stadium (about 192 meters). Then, longer running races were added. Through the years, a few other kinds of events, like the long jump, were also added. During this time, the games were for men only, and women could not even watch them. In the year 393, a Roman emperor ended the Olympic Game because the quality of the games became very low. The Olympics did not take place again for 1500 years!\n\nIn 1984, Pierre de Coubertin of France helped from the International Olympic Committee, and the modern Olympic Games began. In 1896, the games were held again in Athens, Greece. The Greeks built a new stadium for the competition. Three hundred and eleven athletes from thirteen countries competed in many events. The winners became national heroes.\n\nAfter 1896, the games were held every four years during the summer in different cities around the world. In 1900, the Olympics were in Paris, France, and women competed for the first time. In 1908, in London, England, the first gold medals were given to winning athletes. Before that time, the winners received only silver and bronze medals. The Olympic flag was first introduced in 1920 in Antwerp, Belgium. The flag has five rings on it. The rings represent the continents of Africa, Asia, Australia, Europe, and North and South American. Each ring is a different color blue, yellow, black, green, or red because the flag of each of the countries that compete in the games has at least one of these colors in it.\n\nThe Olympic Winter games began in 1924 in Chamonix, France. Athletes competed in winter events such as skiing, ice skating, and ice hockey. Today, the Winter Games take places every four years. The Summer Games also take place every four years, but not in the same year as the winter events. Both the Summer Games and the Winter Games must have at least fifteen events, and they cannot last more than sixteen days.\n\nUntil recently. Olympic competitors could not be professional athletes. All of the athletes in the Olympic Games were amateurs. Today, however, many of the Olympic athletes are professional who play their sports for money during the year. Some people disagree with this idea. They believe that the Olympic game are for amateur athletes, not paid professionals. Other people think that any one can play in the Olympic Games. No matter who the athletes are, millions of people throughout the world enjoy watching the greatest athletic competitions, the Summer Game and the Winter Games of the Olympics.",
+        "question": "The Olympic flag has six colored rings on it.",
+        "options": [
+            "TRUE",
+            "FALSE"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (T/F)",
+        "passage": "The Olympic Games\nDuring the Olympic Games, people from all over the world come together in the peace and friendship. Some of these people complete for medals. Several million people attend the games, and millions of other people watch them on television.\n\nWhy do we have the Olympic Games? How did they begin? The first Olympic Games that we have records of were in Greece in 776 B.C. The games lasted one day. The only event in the first thirteen Olympic Games was a race. Men ran the length or the stadium (about 192 meters). Then, longer running races were added. Through the years, a few other kinds of events, like the long jump, were also added. During this time, the games were for men only, and women could not even watch them. In the year 393, a Roman emperor ended the Olympic Game because the quality of the games became very low. The Olympics did not take place again for 1500 years!\n\nIn 1984, Pierre de Coubertin of France helped from the International Olympic Committee, and the modern Olympic Games began. In 1896, the games were held again in Athens, Greece. The Greeks built a new stadium for the competition. Three hundred and eleven athletes from thirteen countries competed in many events. The winners became national heroes.\n\nAfter 1896, the games were held every four years during the summer in different cities around the world. In 1900, the Olympics were in Paris, France, and women competed for the first time. In 1908, in London, England, the first gold medals were given to winning athletes. Before that time, the winners received only silver and bronze medals. The Olympic flag was first introduced in 1920 in Antwerp, Belgium. The flag has five rings on it. The rings represent the continents of Africa, Asia, Australia, Europe, and North and South American. Each ring is a different color blue, yellow, black, green, or red because the flag of each of the countries that compete in the games has at least one of these colors in it.\n\nThe Olympic Winter games began in 1924 in Chamonix, France. Athletes competed in winter events such as skiing, ice skating, and ice hockey. Today, the Winter Games take places every four years. The Summer Games also take place every four years, but not in the same year as the winter events. Both the Summer Games and the Winter Games must have at least fifteen events, and they cannot last more than sixteen days.\n\nUntil recently. Olympic competitors could not be professional athletes. All of the athletes in the Olympic Games were amateurs. Today, however, many of the Olympic athletes are professional who play their sports for money during the year. Some people disagree with this idea. They believe that the Olympic game are for amateur athletes, not paid professionals. Other people think that any one can play in the Olympic Games. No matter who the athletes are, millions of people throughout the world enjoy watching the greatest athletic competitions, the Summer Game and the Winter Games of the Olympics.",
+        "question": "The summer and winter games take place in the same year.",
+        "options": [
+            "TRUE",
+            "FALSE"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (T/F)",
+        "passage": "The Olympic Games\nDuring the Olympic Games, people from all over the world come together in the peace and friendship. Some of these people complete for medals. Several million people attend the games, and millions of other people watch them on television.\n\nWhy do we have the Olympic Games? How did they begin? The first Olympic Games that we have records of were in Greece in 776 B.C. The games lasted one day. The only event in the first thirteen Olympic Games was a race. Men ran the length or the stadium (about 192 meters). Then, longer running races were added. Through the years, a few other kinds of events, like the long jump, were also added. During this time, the games were for men only, and women could not even watch them. In the year 393, a Roman emperor ended the Olympic Game because the quality of the games became very low. The Olympics did not take place again for 1500 years!\n\nIn 1984, Pierre de Coubertin of France helped from the International Olympic Committee, and the modern Olympic Games began. In 1896, the games were held again in Athens, Greece. The Greeks built a new stadium for the competition. Three hundred and eleven athletes from thirteen countries competed in many events. The winners became national heroes.\n\nAfter 1896, the games were held every four years during the summer in different cities around the world. In 1900, the Olympics were in Paris, France, and women competed for the first time. In 1908, in London, England, the first gold medals were given to winning athletes. Before that time, the winners received only silver and bronze medals. The Olympic flag was first introduced in 1920 in Antwerp, Belgium. The flag has five rings on it. The rings represent the continents of Africa, Asia, Australia, Europe, and North and South American. Each ring is a different color blue, yellow, black, green, or red because the flag of each of the countries that compete in the games has at least one of these colors in it.\n\nThe Olympic Winter games began in 1924 in Chamonix, France. Athletes competed in winter events such as skiing, ice skating, and ice hockey. Today, the Winter Games take places every four years. The Summer Games also take place every four years, but not in the same year as the winter events. Both the Summer Games and the Winter Games must have at least fifteen events, and they cannot last more than sixteen days.\n\nUntil recently. Olympic competitors could not be professional athletes. All of the athletes in the Olympic Games were amateurs. Today, however, many of the Olympic athletes are professional who play their sports for money during the year. Some people disagree with this idea. They believe that the Olympic game are for amateur athletes, not paid professionals. Other people think that any one can play in the Olympic Games. No matter who the athletes are, millions of people throughout the world enjoy watching the greatest athletic competitions, the Summer Game and the Winter Games of the Olympics.",
+        "question": "Today both men and women compete in the Olympics.",
+        "options": [
+            "TRUE",
+            "FALSE"
         ],
         "answer": 0
     },
@@ -2698,7 +3641,6 @@ categories = ["Tất cả"] + list(dict.fromkeys([q["category"] for q in QUIZ_DA
 st.sidebar.title("⚙️ Cài đặt ôn tập")
 selected_category = st.sidebar.selectbox("Chọn thể loại bài tập:", categories)
 
-# Quản lý Session State
 if "selected_category" not in st.session_state:
     st.session_state.selected_category = "Tất cả"
 if "current_idx" not in st.session_state:
@@ -2708,7 +3650,7 @@ if "score" not in st.session_state:
 if "user_answers" not in st.session_state:
     st.session_state.user_answers = {}
 
-# Reset tiến trình nếu người dùng đổi thể loại bài tập
+# Reset
 if selected_category != st.session_state.selected_category:
     st.session_state.selected_category = selected_category
     st.session_state.current_idx = 0
@@ -2716,38 +3658,31 @@ if selected_category != st.session_state.selected_category:
     st.session_state.user_answers = {}
     st.rerun()
 
-# Lọc câu hỏi theo thể loại
+# Filter
 if st.session_state.selected_category == "Tất cả":
     current_quiz_data = QUIZ_DATA
 else:
     current_quiz_data = [q for q in QUIZ_DATA if q["category"] == st.session_state.selected_category]
 
-
 st.title("📚 Ôn Tập Tiếng Anh EHOU")
-st.caption(f"Ngân hàng {len(QUIZ_DATA)} câu hỏi (Đã hiển thị TOÀN BỘ nội dung bài đọc hiểu)")
+st.caption(f"Ngân hàng {len(QUIZ_DATA)} câu hỏi tổng hợp chuẩn nhất từ 13 tài liệu")
 
 total_q = len(current_quiz_data)
 
-# Kiểm tra nếu có dữ liệu
 if total_q == 0:
     st.warning("Không có câu hỏi nào trong chuyên mục này.")
-# Màn hình làm bài
 elif st.session_state.current_idx < total_q:
     idx = st.session_state.current_idx
     q_data = current_quiz_data[idx]
 
-    # Thanh tiến trình
     st.progress((idx) / total_q)
     st.markdown(f"**Câu {idx + 1} / {total_q}** | *Chuyên mục: {q_data['category']}*")
 
-    # Đoạn văn / Đoạn trích (nếu có)
     if "passage" in q_data and q_data["passage"]:
         st.info(f"**Đoạn văn / Thông báo:**\n\n{q_data['passage']}")
 
-    # Câu hỏi
     st.subheader(q_data["question"])
 
-    # Danh sách đáp án chọn
     choice = st.radio(
         "Chọn đáp án đúng:",
         q_data["options"],
@@ -2768,25 +3703,19 @@ elif st.session_state.current_idx < total_q:
             correct_opt = q_data["options"][q_data["answer"]]
             st.error(f"❌ Sai rồi! Đáp án đúng là: **{correct_opt}**")
 
-    # Nút sang câu tiếp theo
     if idx in st.session_state.user_answers:
         if st.button("Câu tiếp theo ➡️"):
             if st.session_state.user_answers[idx] == q_data["answer"]:
                 st.session_state.score += 1
             st.session_state.current_idx += 1
             st.rerun()
-
-# Màn hình kết quả
 else:
     st.progress(1.0)
     st.balloons()
     st.header("🏁 Bạn đã hoàn thành phần ôn tập này!")
-    
     final_score = st.session_state.score
     accuracy = round((final_score / total_q) * 100, 1) if total_q > 0 else 0
-    
     st.metric(label="Tổng số câu đúng", value=f"{final_score} / {total_q}", delta=f"{accuracy}%")
-    
     if st.button("🔄 Thi lại phần này"):
         st.session_state.current_idx = 0
         st.session_state.score = 0
