@@ -3762,20 +3762,31 @@ elif st.session_state.current_idx < total_q:
     st.progress((idx) / total_q)
     st.markdown(f"**Câu {idx + 1} / {total_q}** | *Chuyên mục: {q_data['category']}*")
 
+  # --- HÀM DỊCH AN TOÀN (Thêm ở trên cùng file) ---
+def safe_translate(text):
+    if not text or not text.strip():
+        return ""
+    from deep_translator import GoogleTranslator, MyMemoryTranslator
+    # Bỏ các ký tự gạch dưới đặc biệt dễ gây lỗi Google Translate
+    clean_text = text.replace("__", "...").replace("_(1)_", "(1)")
+    try:
+        return GoogleTranslator(source='en', target='vi').translate(clean_text)
+    except Exception:
+        pass
+    try:
+        return MyMemoryTranslator(source='en-US', target='vi-VN').translate(clean_text)
+    except Exception as e:
+        return f"(Chưa dịch được: {e})"
+
+# --- ĐOẠN HIỂN THỊ TRONG MAIN UI ---
     # HIỂN THỊ ĐOẠN VĂN & NÚT DỊCH
     if "passage" in q_data and q_data["passage"]:
         st.info(f"**Đoạn văn / Thông báo:**\n\n{q_data['passage']}")
         
         if st.button("🌐 Dịch đoạn văn này", key=f"btn_trans_p_{idx}"):
             with st.spinner("Đang dịch đoạn văn..."):
-                try:
-                    from deep_translator import GoogleTranslator
-                    trans_p = GoogleTranslator(source='en', target='vi').translate(q_data['passage'])
-                    st.success(f"**Bản dịch đoạn văn:**\n\n{trans_p}")
-                except ImportError:
-                    st.error("⚠️ Lỗi: Bạn cần thêm 'deep-translator' vào file requirements.txt trên GitHub.")
-                except Exception as e:
-                    st.error(f"Lỗi dịch: {e}")
+                trans_p = safe_translate(q_data['passage'])
+                st.success(f"**Bản dịch đoạn văn:**\n\n{trans_p}")
                     
         st.markdown("---")
 
@@ -3786,21 +3797,13 @@ elif st.session_state.current_idx < total_q:
     with col_q2:
         if st.button("🌐 Dịch", key=f"btn_trans_q_{idx}"):
             with st.spinner("Đang dịch..."):
-                try:
-                    from deep_translator import GoogleTranslator
-                    translator = GoogleTranslator(source='en', target='vi')
-                    trans_q = translator.translate(q_data["question"])
-                    st.success(f"**Câu hỏi:** {trans_q}")
-                    
-                    # Dịch luôn đáp án nếu có
-                    st.markdown("**Đáp án:**")
-                    for opt in q_data["options"]:
-                        trans_opt = translator.translate(opt)
-                        st.markdown(f"- *{opt}* ➔ {trans_opt}")
-                except ImportError:
-                    st.error("⚠️ Thêm 'deep-translator' vào requirements.txt")
-                except Exception as e:
-                    st.error(f"Lỗi dịch: {e}")
+                trans_q = safe_translate(q_data["question"])
+                st.success(f"**Câu hỏi:** {trans_q}")
+                
+                st.markdown("**Đáp án:**")
+                for opt in q_data["options"]:
+                    trans_opt = safe_translate(opt)
+                    st.markdown(f"- *{opt}* ➔ {trans_opt}")
 
     # RADIO CHỌN ĐÁP ÁN
     choice = st.radio(
