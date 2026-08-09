@@ -3357,9 +3357,52 @@ def load_progress():
 
 categories = ["Tất cả"] + list(dict.fromkeys([q["category"] for q in QUIZ_DATA]))
 
+# Quản lý Session State
+if "selected_category" not in st.session_state:
+    st.session_state.selected_category = "Tất cả"
+if "current_idx" not in st.session_state:
+    st.session_state.current_idx = 0
+if "score" not in st.session_state:
+    st.session_state.score = 0
+if "user_answers" not in st.session_state:
+    st.session_state.user_answers = {}
+
 # --- GIAO DIỆN SIDEBAR ---
 st.sidebar.title("⚙️ Cài đặt ôn tập")
-selected_category = st.sidebar.selectbox("Chọn thể loại bài tập:", categories)
+selected_category = st.sidebar.selectbox(
+    "Chọn thể loại bài tập:", 
+    categories, 
+    index=categories.index(st.session_state.selected_category)
+)
+
+if selected_category != st.session_state.selected_category:
+    st.session_state.selected_category = selected_category
+    st.session_state.current_idx = 0
+    st.session_state.score = 0
+    st.session_state.user_answers = {}
+    st.rerun()
+
+# Lọc câu hỏi theo thể loại
+if st.session_state.selected_category == "Tất cả":
+    current_quiz_data = QUIZ_DATA
+else:
+    current_quiz_data = [q for q in QUIZ_DATA if q["category"] == st.session_state.selected_category]
+
+total_q = len(current_quiz_data)
+
+# --- ĐIỀU HƯỚNG NHANH ---
+st.sidebar.markdown("---")
+st.sidebar.subheader("📍 Điều Hướng Nhanh")
+if total_q > 0 and st.session_state.current_idx < total_q:
+    jump_to = st.sidebar.selectbox(
+        "Chuyển nhanh tới:",
+        range(total_q),
+        format_func=lambda x: f"Câu {x+1}",
+        index=st.session_state.current_idx
+    )
+    if jump_to != st.session_state.current_idx:
+        st.session_state.current_idx = jump_to
+        st.rerun()
 
 st.sidebar.markdown("---")
 st.sidebar.subheader("💾 Lưu / Tải Tiến Trình")
@@ -3391,33 +3434,9 @@ if st.sidebar.button("Dịch sang Tiếng Việt"):
         st.sidebar.warning("Vui lòng nhập văn bản cần dịch.")
 # ------------------------------------
 
-# Quản lý Session State
-if "selected_category" not in st.session_state:
-    st.session_state.selected_category = "Tất cả"
-if "current_idx" not in st.session_state:
-    st.session_state.current_idx = 0
-if "score" not in st.session_state:
-    st.session_state.score = 0
-if "user_answers" not in st.session_state:
-    st.session_state.user_answers = {}
-
-if selected_category != st.session_state.selected_category:
-    st.session_state.selected_category = selected_category
-    st.session_state.current_idx = 0
-    st.session_state.score = 0
-    st.session_state.user_answers = {}
-    st.rerun()
-
-if st.session_state.selected_category == "Tất cả":
-    current_quiz_data = QUIZ_DATA
-else:
-    current_quiz_data = [q for q in QUIZ_DATA if q["category"] == st.session_state.selected_category]
-
 # --- MAIN GIAO DIỆN ---
 st.title("📚 Ôn Tập Tiếng Anh EHOU")
 st.caption(f"Ngân hàng {len(QUIZ_DATA)} câu hỏi tổng hợp chuẩn nhất từ 13 tài liệu")
-
-total_q = len(current_quiz_data)
 
 if total_q == 0:
     st.warning("Không có câu hỏi nào trong chuyên mục này.")
