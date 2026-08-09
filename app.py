@@ -1,8 +1,11 @@
 import streamlit as st
 import json
 import os
+
 st.set_page_config(page_title="Ôn Tập Tiếng Anh EHOU", page_icon="📚", layout="centered")
+
 PROGRESS_FILE = "progress.json"
+
 # Dữ liệu 313 câu hỏi
 QUIZ_DATA = [
     {
@@ -14,7 +17,8 @@ QUIZ_DATA = [
             "dis-",
             "im-"
         ],
-        "answer": 1
+        "answer": 1,
+        "explanation": "📌 **Ngữ pháp:** Sử dụng tiền tố mang nghĩa phủ định. Trường hợp này ta dùng tiền tố **'in-'** (VD: formal -> informal)."
     },
     {
         "category": "Từ Vựng - Tiền Tố",
@@ -25,7 +29,8 @@ QUIZ_DATA = [
             "dis-",
             "im-"
         ],
-        "answer": 2
+        "answer": 2,
+        "explanation": "📌 **Ngữ pháp:** Sử dụng tiền tố mang nghĩa phủ định. Trường hợp này ta dùng tiền tố **'dis-'** (VD: satisfied -> dissatisfied)."
     },
     {
         "category": "Từ Vựng - Tiền Tố",
@@ -36,7 +41,8 @@ QUIZ_DATA = [
             "dis-",
             "im-"
         ],
-        "answer": 2
+        "answer": 2,
+        "explanation": "📌 **Ngữ pháp:** Sử dụng tiền tố mang nghĩa phủ định. Trường hợp này ta dùng tiền tố **'dis-'** (VD: honest -> dishonest)."
     },
     {
         "category": "Từ Vựng - Tiền Tố",
@@ -47,7 +53,8 @@ QUIZ_DATA = [
             "dis-",
             "im-"
         ],
-        "answer": 3
+        "answer": 3,
+        "explanation": "📌 **Ngữ pháp:** Sử dụng tiền tố mang nghĩa phủ định. Với các tính từ bắt đầu bằng 'p' hoặc 'm', ta thường dùng tiền tố **'im-'** (VD: polite -> impolite)."
     },
     {
         "category": "Từ Vựng - Tiền Tố",
@@ -58,7 +65,8 @@ QUIZ_DATA = [
             "dis-",
             "im-"
         ],
-        "answer": 3
+        "answer": 3,
+        "explanation": "📌 **Ngữ pháp:** Sử dụng tiền tố mang nghĩa phủ định. Với các tính từ bắt đầu bằng 'p' hoặc 'm', ta thường dùng tiền tố **'im-'** (VD: practical -> impractical)."
     },
     {
         "category": "Từ Vựng - Tiền Tố",
@@ -69,7 +77,8 @@ QUIZ_DATA = [
             "dis-",
             "im-"
         ],
-        "answer": 1
+        "answer": 1,
+        "explanation": "📌 **Ngữ pháp:** Sử dụng tiền tố mang nghĩa phủ định. Trường hợp này ta dùng tiền tố **'in-'** (VD: considerate -> inconsiderate)."
     },
     {
         "category": "Từ Vựng - Tiền Tố",
@@ -80,7 +89,8 @@ QUIZ_DATA = [
             "dis-",
             "im-"
         ],
-        "answer": 0
+        "answer": 0,
+        "explanation": "📌 **Ngữ pháp:** Sử dụng tiền tố mang nghĩa phủ định. Trường hợp này ta dùng tiền tố **'un-'** (VD: friendly -> unfriendly)."
     },
     {
         "category": "Từ Vựng - Tiền Tố",
@@ -91,7 +101,8 @@ QUIZ_DATA = [
             "dis-",
             "im-"
         ],
-        "answer": 1
+        "answer": 1,
+        "explanation": "📌 **Ngữ pháp:** Sử dụng tiền tố mang nghĩa phủ định. Trường hợp này ta dùng tiền tố **'in-'** (VD: efficient -> inefficient)."
     },
     {
         "category": "Từ Vựng - Tiền Tố",
@@ -102,7 +113,8 @@ QUIZ_DATA = [
             "dis-",
             "im-"
         ],
-        "answer": 0
+        "answer": 0,
+        "explanation": "📌 **Ngữ pháp:** Sử dụng tiền tố mang nghĩa phủ định. Trường hợp này ta dùng tiền tố **'un-'** (VD: important -> unimportant)."
     },
     {
         "category": "Từ Vựng - Tiền Tố",
@@ -113,7 +125,8 @@ QUIZ_DATA = [
             "dis-",
             "im-"
         ],
-        "answer": 2
+        "answer": 2,
+        "explanation": "📌 **Ngữ pháp:** Sử dụng tiền tố mang nghĩa phủ định. Trường hợp này ta dùng tiền tố **'dis-'** (VD: respectful -> disrespectful)."
     },
     {
         "category": "Từ Vựng - Tiền Tố",
@@ -124,7 +137,8 @@ QUIZ_DATA = [
             "dis-",
             "im-"
         ],
-        "answer": 3
+        "answer": 3,
+        "explanation": "📌 **Ngữ pháp:** Sử dụng tiền tố mang nghĩa phủ định. Với các tính từ bắt đầu bằng 'p' hoặc 'm', ta thường dùng tiền tố **'im-'** (VD: patient -> impatient)."
     },
     {
         "category": "Từ Vựng - Tiền Tố",
@@ -135,7 +149,8 @@ QUIZ_DATA = [
             "dis-",
             "im-"
         ],
-        "answer": 1
+        "answer": 1,
+        "explanation": "📌 **Ngữ pháp:** Sử dụng tiền tố mang nghĩa phủ định. Trường hợp này ta dùng tiền tố **'in-'** (VD: appropriate -> inappropriate)."
     },
     {
         "category": "Ngữ Pháp - Từ Loại",
@@ -146,7 +161,8 @@ QUIZ_DATA = [
             "Popularize",
             "Popularity"
         ],
-        "answer": 3
+        "answer": 3,
+        "explanation": "📌 **Ngữ pháp:** Sau tính từ sở hữu 'its' cần một **Danh từ**. 'Popularity' (sự phổ biến) là danh từ."
     },
     {
         "category": "Ngữ Pháp - Từ Loại",
@@ -157,7 +173,8 @@ QUIZ_DATA = [
             "Educating",
             "Educate"
         ],
-        "answer": 0
+        "answer": 0,
+        "explanation": "📌 **Ngữ pháp:** Trước danh từ 'system' cần một Danh từ hoặc Tính từ để tạo thành cụm danh từ ghép. 'Education system' = hệ thống giáo dục."
     },
     {
         "category": "Ngữ Pháp - Từ Loại",
@@ -168,7 +185,8 @@ QUIZ_DATA = [
             "Healthy",
             "Healthily"
         ],
-        "answer": 2
+        "answer": 2,
+        "explanation": "📌 **Ngữ pháp:** Sau mạo từ 'A' và trước danh từ 'diet' cần một **Tính từ**. Bối cảnh câu mang nghĩa tích cực nên chọn 'Healthy'."
     },
     {
         "category": "Ngữ Pháp - Từ Loại",
@@ -179,7 +197,8 @@ QUIZ_DATA = [
             "Relaxation",
             "Relax"
         ],
-        "answer": 2
+        "answer": 2,
+        "explanation": "📌 **Ngữ pháp:** Vị trí đầu câu làm Chủ ngữ, cần một **Danh từ**. 'Relaxation' (sự thư giãn) là danh từ."
     },
     {
         "category": "Ngữ Pháp - Từ Loại",
@@ -190,7 +209,8 @@ QUIZ_DATA = [
             "Special",
             "Specially"
         ],
-        "answer": 1
+        "answer": 1,
+        "explanation": "📌 **Ngữ pháp:** Câu thiếu **Động từ** chính. Chủ ngữ 'He' ngôi thứ 3 số ít nên động từ chia s/es -> 'Specializes' (chuyên về)."
     },
     {
         "category": "Ngữ Pháp - Từ Loại",
@@ -201,7 +221,8 @@ QUIZ_DATA = [
             "National",
             "Nationally"
         ],
-        "answer": 2
+        "answer": 2,
+        "explanation": "📌 **Ngữ pháp:** Giữa mạo từ 'the' và danh từ 'university' cần một **Tính từ**. 'National' (thuộc về quốc gia)."
     },
     {
         "category": "Ngữ Pháp - Từ Loại",
@@ -212,7 +233,8 @@ QUIZ_DATA = [
             "Collect",
             "Collective"
         ],
-        "answer": 0
+        "answer": 0,
+        "explanation": "📌 **Ngữ pháp:** Sau tính từ 'big' và danh từ bổ nghĩa 'stamp' cần một **Danh từ chính**. Cụm 'Stamp collection' (bộ sưu tập tem)."
     },
     {
         "category": "Ngữ Pháp - Từ Loại",
@@ -223,7 +245,8 @@ QUIZ_DATA = [
             "Unbelievable",
             "Believable"
         ],
-        "answer": 1
+        "answer": 1,
+        "explanation": "📌 **Ngữ pháp:** Sau mạo từ 'the' cần một **Danh từ**. 'Belief' (niềm tin)."
     },
     {
         "category": "Từ Vựng - Ghép Nghĩa",
@@ -1362,78 +1385,6 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
-        "passage": "The village of Jukkasjarvi is in Swedish Lapland, and winter temperatures there can reach -40C. But 6,000 holidaymakers (1).............go there annually, to visit what is probably Europe's most unusual accommodation. In this hotel, you eat, drink and sleep in rooms made (2)...............ice. If you want, you can (3)...............get married in one. The bar is ice too, and putting hot drinks on it is obviously not (4)..............! The bedrooms are around -4C, but fortunately guests are (5)..............with special sleeping bags that will keep (6)..............warm in the coldest of temperatures. (7)..............outdoor clothes can be supplied too, if needed.\nThe hotel is never more than six months old (8)..............it melts in summer, and (9).............winter it is rebuilt. Creating the hotel (10).............. 10,000 tons of ice, plus 30,000 tons of snow.",
-        "question": "6,000 holidaymakers (1).............go there annually",
-        "options": [
-            "therefore",
-            "ever",
-            "also",
-            "still"
-        ],
-        "answer": 2
-    },
-    {
-        "category": "Đọc Hiểu (T/F)",
-        "passage": "The Olympic Games\nDuring the Olympic Games, people from all over the world come together in the peace and friendship. Some of these people complete for medals. Several million people attend the games, and millions of other people watch them on television.\n\nWhy do we have the Olympic Games? How did they begin? The first Olympic Games that we have records of were in Greece in 776 B.C. The games lasted one day. The only event in the first thirteen Olympic Games was a race. Men ran the length or the stadium (about 192 meters). Then, longer running races were added. Through the years, a few other kinds of events, like the long jump, were also added. During this time, the games were for men only, and women could not even watch them. In the year 393, a Roman emperor ended the Olympic Game because the quality of the games became very low. The Olympics did not take place again for 1500 years!\n\nIn 1984, Pierre de Coubertin of France helped from the International Olympic Committee, and the modern Olympic Games began. In 1896, the games were held again in Athens, Greece. The Greeks built a new stadium for the competition. Three hundred and eleven athletes from thirteen countries competed in many events. The winners became national heroes.\n\nAfter 1896, the games were held every four years during the summer in different cities around the world. In 1900, the Olympics were in Paris, France, and women competed for the first time. In 1908, in London, England, the first gold medals were given to winning athletes. Before that time, the winners received only silver and bronze medals. The Olympic flag was first introduced in 1920 in Antwerp, Belgium. The flag has five rings on it. The rings represent the continents of Africa, Asia, Australia, Europe, and North and South American. Each ring is a different color blue, yellow, black, green, or red because the flag of each of the countries that compete in the games has at least one of these colors in it.\n\nThe Olympic Winter games began in 1924 in Chamonix, France. Athletes competed in winter events such as skiing, ice skating, and ice hockey. Today, the Winter Games take places every four years. The Summer Games also take place every four years, but not in the same year as the winter events. Both the Summer Games and the Winter Games must have at least fifteen events, and they cannot last more than sixteen days.\n\nUntil recently. Olympic competitors could not be professional athletes. All of the athletes in the Olympic Games were amateurs. Today, however, many of the Olympic athletes are professional who play their sports for money during the year. Some people disagree with this idea. They believe that the Olympic game are for amateur athletes, not paid professionals. Other people think that any one can play in the Olympic Games. No matter who the athletes are, millions of people throughout the world enjoy watching the greatest athletic competitions, the Summer Game and the Winter Games of the Olympics.",
-        "question": "The first Olympic competitors ran the length of the stadium.",
-        "options": [
-            "TRUE",
-            "FALSE"
-        ],
-        "answer": 0
-    },
-    {
-        "category": "Đọc Hiểu (T/F)",
-        "passage": "The Olympic Games\nDuring the Olympic Games, people from all over the world come together in the peace and friendship. Some of these people complete for medals. Several million people attend the games, and millions of other people watch them on television.\n\nWhy do we have the Olympic Games? How did they begin? The first Olympic Games that we have records of were in Greece in 776 B.C. The games lasted one day. The only event in the first thirteen Olympic Games was a race. Men ran the length or the stadium (about 192 meters). Then, longer running races were added. Through the years, a few other kinds of events, like the long jump, were also added. During this time, the games were for men only, and women could not even watch them. In the year 393, a Roman emperor ended the Olympic Game because the quality of the games became very low. The Olympics did not take place again for 1500 years!\n\nIn 1984, Pierre de Coubertin of France helped from the International Olympic Committee, and the modern Olympic Games began. In 1896, the games were held again in Athens, Greece. The Greeks built a new stadium for the competition. Three hundred and eleven athletes from thirteen countries competed in many events. The winners became national heroes.\n\nAfter 1896, the games were held every four years during the summer in different cities around the world. In 1900, the Olympics were in Paris, France, and women competed for the first time. In 1908, in London, England, the first gold medals were given to winning athletes. Before that time, the winners received only silver and bronze medals. The Olympic flag was first introduced in 1920 in Antwerp, Belgium. The flag has five rings on it. The rings represent the continents of Africa, Asia, Australia, Europe, and North and South American. Each ring is a different color blue, yellow, black, green, or red because the flag of each of the countries that compete in the games has at least one of these colors in it.\n\nThe Olympic Winter games began in 1924 in Chamonix, France. Athletes competed in winter events such as skiing, ice skating, and ice hockey. Today, the Winter Games take places every four years. The Summer Games also take place every four years, but not in the same year as the winter events. Both the Summer Games and the Winter Games must have at least fifteen events, and they cannot last more than sixteen days.\n\nUntil recently. Olympic competitors could not be professional athletes. All of the athletes in the Olympic Games were amateurs. Today, however, many of the Olympic athletes are professional who play their sports for money during the year. Some people disagree with this idea. They believe that the Olympic game are for amateur athletes, not paid professionals. Other people think that any one can play in the Olympic Games. No matter who the athletes are, millions of people throughout the world enjoy watching the greatest athletic competitions, the Summer Game and the Winter Games of the Olympics.",
-        "question": "Pierre de Coubertin was an athlete in the first modern games.",
-        "options": [
-            "TRUE",
-            "FALSE"
-        ],
-        "answer": 1
-    },
-    {
-        "category": "Đọc Hiểu (T/F)",
-        "passage": "The Olympic Games\nDuring the Olympic Games, people from all over the world come together in the peace and friendship. Some of these people complete for medals. Several million people attend the games, and millions of other people watch them on television.\n\nWhy do we have the Olympic Games? How did they begin? The first Olympic Games that we have records of were in Greece in 776 B.C. The games lasted one day. The only event in the first thirteen Olympic Games was a race. Men ran the length or the stadium (about 192 meters). Then, longer running races were added. Through the years, a few other kinds of events, like the long jump, were also added. During this time, the games were for men only, and women could not even watch them. In the year 393, a Roman emperor ended the Olympic Game because the quality of the games became very low. The Olympics did not take place again for 1500 years!\n\nIn 1984, Pierre de Coubertin of France helped from the International Olympic Committee, and the modern Olympic Games began. In 1896, the games were held again in Athens, Greece. The Greeks built a new stadium for the competition. Three hundred and eleven athletes from thirteen countries competed in many events. The winners became national heroes.\n\nAfter 1896, the games were held every four years during the summer in different cities around the world. In 1900, the Olympics were in Paris, France, and women competed for the first time. In 1908, in London, England, the first gold medals were given to winning athletes. Before that time, the winners received only silver and bronze medals. The Olympic flag was first introduced in 1920 in Antwerp, Belgium. The flag has five rings on it. The rings represent the continents of Africa, Asia, Australia, Europe, and North and South American. Each ring is a different color blue, yellow, black, green, or red because the flag of each of the countries that compete in the games has at least one of these colors in it.\n\nThe Olympic Winter games began in 1924 in Chamonix, France. Athletes competed in winter events such as skiing, ice skating, and ice hockey. Today, the Winter Games take places every four years. The Summer Games also take place every four years, but not in the same year as the winter events. Both the Summer Games and the Winter Games must have at least fifteen events, and they cannot last more than sixteen days.\n\nUntil recently. Olympic competitors could not be professional athletes. All of the athletes in the Olympic Games were amateurs. Today, however, many of the Olympic athletes are professional who play their sports for money during the year. Some people disagree with this idea. They believe that the Olympic game are for amateur athletes, not paid professionals. Other people think that any one can play in the Olympic Games. No matter who the athletes are, millions of people throughout the world enjoy watching the greatest athletic competitions, the Summer Game and the Winter Games of the Olympics.",
-        "question": "Winners have always received gold medals.",
-        "options": [
-            "TRUE",
-            "FALSE"
-        ],
-        "answer": 1
-    },
-    {
-        "category": "Đọc Hiểu (T/F)",
-        "passage": "The Olympic Games\nDuring the Olympic Games, people from all over the world come together in the peace and friendship. Some of these people complete for medals. Several million people attend the games, and millions of other people watch them on television.\n\nWhy do we have the Olympic Games? How did they begin? The first Olympic Games that we have records of were in Greece in 776 B.C. The games lasted one day. The only event in the first thirteen Olympic Games was a race. Men ran the length or the stadium (about 192 meters). Then, longer running races were added. Through the years, a few other kinds of events, like the long jump, were also added. During this time, the games were for men only, and women could not even watch them. In the year 393, a Roman emperor ended the Olympic Game because the quality of the games became very low. The Olympics did not take place again for 1500 years!\n\nIn 1984, Pierre de Coubertin of France helped from the International Olympic Committee, and the modern Olympic Games began. In 1896, the games were held again in Athens, Greece. The Greeks built a new stadium for the competition. Three hundred and eleven athletes from thirteen countries competed in many events. The winners became national heroes.\n\nAfter 1896, the games were held every four years during the summer in different cities around the world. In 1900, the Olympics were in Paris, France, and women competed for the first time. In 1908, in London, England, the first gold medals were given to winning athletes. Before that time, the winners received only silver and bronze medals. The Olympic flag was first introduced in 1920 in Antwerp, Belgium. The flag has five rings on it. The rings represent the continents of Africa, Asia, Australia, Europe, and North and South American. Each ring is a different color blue, yellow, black, green, or red because the flag of each of the countries that compete in the games has at least one of these colors in it.\n\nThe Olympic Winter games began in 1924 in Chamonix, France. Athletes competed in winter events such as skiing, ice skating, and ice hockey. Today, the Winter Games take places every four years. The Summer Games also take place every four years, but not in the same year as the winter events. Both the Summer Games and the Winter Games must have at least fifteen events, and they cannot last more than sixteen days.\n\nUntil recently. Olympic competitors could not be professional athletes. All of the athletes in the Olympic Games were amateurs. Today, however, many of the Olympic athletes are professional who play their sports for money during the year. Some people disagree with this idea. They believe that the Olympic game are for amateur athletes, not paid professionals. Other people think that any one can play in the Olympic Games. No matter who the athletes are, millions of people throughout the world enjoy watching the greatest athletic competitions, the Summer Game and the Winter Games of the Olympics.",
-        "question": "The Olympic flag has six colored rings on it.",
-        "options": [
-            "TRUE",
-            "FALSE"
-        ],
-        "answer": 1
-    },
-    {
-        "category": "Đọc Hiểu (T/F)",
-        "passage": "The Olympic Games\nDuring the Olympic Games, people from all over the world come together in the peace and friendship. Some of these people complete for medals. Several million people attend the games, and millions of other people watch them on television.\n\nWhy do we have the Olympic Games? How did they begin? The first Olympic Games that we have records of were in Greece in 776 B.C. The games lasted one day. The only event in the first thirteen Olympic Games was a race. Men ran the length or the stadium (about 192 meters). Then, longer running races were added. Through the years, a few other kinds of events, like the long jump, were also added. During this time, the games were for men only, and women could not even watch them. In the year 393, a Roman emperor ended the Olympic Game because the quality of the games became very low. The Olympics did not take place again for 1500 years!\n\nIn 1984, Pierre de Coubertin of France helped from the International Olympic Committee, and the modern Olympic Games began. In 1896, the games were held again in Athens, Greece. The Greeks built a new stadium for the competition. Three hundred and eleven athletes from thirteen countries competed in many events. The winners became national heroes.\n\nAfter 1896, the games were held every four years during the summer in different cities around the world. In 1900, the Olympics were in Paris, France, and women competed for the first time. In 1908, in London, England, the first gold medals were given to winning athletes. Before that time, the winners received only silver and bronze medals. The Olympic flag was first introduced in 1920 in Antwerp, Belgium. The flag has five rings on it. The rings represent the continents of Africa, Asia, Australia, Europe, and North and South American. Each ring is a different color blue, yellow, black, green, or red because the flag of each of the countries that compete in the games has at least one of these colors in it.\n\nThe Olympic Winter games began in 1924 in Chamonix, France. Athletes competed in winter events such as skiing, ice skating, and ice hockey. Today, the Winter Games take places every four years. The Summer Games also take place every four years, but not in the same year as the winter events. Both the Summer Games and the Winter Games must have at least fifteen events, and they cannot last more than sixteen days.\n\nUntil recently. Olympic competitors could not be professional athletes. All of the athletes in the Olympic Games were amateurs. Today, however, many of the Olympic athletes are professional who play their sports for money during the year. Some people disagree with this idea. They believe that the Olympic game are for amateur athletes, not paid professionals. Other people think that any one can play in the Olympic Games. No matter who the athletes are, millions of people throughout the world enjoy watching the greatest athletic competitions, the Summer Game and the Winter Games of the Olympics.",
-        "question": "The summer and winter games take place in the same year.",
-        "options": [
-            "TRUE",
-            "FALSE"
-        ],
-        "answer": 1
-    },
-    {
-        "category": "Đọc Hiểu (T/F)",
-        "passage": "The Olympic Games\nDuring the Olympic Games, people from all over the world come together in the peace and friendship. Some of these people complete for medals. Several million people attend the games, and millions of other people watch them on television.\n\nWhy do we have the Olympic Games? How did they begin? The first Olympic Games that we have records of were in Greece in 776 B.C. The games lasted one day. The only event in the first thirteen Olympic Games was a race. Men ran the length or the stadium (about 192 meters). Then, longer running races were added. Through the years, a few other kinds of events, like the long jump, were also added. During this time, the games were for men only, and women could not even watch them. In the year 393, a Roman emperor ended the Olympic Game because the quality of the games became very low. The Olympics did not take place again for 1500 years!\n\nIn 1984, Pierre de Coubertin of France helped from the International Olympic Committee, and the modern Olympic Games began. In 1896, the games were held again in Athens, Greece. The Greeks built a new stadium for the competition. Three hundred and eleven athletes from thirteen countries competed in many events. The winners became national heroes.\n\nAfter 1896, the games were held every four years during the summer in different cities around the world. In 1900, the Olympics were in Paris, France, and women competed for the first time. In 1908, in London, England, the first gold medals were given to winning athletes. Before that time, the winners received only silver and bronze medals. The Olympic flag was first introduced in 1920 in Antwerp, Belgium. The flag has five rings on it. The rings represent the continents of Africa, Asia, Australia, Europe, and North and South American. Each ring is a different color blue, yellow, black, green, or red because the flag of each of the countries that compete in the games has at least one of these colors in it.\n\nThe Olympic Winter games began in 1924 in Chamonix, France. Athletes competed in winter events such as skiing, ice skating, and ice hockey. Today, the Winter Games take places every four years. The Summer Games also take place every four years, but not in the same year as the winter events. Both the Summer Games and the Winter Games must have at least fifteen events, and they cannot last more than sixteen days.\n\nUntil recently. Olympic competitors could not be professional athletes. All of the athletes in the Olympic Games were amateurs. Today, however, many of the Olympic athletes are professional who play their sports for money during the year. Some people disagree with this idea. They believe that the Olympic game are for amateur athletes, not paid professionals. Other people think that any one can play in the Olympic Games. No matter who the athletes are, millions of people throughout the world enjoy watching the greatest athletic competitions, the Summer Game and the Winter Games of the Olympics.",
-        "question": "Today both men and women compete in the Olympics.",
-        "options": [
-            "TRUE",
-            "FALSE"
-        ],
-        "answer": 0
-    },
-    {
-        "category": "Đọc Hiểu (Gap Fill)",
         "passage": "Nowadays people are more aware that wildlife all over the world is in danger. Many species of animals are threatened, and could easily become _(1)_ if we do not make an effort to protect them. There are many reasons for this. In some cases, animals are hunted for their fur or for other valuable parts of their bodies. Some birds, _(2)_ as parrots are caught alive and sold as pets. For many animals and birds, the problem is that their habitat-the place where they live-is disappearing. More_ _(3)_ is used for farms, for houses or industry, and there are fewer open spaces than there once were. Farmers use powerful chemicals to help them grow better crops, but these chemicals pollute _(4)_ environment and harm wildlife. The most successful animal on earth-human beings-will soon be the only ones left, _(5)_ we can solve this problem.",
         "question": "Many species of animals could easily become __ if we do not make an effort...",
         "options": [
@@ -1611,6 +1562,18 @@ QUIZ_DATA = [
             "to be"
         ],
         "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (Gap Fill)",
+        "passage": "The village of Jukkasjarvi is in Swedish Lapland, and winter temperatures there can reach -40C. But 6,000 holidaymakers (1).............go there annually, to visit what is probably Europe's most unusual accommodation. In this hotel, you eat, drink and sleep in rooms made (2)...............ice. If you want, you can (3)...............get married in one. The bar is ice too, and putting hot drinks on it is obviously not (4)..............! The bedrooms are around -4C, but fortunately guests are (5)..............with special sleeping bags that will keep (6)..............warm in the coldest of temperatures. (7)..............outdoor clothes can be supplied too, if needed.\nThe hotel is never more than six months old (8)..............it melts in summer, and (9).............winter it is rebuilt. Creating the hotel (10).............. 10,000 tons of ice, plus 30,000 tons of snow.",
+        "question": "6,000 holidaymakers (1).............go there annually",
+        "options": [
+            "therefore",
+            "ever",
+            "also",
+            "still"
+        ],
+        "answer": 2
     },
     {
         "category": "Đọc Hiểu (Gap Fill)",
@@ -3484,6 +3447,66 @@ QUIZ_DATA = [
     },
     {
         "category": "Đọc Hiểu (T/F)",
+        "passage": "The Olympic Games\nDuring the Olympic Games, people from all over the world come together in the peace and friendship. Some of these people complete for medals. Several million people attend the games, and millions of other people watch them on television.\n\nWhy do we have the Olympic Games? How did they begin? The first Olympic Games that we have records of were in Greece in 776 B.C. The games lasted one day. The only event in the first thirteen Olympic Games was a race. Men ran the length or the stadium (about 192 meters). Then, longer running races were added. Through the years, a few other kinds of events, like the long jump, were also added. During this time, the games were for men only, and women could not even watch them. In the year 393, a Roman emperor ended the Olympic Game because the quality of the games became very low. The Olympics did not take place again for 1500 years!\n\nIn 1984, Pierre de Coubertin of France helped from the International Olympic Committee, and the modern Olympic Games began. In 1896, the games were held again in Athens, Greece. The Greeks built a new stadium for the competition. Three hundred and eleven athletes from thirteen countries competed in many events. The winners became national heroes.\n\nAfter 1896, the games were held every four years during the summer in different cities around the world. In 1900, the Olympics were in Paris, France, and women competed for the first time. In 1908, in London, England, the first gold medals were given to winning athletes. Before that time, the winners received only silver and bronze medals. The Olympic flag was first introduced in 1920 in Antwerp, Belgium. The flag has five rings on it. The rings represent the continents of Africa, Asia, Australia, Europe, and North and South American. Each ring is a different color blue, yellow, black, green, or red because the flag of each of the countries that compete in the games has at least one of these colors in it.\n\nThe Olympic Winter games began in 1924 in Chamonix, France. Athletes competed in winter events such as skiing, ice skating, and ice hockey. Today, the Winter Games take places every four years. The Summer Games also take place every four years, but not in the same year as the winter events. Both the Summer Games and the Winter Games must have at least fifteen events, and they cannot last more than sixteen days.\n\nUntil recently. Olympic competitors could not be professional athletes. All of the athletes in the Olympic Games were amateurs. Today, however, many of the Olympic athletes are professional who play their sports for money during the year. Some people disagree with this idea. They believe that the Olympic game are for amateur athletes, not paid professionals. Other people think that any one can play in the Olympic Games. No matter who the athletes are, millions of people throughout the world enjoy watching the greatest athletic competitions, the Summer Game and the Winter Games of the Olympics.",
+        "question": "The first Olympic competitors ran the length of the stadium.",
+        "options": [
+            "TRUE",
+            "FALSE"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Đọc Hiểu (T/F)",
+        "passage": "The Olympic Games\nDuring the Olympic Games, people from all over the world come together in the peace and friendship. Some of these people complete for medals. Several million people attend the games, and millions of other people watch them on television.\n\nWhy do we have the Olympic Games? How did they begin? The first Olympic Games that we have records of were in Greece in 776 B.C. The games lasted one day. The only event in the first thirteen Olympic Games was a race. Men ran the length or the stadium (about 192 meters). Then, longer running races were added. Through the years, a few other kinds of events, like the long jump, were also added. During this time, the games were for men only, and women could not even watch them. In the year 393, a Roman emperor ended the Olympic Game because the quality of the games became very low. The Olympics did not take place again for 1500 years!\n\nIn 1984, Pierre de Coubertin of France helped from the International Olympic Committee, and the modern Olympic Games began. In 1896, the games were held again in Athens, Greece. The Greeks built a new stadium for the competition. Three hundred and eleven athletes from thirteen countries competed in many events. The winners became national heroes.\n\nAfter 1896, the games were held every four years during the summer in different cities around the world. In 1900, the Olympics were in Paris, France, and women competed for the first time. In 1908, in London, England, the first gold medals were given to winning athletes. Before that time, the winners received only silver and bronze medals. The Olympic flag was first introduced in 1920 in Antwerp, Belgium. The flag has five rings on it. The rings represent the continents of Africa, Asia, Australia, Europe, and North and South American. Each ring is a different color blue, yellow, black, green, or red because the flag of each of the countries that compete in the games has at least one of these colors in it.\n\nThe Olympic Winter games began in 1924 in Chamonix, France. Athletes competed in winter events such as skiing, ice skating, and ice hockey. Today, the Winter Games take places every four years. The Summer Games also take place every four years, but not in the same year as the winter events. Both the Summer Games and the Winter Games must have at least fifteen events, and they cannot last more than sixteen days.\n\nUntil recently. Olympic competitors could not be professional athletes. All of the athletes in the Olympic Games were amateurs. Today, however, many of the Olympic athletes are professional who play their sports for money during the year. Some people disagree with this idea. They believe that the Olympic game are for amateur athletes, not paid professionals. Other people think that any one can play in the Olympic Games. No matter who the athletes are, millions of people throughout the world enjoy watching the greatest athletic competitions, the Summer Game and the Winter Games of the Olympics.",
+        "question": "Pierre de Coubertin was an athlete in the first modern games.",
+        "options": [
+            "TRUE",
+            "FALSE"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (T/F)",
+        "passage": "The Olympic Games\nDuring the Olympic Games, people from all over the world come together in the peace and friendship. Some of these people complete for medals. Several million people attend the games, and millions of other people watch them on television.\n\nWhy do we have the Olympic Games? How did they begin? The first Olympic Games that we have records of were in Greece in 776 B.C. The games lasted one day. The only event in the first thirteen Olympic Games was a race. Men ran the length or the stadium (about 192 meters). Then, longer running races were added. Through the years, a few other kinds of events, like the long jump, were also added. During this time, the games were for men only, and women could not even watch them. In the year 393, a Roman emperor ended the Olympic Game because the quality of the games became very low. The Olympics did not take place again for 1500 years!\n\nIn 1984, Pierre de Coubertin of France helped from the International Olympic Committee, and the modern Olympic Games began. In 1896, the games were held again in Athens, Greece. The Greeks built a new stadium for the competition. Three hundred and eleven athletes from thirteen countries competed in many events. The winners became national heroes.\n\nAfter 1896, the games were held every four years during the summer in different cities around the world. In 1900, the Olympics were in Paris, France, and women competed for the first time. In 1908, in London, England, the first gold medals were given to winning athletes. Before that time, the winners received only silver and bronze medals. The Olympic flag was first introduced in 1920 in Antwerp, Belgium. The flag has five rings on it. The rings represent the continents of Africa, Asia, Australia, Europe, and North and South American. Each ring is a different color blue, yellow, black, green, or red because the flag of each of the countries that compete in the games has at least one of these colors in it.\n\nThe Olympic Winter games began in 1924 in Chamonix, France. Athletes competed in winter events such as skiing, ice skating, and ice hockey. Today, the Winter Games take places every four years. The Summer Games also take place every four years, but not in the same year as the winter events. Both the Summer Games and the Winter Games must have at least fifteen events, and they cannot last more than sixteen days.\n\nUntil recently. Olympic competitors could not be professional athletes. All of the athletes in the Olympic Games were amateurs. Today, however, many of the Olympic athletes are professional who play their sports for money during the year. Some people disagree with this idea. They believe that the Olympic game are for amateur athletes, not paid professionals. Other people think that any one can play in the Olympic Games. No matter who the athletes are, millions of people throughout the world enjoy watching the greatest athletic competitions, the Summer Game and the Winter Games of the Olympics.",
+        "question": "Winners have always received gold medals.",
+        "options": [
+            "TRUE",
+            "FALSE"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (T/F)",
+        "passage": "The Olympic Games\nDuring the Olympic Games, people from all over the world come together in the peace and friendship. Some of these people complete for medals. Several million people attend the games, and millions of other people watch them on television.\n\nWhy do we have the Olympic Games? How did they begin? The first Olympic Games that we have records of were in Greece in 776 B.C. The games lasted one day. The only event in the first thirteen Olympic Games was a race. Men ran the length or the stadium (about 192 meters). Then, longer running races were added. Through the years, a few other kinds of events, like the long jump, were also added. During this time, the games were for men only, and women could not even watch them. In the year 393, a Roman emperor ended the Olympic Game because the quality of the games became very low. The Olympics did not take place again for 1500 years!\n\nIn 1984, Pierre de Coubertin of France helped from the International Olympic Committee, and the modern Olympic Games began. In 1896, the games were held again in Athens, Greece. The Greeks built a new stadium for the competition. Three hundred and eleven athletes from thirteen countries competed in many events. The winners became national heroes.\n\nAfter 1896, the games were held every four years during the summer in different cities around the world. In 1900, the Olympics were in Paris, France, and women competed for the first time. In 1908, in London, England, the first gold medals were given to winning athletes. Before that time, the winners received only silver and bronze medals. The Olympic flag was first introduced in 1920 in Antwerp, Belgium. The flag has five rings on it. The rings represent the continents of Africa, Asia, Australia, Europe, and North and South American. Each ring is a different color blue, yellow, black, green, or red because the flag of each of the countries that compete in the games has at least one of these colors in it.\n\nThe Olympic Winter games began in 1924 in Chamonix, France. Athletes competed in winter events such as skiing, ice skating, and ice hockey. Today, the Winter Games take places every four years. The Summer Games also take place every four years, but not in the same year as the winter events. Both the Summer Games and the Winter Games must have at least fifteen events, and they cannot last more than sixteen days.\n\nUntil recently. Olympic competitors could not be professional athletes. All of the athletes in the Olympic Games were amateurs. Today, however, many of the Olympic athletes are professional who play their sports for money during the year. Some people disagree with this idea. They believe that the Olympic game are for amateur athletes, not paid professionals. Other people think that any one can play in the Olympic Games. No matter who the athletes are, millions of people throughout the world enjoy watching the greatest athletic competitions, the Summer Game and the Winter Games of the Olympics.",
+        "question": "The Olympic flag has six colored rings on it.",
+        "options": [
+            "TRUE",
+            "FALSE"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (T/F)",
+        "passage": "The Olympic Games\nDuring the Olympic Games, people from all over the world come together in the peace and friendship. Some of these people complete for medals. Several million people attend the games, and millions of other people watch them on television.\n\nWhy do we have the Olympic Games? How did they begin? The first Olympic Games that we have records of were in Greece in 776 B.C. The games lasted one day. The only event in the first thirteen Olympic Games was a race. Men ran the length or the stadium (about 192 meters). Then, longer running races were added. Through the years, a few other kinds of events, like the long jump, were also added. During this time, the games were for men only, and women could not even watch them. In the year 393, a Roman emperor ended the Olympic Game because the quality of the games became very low. The Olympics did not take place again for 1500 years!\n\nIn 1984, Pierre de Coubertin of France helped from the International Olympic Committee, and the modern Olympic Games began. In 1896, the games were held again in Athens, Greece. The Greeks built a new stadium for the competition. Three hundred and eleven athletes from thirteen countries competed in many events. The winners became national heroes.\n\nAfter 1896, the games were held every four years during the summer in different cities around the world. In 1900, the Olympics were in Paris, France, and women competed for the first time. In 1908, in London, England, the first gold medals were given to winning athletes. Before that time, the winners received only silver and bronze medals. The Olympic flag was first introduced in 1920 in Antwerp, Belgium. The flag has five rings on it. The rings represent the continents of Africa, Asia, Australia, Europe, and North and South American. Each ring is a different color blue, yellow, black, green, or red because the flag of each of the countries that compete in the games has at least one of these colors in it.\n\nThe Olympic Winter games began in 1924 in Chamonix, France. Athletes competed in winter events such as skiing, ice skating, and ice hockey. Today, the Winter Games take places every four years. The Summer Games also take place every four years, but not in the same year as the winter events. Both the Summer Games and the Winter Games must have at least fifteen events, and they cannot last more than sixteen days.\n\nUntil recently. Olympic competitors could not be professional athletes. All of the athletes in the Olympic Games were amateurs. Today, however, many of the Olympic athletes are professional who play their sports for money during the year. Some people disagree with this idea. They believe that the Olympic game are for amateur athletes, not paid professionals. Other people think that any one can play in the Olympic Games. No matter who the athletes are, millions of people throughout the world enjoy watching the greatest athletic competitions, the Summer Game and the Winter Games of the Olympics.",
+        "question": "The summer and winter games take place in the same year.",
+        "options": [
+            "TRUE",
+            "FALSE"
+        ],
+        "answer": 1
+    },
+    {
+        "category": "Đọc Hiểu (T/F)",
+        "passage": "The Olympic Games\nDuring the Olympic Games, people from all over the world come together in the peace and friendship. Some of these people complete for medals. Several million people attend the games, and millions of other people watch them on television.\n\nWhy do we have the Olympic Games? How did they begin? The first Olympic Games that we have records of were in Greece in 776 B.C. The games lasted one day. The only event in the first thirteen Olympic Games was a race. Men ran the length or the stadium (about 192 meters). Then, longer running races were added. Through the years, a few other kinds of events, like the long jump, were also added. During this time, the games were for men only, and women could not even watch them. In the year 393, a Roman emperor ended the Olympic Game because the quality of the games became very low. The Olympics did not take place again for 1500 years!\n\nIn 1984, Pierre de Coubertin of France helped from the International Olympic Committee, and the modern Olympic Games began. In 1896, the games were held again in Athens, Greece. The Greeks built a new stadium for the competition. Three hundred and eleven athletes from thirteen countries competed in many events. The winners became national heroes.\n\nAfter 1896, the games were held every four years during the summer in different cities around the world. In 1900, the Olympics were in Paris, France, and women competed for the first time. In 1908, in London, England, the first gold medals were given to winning athletes. Before that time, the winners received only silver and bronze medals. The Olympic flag was first introduced in 1920 in Antwerp, Belgium. The flag has five rings on it. The rings represent the continents of Africa, Asia, Australia, Europe, and North and South American. Each ring is a different color blue, yellow, black, green, or red because the flag of each of the countries that compete in the games has at least one of these colors in it.\n\nThe Olympic Winter games began in 1924 in Chamonix, France. Athletes competed in winter events such as skiing, ice skating, and ice hockey. Today, the Winter Games take places every four years. The Summer Games also take place every four years, but not in the same year as the winter events. Both the Summer Games and the Winter Games must have at least fifteen events, and they cannot last more than sixteen days.\n\nUntil recently. Olympic competitors could not be professional athletes. All of the athletes in the Olympic Games were amateurs. Today, however, many of the Olympic athletes are professional who play their sports for money during the year. Some people disagree with this idea. They believe that the Olympic game are for amateur athletes, not paid professionals. Other people think that any one can play in the Olympic Games. No matter who the athletes are, millions of people throughout the world enjoy watching the greatest athletic competitions, the Summer Game and the Winter Games of the Olympics.",
+        "question": "Today both men and women compete in the Olympics.",
+        "options": [
+            "TRUE",
+            "FALSE"
+        ],
+        "answer": 0
+    },
+    {
+        "category": "Đọc Hiểu (T/F)",
         "passage": "Not long ago people believed that in the future we would work less, have more free time, and be more relaxed. But sadly this has not happened. Today we work harder, work longer hours, and are more stressed than ten years ago. We walk faster, talk faster, and sleep less than previous generations. And although we are obsessed with machines which save us time, we have less free time than our parents and grandparents had.\n\nBut what is this doing to our health? An American journalist James Gleick in a new book, Faster: the acceleration of just about everything, says that people who live in cities are suffering from 'hurry sickness' - we are always trying to do more things in less time. As a result, our lives are more stressful. He says that if we don't slow down, we won't live as long as our parents. For most people, faster doesn't mean better.\n\n1 No time for the news\nNewspaper articles today are shorter and the headlines are bigger. Most people don't have enough time to read the articles, they only read the headlines! On TV and the radio, newsreaders speak more quickly than ten years ago.\n\n2 No time for stories\nIn the USA there is a book called One-Minute Bedtime Stories for children. These are shorter versions of traditional stories, specially written for 'busy parents' who want to save time!\n\n3. No time to listen\nSome answerphones now have 'quick playback' buttons so that we can re-play people's messages faster - we can't waste time listening to people speaking at normal speed.\n\n4 No time to relax\nEven when we relax we do everything more quickly. Ten years ago when people went to art galleries they spent ten seconds looking at each picture. Today they spend just three seconds!\n\n5 No time for slow sports\nIn the USA the national sport, baseball, is not as popular as before it is a slow game and matches take a long time. Nowadays many people prefer faster and more dynamic sports like basketball.\n\n6...but more time in our cars\nThe only thing that is slower than before is the way we drive. Our cars are faster but the traffic is worse so we drive more slowly. We spend more time sitting in our cars, feeling stressed because we are worried that we won't arrive on time. Experts predict that in ten years' time the average speed on the road in cities will be 17 km/h.",
         "question": "The writer wrote the article to encourage us to work more and relax less.",
         "options": [
@@ -3633,7 +3656,8 @@ QUIZ_DATA = [
         "answer": 1
     }
 ]
-# === THÊM MODULE LƯU/TẢI TIẾN TRÌNH TẠI ĐÂY ===
+
+# Hàm Lưu Tiến Trình
 def save_progress():
     data = {
         "selected_category": st.session_state.selected_category,
@@ -3648,6 +3672,7 @@ def save_progress():
     except Exception as e:
         st.sidebar.error(f"Lỗi khi lưu: {e}")
 
+# Hàm Tải Tiến Trình
 def load_progress():
     if os.path.exists(PROGRESS_FILE):
         try:
@@ -3656,18 +3681,16 @@ def load_progress():
             st.session_state.selected_category = data.get("selected_category", "Tất cả")
             st.session_state.current_idx = data.get("current_idx", 0)
             st.session_state.score = data.get("score", 0)
-            # Ép kiểu key của dictionary về int do json lưu key dưới dạng string
             st.session_state.user_answers = {int(k): v for k, v in data.get("user_answers", {}).items()}
             st.sidebar.success("✅ Đã khôi phục tiến trình cũ!")
         except Exception as e:
             st.sidebar.error(f"Lỗi khi tải: {e}")
     else:
         st.sidebar.warning("⚠️ Chưa có tiến trình nào được lưu.")
-# ===============================================
-# Danh sách các thể loại
+
 categories = ["Tất cả"] + list(dict.fromkeys([q["category"] for q in QUIZ_DATA]))
 
-# 1. KHỞI TẠO SESSION STATE (Bắt buộc phải nằm ở đây để sửa lỗi)
+# Quản lý Session State
 if "selected_category" not in st.session_state:
     st.session_state.selected_category = "Tất cả"
 if "current_idx" not in st.session_state:
@@ -3677,11 +3700,43 @@ if "score" not in st.session_state:
 if "user_answers" not in st.session_state:
     st.session_state.user_answers = {}
 
-# 2. GIAO DIỆN SIDEBAR
+# --- GIAO DIỆN SIDEBAR ---
 st.sidebar.title("⚙️ Cài đặt ôn tập")
-selected_category = st.sidebar.selectbox("Chọn thể loại bài tập:", categories)
+selected_category = st.sidebar.selectbox(
+    "Chọn thể loại bài tập:", 
+    categories, 
+    index=categories.index(st.session_state.selected_category)
+)
 
-# 3. NÚT LƯU / TẢI TIẾN TRÌNH
+if selected_category != st.session_state.selected_category:
+    st.session_state.selected_category = selected_category
+    st.session_state.current_idx = 0
+    st.session_state.score = 0
+    st.session_state.user_answers = {}
+    st.rerun()
+
+# Lọc câu hỏi theo thể loại
+if st.session_state.selected_category == "Tất cả":
+    current_quiz_data = QUIZ_DATA
+else:
+    current_quiz_data = [q for q in QUIZ_DATA if q["category"] == st.session_state.selected_category]
+
+total_q = len(current_quiz_data)
+
+# --- ĐIỀU HƯỚNG NHANH ---
+st.sidebar.markdown("---")
+st.sidebar.subheader("📍 Điều Hướng Nhanh")
+if total_q > 0 and st.session_state.current_idx < total_q:
+    jump_to = st.sidebar.selectbox(
+        "Chuyển nhanh tới:",
+        range(total_q),
+        format_func=lambda x: f"Câu {x+1}",
+        index=st.session_state.current_idx
+    )
+    if jump_to != st.session_state.current_idx:
+        st.session_state.current_idx = jump_to
+        st.rerun()
+
 st.sidebar.markdown("---")
 st.sidebar.subheader("💾 Lưu / Tải Tiến Trình")
 st.sidebar.write("Lưu lại câu đang làm dở để lần sau học tiếp.")
@@ -3692,25 +3747,29 @@ with col1:
 with col2:
     if st.button("Tải Lại"):
         load_progress()
+        st.rerun()
 
-# 4. RESET (Kiểm tra sự thay đổi)
-if selected_category != st.session_state.selected_category:
-    st.session_state.selected_category = selected_category
-    st.session_state.current_idx = 0
-    st.session_state.score = 0
-    st.session_state.user_answers = {}
-    st.rerun()
-# ======================================================
-# Filter
-if st.session_state.selected_category == "Tất cả":
-    current_quiz_data = QUIZ_DATA
-else:
-    current_quiz_data = [q for q in QUIZ_DATA if q["category"] == st.session_state.selected_category]
+# --- TÍNH NĂNG DỊCH VĂN BẢN ---
+st.sidebar.markdown("---")
+st.sidebar.subheader("🌐 Dịch Nhanh (EN ➔ VI)")
+text_to_translate = st.sidebar.text_area("Copy đoạn văn bên cạnh và dán vào đây:", height=150)
+if st.sidebar.button("Dịch sang Tiếng Việt"):
+    if text_to_translate.strip():
+        try:
+            from deep_translator import GoogleTranslator
+            translated = GoogleTranslator(source='en', target='vi').translate(text_to_translate)
+            st.sidebar.info(translated)
+        except ImportError:
+            st.sidebar.error("⚠️ Bạn cần thêm 'deep-translator' vào file requirements.txt trên GitHub để tính năng này hoạt động.")
+        except Exception as e:
+            st.sidebar.error(f"Lỗi dịch thuật: {e}")
+    else:
+        st.sidebar.warning("Vui lòng nhập văn bản cần dịch.")
+# ------------------------------------
 
+# --- MAIN GIAO DIỆN ---
 st.title("📚 Ôn Tập Tiếng Anh EHOU")
 st.caption(f"Ngân hàng {len(QUIZ_DATA)} câu hỏi tổng hợp chuẩn nhất từ 13 tài liệu")
-
-total_q = len(current_quiz_data)
 
 if total_q == 0:
     st.warning("Không có câu hỏi nào trong chuyên mục này.")
@@ -3732,8 +3791,8 @@ elif st.session_state.current_idx < total_q:
         key=f"q_{idx}"
     )
 
-    col1, col2 = st.columns([1, 4])
-    with col1:
+    c1, c2 = st.columns([1, 4])
+    with c1:
         submit = st.button("Kiểm tra")
 
     if submit:
@@ -3745,6 +3804,20 @@ elif st.session_state.current_idx < total_q:
         else:
             correct_opt = q_data["options"][q_data["answer"]]
             st.error(f"❌ Sai rồi! Đáp án đúng là: **{correct_opt}**")
+
+        # --- PHẦN GIẢI THÍCH NGỮ PHÁP ---
+        with st.expander("💡 Giải thích đáp án & Ngữ pháp", expanded=True):
+            if "explanation" in q_data:
+                st.write(q_data["explanation"])
+            else:
+                cat = q_data["category"]
+                if "Ghép Nghĩa" in cat or "Trái Nghĩa" in cat:
+                    st.write("📌 **Từ vựng:** Yêu cầu học thuộc nghĩa của từ/cụm từ vựng tiếng Anh trong ngữ cảnh.")
+                elif "Biển Báo" in cat:
+                    st.write("📌 **Kỹ năng suy luận:** Xác định các từ khóa (keywords) quan trọng trong biển báo. Đáp án đúng thường là câu sử dụng từ đồng nghĩa (synonyms) hoặc cách diễn đạt khác (paraphrase) của nội dung biển báo.")
+                else:
+                    st.write("📌 **Kỹ năng Đọc hiểu:**\n1. Tìm từ khóa của câu hỏi.\n2. Quét (scan) nhanh trong đoạn văn để tìm thông tin.\n3. Đọc kỹ câu chứa thông tin và đối chiếu với 4 đáp án.\n*Chú ý:* Tránh các bẫy từ vựng giống hệt nhau nhưng sai ngữ cảnh.")
+        # ----------------------------------------
 
     if idx in st.session_state.user_answers:
         if st.button("Câu tiếp theo ➡️"):
