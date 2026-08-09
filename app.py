@@ -2955,12 +2955,12 @@ QUIZ_DATA = [
     {
         "category": "Đọc Hiểu (Multiple Choice)",
         "passage": "The dogsled race was about to begin. Julie's team of dogs was lined up at the starting gate. Julie stood behind them. The air was so cold that she could see her breath. Other teams were lined up, too, and the dogs were excited. Julie kept her eyes on the clock. At exactly ten o'clock, she and the other racers yelled, 'Mush!' The dogs knew that meant 'Go!' They leap forward and the race began!\n\nJulie had trained for months for this race, and she hoped she and her dogs would win. Hour after hour, day after day, Julie's dogs pulled the sled in order to get in shape for the race.\n\nNow, they ran over snowy hills and down into frozen valleys. They stopped only to rest and eat. They wanted to stay ahead of the other teams. The racers had to go a thousand miles across Alaska. Alaska is one of the coldest places on Earth. The dogs' thick fur coats helped keep them warm in the cold wind and weather. In many places along the route, the snow was deep. Pieces of ice were as sharp as a knife. The ice could cut the dogs' feet. To keep that from happening, Julie had put special booties on their feet.\n\nAt first, the dogs seemed to pull the sled very slowly. They were still getting used to the race. But on the third day out, they began to pull more quickly. They worked as a team and passed many of the other racers. Once, one of the sled's runners slid into a hole and broke. Julie could have given up then, but she didn't. She fixed it and they kept going.\n\nWhen they finally reached the finish line, they found out that they had come in first place! It was a great day for Julie and her dogs.",
-        "question": "Why don't the dogs freeze in the cold weather?",
+        "question": "Why dont the dogs freeze in the cold weather?",
         "options": [
             "Julie puts special booties on their feet.",
             "They sleep by the fire at night.",
             "Their thick fur coats keep them warm.",
-            "It doesn't get very cold in Alaska."
+            "It doesnt get very cold in Alaska."
         ],
         "answer": 2
     },
@@ -3749,24 +3749,6 @@ with col2:
         load_progress()
         st.rerun()
 
-# --- TÍNH NĂNG DỊCH VĂN BẢN ---
-st.sidebar.markdown("---")
-st.sidebar.subheader("🌐 Dịch Nhanh (EN ➔ VI)")
-text_to_translate = st.sidebar.text_area("Copy đoạn văn bên cạnh và dán vào đây:", height=150)
-if st.sidebar.button("Dịch sang Tiếng Việt"):
-    if text_to_translate.strip():
-        try:
-            from deep_translator import GoogleTranslator
-            translated = GoogleTranslator(source='en', target='vi').translate(text_to_translate)
-            st.sidebar.info(translated)
-        except ImportError:
-            st.sidebar.error("⚠️ Bạn cần thêm 'deep-translator' vào file requirements.txt trên GitHub để tính năng này hoạt động.")
-        except Exception as e:
-            st.sidebar.error(f"Lỗi dịch thuật: {e}")
-    else:
-        st.sidebar.warning("Vui lòng nhập văn bản cần dịch.")
-# ------------------------------------
-
 # --- MAIN GIAO DIỆN ---
 st.title("📚 Ôn Tập Tiếng Anh EHOU")
 st.caption(f"Ngân hàng {len(QUIZ_DATA)} câu hỏi tổng hợp chuẩn nhất từ 13 tài liệu")
@@ -3780,11 +3762,47 @@ elif st.session_state.current_idx < total_q:
     st.progress((idx) / total_q)
     st.markdown(f"**Câu {idx + 1} / {total_q}** | *Chuyên mục: {q_data['category']}*")
 
+    # HIỂN THỊ ĐOẠN VĂN & NÚT DỊCH
     if "passage" in q_data and q_data["passage"]:
         st.info(f"**Đoạn văn / Thông báo:**\n\n{q_data['passage']}")
+        
+        if st.button("🌐 Dịch đoạn văn này", key=f"btn_trans_p_{idx}"):
+            with st.spinner("Đang dịch đoạn văn..."):
+                try:
+                    from deep_translator import GoogleTranslator
+                    trans_p = GoogleTranslator(source='en', target='vi').translate(q_data['passage'])
+                    st.success(f"**Bản dịch đoạn văn:**\n\n{trans_p}")
+                except ImportError:
+                    st.error("⚠️ Lỗi: Bạn cần thêm 'deep-translator' vào file requirements.txt trên GitHub.")
+                except Exception as e:
+                    st.error(f"Lỗi dịch: {e}")
+                    
+        st.markdown("---")
 
-    st.subheader(q_data["question"])
+    # HIỂN THỊ CÂU HỎI & NÚT DỊCH CÂU HỎI
+    col_q1, col_q2 = st.columns([4, 1])
+    with col_q1:
+        st.subheader(q_data["question"])
+    with col_q2:
+        if st.button("🌐 Dịch", key=f"btn_trans_q_{idx}"):
+            with st.spinner("Đang dịch..."):
+                try:
+                    from deep_translator import GoogleTranslator
+                    translator = GoogleTranslator(source='en', target='vi')
+                    trans_q = translator.translate(q_data["question"])
+                    st.success(f"**Câu hỏi:** {trans_q}")
+                    
+                    # Dịch luôn đáp án nếu có
+                    st.markdown("**Đáp án:**")
+                    for opt in q_data["options"]:
+                        trans_opt = translator.translate(opt)
+                        st.markdown(f"- *{opt}* ➔ {trans_opt}")
+                except ImportError:
+                    st.error("⚠️ Thêm 'deep-translator' vào requirements.txt")
+                except Exception as e:
+                    st.error(f"Lỗi dịch: {e}")
 
+    # RADIO CHỌN ĐÁP ÁN
     choice = st.radio(
         "Chọn đáp án đúng:",
         q_data["options"],
@@ -3805,7 +3823,7 @@ elif st.session_state.current_idx < total_q:
             correct_opt = q_data["options"][q_data["answer"]]
             st.error(f"❌ Sai rồi! Đáp án đúng là: **{correct_opt}**")
 
-        # --- PHẦN GIẢI THÍCH NGỮ PHÁP ---
+        # GIẢI THÍCH NGỮ PHÁP
         with st.expander("💡 Giải thích đáp án & Ngữ pháp", expanded=True):
             if "explanation" in q_data:
                 st.write(q_data["explanation"])
@@ -3817,7 +3835,6 @@ elif st.session_state.current_idx < total_q:
                     st.write("📌 **Kỹ năng suy luận:** Xác định các từ khóa (keywords) quan trọng trong biển báo. Đáp án đúng thường là câu sử dụng từ đồng nghĩa (synonyms) hoặc cách diễn đạt khác (paraphrase) của nội dung biển báo.")
                 else:
                     st.write("📌 **Kỹ năng Đọc hiểu:**\n1. Tìm từ khóa của câu hỏi.\n2. Quét (scan) nhanh trong đoạn văn để tìm thông tin.\n3. Đọc kỹ câu chứa thông tin và đối chiếu với 4 đáp án.\n*Chú ý:* Tránh các bẫy từ vựng giống hệt nhau nhưng sai ngữ cảnh.")
-        # ----------------------------------------
 
     if idx in st.session_state.user_answers:
         if st.button("Câu tiếp theo ➡️"):
