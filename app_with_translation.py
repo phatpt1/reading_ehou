@@ -16,7 +16,8 @@ QUIZ_DATA = [
             "dis-",
             "im-"
         ],
-        "answer": 1
+        "answer": 1,
+        "explanation": "📌 **Ngữ pháp:** Sử dụng tiền tố mang nghĩa phủ định. Trường hợp này ta dùng tiền tố **'in-'** (VD: formal -> informal)."
     },
     {
         "category": "Từ Vựng - Tiền Tố",
@@ -27,7 +28,8 @@ QUIZ_DATA = [
             "dis-",
             "im-"
         ],
-        "answer": 2
+        "answer": 2,
+        "explanation": "📌 **Ngữ pháp:** Sử dụng tiền tố mang nghĩa phủ định. Trường hợp này ta dùng tiền tố **'dis-'** (VD: satisfied -> dissatisfied)."
     },
     {
         "category": "Từ Vựng - Tiền Tố",
@@ -38,7 +40,8 @@ QUIZ_DATA = [
             "dis-",
             "im-"
         ],
-        "answer": 2
+        "answer": 2,
+        "explanation": "📌 **Ngữ pháp:** Sử dụng tiền tố mang nghĩa phủ định. Trường hợp này ta dùng tiền tố **'dis-'** (VD: honest -> dishonest)."
     },
     {
         "category": "Từ Vựng - Tiền Tố",
@@ -49,7 +52,8 @@ QUIZ_DATA = [
             "dis-",
             "im-"
         ],
-        "answer": 3
+        "answer": 3,
+        "explanation": "📌 **Ngữ pháp:** Sử dụng tiền tố mang nghĩa phủ định. Với các tính từ bắt đầu bằng 'p' hoặc 'm', ta thường dùng tiền tố **'im-'** (VD: polite -> impolite)."
     },
     {
         "category": "Từ Vựng - Tiền Tố",
@@ -60,7 +64,8 @@ QUIZ_DATA = [
             "dis-",
             "im-"
         ],
-        "answer": 3
+        "answer": 3,
+        "explanation": "📌 **Ngữ pháp:** Sử dụng tiền tố mang nghĩa phủ định. Với các tính từ bắt đầu bằng 'p' hoặc 'm', ta thường dùng tiền tố **'im-'** (VD: practical -> impractical)."
     },
     {
         "category": "Từ Vựng - Tiền Tố",
@@ -71,7 +76,8 @@ QUIZ_DATA = [
             "dis-",
             "im-"
         ],
-        "answer": 1
+        "answer": 1,
+        "explanation": "📌 **Ngữ pháp:** Sử dụng tiền tố mang nghĩa phủ định. Trường hợp này ta dùng tiền tố **'in-'** (VD: considerate -> inconsiderate)."
     },
     {
         "category": "Từ Vựng - Tiền Tố",
@@ -82,7 +88,8 @@ QUIZ_DATA = [
             "dis-",
             "im-"
         ],
-        "answer": 0
+        "answer": 0,
+        "explanation": "📌 **Ngữ pháp:** Sử dụng tiền tố mang nghĩa phủ định. Trường hợp này ta dùng tiền tố **'un-'** (VD: friendly -> unfriendly)."
     },
     {
         "category": "Từ Vựng - Tiền Tố",
@@ -93,7 +100,8 @@ QUIZ_DATA = [
             "dis-",
             "im-"
         ],
-        "answer": 1
+        "answer": 1,
+        "explanation": "📌 **Ngữ pháp:** Sử dụng tiền tố mang nghĩa phủ định. Trường hợp này ta dùng tiền tố **'in-'** (VD: efficient -> inefficient)."
     },
     {
         "category": "Từ Vựng - Tiền Tố",
@@ -104,7 +112,8 @@ QUIZ_DATA = [
             "dis-",
             "im-"
         ],
-        "answer": 0
+        "answer": 0,
+        "explanation": "📌 **Ngữ pháp:** Sử dụng tiền tố mang nghĩa phủ định. Trường hợp này ta dùng tiền tố **'un-'** (VD: important -> unimportant)."
     },
     {
         "category": "Từ Vựng - Tiền Tố",
@@ -115,7 +124,8 @@ QUIZ_DATA = [
             "dis-",
             "im-"
         ],
-        "answer": 2
+        "answer": 2,
+        "explanation": "📌 **Ngữ pháp:** Sử dụng tiền tố mang nghĩa phủ định. Trường hợp này ta dùng tiền tố **'dis-'** (VD: respectful -> disrespectful)."
     },
     {
         "category": "Từ Vựng - Tiền Tố",
@@ -126,7 +136,8 @@ QUIZ_DATA = [
             "dis-",
             "im-"
         ],
-        "answer": 3
+        "answer": 3,
+        "explanation": "📌 **Ngữ pháp:** Sử dụng tiền tố mang nghĩa phủ định. Với các tính từ bắt đầu bằng 'p' hoặc 'm', ta thường dùng tiền tố **'im-'** (VD: patient -> impatient)."
     },
     {
         "category": "Từ Vựng - Tiền Tố",
@@ -137,7 +148,8 @@ QUIZ_DATA = [
             "dis-",
             "im-"
         ],
-        "answer": 1
+        "answer": 1,
+        "explanation": "📌 **Ngữ pháp:** Sử dụng tiền tố mang nghĩa phủ định. Trường hợp này ta dùng tiền tố **'in-'** (VD: appropriate -> inappropriate)."
     },
     {
         "category": "Ngữ Pháp - Từ Loại",
@@ -148,7 +160,8 @@ QUIZ_DATA = [
             "Popularize",
             "Popularity"
         ],
-        "answer": 3
+        "answer": 3,
+        "explanation": "📌 **Ngữ pháp:** Sau tính từ sở hữu 'its' cần một **Danh từ**. 'Popularity' (sự phổ biến) là danh từ."
     },
     {
         "category": "Ngữ Pháp - Từ Loại",
@@ -159,7 +172,8 @@ QUIZ_DATA = [
             "Educating",
             "Educate"
         ],
-        "answer": 0
+        "answer": 0,
+        "explanation": "📌 **Ngữ pháp:** Trước danh từ 'system' cần một Danh từ hoặc Tính từ để tạo thành cụm danh từ ghép. 'Education system' = hệ thống giáo dục."
     },
     {
         "category": "Ngữ Pháp - Từ Loại",
@@ -170,7 +184,8 @@ QUIZ_DATA = [
             "Healthy",
             "Healthily"
         ],
-        "answer": 2
+        "answer": 2,
+        "explanation": "📌 **Ngữ pháp:** Sau mạo từ 'A' và trước danh từ 'diet' cần một **Tính từ**. Bối cảnh câu mang nghĩa tích cực nên chọn 'Healthy'."
     },
     {
         "category": "Ngữ Pháp - Từ Loại",
@@ -181,7 +196,8 @@ QUIZ_DATA = [
             "Relaxation",
             "Relax"
         ],
-        "answer": 2
+        "answer": 2,
+        "explanation": "📌 **Ngữ pháp:** Vị trí đầu câu làm Chủ ngữ, cần một **Danh từ**. 'Relaxation' (sự thư giãn) là danh từ."
     },
     {
         "category": "Ngữ Pháp - Từ Loại",
@@ -192,7 +208,8 @@ QUIZ_DATA = [
             "Special",
             "Specially"
         ],
-        "answer": 1
+        "answer": 1,
+        "explanation": "📌 **Ngữ pháp:** Câu thiếu **Động từ** chính. Chủ ngữ 'He' ngôi thứ 3 số ít nên động từ chia s/es -> 'Specializes' (chuyên về)."
     },
     {
         "category": "Ngữ Pháp - Từ Loại",
@@ -203,7 +220,8 @@ QUIZ_DATA = [
             "National",
             "Nationally"
         ],
-        "answer": 2
+        "answer": 2,
+        "explanation": "📌 **Ngữ pháp:** Giữa mạo từ 'the' và danh từ 'university' cần một **Tính từ**. 'National' (thuộc về quốc gia)."
     },
     {
         "category": "Ngữ Pháp - Từ Loại",
@@ -214,7 +232,8 @@ QUIZ_DATA = [
             "Collect",
             "Collective"
         ],
-        "answer": 0
+        "answer": 0,
+        "explanation": "📌 **Ngữ pháp:** Sau tính từ 'big' và danh từ bổ nghĩa 'stamp' cần một **Danh từ chính**. Cụm 'Stamp collection' (bộ sưu tập tem)."
     },
     {
         "category": "Ngữ Pháp - Từ Loại",
@@ -225,7 +244,8 @@ QUIZ_DATA = [
             "Unbelievable",
             "Believable"
         ],
-        "answer": 1
+        "answer": 1,
+        "explanation": "📌 **Ngữ pháp:** Sau mạo từ 'the' cần một **Danh từ**. 'Belief' (niềm tin)."
     },
     {
         "category": "Từ Vựng - Ghép Nghĩa",
@@ -3416,7 +3436,7 @@ with col2:
         load_progress()
         st.rerun()
 
-# --- TÍNH NĂNG DỊCH VĂN BẢN (MỚI) ---
+# --- TÍNH NĂNG DỊCH VĂN BẢN ---
 st.sidebar.markdown("---")
 st.sidebar.subheader("🌐 Dịch Nhanh (EN ➔ VI)")
 text_to_translate = st.sidebar.text_area("Copy đoạn văn bên cạnh và dán vào đây:", height=150)
@@ -3471,6 +3491,20 @@ elif st.session_state.current_idx < total_q:
         else:
             correct_opt = q_data["options"][q_data["answer"]]
             st.error(f"❌ Sai rồi! Đáp án đúng là: **{correct_opt}**")
+
+        # --- PHẦN GIẢI THÍCH NGỮ PHÁP (MỚI) ---
+        with st.expander("💡 Giải thích đáp án & Ngữ pháp", expanded=True):
+            if "explanation" in q_data:
+                st.write(q_data["explanation"])
+            else:
+                cat = q_data["category"]
+                if "Ghép Nghĩa" in cat or "Trái Nghĩa" in cat:
+                    st.write("📌 **Từ vựng:** Yêu cầu học thuộc nghĩa của từ/cụm từ vựng tiếng Anh trong ngữ cảnh.")
+                elif "Biển Báo" in cat:
+                    st.write("📌 **Kỹ năng suy luận:** Xác định các từ khóa (keywords) quan trọng trong biển báo. Đáp án đúng thường là câu sử dụng từ đồng nghĩa (synonyms) hoặc cách diễn đạt khác (paraphrase) của nội dung biển báo.")
+                else:
+                    st.write("📌 **Kỹ năng Đọc hiểu:**\n1. Tìm từ khóa của câu hỏi.\n2. Quét (scan) nhanh trong đoạn văn để tìm thông tin.\n3. Đọc kỹ câu chứa thông tin và đối chiếu với 4 đáp án.\n*Chú ý:* Tránh các bẫy từ vựng giống hệt nhau nhưng sai ngữ cảnh.")
+        # ----------------------------------------
 
     if idx in st.session_state.user_answers:
         if st.button("Câu tiếp theo ➡️"):
