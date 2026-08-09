@@ -6,7 +6,27 @@ st.set_page_config(page_title="Ôn Tập Tiếng Anh EHOU", page_icon="📚", la
 
 PROGRESS_FILE = "progress.json"
 
-# Dữ liệu 313 câu hỏi
+# --- HÀM DỊCH AN TOÀN (Lọc ký tự đặc biệt & Tự chọn dịch vụ dự phòng) ---
+def safe_translate(text):
+    if not text or not str(text).strip():
+        return ""
+    from deep_translator import GoogleTranslator, MyMemoryTranslator
+    # Lọc bỏ các dấu gạch dưới điền từ để tránh lỗi máy dịch
+    clean_text = str(text).replace("__", "...").replace("_(1)_", "(1)").replace("_(2)_", "(2)").replace("_(3)_", "(3)").replace("_(4)_", "(4)").replace("_(5)_", "(5)")
+    
+    # 1. Thử dịch qua Google Translator
+    try:
+        return GoogleTranslator(source='en', target='vi').translate(clean_text)
+    except Exception:
+        pass
+        
+    # 2. Dự phòng bằng MyMemory Translator nếu Google bận/lỗi
+    try:
+        return MyMemoryTranslator(source='en-US', target='vi-VN').translate(clean_text)
+    except Exception as e:
+        return f"(Chưa dịch được: {e})"
+
+# --- DỮ LIỆU 313 CÂU HỎI ---
 QUIZ_DATA = [
     {
         "category": "Từ Vựng - Tiền Tố",
@@ -2955,12 +2975,12 @@ QUIZ_DATA = [
     {
         "category": "Đọc Hiểu (Multiple Choice)",
         "passage": "The dogsled race was about to begin. Julie's team of dogs was lined up at the starting gate. Julie stood behind them. The air was so cold that she could see her breath. Other teams were lined up, too, and the dogs were excited. Julie kept her eyes on the clock. At exactly ten o'clock, she and the other racers yelled, 'Mush!' The dogs knew that meant 'Go!' They leap forward and the race began!\n\nJulie had trained for months for this race, and she hoped she and her dogs would win. Hour after hour, day after day, Julie's dogs pulled the sled in order to get in shape for the race.\n\nNow, they ran over snowy hills and down into frozen valleys. They stopped only to rest and eat. They wanted to stay ahead of the other teams. The racers had to go a thousand miles across Alaska. Alaska is one of the coldest places on Earth. The dogs' thick fur coats helped keep them warm in the cold wind and weather. In many places along the route, the snow was deep. Pieces of ice were as sharp as a knife. The ice could cut the dogs' feet. To keep that from happening, Julie had put special booties on their feet.\n\nAt first, the dogs seemed to pull the sled very slowly. They were still getting used to the race. But on the third day out, they began to pull more quickly. They worked as a team and passed many of the other racers. Once, one of the sled's runners slid into a hole and broke. Julie could have given up then, but she didn't. She fixed it and they kept going.\n\nWhen they finally reached the finish line, they found out that they had come in first place! It was a great day for Julie and her dogs.",
-        "question": "Why dont the dogs freeze in the cold weather?",
+        "question": "Why don't the dogs freeze in the cold weather?",
         "options": [
             "Julie puts special booties on their feet.",
             "They sleep by the fire at night.",
             "Their thick fur coats keep them warm.",
-            "It doesnt get very cold in Alaska."
+            "It doesn't get very cold in Alaska."
         ],
         "answer": 2
     },
@@ -3657,7 +3677,7 @@ QUIZ_DATA = [
     }
 ]
 
-# Hàm Lưu Tiến Trình
+# --- HÀM LƯU / TẢI TIẾN TRÌNH ---
 def save_progress():
     data = {
         "selected_category": st.session_state.selected_category,
@@ -3672,7 +3692,6 @@ def save_progress():
     except Exception as e:
         st.sidebar.error(f"Lỗi khi lưu: {e}")
 
-# Hàm Tải Tiến Trình
 def load_progress():
     if os.path.exists(PROGRESS_FILE):
         try:
@@ -3688,21 +3707,9 @@ def load_progress():
     else:
         st.sidebar.warning("⚠️ Chưa có tiến trình nào được lưu.")
 
+# Lấy danh sách thể loại
 categories = ["Tất cả"] + list(dict.fromkeys([q["category"] for q in QUIZ_DATA]))
-def safe_translate(text):
-    if not text or not text.strip():
-        return ""
-    from deep_translator import GoogleTranslator, MyMemoryTranslator
-    # Bỏ các ký tự gạch dưới đặc biệt dễ gây lỗi Google Translate
-    clean_text = text.replace("__", "...").replace("_(1)_", "(1)")
-    try:
-        return GoogleTranslator(source='en', target='vi').translate(clean_text)
-    except Exception:
-        pass
-    try:
-        return MyMemoryTranslator(source='en-US', target='vi-VN').translate(clean_text)
-    except Exception as e:
-        return f"(Chưa dịch được: {e})"
+
 # Quản lý Session State
 if "selected_category" not in st.session_state:
     st.session_state.selected_category = "Tất cả"
@@ -3718,7 +3725,7 @@ st.sidebar.title("⚙️ Cài đặt ôn tập")
 selected_category = st.sidebar.selectbox(
     "Chọn thể loại bài tập:", 
     categories, 
-    index=categories.index(st.session_state.selected_category)
+    index=categories.index(st.session_state.selected_category) if st.session_state.selected_category in categories else 0
 )
 
 if selected_category != st.session_state.selected_category:
@@ -3728,7 +3735,6 @@ if selected_category != st.session_state.selected_category:
     st.session_state.user_answers = {}
     st.rerun()
 
-# Lọc câu hỏi theo thể loại
 if st.session_state.selected_category == "Tất cả":
     current_quiz_data = QUIZ_DATA
 else:
@@ -3736,7 +3742,7 @@ else:
 
 total_q = len(current_quiz_data)
 
-# --- ĐIỀU HƯỚNG NHANH ---
+# ĐIỀU HƯỚNG NHANH
 st.sidebar.markdown("---")
 st.sidebar.subheader("📍 Điều Hướng Nhanh")
 if total_q > 0 and st.session_state.current_idx < total_q:
@@ -3750,15 +3756,14 @@ if total_q > 0 and st.session_state.current_idx < total_q:
         st.session_state.current_idx = jump_to
         st.rerun()
 
+# LƯU / TẢI
 st.sidebar.markdown("---")
 st.sidebar.subheader("💾 Lưu / Tải Tiến Trình")
-st.sidebar.write("Lưu lại câu đang làm dở để lần sau học tiếp.")
 col1, col2 = st.sidebar.columns(2)
 with col1:
-    if st.button("Lưu Lại"):
-        save_progress()
+    if st.button("Lưu Lại"): save_progress()
 with col2:
-    if st.button("Tải Lại"):
+    if st.button("Tải Lại"): 
         load_progress()
         st.rerun()
 
@@ -3775,23 +3780,8 @@ elif st.session_state.current_idx < total_q:
     st.progress((idx) / total_q)
     st.markdown(f"**Câu {idx + 1} / {total_q}** | *Chuyên mục: {q_data['category']}*")
 
-    # HIỂN THỊ ĐOẠN VĂN & NÚT DỊCH
+    # HIỂN THỊ ĐOẠN VĂN & NÚT DỊCH 1-CLICK
     if "passage" in q_data and q_data["passage"]:
-        st.info(f"**Đoạn văn / Thông báo:**\n\n{q_data['passage']}")
-        
-        if st.button("🌐 Dịch đoạn văn này", key=f"btn_trans_p_{idx}"):
-            with st.spinner("Đang dịch đoạn văn..."):
-                try:
-                    from deep_translator import GoogleTranslator
-                    trans_p = GoogleTranslator(source='en', target='vi').translate(q_data['passage'])
-                    st.success(f"**Bản dịch đoạn văn:**\n\n{trans_p}")
-                except ImportError:
-                    st.error("⚠️ Lỗi: Bạn cần thêm 'deep-translator' vào file requirements.txt trên GitHub.")
-                except Exception as e:
-                    st.error(f"Lỗi dịch: {e}")
-                    
-        st.markdown("---")
-if "passage" in q_data and q_data["passage"]:
         st.info(f"**Đoạn văn / Thông báo:**\n\n{q_data['passage']}")
         
         if st.button("🌐 Dịch đoạn văn này", key=f"btn_trans_p_{idx}"):
@@ -3801,26 +3791,22 @@ if "passage" in q_data and q_data["passage"]:
                     
         st.markdown("---")
 
-    # HIỂN THỊ CÂU HỎI & NÚT DỊCH CÂU HỎI
+    # HIỂN THỊ CÂU HỎI & NÚT DỊCH CÂU HỎI 1-CLICK
     col_q1, col_q2 = st.columns([4, 1])
     with col_q1:
         st.subheader(q_data["question"])
     with col_q2:
-        if st.button("🌐 Dịch", key=f"btn_trans_q_{idx}"):
+        if st.button("🌐 Dịch câu hỏi", key=f"btn_trans_q_{idx}"):
             with st.spinner("Đang dịch..."):
                 trans_q = safe_translate(q_data["question"])
                 st.success(f"**Câu hỏi:** {trans_q}")
-                
                 st.markdown("**Đáp án:**")
                 for opt in q_data["options"]:
                     trans_opt = safe_translate(opt)
                     st.markdown(f"- *{opt}* ➔ {trans_opt}")
-    # RADIO CHỌN ĐÁP ÁN
-    choice = st.radio(
-        "Chọn đáp án đúng:",
-        q_data["options"],
-        key=f"q_{idx}"
-    )
+
+    # CHỌN ĐÁP ÁN
+    choice = st.radio("Chọn đáp án đúng:", q_data["options"], key=f"q_{idx}")
 
     c1, c2 = st.columns([1, 4])
     with c1:
